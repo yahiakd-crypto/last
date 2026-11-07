@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Punchline — FB Ads Strategy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { accent: '#3DDC72', accentDark: '#2ECC71', ink: '#1C1C1E', card: '#F7F8F7' }, fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] } } } };
+  </script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    /* ---- Blueprint tree ---- */
+    .fb-tree { display: flex; flex-direction: column; align-items: center; }
+    .fb-vline { width: 2px; height: 26px; margin: 8px auto; border-radius: 2px; background: linear-gradient(#B9BFBA, #C8CFCB); }
+    .fb-set-grid { position: relative; display: grid; grid-template-columns: 1fr; gap: 24px; width: 100%; }
+    @media (min-width: 900px) { .fb-set-grid { grid-template-columns: 1fr 1fr; } }
+    .fb-set-grid::before { content: ""; position: absolute; top: -26px; left: 10%; right: 10%; height: 2px; background: #D7DCD9; }
+    .fb-set { position: relative; }
+    .fb-set::before { content: ""; position: absolute; top: -26px; left: 50%; width: 2px; height: 26px; background: #D7DCD9; transform: translateX(-1px); }
+
+    /* ---- Node cards ---- */
+    .fb-card { background: #fff; border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 4px 16px rgba(28, 28, 30, 0.05); overflow: hidden; }
+    .fb-head { display: flex; align-items: center; gap: 10px; padding: 14px 16px; }
+    .fb-ad-list { border-left: 2px solid #E6EAE8; margin: 0 14px 4px 20px; padding-left: 12px; display: flex; flex-direction: column; gap: 10px; }
+    .fb-chev { transition: transform .2s; flex: none; }
+    .fb-set.open .fb-chev, .fb-ad.open .fb-chev { transform: rotate(180deg); }
+    .fb-collapse { display: none; }
+    .fb-set.open .fb-collapse, .fb-ad.open .fb-collapse { display: block; }
+    .fb-toggle { cursor: pointer; user-select: none; }
+    .fb-toggle:hover { background: #FAFBF9; }
+
+    /* ---- Fields ---- */
+    .fb-kv { display: grid; grid-template-columns: repeat(auto-fill, minmax(185px, 1fr)); gap: 10px 18px; }
+    .fb-kv .k { font-size: 10px; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; color: #929298; }
+    .fb-kv .v { font-size: 12.5px; font-weight: 600; color: #1C1C1E; margin-top: 2px; line-height: 1.35; }
+    .fb-kv .v.small { font-size: 11.5px; }
+    .fb-chip { display: inline-block; background: #F4F6F4; border: 1px solid #E9ECE9; color: #3F3F46; font-size: 11px; font-weight: 600; border-radius: 7px; padding: 1px 8px; margin: 2px 4px 2px 0; }
+    .fb-copy { display: inline-flex; align-items: center; gap: 4px; font-size: 10.5px; font-weight: 700; color: #0FA05A; background: #EDFBF2; border: 1px solid #BCEFD0; border-radius: 7px; padding: 2px 8px; cursor: pointer; transition: background .12s; }
+    .fb-copy:hover { background: #DBF7E7; }
+    .fb-check { color: #0FA05A; }
+    .fb-hr { height: 1px; background: #F0F1F0; margin: 10px 0; }
+    .fb-step { border: 1px solid var(--line); border-radius: 14px; background: #fff; }
+    .fb-step-head { display: flex; align-items: center; gap: 10px; padding: 12px 14px; }
+    .fb-step-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 8px 14px; border-top: 1px solid #F2F3F2; }
+    .fb-step-row .lab { font-size: 11px; font-weight: 700; color: #929298; text-transform: uppercase; letter-spacing: .03em; min-width: 120px; }
+    .fb-step-row .val { font-size: 12.5px; font-weight: 600; color: #1C1C1E; flex: 1; text-align: right; font-family: ui-monospace, Menlo, Consolas, monospace; }
+    .fb-note { font-size: 11px; color: #929298; font-style: italic; }
+    .fb-reason { font-size: 11px; color: #6B6B72; line-height: 1.5; }
+    .fb-alt-badge { display: inline-flex; align-items: center; gap: 5px; font-size: 10.5px; font-weight: 800; color: #0FA05A; background: #EDFBF2; border: 1px solid #BCEFD0; border-radius: 99px; padding: 2px 9px; }
+
+    /* ER diagram (kept framework) */
+    .er-scroll { overflow-x: auto; padding-bottom: 8px; }
+    .er-row { display: flex; align-items: stretch; gap: 10px; min-width: 860px; }
+    .er-entity { flex: none; width: 170px; background: #fff; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 1px 2px rgba(28, 28, 30, .04); }
+    .er-head { padding: 9px 12px; font-size: 12.5px; font-weight: 800; color: #fff; display: flex; align-items: center; gap: 6px; }
+    .er-attr { padding: 5px 12px; font-size: 11px; color: #3F3F46; border-top: 1px solid #F1F2F1; font-family: ui-monospace, Menlo, Consolas, monospace; }
+    .er-attr .k { color: #0FA05A; font-weight: 700; }
+    .er-focus { margin-top: auto; padding: 7px 12px; font-size: 10.5px; line-height: 1.45; color: #6B6B72; background: #F7F8F7; border-top: 1px solid var(--line); }
+    .er-link { flex: none; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; width: 34px; }
+    .er-link .ln { width: 100%; height: 2px; background: #B9BFBA; position: relative; }
+    .er-link .ln::after { content: ""; position: absolute; right: -2px; top: -4px; border-left: 6px solid #B9BFBA; border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
+    .er-card { font-size: 10px; font-weight: 800; color: #0FA05A; background: #EDFBF2; border: 1px solid #BCEFD0; border-radius: 99px; padding: 1px 7px; }
+  </style>
+</head>
+<body>
+  <div class="page-bg">
+    <div class="canvas">
+      <header class="site-nav"><div id="app-nav"></div></header>
+
+      <main>
+        <div id="page-head"></div>
+
+        <section class="hero rise mb-6">
+          <div class="grid-dots"></div>
+          <div class="hero-inner p-6 md:p-8">
+            <div class="flex flex-col md:flex-row md:items-start gap-6">
+              <div class="flex-1 min-w-0">
+                <div class="text-[12px] font-bold tracking-wide text-[#3DDC72] uppercase mb-2">FB Ads · Ready-to-build blueprint</div>
+                <h2 class="text-white text-[20px] md:text-[24px] font-extrabold leading-snug max-w-[760px]">A Meta Ads campaign built for your product — campaign, ad sets and ads, ready to type into Ads Manager.</h2>
+                <div class="flex items-center gap-2 mt-4 flex-wrap">
+                  <span class="pill dark"><span class="dot" style="background:#3DDC72"></span>AI media buyer · what to create, why, and in what order</span>
+                </div>
+              </div>
+              <div class="flex-none flex flex-col items-start md:items-end gap-3">
+                <div id="product-ctx" class="pill gray hidden"></div>
+                <div class="flex gap-2.5 flex-wrap">
+                  <button class="btn btn-primary btn-sm" id="btn-generate"><i data-lucide="sparkles" style="width:16px;height:16px"></i> Generate Facebook Ads Strategy</button>
+                  <button class="btn btn-ghost btn-sm" id="btn-next" disabled title="Continue to Creative Lab">Next <i data-lucide="arrow-right" style="width:16px;height:16px"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CORE: CAMPAIGN -> AD SET -> ADS blueprint tree -->
+        <section class="card mb-6">
+          <div class="card-head">
+            <span class="icon-tile green"><i data-lucide="workflow" style="width:17px;height:17px"></i></span>
+            <div>
+              <div class="card-title">Meta Ads Blueprint</div>
+              <div class="card-sub">Campaign → Ad Sets → Ads. Click any ad set or ad to open the full build spec.</div>
+            </div>
+          </div>
+          <div class="fb-tree" id="fb-tree"></div>
+        </section>
+
+        <!-- Creative testing matrix + why -->
+        <section class="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-6">
+          <div class="card lg:col-span-2">
+            <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="grid-3x3" style="width:17px;height:17px"></i></span><div><div class="card-title">Creative Testing Matrix</div><div class="card-sub">Distinct angles per ad — never 5 near-identical creatives</div></div></div>
+            <div id="creative-matrix"></div>
+          </div>
+          <div class="card">
+            <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="sparkles" style="width:17px;height:17px"></i></span><div><div class="card-title">Why AI recommends this structure</div><div class="card-sub">The logic behind each choice</div></div></div>
+            <div id="fb-why"></div>
+          </div>
+        </section>
+
+        <!-- Budget + testing rules -->
+        <section class="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-6">
+          <div class="card">
+            <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="wallet" style="width:17px;height:17px"></i></span><div><div class="card-title">Budget Recommendation</div><div class="card-sub">AI estimates — not guaranteed results</div></div></div>
+            <div id="fb-budget"></div>
+          </div>
+          <div class="card lg:col-span-2">
+            <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="shield-alert" style="width:17px;height:17px"></i></span><div><div class="card-title">AI Testing Rules</div><div class="card-sub">What varies, what stays constant, and when to act</div></div></div>
+            <div id="fb-rules"></div>
+          </div>
+        </section>
+
+        <!-- Build in Ads Manager -->
+        <section class="card mb-6">
+          <div class="card-head"><span class="icon-tile green"><i data-lucide="hammer" style="width:17px;height:17px"></i></span><div><div class="card-title">Build This Campaign in Meta Ads Manager</div><div class="card-sub">Exactly what to enter, screen by screen</div></div></div>
+          <div id="fb-steps"></div>
+        </section>
+
+        <!-- Framework: ER, scaling, gates, testing plan, notes -->
+        <section class="card mb-6">
+          <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="network" style="width:17px;height:17px"></i></span><div><div class="card-title">Account Entity-Relationship (ER) Diagram</div><div class="card-sub">The Meta ad account model — one account, many campaigns → ad sets → ads → creatives, each with its own test focus</div></div></div>
+          <div class="er-scroll" id="er-diagram"></div>
+        </section>
+
+        <section class="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-6">
+          <div class="card">
+            <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="repeat" style="width:17px;height:17px"></i></span><div><div class="card-title">Testing Loop</div><div class="card-sub">Repeat until you have a winner</div></div></div>
+            <div id="test-loop" class="flex flex-col gap-2.5"></div>
+          </div>
+          <div class="card lg:col-span-2">
+            <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="flask-conical" style="width:17px;height:17px"></i></span><div><div class="card-title">Testing Plan</div><div class="card-sub">What to test, the pass metric, and the decision rule</div></div></div>
+            <div class="overflow-x-auto"><table class="table">
+              <thead><tr><th>Week</th><th>Test</th><th>Pass metric</th><th>Decision</th></tr></thead>
+              <tbody id="fb-tests-body"></tbody>
+            </table></div>
+          </div>
+        </section>
+
+        <section class="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-6">
+          <div class="card lg:col-span-2">
+            <div class="card-head"><span class="icon-tile green"><i data-lucide="trending-up" style="width:17px;height:17px"></i></span><div><div class="card-title">Scaling Ladder</div><div class="card-sub">Only the next rung is allowed — each gate must pass first</div></div></div>
+            <div id="scale-ladder" class="flex flex-col gap-2.5"></div>
+          </div>
+          <div class="card">
+            <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="gauge" style="width:17px;height:17px"></i></span><div><div class="card-title">KPI Gates</div><div class="card-sub">If the gate fails, we don't scale — we fix</div></div></div>
+            <div id="kpi-gates" class="flex flex-col gap-2.5"></div>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="sticky-note" style="width:17px;height:17px"></i></span><div><div class="card-title">Strategy Notes</div><div class="card-sub">Why the framework looks like this</div></div></div>
+          <div id="fb-notes" class="grid grid-cols-1 md:grid-cols-2 gap-3"></div>
+        </section>
+      </main>
+
+      <footer class="pt-6 mt-8 flex flex-wrap items-center justify-between gap-2 border-t border-[#ECECEE] text-[11.5px] text-[#B5B5BB]">
+        <span>Punchline — AI Marketing Intelligence</span>
+        <span id="backend-state" class="pill gray">Detecting backend…</span>
+        <span>Every number here is a hypothesis — verify in Ads Manager before scaling</span>
+      </footer>
+    </div>
+  </div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/fb-ads.js"></script>
+</body>
+</html>

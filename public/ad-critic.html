@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Punchline — Ad Critic</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { accent: '#3DDC72', accentDark: '#2ECC71', ink: '#1C1C1E', card: '#F7F8F7' }, fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] } } } };
+  </script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="page-bg">
+    <div class="canvas">
+      <header class="site-nav"><div id="app-nav"></div></header>
+
+      <main>
+        <div id="page-head"></div>
+
+        <section class="card mb-6">
+          <div class="tabs mb-4" data-tabgroup="critic">
+            <button class="tab active" data-tab="ad" data-tabgroup="critic"><i data-lucide="scan-eye" style="width:16px;height:16px"></i> Ad Critic</button>
+            <button class="tab" data-tab="lp" data-tabgroup="critic"><i data-lucide="monitor" style="width:16px;height:16px"></i> Landing Page</button>
+          </div>
+
+          <!-- Ad tab -->
+          <div data-tabpanel="critic" data-panel="ad">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div class="field">
+                <label class="label" for="ad-text">Ad copy / transcript</label>
+                <textarea class="textarea" id="ad-text" style="min-height:150px" placeholder="Paste the ad's headline, body, and CTA (or a transcript)."></textarea>
+              </div>
+              <div class="field">
+                <label class="label" for="ad-file">Or upload a file</label>
+                <input class="input" type="file" id="ad-file">
+                <div class="hint mt-2">Images/video will need a vision-capable provider (Gemini or OpenRouter).</div>
+                <div class="mt-3 flex items-center gap-2 flex-wrap">
+                  <span class="pill amber"><span class="dot"></span>UNKNOWN source = honest 'can't verify' verdict</span>
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-primary" id="btn-criticize"><i data-lucide="sparkles" style="width:17px;height:17px"></i> Criticize ad</button>
+            <div class="mt-5" id="ad-result"></div>
+          </div>
+
+          <!-- LP tab -->
+          <div data-tabpanel="critic" data-panel="lp" class="hidden">
+            <div class="field">
+              <label class="label" for="lp-url">Landing page URL</label>
+              <input class="input" id="lp-url" placeholder="https://…">
+            </div>
+            <button class="btn btn-primary" id="btn-lp"><i data-lucide="monitor-check" style="width:17px;height:17px"></i> Analyze landing page</button>
+            <div class="mt-5" id="lp-result"></div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="pt-6 mt-8 flex flex-wrap items-center justify-between gap-2 border-t border-[#ECECEE] text-[11.5px] text-[#B5B5BB]">
+        <span>Punchline — AI Marketing Intelligence</span>
+        <span id="backend-state" class="pill gray">Detecting backend…</span>
+        <span>Demo data · UNKNOWN values marked</span>
+      </footer>
+    </div>
+  </div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/charts.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/ad-critic.js"></script>
+</body>
+</html>

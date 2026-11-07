@@ -26,7 +26,9 @@ import {
   Sparkles,
   Smartphone,
   Plus,
+  Calculator,
 } from 'lucide-react';
+import { ServicesMenuDropdown } from './ServicesMenuDropdown';
 
 export interface AppSidebarProps {
   activeView: string;
@@ -75,27 +77,17 @@ export const AppSidebar: React.FC<AppSidebarProps> = ({
   const promo = getPromoContent();
 
   return (
-    <aside className="w-64 h-full bg-white border-r border-slate-200/90 flex flex-col justify-between shrink-0 select-none z-20 shadow-2xs text-slate-800 overflow-hidden">
-      {/* Top Branding & Main Navigation */}
-      <div className="flex flex-col flex-1 overflow-y-auto scrollbar-none">
-        {/* Brand Logo Header (Matches Home Dashboard exactly) */}
-        <div
-          onClick={() => onNavigate('dashboard')}
-          className="p-4 border-b border-slate-100 flex items-center gap-3 cursor-pointer hover:bg-slate-50/70 transition-colors shrink-0"
-        >
-          <div className="w-8 h-8 rounded-xl bg-blue-600 flex items-center justify-center text-white shadow-xs shrink-0">
-            <Zap className="w-4.5 h-4.5 fill-white" />
-          </div>
-          <div className="min-w-0">
-            <h1 className="text-sm font-bold text-slate-900 tracking-tight leading-tight truncate">
-              Product Intelligence OS
-            </h1>
-            <p className="text-[10px] text-slate-400 font-medium truncate">
-              E-commerce • Research • Ads • Automation
-            </p>
-          </div>
-        </div>
+    <aside className="w-64 h-full bg-white border-r border-slate-200/90 flex flex-col justify-between shrink-0 select-none z-20 shadow-2xs text-slate-800">
+      {/* Top Branding & Services Menu (Matches Punchline logo and services dropdown) */}
+      <div className="p-3.5 border-b border-slate-100 flex items-center justify-between shrink-0 relative z-30 bg-white">
+        <ServicesMenuDropdown
+          currentView={activeView}
+          onNavigate={onNavigate}
+        />
+      </div>
 
+      {/* Main Navigation */}
+      <div className="flex flex-col flex-1 overflow-y-auto scrollbar-none">
         {/* Navigation Links */}
         <nav className="p-3 space-y-1">
           {/* 1. Home / Dashboard */}
@@ -383,6 +375,34 @@ export const AppSidebar: React.FC<AppSidebarProps> = ({
           >
             <Package className={`w-4 h-4 ${activeView === 'orders-cod' ? 'text-blue-600' : 'text-slate-400'}`} />
             <span>Orders & COD</span>
+          </button>
+
+          {/* 10.5. Breakdown (Margin & CPA Calculator) */}
+          <button
+            type="button"
+            onClick={() => onNavigate('breakdown')}
+            className={`w-full flex items-center gap-3 px-3 py-2 rounded-xl text-xs font-semibold transition-all cursor-pointer ${
+              activeView === 'breakdown'
+                ? 'bg-emerald-50 text-emerald-600 shadow-2xs font-bold'
+                : 'text-slate-600 hover:text-slate-900 hover:bg-slate-50'
+            }`}
+          >
+            <Calculator className={`w-4 h-4 ${activeView === 'breakdown' ? 'text-emerald-600' : 'text-slate-400'}`} />
+            <span>Breakdown & CPA</span>
+          </button>
+
+          {/* 10.6. Global Sourcing */}
+          <button
+            type="button"
+            onClick={() => onNavigate('sourcing')}
+            className={`w-full flex items-center gap-3 px-3 py-2 rounded-xl text-xs font-semibold transition-all cursor-pointer ${
+              activeView === 'sourcing'
+                ? 'bg-emerald-50 text-emerald-600 shadow-2xs font-bold'
+                : 'text-slate-600 hover:text-slate-900 hover:bg-slate-50'
+            }`}
+          >
+            <Globe className={`w-4 h-4 ${activeView === 'sourcing' ? 'text-emerald-600' : 'text-slate-400'}`} />
+            <span>Global Sourcing</span>
           </button>
 
           {/* 11. Automation */}

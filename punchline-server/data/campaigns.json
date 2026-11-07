@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "id": "94dfbfc0-51be-4931-8447-d2426f42a9f1",
+      "campaign_name": "EmberFlow Smart Diffuser — Launch",
+      "platform": "Meta Ads",
+      "objective": "PURCHASE",
+      "budget_mode": "DAILY",
+      "daily_budget": "$50",
+      "lifetime_budget": "$350",
+      "targeting": {
+        "country": "United States",
+        "interests": [
+          "broad"
+        ],
+        "age": "18-65"
+      },
+      "creative_ids": [],
+      "status": "launched",
+      "plan": "{\n  \"campaign\": {\n    \"name\": \"Summer Sale 2023\",\n    \"objective\": \"Brand Awareness\",\n    \"status\": \"active\",\n    \"budget\": {\n      \"daily_budget\": 10.00,\n      \"currency\": \"USD\"\n    },\n    \"schedule\": {\n      \"start_date\": \"2023-06-01\",\n      \"end_date\": \"2023-06-30\"\n    },\n    \"targeting\": {\n      \"locations\": [\"US\",",
+      "_simulated": true,
+      "createdAt": "2026-08-11T22:32:26.776Z"
+    }
+  ]
+}

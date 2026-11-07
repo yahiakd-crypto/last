@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Punchline — ERP OS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { accent: '#3DDC72', accentDark: '#2ECC71', ink: '#1C1C1E', card: '#F7F8F7' }, fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] } } } };
+  </script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/cod.css">
+  <link rel="stylesheet" href="assets/css/erp.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="page-bg">
+    <div class="canvas">
+      <header class="site-nav"><div id="app-nav"></div></header>
+
+      <main>
+        <!-- ERP OS shell (erp.js renders sidebar / topbar / content) -->
+        <div class="erp-frame">
+          <aside class="erp-sidebar" id="erp-sidebar" aria-label="ERP OS modules"></aside>
+          <div class="erp-main">
+            <div class="erp-topbar" id="erp-topbar"></div>
+            <div id="erp-content"></div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="pt-6 mt-8 flex flex-wrap items-center justify-between gap-2 border-t border-[#ECECEE] text-[11.5px] text-[#B5B5BB]">
+        <span>Punchline — AI Marketing Intelligence · ERP OS</span>
+        <span id="erp-backend" class="pill gray">Detecting backend…</span>
+        <span>Multi-company demo data · every stock change is an immutable ledger entry</span>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Mobile drawer backdrop (erp.js toggles .show) -->
+  <div id="erp-drawer-mask"></div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/charts.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/erp.js"></script>
+</body>
+</html>

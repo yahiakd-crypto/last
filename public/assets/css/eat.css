@@ -1,0 +1,105 @@
+/* ============================================================
+   PUNCHLINE — EAT DESIGN SYSTEM (shared eat-* components)
+   Sidebar workspace layout, section nav, cards, lists, tables,
+   AI output chrome. Used by pages that render the eat-* shell
+   but do not load global-sourcing.css / ai-tools.css.
+   Theme vars come from the page's own sheet (breakdown.css etc).
+   ============================================================ */
+
+/* ---------- Page head ---------- */
+.eat-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; flex-wrap: wrap; margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid var(--line); }
+.eat-title { font-size: 22px; font-weight: 900; letter-spacing: -0.02em; color: var(--ink); }
+.eat-title em { font-style: normal; color: var(--green); }
+.eat-sub { font-size: 13px; color: var(--muted); margin-top: 4px; max-width: 800px; line-height: 1.6; }
+
+/* ---------- Layout ---------- */
+.eat-layout { display: grid; grid-template-columns: 236px 1fr; gap: 16px; align-items: start; }
+@media (max-width: 1080px) { .eat-layout { grid-template-columns: 1fr; } }
+.eat-main { min-width: 0; }
+
+/* ---------- Sidebar ---------- */
+.eat-side { position: sticky; top: 10px; background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 12px; display: flex; flex-direction: column; gap: 3px; max-height: calc(100vh - 90px); overflow: auto; }
+.eat-side-lbl { font-size: 9.5px; font-weight: 800; letter-spacing: .8px; text-transform: uppercase; color: var(--muted2); padding: 6px 10px 8px; }
+.eat-nav-btn { display: flex; align-items: center; gap: 9px; width: 100%; text-align: left; padding: 8px 10px; border-radius: 10px; border: 1px solid transparent; background: transparent; color: var(--muted); font-family: inherit; font-size: 12px; font-weight: 600; cursor: pointer; transition: .15s; }
+.eat-nav-btn svg { width: 15px; height: 15px; flex: none; }
+.eat-nav-btn:hover { background: #1A2440; color: var(--ink); }
+.eat-nav-btn.active { background: var(--green-50); color: var(--green); border-color: rgba(62,232,166,.35); }
+.eat-side-foot { margin-top: auto; padding: 10px 10px 2px; font-size: 9.5px; color: var(--muted2); line-height: 1.5; border-top: 1px solid var(--line); }
+@media (max-width: 1080px) { .eat-side { position: static; max-height: none; flex-direction: row; flex-wrap: wrap; } .eat-side-lbl, .eat-side-foot { display: none; } .eat-nav-btn { width: auto; } }
+
+/* ---------- Section nav ---------- */
+.eat-secbtn { display: inline-flex; align-items: center; gap: 6px; padding: 6px 13px; border-radius: 999px; border: 1px solid var(--line); background: var(--card); color: var(--muted); font-size: 11px; font-weight: 600; cursor: pointer; font-family: inherit; transition: .15s; }
+.eat-secbtn svg { width: 12px; height: 12px; }
+.eat-secbtn:hover { border-color: rgba(62,232,166,.5); color: var(--green); }
+.eat-secbtn.active { background: var(--green-50); border-color: rgba(62,232,166,.45); color: var(--green); font-weight: 800; }
+
+/* ---------- Grids ---------- */
+.eat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 980px) { .eat-grid { grid-template-columns: 1fr; } }
+.eat-grid.cols3 { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 1200px) { .eat-grid.cols3 { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 640px) { .eat-grid.cols3 { grid-template-columns: 1fr; } }
+
+/* ---------- Lists / steps ---------- */
+.eat-list { display: flex; flex-direction: column; gap: 7px; margin: 9px 0; }
+.eat-li { display: flex; gap: 9px; align-items: flex-start; padding: 10px 12px; background: var(--card2); border: 1px solid var(--line); border-radius: 11px; }
+.eat-li .li-ic { width: 28px; height: 28px; border-radius: 9px; display: grid; place-items: center; flex: none; background: var(--green-50); color: var(--green); }
+.eat-li .li-ic svg { width: 14px; height: 14px; }
+.eat-li .li-ic.amber { background: var(--amber-50); color: var(--amber); }
+.eat-li .li-ic.red { background: var(--red-50); color: var(--red); }
+.eat-li .li-ic.blue { background: rgba(91,141,255,.12); color: var(--blue); }
+.eat-li .li-ic.pur { background: rgba(167,139,250,.12); color: var(--pur); }
+.eat-li .li-t { font-size: 11.5px; font-weight: 800; color: var(--ink); }
+.eat-li .li-d { font-size: 10.5px; color: var(--muted); line-height: 1.55; margin-top: 1px; }
+
+/* ---------- Table ---------- */
+.tbl-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; margin: 9px 0; }
+table.eat-tbl { border-collapse: collapse; width: 100%; min-width: 520px; }
+.eat-tbl th { padding: 8px 11px; font-size: 9.5px; font-weight: 800; text-transform: uppercase; letter-spacing: .5px; color: var(--muted); background: var(--card); border-bottom: 1px solid var(--line); text-align: left; white-space: nowrap; }
+.eat-tbl td { padding: 7px 11px; font-size: 11px; border-bottom: 1px solid var(--line); color: var(--muted); background: var(--card2); vertical-align: top; }
+.eat-tbl tr:last-child td { border-bottom: none; }
+.eat-tbl td b { color: var(--ink); }
+.eat-tbl td .tag { margin-right: 4px; }
+
+/* ---------- Tags / evidence ---------- */
+.tag { display: inline-flex; align-items: center; gap: 4px; padding: 2px 8px; border-radius: 999px; font-size: 9px; font-weight: 800; letter-spacing: .4px; }
+.tag.green { background: var(--green-50); color: var(--green); }
+.tag.red { background: var(--red-50); color: var(--red); }
+.tag.amber { background: var(--amber-50); color: var(--amber); }
+.tag.blue { background: rgba(91,141,255,.12); color: var(--blue); }
+.tag.pur { background: rgba(167,139,250,.12); color: var(--pur); }
+.tag.gray { background: #1A2440; color: var(--muted); }
+.ev-verified { background: var(--green-50); color: var(--green); }
+.ev-inferred { background: var(--amber-50); color: var(--amber); }
+.ev-estimated { background: rgba(91,141,255,.12); color: var(--blue); }
+
+/* ---------- AI output ---------- */
+.ai-run-meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 10px 0 4px; font-size: 10.5px; color: var(--muted2); }
+.ai-run-meta .pill { font-size: 9.5px; }
+.out-anim { animation: oatIn .35s ease; }
+@keyframes oatIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+.out-head { display: flex; align-items: center; gap: 8px; font-size: 12.5px; font-weight: 800; color: var(--ink); margin-bottom: 10px; }
+.out-head svg { width: 15px; height: 15px; color: var(--green); }
+.dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; flex: none; }
+
+/* ---------- Confidence ---------- */
+.conf-box { margin-top: 12px; border-radius: 12px; border: 1px solid var(--line); overflow: hidden; }
+.conf-top { display: flex; align-items: center; gap: 7px; padding: 8px 13px; font-size: 10.5px; font-weight: 800; letter-spacing: .3px; }
+.conf-top .dot { background: var(--muted2); }
+.conf-rows { display: grid; grid-template-columns: 1fr; gap: 6px; padding: 10px 13px; background: var(--card2); }
+.conf-rows .cr { font-size: 10.5px; color: var(--muted); line-height: 1.5; }
+.conf-rows .cr b { display: inline-block; color: var(--muted2); font-size: 9px; text-transform: uppercase; letter-spacing: .4px; min-width: 96px; }
+.conf-box.high { border-color: rgba(62,232,166,.4); }
+.conf-box.high .conf-top { background: var(--green-50); color: var(--green); }
+.conf-box.high .conf-top .dot { background: var(--green); }
+.conf-box.medium { border-color: rgba(245,184,60,.4); }
+.conf-box.medium .conf-top { background: var(--amber-50); color: var(--amber); }
+.conf-box.medium .conf-top .dot { background: var(--amber); }
+.conf-box.low { border-color: rgba(255,107,107,.4); }
+.conf-box.low .conf-top { background: var(--red-50); color: var(--red); }
+.conf-box.low .conf-top .dot { background: var(--red); }
+
+/* ---------- Loading / footer ---------- */
+.loading { display: flex; align-items: center; gap: 9px; color: var(--green); font-size: 12px; font-weight: 700; padding: 16px; }
+.spinner { width: 15px; height: 15px; border: 2px solid var(--green-50); border-top-color: var(--green); border-radius: 50%; animation: spin .7s linear infinite; }
+.eat-foot { margin-top: 22px; padding-top: 14px; border-top: 1px solid var(--line); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; font-size: 10.5px; color: var(--muted2); }

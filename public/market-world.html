@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Punchline — Market in the World</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/breakdown.css">
+  <link rel="stylesheet" href="assets/css/eat.css">
+  <link rel="stylesheet" href="assets/css/market-world.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="page-bg">
+    <div class="canvas">
+      <header class="site-nav"><div id="app-nav"></div></header>
+
+      <main class="eat-main" id="mw-app"></main>
+
+      <footer class="eat-foot">
+        <span>Punchline — Market in the World · idea preview platform for every market</span>
+        <span id="mw-state" class="pill gray">Loading marketplaces…</span>
+        <span>Preview any card · save ideas · add your own · data is a starting point, always verify locally</span>
+      </footer>
+    </div>
+  </div>
+
+  <div id="toast-stack"></div>
+  <div class="mw-modal" id="mw-modal"><div class="mw-modal-box" id="mw-modal-box"></div></div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/market-data.js"></script>
+  <script src="assets/js/market-events.js"></script>
+  <script src="assets/js/market-world.js"></script>
+</body>
+</html>

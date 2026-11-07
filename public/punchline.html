@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Punchline — Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { accent: '#3DDC72', accentDark: '#2ECC71', ink: '#1C1C1E', card: '#F7F8F7' }, fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] } } } };
+  </script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="page-bg">
+    <div class="canvas">
+      <header class="site-nav"><div id="app-nav"></div></header>
+
+      <main>
+        <!-- HERO (dark) -->
+        <section class="hero rise mb-6">
+          <div class="grid-dots"></div>
+          <div class="hero-inner flex flex-col justify-between p-6 md:p-8">
+            <div class="flex flex-wrap items-start justify-between gap-4">
+              <div class="max-w-[520px]">
+                <div class="flex items-center gap-2 mb-3">
+                  <span class="pill dark"><span class="dot" style="background:#3DDC72"></span>Pre-Launch · $59 · US</span>
+                </div>
+                <h1 class="text-white font-extrabold tracking-tight text-[26px] md:text-[32px] leading-tight">EmberFlow Smart Diffuser</h1>
+                <p class="text-[#A9AAB0] text-[14px] mt-2 leading-relaxed">Intelligence dashboard for a smart essential-oil diffuser — every claim verified, every unknown marked, every test justified.</p>
+              </div>
+              <div class="flex items-center gap-2 flex-wrap">
+                <button class="btn btn-primary btn-sm" id="btn-open-report"><i data-lucide="file-text" style="width:16px;height:16px"></i> Open Report</button>
+                <button class="btn btn-dark btn-sm" id="btn-why-test"><i data-lucide="flask-conical" style="width:16px;height:16px"></i> Why we test</button>
+              </div>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
+              <div><div class="text-[12px] font-semibold text-[#8A8A92]">Overall Readiness</div><div class="text-white text-[28px] font-extrabold" id="hero-readiness">—/100</div></div>
+              <div><div class="text-[12px] font-semibold text-[#8A8A92]">Message–Market Fit</div><div class="text-white text-[28px] font-extrabold" id="hero-mmf">—/10</div></div>
+              <div><div class="text-[12px] font-semibold text-[#8A8A92]">Best Hook (scored)</div><div class="text-white text-[28px] font-extrabold" id="hero-hook">—</div></div>
+              <div><div class="text-[12px] font-semibold text-[#8A8A92]">Campaigns Active</div><div class="text-white text-[28px] font-extrabold" id="hero-camps">—</div></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- KPI cards -->
+        <section class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+          <div class="card">
+            <div class="flex items-start justify-between">
+              <div><div class="card-title">Revenue</div><div class="kpi" id="kpi-rev">—</div><div class="muted mt-1" id="kpi-rev-note">last 6 weeks</div></div>
+              <div style="width:86px;height:40px;position:relative;flex:none"><canvas id="spark-rev" style="width:100%;height:100%"></canvas></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="flex items-start justify-between">
+              <div><div class="card-title">Ad Spend</div><div class="kpi" id="kpi-spend">—</div><div class="muted mt-1" id="kpi-spend-note">capped validation budget</div></div>
+              <div style="width:86px;height:40px;position:relative;flex:none"><canvas id="spark-spend" style="width:100%;height:100%"></canvas></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="flex items-start justify-between">
+              <div><div class="card-title">ROAS</div><div class="kpi" id="kpi-roas">—</div><div class="muted mt-1" id="kpi-roas-note">target ≥ 2.0</div></div>
+              <div style="width:86px;height:40px;position:relative;flex:none"><canvas id="spark-roas" style="width:100%;height:100%"></canvas></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="flex items-start justify-between">
+              <div><div class="card-title">Sessions</div><div class="kpi" id="kpi-sess">—</div><div class="muted mt-1" id="kpi-sess-note">storefront traffic</div></div>
+              <div style="width:86px;height:40px;position:relative;flex:none"><canvas id="spark-sess" style="width:100%;height:100%"></canvas></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Scores + revenue chart -->
+        <section class="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-6">
+          <div class="card">
+            <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="gauge" style="width:17px;height:17px"></i></span><div><div class="card-title">Signal Scores</div><div class="card-sub">Fit / Opportunity / Product</div></div></div>
+            <div class="grid grid-cols-3 gap-2 text-center">
+              <div><div style="height:80px;position:relative;max-width:130px;margin:0 auto"><canvas id="dg-mmf" style="width:100%;height:100%"></canvas></div><div class="text-[12px] font-semibold mt-2 text-[#3F3F46]">Message Fit</div></div>
+              <div><div style="height:80px;position:relative;max-width:130px;margin:0 auto"><canvas id="dg-opp" style="width:100%;height:100%"></canvas></div><div class="text-[12px] font-semibold mt-2 text-[#3F3F46]">Opportunity</div></div>
+              <div><div style="height:80px;position:relative;max-width:130px;margin:0 auto"><canvas id="dg-sig" style="width:100%;height:100%"></canvas></div><div class="text-[12px] font-semibold mt-2 text-[#3F3F46]">Product Signal</div></div>
+            </div>
+          </div>
+          <div class="card lg:col-span-2">
+            <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="trending-up" style="width:17px;height:17px"></i></span><div><div class="card-title">Revenue vs ROAS</div><div class="card-sub">Weekly · demo data</div></div></div>
+            <div style="height:210px"><canvas id="chg-rev"></canvas></div>
+          </div>
+        </section>
+
+        <!-- Campaigns + diagnostics -->
+        <section class="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-6">
+          <div class="card lg:col-span-2">
+            <div class="card-head">
+              <span class="icon-tile green-soft"><i data-lucide="megaphone" style="width:17px;height:17px"></i></span>
+              <div><div class="card-title">Campaigns</div><div class="card-sub">5 structure slots · live diagnostics</div></div>
+              <a class="btn btn-ghost btn-sm ml-auto" href="campaigns.html">Manage</a>
+            </div>
+            <div id="campaigns-table"></div>
+          </div>
+          <div class="card">
+            <div class="card-head"><span class="icon-tile" style="background:#FDF3D8;color:#B07A12"><i data-lucide="alert-triangle" style="width:17px;height:17px"></i></span><div><div class="card-title">At Risk / Unknowns</div><div class="card-sub">Blocking items first</div></div></div>
+            <div id="diagnostics" class="flex flex-col gap-3"></div>
+          </div>
+        </section>
+
+        <!-- Latest test + toolbox -->
+        <section class="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-6">
+          <div class="card">
+            <div class="card-head"><span class="icon-tile green"><i data-lucide="flask-conical" style="width:17px;height:17px"></i></span><div><div class="card-title">Latest Test</div><div class="card-sub">Creative test #4 · concluded</div></div></div>
+            <div class="rounded-xl p-4" style="background:#fff;border:1px solid var(--line)">
+              <div class="text-[13px] font-bold text-[#1C1C1E]">Hook A (problem) won</div>
+              <div class="muted mt-1">CTR 2.9% vs 1.6% · 95% confidence</div>
+              <div class="mt-3"><span class="pill green"><span class="dot"></span>Winner → Audience Testing</span></div>
+            </div>
+          </div>
+          <div class="card lg:col-span-2">
+            <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="zap" style="width:17px;height:17px"></i></span><div><div class="card-title">AI Toolbox</div><div class="card-sub">Every analysis is a hypothesis to test — never a fact</div></div></div>
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-3" id="toolbox"></div>
+          </div>
+        </section>
+
+        <!-- Market in the World -->
+        <section class="mb-6">
+          <div class="card">
+            <div class="card-head">
+              <span class="icon-tile" style="background:rgba(14,165,233,.12);color:#0EA5E9"><i data-lucide="globe" style="width:17px;height:17px"></i></span>
+              <div><div class="card-title">Market in the World</div><div class="card-sub">Idea preview platform for any market, all markets — marketplaces, B2B, auctions, fulfillment, dropshipping, China sourcing, discovery & power tools</div></div>
+              <a class="btn btn-primary btn-sm ml-auto" href="market-world.html"><i data-lucide="eye" style="width:15px;height:15px"></i> Preview page</a>
+            </div>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-3">
+              <div class="rounded-xl p-3" style="background:#fff;border:1px solid var(--line)"><div class="text-[11px] font-semibold text-[#8A8A92]">Marketplaces</div><div class="text-[15px] font-extrabold text-[#1C1C1E] mt-1">180+</div></div>
+              <div class="rounded-xl p-3" style="background:#fff;border:1px solid var(--line)"><div class="text-[11px] font-semibold text-[#8A8A92]">B2B & Wholesale</div><div class="text-[15px] font-extrabold text-[#1C1C1E] mt-1">160+</div></div>
+              <div class="rounded-xl p-3" style="background:#fff;border:1px solid var(--line)"><div class="text-[11px] font-semibold text-[#8A8A92]">Auctions</div><div class="text-[15px] font-extrabold text-[#1C1C1E] mt-1">210+</div></div>
+              <div class="rounded-xl p-3" style="background:#fff;border:1px solid var(--line)"><div class="text-[11px] font-semibold text-[#8A8A92]">Sourcing & Tools</div><div class="text-[15px] font-extrabold text-[#1C1C1E] mt-1">680+</div></div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="pt-6 mt-8 flex flex-wrap items-center justify-between gap-2 border-t border-[#ECECEE] text-[11.5px] text-[#B5B5BB]">
+        <span>Punchline — AI Marketing Intelligence</span>
+        <span id="backend-state" class="pill gray">Detecting backend…</span>
+        <span>Demo data · UNKNOWN values marked</span>
+      </footer>
+    </div>
+  </div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/charts.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/index.js"></script>
+</body>
+</html>

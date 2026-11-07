@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Punchline — Campaigns</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { accent: '#3DDC72', accentDark: '#2ECC71', ink: '#1C1C1E', card: '#F7F8F7' }, fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] } } } };
+  </script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="page-bg">
+    <div class="canvas">
+      <header class="site-nav"><div id="app-nav"></div></header>
+
+      <main>
+        <div id="page-head"></div>
+
+        <section class="hero rise mb-6">
+          <div class="grid-dots"></div>
+          <div class="hero-inner p-6 md:p-8">
+            <div class="flex flex-col md:flex-row md:items-start gap-6">
+              <div class="flex-1 min-w-0">
+                <div class="text-[12px] font-bold tracking-wide text-[#3DDC72] uppercase mb-2">CAMPAIGN STRATEGY</div>
+                <h2 class="text-white text-[20px] md:text-[24px] font-extrabold leading-snug max-w-[760px]">A validation-first launch plan — test the creative, prove unit economics, then scale.</h2>
+                <div class="flex items-center gap-2 mt-4 flex-wrap">
+                  <span class="pill dark"><span class="dot" style="background:#3DDC72"></span>Funnel stage: <span id="funnel-stage">Launch</span></span>
+                </div>
+              </div>
+              <div class="flex-none flex flex-col items-start md:items-end gap-3">
+                <div id="product-ctx" class="pill gray hidden"></div>
+                <div class="flex gap-2.5 flex-wrap">
+                  <button class="btn btn-primary btn-sm" id="btn-generate"><i data-lucide="sparkles" style="width:16px;height:16px"></i> Generate campaigns</button>
+                  <button class="btn btn-ghost btn-sm" id="btn-next" disabled title="Continue to Ad Critic">Next <i data-lucide="arrow-right" style="width:16px;height:16px"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="grid grid-cols-2 md:grid-cols-5 gap-4 mb-6" id="kpi-tiles"></section>
+
+        <section class="card mb-6">
+          <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="megaphone" style="width:17px;height:17px"></i></span><div><div class="card-title">Campaign Structure</div><div class="card-sub">5 slots · budget by objective · kill rules below</div></div></div>
+          <div class="overflow-x-auto"><table class="table">
+            <thead><tr><th>Campaign</th><th>Objective</th><th>Daily $</th><th>Spent</th><th>Revenue</th><th>ROAS</th><th>CTR</th><th>CPC</th><th>Status</th></tr></thead>
+            <tbody id="campaign-body"></tbody>
+          </table></div>
+        </section>
+
+        <section class="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-6">
+          <div class="card">
+            <div class="card-head"><span class="icon-tile" style="background:#FDF3D8;color:#B07A12"><i data-lucide="activity" style="width:17px;height:17px"></i></span><div><div class="card-title">Diagnostics</div><div class="card-sub">Live blockers</div></div></div>
+            <div id="diagnostics" class="flex flex-col gap-3"></div>
+          </div>
+          <div class="card">
+            <div class="card-head"><span class="icon-tile green"><i data-lucide="ban" style="width:17px;height:17px"></i></span><div><div class="card-title">Kill Rules</div><div class="card-sub">Pre-committed stop conditions</div></div></div>
+            <div id="kill-rules" class="flex flex-col gap-2.5"></div>
+          </div>
+          <div class="card">
+            <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="wallet" style="width:17px;height:17px"></i></span><div><div class="card-title">Budget Playbook</div><div class="card-sub">How $ flows while validating</div></div></div>
+            <div id="budget" class="flex flex-col gap-3"></div>
+          </div>
+        </section>
+
+        <section class="card mb-6">
+          <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="flag" style="width:17px;height:17px"></i></span><div><div class="card-title">Campaign Strategy Timeline</div><div class="card-sub">Phase-by-phase strategy · pass the gate before you scale</div></div></div>
+          <div class="mt-4" id="timeline"></div>
+        </section>
+
+        <section class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="card">
+            <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="calendar-range" style="width:17px;height:17px"></i></span><div><div class="card-title">30-Day Roadmap</div><div class="card-sub">Weekly focus + scaling gates</div></div></div>
+            <div class="flex flex-col gap-3" id="roadmap"></div>
+          </div>
+          <div class="card">
+            <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="file-spreadsheet" style="width:17px;height:17px"></i></span><div><div class="card-title">Results Analyzer</div><div class="card-sub">Paste CSV: campaign, spend, revenue (header row)</div></div></div>
+            <textarea class="textarea" id="csv-input" style="min-height:110px" placeholder="campaign,spend,revenue&#10;Retargeting,890,1520"></textarea>
+            <button class="btn btn-primary btn-sm mt-3" id="btn-parse-csv"><i data-lucide="calculator" style="width:16px;height:16px"></i> Analyze CSV</button>
+            <div class="mt-4" id="csv-results"></div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="pt-6 mt-8 flex flex-wrap items-center justify-between gap-2 border-t border-[#ECECEE] text-[11.5px] text-[#B5B5BB]">
+        <span>Punchline — AI Marketing Intelligence</span>
+        <span id="backend-state" class="pill gray">Detecting backend…</span>
+        <span>Demo data · UNKNOWN values marked</span>
+      </footer>
+    </div>
+  </div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/charts.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/campaigns.js"></script>
+</body>
+</html>

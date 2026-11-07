@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Punchline — Personas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { accent: '#3DDC72', accentDark: '#2ECC71', ink: '#1C1C1E', card: '#F7F8F7' }, fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] } } } };
+  </script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="page-bg">
+    <div class="canvas">
+      <header class="site-nav"><div id="app-nav"></div></header>
+
+      <main>
+        <div id="page-head"></div>
+
+        <section class="card mb-6">
+          <div class="flex items-center justify-between flex-wrap gap-3 mb-4">
+            <div class="flex items-center gap-3">
+              <span class="icon-tile green-soft"><i data-lucide="users" style="width:17px;height:17px"></i></span>
+              <div><div class="font-bold text-[15px] text-[#1C1C1E]">Buyer Personas</div><div class="muted text-[12.5px]">Ranked by share of target audience</div></div>
+            </div>
+            <div class="flex items-center gap-2.5">
+              <button class="btn btn-primary btn-sm" id="btn-generate"><i data-lucide="sparkles" style="width:16px;height:16px"></i> Generate personas</button>
+              <button class="btn btn-ghost btn-sm" id="btn-next" disabled title="Continue to Strategy">Next <i data-lucide="arrow-right" style="width:16px;height:16px"></i></button>
+            </div>
+          </div>
+          <div class="tabs" data-tabgroup="personas" id="persona-tabs"></div>
+        </section>
+
+        <section class="card mb-6">
+          <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="chart-column" style="width:17px;height:17px"></i></span><div><div class="card-title">Persona Analytics</div><div class="card-sub">Share of audience, age distribution, awareness level, and composition</div></div></div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="rounded-xl p-4" style="background:#fff;border:1px solid var(--line)">
+              <div class="label" style="margin:0">Audience share by persona</div>
+              <div class="chart-box"><canvas id="chart-share"></canvas></div>
+            </div>
+            <div class="rounded-xl p-4" style="background:#fff;border:1px solid var(--line)">
+              <div class="label" style="margin:0">Age distribution (histogram)</div>
+              <div class="chart-box"><canvas id="chart-age"></canvas></div>
+            </div>
+            <div class="rounded-xl p-4" style="background:#fff;border:1px solid var(--line)">
+              <div class="label" style="margin:0">Awareness level by persona (stacked)</div>
+              <div class="chart-box"><canvas id="chart-awareness"></canvas></div>
+            </div>
+            <div class="rounded-xl p-4" style="background:#fff;border:1px solid var(--line)">
+              <div class="label" style="margin:0">Audience composition</div>
+              <div class="chart-box"><canvas id="chart-composition"></canvas></div>
+            </div>
+          </div>
+        </section>
+
+        <div id="persona-panels"></div>
+
+        <section class="card mt-6">
+          <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="brain" style="width:17px;height:17px"></i></span><div><div class="card-title">Message Engine</div><div class="card-sub">Ranked pains, desires, objections, and triggers across all personas — the raw material for hooks</div></div></div>
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <div><div class="label" style="color:#0FA05A">Top pains</div><div id="engine-pains"></div></div>
+            <div><div class="label" style="color:#0FA05A">Top desires</div><div id="engine-desires"></div></div>
+            <div><div class="label" style="color:#D98A12">Top objections</div><div id="engine-objections"></div></div>
+            <div><div class="label" style="color:#D98A12">Top triggers</div><div id="engine-triggers"></div></div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="pt-6 mt-8 flex flex-wrap items-center justify-between gap-2 border-t border-[#ECECEE] text-[11.5px] text-[#B5B5BB]">
+        <span>Punchline — AI Marketing Intelligence</span>
+        <span id="backend-state" class="pill gray">Detecting backend…</span>
+        <span>Demo data · UNKNOWN values marked</span>
+      </footer>
+    </div>
+  </div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/charts.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/personas.js"></script>
+</body>
+</html>

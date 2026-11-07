@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Punchline — COD OS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { accent: '#3DDC72', accentDark: '#2ECC71', ink: '#1C1C1E', card: '#F7F8F7' }, fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] } } } };
+  </script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/cod.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="page-bg">
+    <div class="canvas">
+      <header class="site-nav"><div id="app-nav"></div></header>
+
+      <main>
+        <!-- COD OS shell (cod.js renders sidebar / topbar / content) -->
+        <div class="cod-frame">
+          <aside class="cod-sidebar" id="cod-sidebar" aria-label="COD OS modules"></aside>
+          <div class="cod-main">
+            <div class="cod-topbar" id="cod-topbar"></div>
+            <div id="cod-content"></div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="pt-6 mt-8 flex flex-wrap items-center justify-between gap-2 border-t border-[#ECECEE] text-[11.5px] text-[#B5B5BB]">
+        <span>Punchline — AI Marketing Intelligence · COD OS</span>
+        <span id="backend-state" class="pill gray">Detecting backend…</span>
+        <span>Demo data · UNKNOWN values marked</span>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Mobile drawer backdrop (cod.js toggles .show) -->
+  <div id="cod-drawer-mask"></div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/charts.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/cod.js"></script>
+</body>
+</html>

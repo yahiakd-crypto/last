@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Punchline — ECOM AI TOOLS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { accent: '#3EE8A6', accentDark: '#2FBF8F', ink: '#E8EDF8', card: '#131C2E' }, fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] } } } };
+  </script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/breakdown.css">
+  <link rel="stylesheet" href="assets/css/ai-tools.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="page-bg">
+    <div class="canvas">
+      <header class="site-nav"><div id="app-nav"></div></header>
+
+      <main class="eat-main" id="eat-view">
+        <div class="loading"><div class="spinner"></div>Loading ECOM AI TOOLS…</div>
+      </main>
+
+      <footer class="eat-foot">
+        <span>Punchline — ECOM AI TOOLS · the AI operating system for e-commerce</span>
+        <span id="backend-state" class="pill gray">Detecting backend…</span>
+        <span>Simulated AI · every result shows confidence + data used</span>
+      </footer>
+    </div>
+  </div>
+
+  <div id="toast-stack"></div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/charts.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/ai-tools.js"></script>
+</body>
+</html>

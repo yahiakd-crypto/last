@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Punchline — BUILDER LP</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { accent: '#3EE8A6', accentDark: '#2FBF8F', ink: '#E8EDF8', card: '#131C2E' }, fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] } } } };
+  </script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/breakdown.css">
+  <link rel="stylesheet" href="assets/css/builder-lp.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="page-bg">
+    <div class="canvas">
+      <header class="site-nav"><div id="app-nav"></div></header>
+
+      <main class="lpb-main" id="builder-view">
+        <div class="loading"><div class="spinner"></div>Loading Builder LP…</div>
+      </main>
+
+      <footer class="lpb-foot">
+        <span>Punchline — BUILDER LP · image sections → assembled landing page → export PNG / WebP</span>
+        <span>Everything stays on this device · export is a flat image, not an HTML page</span>
+      </footer>
+    </div>
+  </div>
+
+  <div id="toast-stack"></div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/builder-lp.js"></script>
+</body>
+</html>

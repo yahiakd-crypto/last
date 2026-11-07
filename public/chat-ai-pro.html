@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Punchline — E-commerce AI Agent</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/chat-ai-pro.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="page-bg">
+    <div class="canvas">
+      <header class="site-nav"><div id="app-nav"></div></header>
+
+      <main class="cc-root" style="padding-top:14px">
+        <div class="cc-mobile-bar">
+          <button data-v="chat" class="on">💬 Chat</button>
+          <button data-v="ws">📊 Workspace</button>
+        </div>
+
+        <!-- ============ LEFT · AI CHAT ============ -->
+        <aside class="cc-pane cc-chat" id="cc-chat">
+          <div class="cc-chat-head">
+            <div class="cc-badge">🤖</div>
+            <div class="cc-ht">
+              <b>E-commerce AI Agent</b>
+              <span id="cc-status">Orchestrator ready · ask anything about your business</span>
+            </div>
+            <select class="cc-chat-model" id="cc-model" title="Choose the AI model"><option value="">Auto · route per task</option></select>
+            <button class="cc-hbtn" id="cc-btn-new" title="New conversation">✚</button>
+            <button class="cc-hbtn" id="cc-btn-act" title="Activity log">☰</button>
+          </div>
+
+          <div class="cc-chat-body" id="cc-chat-body"></div>
+
+          <div class="cc-chat-quick" id="cc-quick"></div>
+
+          <div class="cc-chat-input">
+            <button class="cc-upload" id="cc-upload" title="Attach a file">＋</button>
+            <textarea id="cc-input" rows="1" placeholder="Ask anything…  e.g. Analyze this product and create a brand"></textarea>
+            <button class="cc-send" id="cc-send" title="Send">➤</button>
+          </div>
+        </aside>
+
+        <!-- ============ RIGHT · WORKSPACE ============ -->
+        <aside class="cc-pane cc-ws" id="cc-ws">
+          <div class="cc-ws-head" id="cc-ws-tabs"></div>
+          <div class="cc-ws-body" id="cc-ws-body"></div>
+        </aside>
+      </main>
+
+      <footer class="eat-foot" style="padding:12px 18px">
+        <span>Punchline — E-commerce AI Agent</span>
+        <span id="backend-state" class="pill gray">Detecting backend…</span>
+        <span>Tools run live · nothing irreversible without your approval</span>
+      </footer>
+    </div>
+  </div>
+
+  <div id="toast-stack"></div>
+  <input type="file" id="cc-file" class="hidden" multiple>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/chat-ai-pro.js"></script>
+</body>
+</html>

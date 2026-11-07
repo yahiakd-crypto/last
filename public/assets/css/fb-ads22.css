@@ -1,0 +1,297 @@
+/* ============================================================
+   PUNCHLINE META ADS INTELLIGENCE CENTER — OS styles.
+   Facebook blue (#1877F2) distinguishes this OS from the COD OS
+   (orange) and the ERP OS (indigo).
+   ============================================================ */
+:root {
+  --fb: #1877f2;
+  --fb-dark: #145dbf;
+  --fb-light: #d6e6fd;
+  --fb-soft: #eef4ff;
+  --fb-rgb: 24, 119, 242;
+}
+
+.fba-frame {
+  display: grid;
+  grid-template-columns: 252px minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+  margin-top: 2px;
+}
+
+/* ---------- Sidebar ---------- */
+.fba-sidebar {
+  position: sticky;
+  top: 72px;
+  height: calc(100vh - 96px);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 14px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  overflow-y: auto;
+  z-index: 40;
+}
+.fba-side-label {
+  font-size: 10.5px;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  color: #b5b5bb;
+  padding: 10px 10px 4px;
+}
+.fba-nav-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: 11px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #4a4a52;
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.13s, color 0.13s, transform 0.1s;
+  white-space: nowrap;
+}
+.fba-nav-item:hover { background: #f3f7ff; color: var(--ink); }
+.fba-nav-item:active { transform: scale(0.99); }
+.fba-nav-item.active { background: var(--fb-soft); color: var(--fb-dark); font-weight: 700; }
+.fba-nav-item.active svg { color: var(--fb); }
+.fba-nav-item svg { flex: none; color: #8a8a92; }
+.fba-nav-item .fba-badge {
+  margin-left: auto;
+  background: var(--fb-light);
+  color: var(--fb-dark);
+  font-size: 10px;
+  font-weight: 800;
+  border-radius: 999px;
+  padding: 1px 7px;
+}
+.fba-sidebar-foot {
+  margin-top: auto;
+  padding: 10px;
+  font-size: 11px;
+  color: #9a9aa2;
+  border-top: 1px solid #f1f0ee;
+}
+
+/* ---------- Main / topbar ---------- */
+.fba-main { min-width: 0; }
+.fba-topbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 10px 14px;
+  margin-bottom: 16px;
+}
+.fba-title { font-size: 17px; font-weight: 800; letter-spacing: -0.01em; }
+.fba-title-sub { font-size: 11.5px; color: #9a9aa2; }
+.fba-hamburger {
+  display: none;
+  width: 38px; height: 38px; border-radius: 11px; border: none;
+  background: #f4f4f6; cursor: pointer; place-items: center;
+}
+.fba-search {
+  flex: 1;
+  min-width: 170px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #fafafa;
+  border: 1.5px solid #e5e4e2;
+  border-radius: 11px;
+  padding: 8px 12px;
+  color: #9a9aa2;
+}
+.fba-search input { border: none; outline: none; background: transparent; font-size: 13px; width: 100%; color: var(--ink); }
+
+/* ---------- Controls ---------- */
+.fba-select, .fba-input {
+  background: #fafafa;
+  border: 1.5px solid #e5e4e2;
+  border-radius: 11px;
+  padding: 9px 12px;
+  font-size: 13px;
+  color: var(--ink);
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.fba-select:focus, .fba-input:focus { outline: none; border-color: var(--fb); box-shadow: 0 0 0 4px rgba(var(--fb-rgb), 0.12); }
+.fba-textarea {
+  width: 100%;
+  background: #fafafa;
+  border: 1.5px solid #e5e4e2;
+  border-radius: 12px;
+  padding: 10px 12px;
+  font-size: 13px;
+  font-family: inherit;
+  min-height: 84px;
+  resize: vertical;
+  color: var(--ink);
+}
+.fba-textarea:focus { outline: none; border-color: var(--fb); box-shadow: 0 0 0 4px rgba(var(--fb-rgb), 0.12); }
+
+.fba-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  border: none;
+  border-radius: 11px;
+  padding: 9px 14px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.14s, transform 0.1s, box-shadow 0.14s;
+}
+.fba-btn:active { transform: scale(0.98); }
+.fba-btn:disabled { opacity: 0.55; cursor: not-allowed; transform: none; }
+.fba-btn.primary { background: var(--fb); color: #fff; box-shadow: 0 6px 16px rgba(var(--fb-rgb), 0.25); }
+.fba-btn.primary:hover { background: var(--fb-dark); }
+.fba-btn.green { background: #0fa05a; color: #fff; }
+.fba-btn.green:hover { background: #0b8a4c; }
+.fba-btn.red { background: #fff; color: #d32f2f; border: 1.5px solid #f2b8b8; }
+.fba-btn.red:hover { background: #fdeaea; }
+.fba-btn.ghost { background: #f4f4f6; color: var(--ink); }
+.fba-btn.ghost:hover { background: #ececef; }
+.fba-btn.amber { background: #fff6e0; color: #b98a1f; }
+.fba-btn.amber:hover { background: #ffedbe; }
+.fba-btn.outline { background: #fff; color: var(--fb-dark); border: 1.5px solid var(--fb); }
+
+/* ---------- Tables ---------- */
+.fba-table-wrap { overflow-x: auto; border-radius: 14px; border: 1px solid var(--line); }
+.fba-table { width: 100%; border-collapse: collapse; font-size: 12.5px; background: #fff; }
+.fba-table thead th {
+  text-align: left;
+  font-size: 10.5px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #9a9aa2;
+  padding: 10px 11px;
+  border-bottom: 1px solid var(--line);
+  background: #fbfbfb;
+  white-space: nowrap;
+}
+.fba-table tbody td { padding: 9px 11px; border-bottom: 1px solid #f4f3f1; white-space: nowrap; }
+.fba-table tbody tr:hover { background: #f6f9ff; }
+.fba-table tbody tr:last-child td { border-bottom: none; }
+.fba-table .best { background: #e9f9ef; }
+.fba-table .worst { background: #fdefef; }
+
+/* ---------- KPI cards ---------- */
+.fba-kpi {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: 0 4px 14px rgba(28, 28, 30, 0.05);
+}
+.fba-kpi .kpi-num { font-size: 25px; font-weight: 900; letter-spacing: -0.02em; line-height: 1.05; }
+.fba-kpi .kpi-lbl { font-size: 12px; color: #9a9aa2; font-weight: 600; margin-top: 4px; }
+.fba-kpi.hot { border-color: var(--fb-light); background: linear-gradient(180deg, #fff 0%, var(--fb-soft) 100%); }
+.fba-kpi.hot .kpi-num { color: var(--fb); }
+
+/* ---------- Creative thumbnails ---------- */
+.fba-thumb {
+  width: 44px; height: 56px; border-radius: 9px; flex: none;
+  display: flex; align-items: center; justify-content: center;
+  color: #fff; font-weight: 800; font-size: 9.5px; text-align: center;
+  letter-spacing: 0.04em; line-height: 1.25; padding: 3px;
+}
+.fba-thumb.tall { width: 52px; height: 64px; }
+
+/* ---------- Fatigue / winner badges ---------- */
+.fba-fat { font-size: 10.5px; font-weight: 800; border-radius: 999px; padding: 3px 9px; letter-spacing: .03em; }
+.fba-fat.fresh { background: #e7f7ec; color: #0fa05a; }
+.fba-fat.watch { background: #fff6e0; color: #b98a1f; }
+.fba-fat.tired { background: #fdeaea; color: #d32f2f; }
+.fba-verdict { font-size: 10.5px; font-weight: 800; border-radius: 8px; padding: 3px 8px; }
+.fba-verdict.winner { background: #e7f7ec; color: #0fa05a; }
+.fba-verdict.promising { background: #e8f0fe; color: #1a66d6; }
+.fba-verdict.inconclusive { background: #f1f1f3; color: #6b6b73; }
+.fba-verdict.losing { background: #fdeaea; color: #d32f2f; }
+
+/* ---------- Funnel ---------- */
+.fba-funnel-row { display: grid; grid-template-columns: 110px 1fr 70px; align-items: center; gap: 10px; }
+.fba-funnel-bar {
+  height: 26px; border-radius: 8px;
+  background: linear-gradient(90deg, var(--fb), #7cb0f7);
+  display: flex; align-items: center; padding: 0 10px;
+  color: #fff; font-size: 11.5px; font-weight: 800; min-width: 2%;
+  transition: width 0.4s ease;
+}
+
+/* ---------- Modal ---------- */
+#fba-modal {
+  position: fixed; inset: 0; z-index: 300; display: none;
+  align-items: center; justify-content: center;
+  background: rgba(28, 28, 30, 0.45); backdrop-filter: blur(3px); padding: 16px;
+}
+#fba-modal.open { display: flex; }
+.fba-modal-panel {
+  width: 100%; max-width: 780px; max-height: 90vh; overflow-y: auto;
+  background: #fff; border-radius: 20px; padding: 22px;
+  box-shadow: 0 24px 80px rgba(28, 28, 30, 0.3);
+  animation: fbaModalIn 0.2s cubic-bezier(.16, 1, .3, 1);
+}
+@keyframes fbaModalIn { from { opacity: 0; transform: translateY(14px) scale(.98); } to { opacity: 1; transform: none; } }
+
+/* ---------- Drawer (mobile) ---------- */
+#fba-drawer-mask {
+  position: fixed; inset: 0; z-index: 90; background: rgba(28,28,30,.4);
+  display: none; opacity: 0; transition: opacity 0.2s;
+}
+#fba-drawer-mask.show { display: block; opacity: 1; }
+
+/* ---------- Toast ---------- */
+#fba-toasts { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); z-index: 400; display: flex; flex-direction: column; gap: 8px; align-items: center; }
+.fba-toast {
+  background: #1c1c1e; color: #fff; font-size: 13px; font-weight: 600;
+  padding: 11px 18px; border-radius: 999px; box-shadow: 0 10px 30px rgba(28,28,30,.25);
+  animation: fbaToastIn .2s ease;
+}
+.fba-toast.ok { background: #0fa05a; }
+.fba-toast.err { background: #d32f2f; }
+@keyframes fbaToastIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+/* ---------- AI band ---------- */
+.fba-ai {
+  border-radius: 16px; padding: 14px 16px;
+  border: 1px solid var(--fb-light);
+  background: linear-gradient(120deg, var(--fb-soft), #fff);
+}
+
+/* ---------- Source tag (ACTUAL / INFERENCE / RECOMMENDATION) ---------- */
+.fba-src { font-size: 9.5px; font-weight: 800; letter-spacing: .05em; border-radius: 6px; padding: 2px 7px; white-space: nowrap; }
+.fba-src.actual { background: #e7f7ec; color: #0fa05a; }
+.fba-src.infer { background: #fff6e0; color: #b98a1f; }
+.fba-src.rec { background: #e8f0fe; color: #1a66d6; }
+
+/* ---------- Hook chips ---------- */
+.fba-hookchip {
+  display: inline-block; font-size: 10.5px; font-weight: 700;
+  border-radius: 7px; padding: 2px 8px; margin: 2px 3px 2px 0;
+  background: #eef4ff; color: var(--fb-dark); border: 1px solid var(--fb-light);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+  .fba-frame { grid-template-columns: 1fr; }
+  .fba-sidebar {
+    position: fixed; top: 0; left: 0; bottom: 0;
+    width: 272px; height: 100vh; border-radius: 0;
+    transform: translateX(-102%); transition: transform 0.24s ease;
+    box-shadow: 20px 0 60px rgba(28,28,30,.25);
+  }
+  .fba-sidebar.open { transform: translateX(0); }
+  .fba-hamburger { display: grid; }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Punchline — LARKTAB · Saved Websites Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/breakdown.css">
+  <link rel="stylesheet" href="assets/css/eat.css">
+  <link rel="stylesheet" href="assets/css/larktab.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="page-bg">
+    <div class="canvas">
+      <header class="site-nav"><div id="app-nav"></div></header>
+
+      <main class="eat-main" id="lt-app"></main>
+
+      <footer class="eat-foot">
+        <span>Punchline — LARKTAB · your launcher for every platform you use</span>
+        <span id="lt-state" class="pill gray">Loading…</span>
+        <span>Click a card to open the website · add, edit and delete anytime · saved on this device</span>
+      </footer>
+    </div>
+  </div>
+
+  <div id="toast-stack"></div>
+  <div class="lt-modal" id="lt-modal"><div class="lt-modal-box" id="lt-modal-box"></div></div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/larktab.js"></script>
+</body>
+</html>

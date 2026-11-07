@@ -1,0 +1,72 @@
+{
+  "items": [
+    {
+      "id": "14b5539e-130f-47fb-8d1d-a42fd882a9b2",
+      "orderNumber": "PL-105968",
+      "status": "pending",
+      "createdAt": "2026-08-12T10:21:45.968Z",
+      "name": "yahia kada",
+      "phone": "+213542409462",
+      "wilaya": "Bouira",
+      "address": "31 cite 536 lost ouafi ilot f6/r, 31 cite 536 lost ouafi ilot f6/r",
+      "product": "Your Product Name",
+      "quantity": 1,
+      "unitPrice": 1490,
+      "shipping": 400,
+      "total": 1890,
+      "currency": "DZD",
+      "language": "dz"
+    },
+    {
+      "id": "1969bc4f-7872-4c8f-9839-9ad2b15e993b",
+      "orderNumber": "PL-888164",
+      "status": "pending",
+      "createdAt": "2026-08-10T12:28:08.164Z",
+      "name": "Ahmed Benali",
+      "phone": "0550 12 34 56",
+      "wilaya": "Oran",
+      "address": "Commune Hai Salem",
+      "product": "Your Product Name",
+      "quantity": 3,
+      "unitPrice": 1345,
+      "shipping": 0,
+      "total": 4035,
+      "currency": "DZD",
+      "language": "en"
+    },
+    {
+      "id": "802c5b30-2565-4503-a992-90c092b70abc",
+      "orderNumber": "PL-831711",
+      "status": "pending",
+      "createdAt": "2026-08-10T12:27:11.711Z",
+      "name": "Test Client",
+      "phone": "0550 12 34 56",
+      "wilaya": "Alger",
+      "address": "Rue 1, Bab El Oued",
+      "product": "Demo Product",
+      "quantity": 2,
+      "unitPrice": 1345,
+      "shipping": 0,
+      "total": 2690,
+      "currency": "DZD",
+      "language": "fr"
+    },
+    {
+      "id": "c24e500d-9197-4d7f-84e2-d75975df3dcb",
+      "orderNumber": "PL-746898",
+      "status": "pending",
+      "createdAt": "2026-08-10T12:25:46.898Z",
+      "name": "dfds",
+      "phone": "0542409462",
+      "wilaya": "Tébessa",
+      "address": "dsfdf",
+      "product": "Your Product Name",
+      "quantity": 1,
+      "unitPrice": 1490,
+      "shipping": 400,
+      "total": 1890,
+      "currency": "DZD",
+      "language": "ar"
+    }
+  ]
+}

@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Punchline — COD Margin Breakdown</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { accent: '#3EE8A6', accentDark: '#2FBF8F', ink: '#E8EDF8', card: '#131C2E' }, fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] } } } };
+  </script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/breakdown.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="page-bg">
+    <div class="canvas">
+      <header class="site-nav"><div id="app-nav"></div></header>
+
+      <div id="toast-stack"></div>
+      <div id="kpibar">
+        <div class="kb-item"><span class="kb-lbl">Delivered margin</span><span class="kb-val" id="kb_margin" style="color:#3EE8A6">—</span></div>
+        <div class="kb-sep"></div>
+        <div class="kb-item"><span class="kb-lbl">BE-CPA</span><span class="kb-val" id="kb_becpa" style="color:#3EE8A6">—</span></div>
+        <div class="kb-sep"></div>
+        <div class="kb-item"><span class="kb-lbl">Profit/lead</span><span class="kb-val" id="kb_ppl" style="color:#3EE8A6">—</span></div>
+        <div class="kb-sep"></div>
+        <div class="kb-item"><span class="kb-lbl">CR × DR</span><span class="kb-val" id="kb_crdr" style="color:#5B8DFF">—</span></div>
+        <div class="kb-sep"></div>
+        <div class="kb-item"><span class="kb-lbl">Status</span><span class="kb-val" id="kb_status" style="color:#3EE8A6">—</span></div>
+      </div>
+
+      <main>
+        <div class="bd-head">
+          <div>
+            <div class="bd-title">COD Margin Breakdown</div>
+            <div class="bd-sub">The full COD Algeria toolkit — margin calculator, sensitivity table, CR×DR scenarios, funnel P&amp;L, business P&amp;L, campaign budgets, product comparison, working capital, the Finance for Founders dashboard, and the wilaya &amp; season map. Ported from "COD الجزائر Pro".</div>
+          </div>
+          <div class="flex items-center gap-2 flex-wrap">
+            <button class="btn btn-ghost btn-sm" onclick="copyResults()"><i data-lucide="copy" style="width:14px;height:14px"></i> Copy results</button>
+            <span class="pill green"><i data-lucide="flag" style="width:13px;height:13px"></i> COD · Algeria · DZD</span>
+          </div>
+        </div>
+
+        <nav class="secnav" aria-label="Breakdown sections">
+          <button class="sbtn active" onclick="goSec(0)" id="nb0"><span class="ico"><i data-lucide="calculator"></i></span><span>COD Margin</span></button>
+          <button class="sbtn" onclick="goSec(1)" id="nb1"><span class="ico"><i data-lucide="bar-chart-3"></i></span><span>Sensitivity</span></button>
+          <button class="sbtn" onclick="goSec(2)" id="nb2"><span class="ico"><i data-lucide="crosshair"></i></span><span>CR×DR</span></button>
+          <button class="sbtn" onclick="goSec(3)" id="nb3"><span class="ico"><i data-lucide="radio"></i></span><span>Funnel</span></button>
+          <button class="sbtn" onclick="goSec(4)" id="nb4"><span class="ico"><i data-lucide="building-2"></i></span><span>P&amp;L</span></button>
+          <button class="sbtn" onclick="goSec(5)" id="nb5"><span class="ico"><i data-lucide="settings-2"></i></span><span>Ad Budget</span></button>
+          <button class="sbtn" onclick="goSec(6)" id="nb6"><span class="ico"><i data-lucide="package"></i></span><span>Compare</span></button>
+          <button class="sbtn" onclick="goSec(7)" id="nb7"><span class="ico"><i data-lucide="droplets"></i></span><span>Working Cap.</span></button>
+          <button class="sbtn" onclick="goSec(8)" id="nb8"><span class="ico"><i data-lucide="mountain"></i></span><span>FFF</span></button>
+          <button class="sbtn" onclick="goSec(9)" id="nb9"><span class="ico"><i data-lucide="map"></i></span><span>Wilayas</span></button>
+        </nav>
+
+        <!-- ══════════════ SEC 0: COD MARGIN ══════════════ -->
+        <section class="sec active" id="sec0">
+          <div class="preset-bar">
+            <span class="preset-lbl"><i data-lucide="zap" style="width:13px;height:13px"></i> Quick presets:</span>
+            <button class="pbtn" onclick="loadPreset('beauty')"><i data-lucide="sparkles"></i> Beauty</button>
+            <button class="pbtn" onclick="loadPreset('clothes')"><i data-lucide="shirt"></i> Clothes</button>
+            <button class="pbtn" onclick="loadPreset('electronics')"><i data-lucide="smartphone"></i> Electronics</button>
+            <button class="pbtn" onclick="loadPreset('health')"><i data-lucide="pill"></i> Health</button>
+            <button class="pbtn" onclick="loadPreset('home')"><i data-lucide="home"></i> Home</button>
+            <button class="pbtn" onclick="loadPreset('food')"><i data-lucide="cookie"></i> Food</button>
+            <span style="flex:1"></span>
+            <button class="pbtn" style="border-color:rgba(62,232,166,.45);color:var(--green)" onclick="saveAllData()"><i data-lucide="save"></i> Save</button>
+            <button class="pbtn" style="border-color:rgba(62,232,166,.45);color:var(--green)" onclick="loadAllData()"><i data-lucide="folder-open"></i> Restore</button>
+          </div>
+
+          <div class="g2" style="gap:16px;">
+            <div>
+              <div class="bd-card">
+                <div class="bd-card-head"><span class="bd-ic green"><i data-lucide="receipt"></i></span><div><div class="bd-card-title">Product details</div><div class="bd-card-sub">What goes into each delivered parcel</div></div></div>
+                <div class="fld"><label class="flbl">Product name</label><input type="text" class="input" id="p_name" value="My main product" oninput="calcMargin()"></div>
+                <div class="g2" style="gap:9px;">
+                  <div class="fld"><label class="flbl">Sell price (COD) — DA</label><div class="iw"><input type="number" class="input iu" id="p_price" value="3500" oninput="calcMargin()"><span class="unit">DA</span></div></div>
+                  <div class="fld"><label class="flbl">Product cost COGS — DA</label><div class="iw"><input type="number" class="input iu" id="p_cogs" value="450" oninput="calcMargin()"><span class="unit">DA</span></div></div>
+                </div>
+                <div class="g2" style="gap:9px;">
+                  <div class="fld"><label class="flbl">Units per parcel</label><div class="iw"><input type="number" class="input iu" id="p_units" value="1" min="1" max="20" oninput="calcMargin()"><span class="unit">u</span></div><div class="fhint">Bundle: 2, 3 units...</div></div>
+                  <div class="fld"><label class="flbl">Parcel weight (g)</label><div class="iw"><input type="number" class="input iu" id="p_weight" value="500" oninput="calcMargin()"><span class="unit">g</span></div><div class="fhint" id="p_weight_hint">Ideal weight — normal shipping fees</div></div>
+                </div>
+                <div class="fld" style="margin-bottom:0;"><label class="flbl">Packaging & prep — DA</label><div class="iw"><input type="number" class="input iu" id="p_pack" value="120" oninput="calcMargin()"><span class="unit">DA</span></div><div class="fhint">Boxes + tape + bubble wrap + labels + labor</div></div>
+              </div>
+
+              <div class="bd-card">
+                <div class="bd-card-head"><span class="bd-ic red"><i data-lucide="truck"></i></span><div><div class="bd-card-title">COD costs — delivery &amp; returns</div><div class="bd-card-sub">The silent killers of COD profitability</div></div></div>
+                <div class="bd-spills" id="deliverySpills">
+                  <button class="bd-spill sel" data-c="yl">Yalidine · 175/220</button>
+                  <button class="bd-spill" data-c="zr">ZR · 150/180 +5%</button>
+                  <button class="bd-spill" data-c="pc">Procolis · 130/160</button>
+                  <button class="bd-spill" data-c="ms">Maystro · 145/190</button>
+                </div>
+                <div class="g2" style="gap:9px;">
+                  <div class="fld"><label class="flbl">Delivery fee — DA/delivered</label><div class="iw"><input type="number" class="input iu" id="p_ship" value="160" oninput="calcMargin()"><span class="unit">DA</span></div><div class="fhint">Yalidine≈175 | ZR≈150 | Procolis≈130 | Maystro≈145</div></div>
+                  <div class="fld"><label class="flbl">Returned parcel cost — DA</label><div class="iw"><input type="number" class="input iu" id="p_ret_cost" value="200" oninput="calcMargin()"><span class="unit">DA</span></div><div class="fhint">Return fee + lost packaging + partial loss</div></div>
+                </div>
+                <div class="g2" style="gap:9px;">
+                  <div class="fld"><label class="flbl">Confirmation rate — CR %</label><div class="sw"><input type="range" id="p_cr" min="30" max="90" step="1" value="65" oninput="syncR('p_cr','p_crv','%');calcMargin()"><div class="sv" id="p_crv">65%</div></div><div class="fhint">Algeria: 60-72% · North beats South</div></div>
+                  <div class="fld"><label class="flbl">Delivery rate — DR %</label><div class="sw"><input type="range" id="p_dr" min="30" max="90" step="1" value="65" oninput="syncR('p_dr','p_drv','%');calcMargin()"><div class="sv" id="p_drv">65%</div></div><div class="fhint">Confirmed → actually delivered</div></div>
+                </div>
+                <div class="fld" style="margin-bottom:0;"><label class="flbl">Carrier commission % of parcel value</label><div class="sw"><input type="range" id="p_comm" min="0" max="8" step="0.5" value="0" oninput="syncR('p_comm','p_commv','%');calcMargin()"><div class="sv" id="p_commv">0%</div></div><div class="fhint">ZR Express sometimes takes 5% of parcel value</div></div>
+              </div>
+
+              <div class="bd-card">
+                <div class="bd-card-head"><span class="bd-ic blue"><i data-lucide="arrow-right-left"></i></span><div><div class="bd-card-title">FX rate — ads are priced in USD</div><div class="bd-card-sub">Parallel market ≈255-265 · bank ≈135 (not used for ads)</div></div></div>
+                <div class="fld" style="margin-bottom:0;"><label class="flbl">USD exchange rate — DA/$</label><div class="sw"><input type="range" id="p_rate" min="200" max="420" step="5" value="260" oninput="syncR('p_rate','p_ratev','');calcMargin()"><div class="sv" id="p_ratev">260</div></div></div>
+              </div>
+
+              <div class="bd-card">
+                <div class="bd-card-head"><span class="bd-ic amber"><i data-lucide="building-2"></i></span><div><div class="bd-card-title">Fixed costs — DA/month</div><div class="bd-card-sub">Rent, software, salaries — what the business burns before a single order</div></div></div>
+                <div class="fld" style="margin-bottom:0;"><label class="flbl">Fixed costs</label><div class="iw"><input type="number" class="input iu" id="p_fixed" value="30000" oninput="calcMargin()"><span class="unit">DA</span></div></div>
+              </div>
+            </div>
+
+            <div>
+              <div class="g4" style="gap:9px;margin-bottom:12px;">
+                <div class="kpi gold"><div class="kpi-l">Delivered parcel cost</div><div class="kpi-v" id="r_total_cost">—</div><div class="kpi-s">COGS+packaging+shipping</div></div>
+                <div class="kpi grn"><div class="kpi-l">Profit/delivered parcel</div><div class="kpi-v" id="r_gp">—</div><div class="kpi-s">before ads</div></div>
+                <div class="kpi blu"><div class="kpi-l">Cost % of price</div><div class="kpi-v" id="r_cost_pct">—</div><div class="kpi-s">of selling price</div></div>
+                <div class="kpi pur"><div class="kpi-l">Delivered margin</div><div class="kpi-v" id="r_margin">—</div><div class="kpi-s">before ads</div></div>
+              </div>
+              <div class="g4" style="gap:9px;margin-bottom:12px;">
+                <div class="kpi tel"><div class="kpi-l">Profit/unit</div><div class="kpi-v" id="r_unit_profit">—</div><div class="kpi-s">if parcel is a bundle</div></div>
+                <div class="kpi org"><div class="kpi-l">Break-even orders/month</div><div class="kpi-v" id="r_be_orders">—</div><div class="kpi-s">to cover fixed costs</div></div>
+                <div class="kpi yel"><div class="kpi-l">Margin vs market</div><div class="kpi-v" id="r_mkt_ratio">—</div><div class="kpi-s">DZ market benchmark 35%</div></div>
+                <div class="kpi grn"><div class="kpi-l">Viability score /100</div><div class="kpi-v" id="r_viability">—</div><div class="kpi-s">margin + CPA + CR×DR</div></div>
+              </div>
+
+              <div class="bd-card">
+                <div class="bd-card-head"><span class="bd-ic red"><i data-lucide="crosshair"></i></span><div><div class="bd-card-title">Break-even CPA — the max you may pay</div><div class="bd-card-sub">In COD we don't use ROAS — we use the max CPA each confirmed lead can carry</div></div></div>
+                <div class="tip info" style="margin-bottom:9px;"><span class="ti"><i data-lucide="lightbulb"></i></span><div>BE-CPA = net profit per confirmed lead before ads = profit × CR × DR − return cost × CR × (1−DR)</div></div>
+                <div class="fmla">
+                  <div class="fr"><span class="frl"><i data-lucide="x-circle" style="width:12px;height:12px;vertical-align:-2px;margin-right:5px;color:var(--red)"></i>BE-CPA break-even (DA)</span><span class="frv" id="r_be_cpa">—</span></div>
+                  <div class="fr"><span class="frl"><i data-lucide="x-circle" style="width:12px;height:12px;vertical-align:-2px;margin-right:5px;color:var(--red)"></i>BE-CPA break-even ($)</span><span class="frv" id="r_be_cpa_usd">—</span></div>
+                  <div class="fr"><span class="frl"><i data-lucide="alert-triangle" style="width:12px;height:12px;vertical-align:-2px;margin-right:5px;color:var(--amber)"></i>CPA for 10% profit on delivered</span><span class="frv" id="r_cpa10">—</span></div>
+                  <div class="fr"><span class="frl"><i data-lucide="trending-up" style="width:12px;height:12px;vertical-align:-2px;margin-right:5px;color:var(--green)"></i>CPA for 20% profit on delivered</span><span class="frv" id="r_cpa20">—</span></div>
+                  <div class="fr"><span class="frl"><i data-lucide="gem" style="width:12px;height:12px;vertical-align:-2px;margin-right:5px;color:var(--teal)"></i>CPA for 30% profit on delivered</span><span class="frv" id="r_cpa30">—</span></div>
+                </div>
+                <div class="hl" id="r_diagnosis"><b>Excellent margin!</b> The product can carry a high CPA.</div>
+                <button class="btn btn-sm btn-o" onclick="copyResults()" style="margin-top:8px;font-size:10px;"><i data-lucide="copy" style="width:12px;height:12px"></i> Copy results</button>
+              </div>
+
+              <div class="bd-card">
+                <div class="bd-card-head"><span class="bd-ic amber"><i data-lucide="chart-pie"></i></span><div><div class="bd-card-title">Three CPA scenarios</div><div class="bd-card-sub">Finance for Founders · base | optimistic | conservative</div></div></div>
+                <div class="tip fff" style="margin-bottom:9px;"><span class="ti"><i data-lucide="book-open"></i></span><div><b>Finance for Founders:</b> always plan 3 scenarios — base, optimistic, conservative.</div></div>
+                <div class="g2" style="gap:8px;margin-bottom:9px;">
+                  <div class="fld"><label class="flbl">Base CPA ($)</label><div class="sw"><input type="range" id="cpa_base" min="0.3" max="5" step="0.1" value="1.2" oninput="syncR('cpa_base','cpa_basev','$');calcMargin()"><div class="sv" id="cpa_basev">1.2$</div></div></div>
+                  <div class="fld"><label class="flbl">Weekly budget ($)</label><div class="iw"><input type="number" class="input iu" id="cpa_budget" value="300" oninput="calcMargin()"><span class="unit">$</span></div></div>
+                </div>
+                <div class="s3grid" id="scenarios3Grid"></div>
+              </div>
+
+              <div class="bd-card">
+                <div class="bd-card-head"><span class="bd-ic blue"><i data-lucide="trending-down"></i></span><div><div class="bd-card-title">100-lead funnel</div><div class="bd-card-sub">What actually happens when 100 leads walk in</div></div></div>
+                <div class="fmla" id="r_funnel_summary"></div>
+              </div>
+
+              <div class="bd-card">
+                <div class="bd-card-head"><span class="bd-ic green"><i data-lucide="trophy"></i></span><div><div class="bd-card-title">Delivered margin gauge</div><div class="bd-card-sub">grade of the delivered-parcel margin</div></div></div>
+                <div class="gauge"><div class="gauge-ptr" id="margin_ptr" style="left:0%"></div></div>
+                <div class="gauge-lbls"><span>Loss</span><span>Weak</span><span>OK</span><span>Good</span><span>Excellent</span></div>
+                <div id="margin_grade" style="text-align:center;margin-top:8px;font-size:11px;color:#64748F;">—</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="g2" style="gap:13px;margin-top:13px;">
+            <div class="bd-card">
+              <div class="bd-card-head"><span class="bd-ic pur"><i data-lucide="receipt"></i></span><div><div class="bd-card-title">Delivered parcel cost breakdown</div><div class="bd-card-sub">Where each DA of a delivered parcel goes</div></div></div>
+              <div class="chw"><canvas id="costChart" height="220"></canvas></div>
+            </div>
+            <div class="bd-card">
+              <div class="bd-card-head"><span class="bd-ic teal"><i data-lucide="truck"></i></span><div><div class="bd-card-title">Algerian carrier comparison</div><div class="bd-card-sub">delivered margin with each carrier at current product costs</div></div></div>
+              <div style="display:flex;flex-direction:column;gap:6px;" id="deliveryCompare"></div>
+              <div class="div"></div>
+              <div class="tip warn"><span class="ti"><i data-lucide="alert-triangle"></i></span><div><b>COD:</b> returns (15-38%) are the biggest enemy of profitability — always price in returned parcels.</div></div>
+            </div>
+          </div>
+          <div class="bnav"><button class="btn btn-p btn-lg" onclick="goSec(1)">Next: Sensitivity table <i data-lucide="arrow-right"></i></button></div>
+        </section>
+
+        <!-- ══════════════ SEC 1: SENSITIVITY ══════════════ -->
+        <section class="sec" id="sec1">
+          <div class="bd-card">
+            <div class="bd-card-head"><span class="bd-ic blue"><i data-lucide="bar-chart-3"></i></span><div><div class="bd-card-title">CPA sensitivity table</div><div class="bd-card-sub">Budget rows ($/week) vs CPA columns ($) — profit after 30 days, from the COD Margin tab</div></div></div>
+            <div class="tip info" style="margin-bottom:9px;"><span class="ti"><i data-lucide="lightbulb"></i></span><div><b>Read it like this:</b> pick your budget row → follow the column to the CPA your campaigns actually hit → that cell is your projected profit.</div></div>
+            <div class="g2" style="gap:9px;margin-bottom:10px;">
+              <div class="fld"><label class="flbl">Price — DA</label><div class="iw"><input type="number" class="input iu" id="t1_price" value="3500" oninput="calcSens()"><span class="unit">DA</span></div></div>
+              <div class="fld"><label class="flbl">CPA step ($)</label><div class="iw"><input type="number" class="input iu" id="t1_cpa_step" value="0.4" min="0.1" step="0.1" oninput="calcSens()"><span class="unit">$</span></div></div>
+            </div>
+            <div class="sens-wrap"><table class="sens-tbl" id="sensTbl"></table></div>
+            <div class="fhint" style="margin-top:8px;">Cells colored vs your break-even: <span style="display:inline-block;width:9px;height:9px;border-radius:2px;background:var(--red);vertical-align:-1px"></span> below BE · <span style="display:inline-block;width:9px;height:9px;border-radius:2px;background:var(--green-600);vertical-align:-1px"></span> up to 20% · <span style="display:inline-block;width:9px;height:9px;border-radius:2px;background:var(--teal);vertical-align:-1px"></span> 20-35% · <span style="display:inline-block;width:9px;height:9px;border-radius:2px;background:var(--pur);vertical-align:-1px"></span> above 35% margin.</div>
+          </div>
+          <div class="bnav">
+            <button class="btn btn-o" onclick="goSec(0)"><i data-lucide="arrow-left"></i> COD Margin</button>
+            <button class="btn btn-p btn-lg" onclick="goSec(2)">Next: CR×DR scenarios <i data-lucide="arrow-right"></i></button>
+          </div>
+        </section>
+
+        <!-- ══════════════ SEC 2: CR×DR ══════════════ -->
+        <section class="sec" id="sec2">
+          <div class="bd-card">
+            <div class="bd-card-head"><span class="bd-ic amber"><i data-lucide="crosshair"></i></span><div><div class="bd-card-title">CR × DR scenarios grid</div><div class="bd-card-sub">What your confirmation &amp; delivery rates do to each confirmed lead — 9 combinations</div></div></div>
+            <div class="tip warn" style="margin-bottom:9px;"><span class="ti"><i data-lucide="alert-triangle"></i></span><div><b>Rules of the grid:</b> confirmed leads have no shipping fee (it's only paid on delivery). Returned parcels cost you the return fee + lost costs + lost parcel value.</div></div>
+            <div class="g2" style="gap:9px;">
+              <div class="fld"><label class="flbl">CR values — %</label><div class="sw"><input type="range" id="t2_cr" min="50" max="75" step="1" value="65" oninput="syncR('t2_cr','t2_crv','%');calcScenarios()"><div class="sv" id="t2_crv">65%</div></div></div>
+              <div class="fld"><label class="flbl">DR values — %</label><div class="sw"><input type="range" id="t2_dr" min="50" max="75" step="1" value="65" oninput="syncR('t2_dr','t2_drv','%');calcScenarios()"><div class="sv" id="t2_drv">65%</div></div></div>
+            </div>
+            <div class="s3grid" id="grid9" style="grid-template-columns:repeat(3,1fr)"></div>
+          </div>
+          <div class="bnav">
+            <button class="btn btn-o" onclick="goSec(1)"><i data-lucide="arrow-left"></i> Sensitivity</button>
+            <button class="btn btn-p btn-lg" onclick="goSec(3)">Next: Funnel <i data-lucide="arrow-right"></i></button>
+          </div>
+        </section>
+
+        <!-- ══════════════ SEC 3: FUNNEL ══════════════ -->
+        <section class="sec" id="sec3">
+          <div class="bd-card">
+            <div class="bd-card-head"><span class="bd-ic blue"><i data-lucide="radio"></i></span><div><div class="bd-card-title">100-lead funnel — profit per stage</div><div class="bd-card-sub">The full accounting of what 100 leads really make, including returns and fixed costs</div></div></div>
+            <div class="g2" style="gap:9px;margin-bottom:10px;">
+              <div class="fld"><label class="flbl">Leads</label><div class="iw"><input type="number" class="input iu" id="f_leads" value="100" min="1" oninput="calcFunnel()"><span class="unit">lead</span></div></div>
+              <div class="fld"><label class="flbl">CPA ($)</label><div class="sw"><input type="range" id="f_cpa" min="0.3" max="5" step="0.1" value="1.2" oninput="syncR('f_cpa','f_cpav','$');calcFunnel()"><div class="sv" id="f_cpav">1.2$</div></div></div>
+            </div>
+            <div class="g2" style="gap:9px;margin-bottom:10px;">
+              <div class="fld"><label class="flbl">Fixed costs — DA/month</label><div class="iw"><input type="number" class="input iu" id="f_fixed" value="30000" oninput="calcFunnel()"><span class="unit">DA</span></div></div>
+              <div class="fld"><label class="flbl">Conversion flow</label><div class="sw"><input type="range" id="f_units" min="1" max="10" step="1" value="1" oninput="syncR('f_units','f_unitsv','×');calcFunnel()"><div class="sv" id="f_unitsv">1×</div></div></div>
+            </div>
+            <div class="funnel" id="funnel"></div>
+            <div class="fhint" style="margin-top:8px;">Delivered = confirmed − refused at the door. Refused parcels pay the return fee + lose the product value + lose all their costs.</div>
+          </div>
+          <div class="bnav">
+            <button class="btn btn-o" onclick="goSec(2)"><i data-lucide="arrow-left"></i> CR×DR</button>
+            <button class="btn btn-p btn-lg" onclick="goSec(4)">Next: P&L <i data-lucide="arrow-right"></i></button>
+          </div>
+        </section>
+
+        <!-- ══════════════ SEC 4: P&L ══════════════ -->
+        <section class="sec" id="sec4">
+          <div class="bd-card">
+            <div class="bd-card-head"><span class="bd-ic green"><i data-lucide="building-2"></i></span><div><div class="bd-card-title">Business P&amp;L — full accounting</div><div class="bd-card-sub">Fixed costs, ad spend, product cost, delivery, returns — what's left as profit</div></div></div>
+            <div class="g2" style="gap:9px;">
+              <div class="fld"><label class="flbl">Sell price — DA</label><div class="iw"><input type="number" class="input iu" id="pl_price" value="3500" oninput="calcPL()"><span class="unit">DA</span></div></div>
+              <div class="fld"><label class="flbl">Target revenue — DA</label><div class="iw"><input type="number" class="input iu" id="pl_target" value="1000000" oninput="calcPL()"><span class="unit">DA</span></div></div>
+            </div>
+            <div class="g2" style="gap:9px;">
+              <div class="fld"><label class="flbl">Threshold CR — %</label><div class="sw"><input type="range" id="pl_cr" min="50" max="75" step="1" value="65" oninput="syncR('pl_cr','pl_crv','%');calcPL()"><div class="sv" id="pl_crv">65%</div></div></div>
+              <div class="fld"><label class="flbl">Threshold DR — %</label><div class="sw"><input type="range" id="pl_dr" min="50" max="75" step="1" value="65" oninput="syncR('pl_dr','pl_drv','%');calcPL()"><div class="sv" id="pl_drv">65%</div></div></div>
+            </div>
+            <div class="g2" style="gap:9px;">
+              <div class="fld"><label class="flbl">Ads % of revenue</label><div class="sw"><input type="range" id="pl_ads" min="0" max="60" step="5" value="20" oninput="syncR('pl_ads','pl_adsv','%');calcPL()"><div class="sv" id="pl_adsv">20%</div></div></div>
+              <div class="fld"><label class="flbl">Fixed costs — DA</label><div class="iw"><input type="number" class="input iu" id="pl_fixed" value="30000" oninput="calcPL()"><span class="unit">DA</span></div></div>
+            </div>
+            <div class="div"></div>
+            <div class="g4" style="gap:9px;margin-bottom:10px;">
+              <div class="kpi gold"><div class="kpi-l">Ads % of revenue</div><div class="kpi-v" id="pl_ads_pct">—</div><div class="kpi-s">healthy &lt; 25%</div></div>
+              <div class="kpi grn"><div class="kpi-l">Net margin %</div><div class="kpi-v" id="pl_net_margin">—</div><div class="kpi-s">of revenue</div></div>
+              <div class="kpi blu"><div class="kpi-l">Net profit</div><div class="kpi-v" id="pl_net_profit">—</div><div class="kpi-s">DA</div></div>
+              <div class="kpi pur"><div class="kpi-l">Max CPA</div><div class="kpi-v" id="pl_max_cpa">—</div><div class="kpi-s">to hit margin</div></div>
+            </div>
+            <div class="g2" style="gap:10px;">
+              <div class="chw"><canvas id="plChart" height="220"></canvas></div>
+              <div class="bd-panel">
+                <div class="fmla">
+                  <div class="fr"><span class="frl"><i data-lucide="wallet" style="width:12px;height:12px;vertical-align:-2px;margin-right:5px"></i>A/B test budget — 5%</span><span class="frv" id="pl_ab_test">—</span></div>
+                  <div class="fr"><span class="frl"><i data-lucide="trending-up" style="width:12px;height:12px;vertical-align:-2px;margin-right:5px"></i>Scale budget — 15%</span><span class="frv" id="pl_scale">—</span></div>
+                  <div class="fr"><span class="frl"><i data-lucide="bar-chart-3" style="width:12px;height:12px;vertical-align:-2px;margin-right:5px"></i>Max CPA (ad budget ÷ deliveries)</span><span class="frv" id="pl_max_cpa2">—</span></div>
+                  <div class="fr"><span class="frl"><i data-lucide="octagon" style="width:12px;height:12px;vertical-align:-2px;margin-right:5px"></i>Stop CPA (below = stop losing)</span><span class="frv" id="pl_stop_cpa">—</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bnav">
+            <button class="btn btn-o" onclick="goSec(3)"><i data-lucide="arrow-left"></i> Funnel</button>
+            <button class="btn btn-p btn-lg" onclick="goSec(5)">Next: Ad Budget <i data-lucide="arrow-right"></i></button>
+          </div>
+        </section>
+
+        <!-- ══════════════ SEC 5: AD BUDGET ══════════════ -->
+        <section class="sec" id="sec5">
+          <div class="bd-card">
+            <div class="bd-card-head"><span class="bd-ic red"><i data-lucide="settings-2"></i></span><div><div class="bd-card-title">Campaign budget allocation — the 4-platform plan</div><div class="bd-card-sub">Split your monthly ad budget across FB/IG, TikTok, Snapchat + reserve. Max &amp; stop CPA per platform.</div></div></div>
+            <div class="g2" style="gap:9px;">
+              <div class="fld"><label class="flbl">Monthly ad budget ($)</label><div class="iw"><input type="number" class="input iu" id="cb_budget" value="3000" oninput="calcCampaign()"><span class="unit">$</span></div></div>
+              <div class="fld"><label class="flbl">Target DR %</label><div class="sw"><input type="range" id="cb_dr" min="50" max="80" step="1" value="65" oninput="syncR('cb_dr','cb_drv','%');calcCampaign()"><div class="sv" id="cb_drv">65%</div></div></div>
+            </div>
+            <div class="fld" style="margin-bottom:10px;"><label class="flbl">Target ROAS — revenue per ad dollar</label><div class="sw"><input type="range" id="cb_roas" min="1" max="5" step="0.1" value="2.5" oninput="syncR('cb_roas','cb_roasv','×');calcCampaign()"><div class="sv" id="cb_roasv">2.5×</div></div></div>
+            <div class="g2" style="gap:10px;">
+              <div class="plat-card fb">
+                <div class="plat-head"><span class="plat-ic"><i data-lucide="facebook"></i></span><div><div class="plat-title">Facebook &amp; Instagram</div><div class="plat-sub">The DZ volume king — cheap clicks, big scale</div></div></div>
+                <div class="fld"><label class="flbl">% of budget</label><div class="sw"><input type="range" id="cb_fb_pct" min="0" max="100" step="5" value="50" oninput="syncR('cb_fb_pct','cb_fb_pctv','%');calcCampaign()"><div class="sv" id="cb_fb_pctv">50%</div></div></div>
+                <div class="fld"><label class="flbl">Avg CPA ($)</label><div class="iw"><input type="number" class="input iu" id="cb_fb_cpa" value="1.2" step="0.1" oninput="calcCampaign()"><span class="unit">$</span></div></div>
+                <div class="plat-out">
+                  <div class="fr"><span class="frl">Budget</span><span class="frv" id="cb_fb_budget">—</span></div>
+                  <div class="fr"><span class="frl">Expected leads</span><span class="frv" id="cb_fb_leads">—</span></div>
+                  <div class="fr"><span class="frl">Max CPA</span><span class="frv" id="cb_fb_max">—</span></div>
+                  <div class="fr"><span class="frl">Stop CPA</span><span class="frv" id="cb_fb_stop">—</span></div>
+                </div>
+              </div>
+              <div class="plat-card tt">
+                <div class="plat-head"><span class="plat-ic"><i data-lucide="music-2"></i></span><div><div class="plat-title">TikTok</div><div class="plat-sub">Creative-driven bursts — great for impulse COD</div></div></div>
+                <div class="fld"><label class="flbl">% of budget</label><div class="sw"><input type="range" id="cb_tt_pct" min="0" max="100" step="5" value="25" oninput="syncR('cb_tt_pct','cb_tt_pctv','%');calcCampaign()"><div class="sv" id="cb_tt_pctv">25%</div></div></div>
+                <div class="fld"><label class="flbl">Avg CPA ($)</label><div class="iw"><input type="number" class="input iu" id="cb_tt_cpa" value="1.4" step="0.1" oninput="calcCampaign()"><span class="unit">$</span></div></div>
+                <div class="plat-out">
+                  <div class="fr"><span class="frl">Budget</span><span class="frv" id="cb_tt_budget">—</span></div>
+                  <div class="fr"><span class="frl">Expected leads</span><span class="frv" id="cb_tt_leads">—</span></div>
+                  <div class="fr"><span class="frl">Max CPA</span><span class="frv" id="cb_tt_max">—</span></div>
+                  <div class="fr"><span class="frl">Stop CPA</span><span class="frv" id="cb_tt_stop">—</span></div>
+                </div>
+              </div>
+              <div class="plat-card snap">
+                <div class="plat-head"><span class="plat-ic"><i data-lucide="ghost"></i></span><div><div class="plat-title">Snapchat</div><div class="plat-sub">Young, regional — underused in DZ COD</div></div></div>
+                <div class="fld"><label class="flbl">% of budget</label><div class="sw"><input type="range" id="cb_sc_pct" min="0" max="100" step="5" value="15" oninput="syncR('cb_sc_pct','cb_sc_pctv','%');calcCampaign()"><div class="sv" id="cb_sc_pctv">15%</div></div></div>
+                <div class="fld"><label class="flbl">Avg CPA ($)</label><div class="iw"><input type="number" class="input iu" id="cb_sc_cpa" value="1.1" step="0.1" oninput="calcCampaign()"><span class="unit">$</span></div></div>
+                <div class="plat-out">
+                  <div class="fr"><span class="frl">Budget</span><span class="frv" id="cb_sc_budget">—</span></div>
+                  <div class="fr"><span class="frl">Expected leads</span><span class="frv" id="cb_sc_leads">—</span></div>
+                  <div class="fr"><span class="frl">Max CPA</span><span class="frv" id="cb_sc_max">—</span></div>
+                  <div class="fr"><span class="frl">Stop CPA</span><span class="frv" id="cb_sc_stop">—</span></div>
+                </div>
+              </div>
+              <div class="plat-card">
+                <div class="plat-head"><span class="plat-ic"><i data-lucide="wallet"></i></span><div><div class="plat-title">Reserve — buffer</div><div class="plat-sub">Untouched buffer for scaling bets &amp; creative tests</div></div></div>
+                <div class="fld"><label class="flbl">% of budget</label><div class="sw"><input type="range" id="cb_rv_pct" min="0" max="100" step="5" value="10" oninput="syncR('cb_rv_pct','cb_rv_pctv','%');calcCampaign()"><div class="sv" id="cb_rv_pctv">10%</div></div></div>
+                <div class="plat-out">
+                  <div class="fr"><span class="frl">Reserved</span><span class="frv" id="cb_rv_budget">—</span></div>
+                  <div class="fr"><span class="frl">Budget left</span><span class="frv" id="cb_left">—</span></div>
+                  <div class="fr"><span class="frl">Total leads</span><span class="frv" id="cb_total_leads">—</span></div>
+                  <div class="fr"><span class="frl">Avg CPA</span><span class="frv" id="cb_avg_cpa">—</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bnav">
+            <button class="btn btn-o" onclick="goSec(4)"><i data-lucide="arrow-left"></i> P&L</button>
+            <button class="btn btn-p btn-lg" onclick="goSec(6)">Next: Compare <i data-lucide="arrow-right"></i></button>
+          </div>
+        </section>
+
+        <!-- ══════════════ SEC 6: COMPARE ══════════════ -->
+        <section class="sec" id="sec6">
+          <div class="bd-card">
+            <div class="bd-card-head"><span class="bd-ic amber"><i data-lucide="package"></i></span><div><div class="bd-card-title">Product comparison — pick the winner</div><div class="bd-card-sub">Compare 3 products on margin, break-even CPA, CR×DR and weight — radar + verdict</div></div></div>
+            <div class="g3" style="gap:10px;margin-bottom:10px;">
+              <div class="prod-col" id="prod0">
+                <div class="prod-head">Product 1</div>
+                <div class="fld"><label class="flbl">Name</label><input type="text" class="input" id="pc0_name" value="Starter" oninput="calcProdComp()"></div>
+                <div class="fld"><label class="flbl">Price</label><div class="iw"><input type="number" class="input iu" id="pc0_price" value="3500" oninput="calcProdComp()"><span class="unit">DA</span></div></div>
+                <div class="fld"><label class="flbl">Cost</label><div class="iw"><input type="number" class="input iu" id="pc0_cost" value="1500" oninput="calcProdComp()"><span class="unit">DA</span></div></div>
+                <div class="fld"><label class="flbl">CR %</label><div class="sw"><input type="range" id="pc0_cr" min="30" max="90" step="1" value="65" oninput="syncR('pc0_cr','pc0_crv','%');calcProdComp()"><div class="sv" id="pc0_crv">65%</div></div></div>
+                <div class="fld"><label class="flbl">DR %</label><div class="sw"><input type="range" id="pc0_dr" min="30" max="90" step="1" value="65" oninput="syncR('pc0_dr','pc0_drv','%');calcProdComp()"><div class="sv" id="pc0_drv">65%</div></div></div>
+                <div class="fld"><label class="flbl">Weight (g)</label><div class="iw"><input type="number" class="input iu" id="pc0_weight" value="500" oninput="calcProdComp()"><span class="unit">g</span></div></div>
+              </div>
+              <div class="prod-col" id="prod1">
+                <div class="prod-head">Product 2</div>
+                <div class="fld"><label class="flbl">Name</label><input type="text" class="input" id="pc1_name" value="Middle" oninput="calcProdComp()"></div>
+                <div class="fld"><label class="flbl">Price</label><div class="iw"><input type="number" class="input iu" id="pc1_price" value="2800" oninput="calcProdComp()"><span class="unit">DA</span></div></div>
+                <div class="fld"><label class="flbl">Cost</label><div class="iw"><input type="number" class="input iu" id="pc1_cost" value="900" oninput="calcProdComp()"><span class="unit">DA</span></div></div>
+                <div class="fld"><label class="flbl">CR %</label><div class="sw"><input type="range" id="pc1_cr" min="30" max="90" step="1" value="62" oninput="syncR('pc1_cr','pc1_crv','%');calcProdComp()"><div class="sv" id="pc1_crv">62%</div></div></div>
+                <div class="fld"><label class="flbl">DR %</label><div class="sw"><input type="range" id="pc1_dr" min="30" max="90" step="1" value="68" oninput="syncR('pc1_dr','pc1_drv','%');calcProdComp()"><div class="sv" id="pc1_drv">68%</div></div></div>
+                <div class="fld"><label class="flbl">Weight (g)</label><div class="iw"><input type="number" class="input iu" id="pc1_weight" value="800" oninput="calcProdComp()"><span class="unit">g</span></div></div>
+              </div>
+              <div class="prod-col" id="prod2">
+                <div class="prod-head">Product 3</div>
+                <div class="fld"><label class="flbl">Name</label><input type="text" class="input" id="pc2_name" value="Premium" oninput="calcProdComp()"></div>
+                <div class="fld"><label class="flbl">Price</label><div class="iw"><input type="number" class="input iu" id="pc2_price" value="5000" oninput="calcProdComp()"><span class="unit">DA</span></div></div>
+                <div class="fld"><label class="flbl">Cost</label><div class="iw"><input type="number" class="input iu" id="pc2_cost" value="2200" oninput="calcProdComp()"><span class="unit">DA</span></div></div>
+                <div class="fld"><label class="flbl">CR %</label><div class="sw"><input type="range" id="pc2_cr" min="30" max="90" step="1" value="58" oninput="syncR('pc2_cr','pc2_crv','%');calcProdComp()"><div class="sv" id="pc2_crv">58%</div></div></div>
+                <div class="fld"><label class="flbl">DR %</label><div class="sw"><input type="range" id="pc2_dr" min="30" max="90" step="1" value="72" oninput="syncR('pc2_dr','pc2_drv','%');calcProdComp()"><div class="sv" id="pc2_drv">72%</div></div></div>
+                <div class="fld"><label class="flbl">Weight (g)</label><div class="iw"><input type="number" class="input iu" id="pc2_weight" value="1200" oninput="calcProdComp()"><span class="unit">g</span></div></div>
+              </div>
+            </div>
+            <div class="tip info" style="margin-bottom:9px;"><span class="ti"><i data-lucide="lightbulb"></i></span><div><b>Weight penalty:</b> parcels over ~1kg start climbing carrier tiers — check the delivery fee of each carrier.</div></div>
+            <div class="g2" style="gap:10px;">
+              <div class="chw"><canvas id="radarChart" height="260"></canvas></div>
+              <div class="bd-panel">
+                <div class="sec-h" style="margin-top:0"><i data-lucide="trophy"></i> Verdict</div>
+                <div class="fmla" id="prodBest"></div>
+                <div class="chw" style="margin-top:8px;"><canvas id="prodBar" height="150"></canvas></div>
+              </div>
+            </div>
+          </div>
+          <div class="bnav">
+            <button class="btn btn-o" onclick="goSec(5)"><i data-lucide="arrow-left"></i> Ad Budget</button>
+            <button class="btn btn-p btn-lg" onclick="goSec(7)">Next: Working Capital <i data-lucide="arrow-right"></i></button>
+          </div>
+        </section>
+
+        <!-- ══════════════ SEC 7: WORKING CAPITAL ══════════════ -->
+        <section class="sec" id="sec7">
+          <div class="bd-card">
+            <div class="bd-card-head"><span class="bd-ic blue"><i data-lucide="droplets"></i></span><div><div class="bd-card-title">Working capital — cash-flow runway</div><div class="bd-card-sub">How much cash do you need before the money comes back from the courier? COD is a cash-hungry game.</div></div></div>
+            <div class="g2" style="gap:9px;">
+              <div class="fld"><label class="flbl">Orders per week</label><div class="iw"><input type="number" class="input iu" id="wc_orders" value="50" min="1" oninput="calcWC()"><span class="unit">order</span></div></div>
+              <div class="fld"><label class="flbl">Price — DA</label><div class="iw"><input type="number" class="input iu" id="wc_price" value="3500" oninput="calcWC()"><span class="unit">DA</span></div></div>
+            </div>
+            <div class="g2" style="gap:9px;">
+              <div class="fld"><label class="flbl">Product cost — DA</label><div class="iw"><input type="number" class="input iu" id="wc_cost" value="450" oninput="calcWC()"><span class="unit">DA</span></div></div>
+              <div class="fld"><label class="flbl">Packaging — DA</label><div class="iw"><input type="number" class="input iu" id="wc_pack" value="120" oninput="calcWC()"><span class="unit">DA</span></div></div>
+            </div>
+            <div class="g2" style="gap:9px;margin-bottom:10px;">
+              <div class="fld"><label class="flbl">Ship fee — DA</label><div class="iw"><input type="number" class="input iu" id="wc_ship" value="160" oninput="calcWC()"><span class="unit">DA</span></div></div>
+              <div class="fld"><label class="flbl">FX — DA/$</label><div class="sw"><input type="range" id="wc_rate" min="200" max="420" step="5" value="260" oninput="syncR('wc_rate','wc_ratev','');calcWC()"><div class="sv" id="wc_ratev">260</div></div></div>
+            </div>
+            <div class="tip warn" style="margin-bottom:10px;"><span class="ti"><i data-lucide="alert-triangle"></i></span><div><b>COD cash lag:</b> couriers settle in ~1-2 weeks. You pay product + ads + packaging upfront, then wait. Count at least 2 weeks of capital.</div></div>
+            <div class="g4" style="gap:9px;margin-bottom:10px;">
+              <div class="kpi gold"><div class="kpi-l">Weekly outflow</div><div class="kpi-v" id="wc_outflow">—</div><div class="kpi-s">product+pack+ship</div></div>
+              <div class="kpi red"><div class="kpi-l">Weekly cash needed</div><div class="kpi-v" id="wc_cash_need">—</div><div class="kpi-s">+ads, worst case</div></div>
+              <div class="kpi grn"><div class="kpi-l">Capital 2 weeks</div><div class="kpi-v" id="wc_capital">—</div><div class="kpi-s">recommended buffer</div></div>
+              <div class="kpi blu"><div class="kpi-l">Recovered / week</div><div class="kpi-v" id="wc_recovered">—</div><div class="kpi-s">delivered revenue</div></div>
+            </div>
+            <div class="sec-h"><i data-lucide="droplets"></i> Weekly cash-flow — 8 weeks</div>
+            <div class="cf-timeline" id="wcTimeline"></div>
+            <div class="sec-h"><i data-lucide="mountain"></i> Capital phases</div>
+            <div class="g3" style="gap:9px;" id="wcPhases"></div>
+          </div>
+          <div class="bnav">
+            <button class="btn btn-o" onclick="goSec(6)"><i data-lucide="arrow-left"></i> Compare</button>
+            <button class="btn btn-p btn-lg" onclick="goSec(8)">Next: FFF <i data-lucide="arrow-right"></i></button>
+          </div>
+        </section>
+
+        <!-- ══════════════ SEC 8: FFF ══════════════ -->
+        <section class="sec" id="sec8">
+          <div class="bd-card">
+            <div class="bd-card-head"><span class="bd-ic amber"><i data-lucide="mountain"></i></span><div><div class="bd-card-title">Finance for Founders — the launch dashboard</div><div class="bd-card-sub">The discipline sheet: scenarios, breakeven, 9-grid health, launch checklist</div></div></div>
+            <div class="g2" style="gap:9px;">
+              <div class="fld"><label class="flbl">Budget to launch — DA</label><div class="iw"><input type="number" class="input iu" id="fff_budget" value="100000" oninput="renderFFF()"><span class="unit">DA</span></div></div>
+              <div class="fld"><label class="flbl">Price — DA</label><div class="iw"><input type="number" class="input iu" id="fff_price" value="3500" oninput="renderFFF()"><span class="unit">DA</span></div></div>
+            </div>
+            <div class="g2" style="gap:9px;margin-bottom:10px;">
+              <div class="fld"><label class="flbl">Budget to ads — %</label><div class="sw"><input type="range" id="fff_ads_pct" min="0" max="100" step="5" value="30" oninput="syncR('fff_ads_pct','fff_ads_pctv','%');renderFFF()"><div class="sv" id="fff_ads_pctv">30%</div></div></div>
+              <div class="fld"><label class="flbl">Orders to test</label><div class="iw"><input type="number" class="input iu" id="fff_orders" value="50" min="1" oninput="renderFFF()"><span class="unit">order</span></div></div>
+            </div>
+            <div class="sec-h"><i data-lucide="mountain"></i> The capital pyramid</div>
+            <div class="pyr" id="fffPyramid"></div>
+            <div class="sec-h"><i data-lucide="crosshair"></i> 9-grid health check (FFF scenario, price, margin)</div>
+            <div class="s3grid" id="fffGrid9" style="grid-template-columns:repeat(3,1fr)"></div>
+            <div class="sec-h"><i data-lucide="check-square"></i> Launch checklist</div>
+            <div class="chk-list" id="fffChecklist"></div>
+          </div>
+          <div class="bnav">
+            <button class="btn btn-o" onclick="goSec(7)"><i data-lucide="arrow-left"></i> Working Capital</button>
+            <button class="btn btn-p btn-lg" onclick="goSec(9)">Next: Wilayas <i data-lucide="arrow-right"></i></button>
+          </div>
+        </section>
+
+        <!-- ══════════════ SEC 9: WILAYAS & SEASONS ══════════════ -->
+        <section class="sec" id="sec9">
+          <div class="bd-card">
+            <div class="bd-card-head"><span class="bd-ic green"><i data-lucide="map"></i></span><div><div class="bd-card-title">Wilayas &amp; seasons — where and when to sell</div><div class="bd-card-sub">58 wilayas with realistic delivery-rate (DR) snapshots 48-83%, best fits per product, and the 12-month season map</div></div></div>
+            <div class="tip info" style="margin-bottom:9px;"><span class="ti"><i data-lucide="lightbulb"></i></span><div><b>Why wilayas matter:</b> North-coast cities confirm and deliver much better than the deep south. Spend where DR is highest, restructure delivery where it isn't.</div></div>
+            <div class="fld"><label class="flbl">Your product — DA</label><div class="iw"><input type="number" class="input iu" id="w_price" value="3500" oninput="buildWilayas()"><span class="unit">DA</span></div></div>
+            <div class="sec-h"><i data-lucide="map"></i> 58 wilayas — DR snapshot</div>
+            <div class="wilaya-grid" id="wilayaGrid"></div>
+            <div class="g2" style="gap:10px;margin-top:12px;">
+              <div class="bd-panel">
+                <div class="sec-h" style="margin-top:0"><i data-lucide="trophy"></i> Best wilayas for your price</div>
+                <div class="fmla" id="bestWilayas"></div>
+              </div>
+              <div class="bd-panel">
+                <div class="sec-h" style="margin-top:0"><i data-lucide="medal"></i> Best product per zone</div>
+                <div class="fmla" id="zoneProducts"></div>
+              </div>
+            </div>
+            <div class="sec-h"><i data-lucide="calendar-range"></i> 12-month season map (DZ COD demand + ad-cost line)</div>
+            <div class="season-wrap" id="seasonChart"></div>
+            <div class="g2" style="gap:10px;margin-top:12px;">
+              <div class="bd-panel">
+                <div class="sec-h" style="margin-top:0"><i data-lucide="calendar-days"></i> Monthly demand</div>
+                <div class="fmla" id="monthlyTable"></div>
+              </div>
+              <div class="chw"><canvas id="seasonDonut" height="220"></canvas></div>
+            </div>
+            <div class="sec-h"><i data-lucide="message-circle"></i> The CODer's seasonal playbook</div>
+            <div class="fmla" id="seasonPlaybook"></div>
+          </div>
+          <div class="bnav">
+            <button class="btn btn-o" onclick="goSec(8)"><i data-lucide="arrow-left"></i> FFF</button>
+          </div>
+        </section>
+      </main>
+
+      <footer class="pt-6 mt-8 flex flex-wrap items-center justify-between gap-2 border-t text-[11.5px]" style="border-color:#1F2B45;color:#64748F">
+        <span>Punchline — AI Marketing Intelligence · COD Margin Breakdown</span>
+        <span class="pill gray">Ported from COD الجزائر Pro v3 · no server needed</span>
+        <span>Returns (15-38%) are the biggest enemy of COD profit — always price them in.</span>
+      </footer>
+    </div>
+  </div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/breakdown.js"></script>
+</body>
+</html>

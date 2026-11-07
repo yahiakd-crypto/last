@@ -39,6 +39,9 @@ import { ProductsPage } from './components/products/ProductsPage';
 import { AppSidebar } from './components/navigation/AppSidebar';
 import { LandingPageGeneratorApp } from './components/board/LandingPageGeneratorApp';
 import { AdTrackerPage } from './components/ad-tracker/AdTrackerPage';
+import { CODBreakdownCalculatorPage } from './components/calculator/CODBreakdownCalculatorPage';
+import { GlobalSourcingPage } from './components/sourcing/GlobalSourcingPage';
+import { ClonedAppViewer } from './components/navigation/ClonedAppViewer';
 import { ErrorBoundary } from './components/common/ErrorBoundary';
 
 export type AppView =
@@ -56,12 +59,16 @@ export type AppView =
   | 'automation'
   | 'reports'
   | 'settings'
-  | 'landing-page';
+  | 'landing-page'
+  | 'breakdown'
+  | 'sourcing'
+  | 'cloned-app';
 
 export default function App() {
   // View mode: 'board' immediately displays the new Board matching image_ca6855fc.png!
   const [activeView, setActiveView] = useState<AppView>('board');
   const [activeSubItem, setActiveSubItem] = useState<string>('videos');
+  const [clonedAppUrl, setClonedAppUrl] = useState<string>('erp.html');
 
   // Multi-canvas library management
   const [canvases, setCanvases] = useState<WorkflowProject[]>(() => loadCanvasesFromStorage());
@@ -272,6 +279,21 @@ export default function App() {
 
   // Cross-app navigation handler for all views & tabs
   const handleNavigate = (view: string, subItem?: string) => {
+    if (view === 'cloned-app' && subItem) {
+      setClonedAppUrl(subItem);
+      setActiveView('cloned-app');
+      return;
+    }
+    if (view.endsWith('.html')) {
+      setClonedAppUrl(view);
+      setActiveView('cloned-app');
+      return;
+    }
+    if (subItem && subItem.endsWith('.html')) {
+      setClonedAppUrl(subItem);
+      setActiveView('cloned-app');
+      return;
+    }
     if (view === 'board') {
       setActiveView('board');
       if (subItem) setActiveSubItem(subItem);
@@ -287,6 +309,12 @@ export default function App() {
       if (subItem) setActiveSubItem(subItem);
     } else if (view === 'orders' || view === 'orders-cod') {
       setActiveView('orders-cod');
+    } else if (view === 'breakdown') {
+      setClonedAppUrl('breakdown.html');
+      setActiveView('cloned-app');
+    } else if (view === 'sourcing') {
+      setClonedAppUrl('global-sourcing.html');
+      setActiveView('cloned-app');
     } else if (view === 'automation') {
       setActiveView('automation');
     } else if (view === 'reports') {
@@ -612,8 +640,14 @@ export default function App() {
 
   return (
     <div className="w-screen h-screen flex flex-col bg-slate-50 font-sans text-slate-900 overflow-hidden select-none">
-      {/* 0. BOARD PAGE (Matching User Uploaded image_ca6855fc.png) */}
-      {activeView === 'board' ? (
+      {/* CLONED APP FULL-SCREEN VIEWER (Main Sidebar is CLOSED/HIDDEN; shows the cloned app with its own sidebar & all titles) */}
+      {activeView === 'cloned-app' ? (
+        <ClonedAppViewer
+          initialUrl={clonedAppUrl}
+          onBackToBoard={() => setActiveView('board')}
+        />
+      ) : activeView === 'board' ? (
+        /* 0. BOARD PAGE (Matching User Uploaded image_ca6855fc.png) */
         <BoardPage
           onNavigateHome={() => handleNavigate('dashboard')}
           onNavigateToView={handleNavigate}
@@ -696,6 +730,18 @@ export default function App() {
       ) : activeView === 'reports' ? (
         /* 6. REPORTS PAGE */
         <ReportsPage
+          onNavigate={handleNavigate}
+          onOpenSearchModal={() => setIsSearchOpen(true)}
+        />
+      ) : activeView === 'breakdown' ? (
+        /* 6.5. COD MARGIN & CPA BREAKDOWN CALCULATOR */
+        <CODBreakdownCalculatorPage
+          onNavigate={handleNavigate}
+          onOpenSearchModal={() => setIsSearchOpen(true)}
+        />
+      ) : activeView === 'sourcing' ? (
+        /* 6.6. GLOBAL SOURCING INTELLIGENCE */
+        <GlobalSourcingPage
           onNavigate={handleNavigate}
           onOpenSearchModal={() => setIsSearchOpen(true)}
         />
@@ -852,6 +898,7 @@ export default function App() {
               }))
             }
             onNavigateHome={() => setActiveView('dashboard')}
+            onNavigate={handleNavigate}
             canvases={canvases}
             activeCanvasId={activeCanvasId}
             onSelectCanvas={handleSelectCanvas}

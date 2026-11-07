@@ -1,0 +1,266 @@
+/* COD landing — custom overrides on top of Tailwind (orange theme).
+   Design system: soft paper bg, rounded white cards, bold orange accent. */
+
+:root {
+  --brand: #ff6b1a;
+  --brand-dark: #e85d0f;
+  --brand-light: #ffe8d9;
+  --ink: #1c1c1e;
+  --muted: #9a9aa2;
+  --line: #ececee;
+}
+
+html { scroll-behavior: smooth; }
+
+body { font-family: "Inter", system-ui, sans-serif; }
+
+/* Cards */
+.card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 6px 24px rgba(28, 28, 30, 0.06);
+  border: 1px solid #f1f0ee;
+  padding: 20px;
+}
+
+/* Pills */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 4px 10px;
+}
+.pill.orange { background: var(--brand-light); color: var(--brand-dark); }
+.pill.green { background: #e7f7ec; color: #0fa05a; }
+.pill.red { background: #fdeaea; color: #d32f2f; }
+.pill.amber { background: #fff6e0; color: #b98a1f; }
+.pill.gray { background: #f1f1f3; color: #6b6b73; }
+
+/* Icon squares + circular buttons */
+.icon-square {
+  display: inline-grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+  flex: none;
+}
+.icon-square.orange { background: var(--brand-light); color: var(--brand-dark); }
+.icon-square.green { background: #e7f7ec; color: #0fa05a; }
+
+.circle-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #f4f4f6;
+  color: var(--ink);
+  transition: background 0.15s, transform 0.1s;
+}
+.circle-btn:hover { background: var(--brand-light); color: var(--brand-dark); }
+.circle-btn:active { transform: scale(0.95); }
+
+/* Language switch */
+.lang-switch {
+  display: inline-flex;
+  background: #f4f4f6;
+  border-radius: 999px;
+  padding: 3px;
+  gap: 2px;
+}
+.lang-btn {
+  border: none;
+  background: transparent;
+  font-size: 11.5px;
+  font-weight: 700;
+  color: #8a8a92;
+  border-radius: 999px;
+  padding: 5px 9px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.lang-btn.active { background: #fff; color: var(--brand-dark); box-shadow: 0 1px 4px rgba(28, 28, 30, 0.12); }
+
+/* Buttons */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--brand);
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  border: none;
+  border-radius: 14px;
+  padding: 13px 18px;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(255, 107, 26, 0.28);
+  transition: background 0.15s, transform 0.1s, box-shadow 0.15s;
+}
+.btn-primary:hover { background: var(--brand-dark); box-shadow: 0 10px 24px rgba(255, 107, 26, 0.35); }
+.btn-primary:active { transform: scale(0.98); }
+.btn-primary:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff;
+  color: var(--brand-dark);
+  border: 1.5px solid var(--brand);
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 14px;
+  padding: 12px 18px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.btn-secondary:hover { background: var(--brand-light); }
+
+/* Kicker + section title */
+.kicker {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: var(--brand-dark);
+}
+.section-title {
+  font-size: 19px;
+  font-weight: 800;
+  margin-bottom: 14px;
+}
+
+/* Inputs */
+.field-label {
+  display: block;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #4a4a52;
+  margin-bottom: 6px;
+}
+.input {
+  width: 100%;
+  background: #fafafa;
+  border: 1.5px solid #e5e4e2;
+  border-radius: 12px;
+  padding: 12px 14px;
+  font-size: 14px;
+  color: var(--ink);
+  transition: border-color 0.15s, box-shadow 0.15s, background 0.15s;
+}
+.input:focus {
+  outline: none;
+  border-color: var(--brand);
+  background: #fff;
+  box-shadow: 0 0 0 4px rgba(255, 107, 26, 0.14);
+}
+.input.has-error { border-color: #d32f2f; background: #fffafa; }
+.input.has-error:focus { box-shadow: 0 0 0 4px rgba(211, 47, 47, 0.12); }
+
+.err-msg { font-size: 12px; color: #d32f2f; font-weight: 600; margin-top: 5px; min-height: 0; }
+.err-msg:empty { display: none; }
+.hint-msg { font-size: 11.5px; color: #9a9aa2; margin-top: 5px; }
+
+/* Quantity selector */
+.qty {
+  display: inline-flex;
+  align-items: center;
+  background: #f4f4f6;
+  border-radius: 12px;
+  padding: 4px;
+}
+.qty-btn {
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 9px;
+  background: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--ink);
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(28, 28, 30, 0.1);
+  transition: transform 0.1s;
+}
+.qty-btn:hover { color: var(--brand-dark); }
+.qty-btn:active { transform: scale(0.92); }
+.qty-val { min-width: 34px; text-align: center; font-weight: 800; font-size: 15px; }
+
+/* FAQ accordion */
+.faq-item { border-bottom: 1px solid #f1f0ee; }
+.faq-item:last-child { border-bottom: none; }
+.faq-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: none;
+  border: none;
+  padding: 15px 14px;
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--ink);
+  cursor: pointer;
+  text-align: left;
+}
+.faq-btn:hover { color: var(--brand-dark); }
+.faq-caret { transition: transform 0.22s ease; color: var(--brand); flex: none; }
+.faq-item.open .faq-caret { transform: rotate(180deg); }
+.faq-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.28s ease;
+}
+.faq-body-inner { padding: 0 14px 16px; font-size: 13.5px; color: #6b6b73; line-height: 1.6; }
+
+/* Avatars + stars */
+.avatar {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: var(--brand-light);
+  color: var(--brand-dark);
+  font-size: 12px;
+  font-weight: 800;
+  flex: none;
+}
+.star { color: #f5b301; }
+
+/* RTL */
+html[dir="rtl"] .faq-btn { text-align: right; }
+html[dir="rtl"] .card { text-align: right; }
+html[dir="rtl"] .qty-val { direction: ltr; }
+
+/* Toast */
+.toast-cod {
+  position: fixed;
+  bottom: 92px;
+  left: 50%;
+  transform: translateX(-50%) translateY(12px);
+  background: #1c1c1e;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  border-radius: 999px;
+  box-shadow: 0 10px 30px rgba(28, 28, 30, 0.25);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  z-index: 60;
+  max-width: 90vw;
+  text-align: center;
+}
+.toast-cod.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+@media (min-width: 640px) {
+  .toast-cod { bottom: 24px; }
+}

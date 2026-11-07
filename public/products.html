@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Punchline — Products</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { accent: '#3DDC72', accentDark: '#2ECC71', ink: '#1C1C1E', card: '#F7F8F7' }, fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] } } } };
+  </script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="page-bg">
+    <div class="canvas">
+      <header class="site-nav"><div id="app-nav"></div></header>
+
+      <main>
+        <div id="page-head"></div>
+
+        <section class="grid grid-cols-1 lg:grid-cols-5 gap-4 mb-6">
+          <!-- Input -->
+          <div class="card lg:col-span-2">
+            <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="package" style="width:17px;height:17px"></i></span><div><div class="card-title">Product Intelligence</div><div class="card-sub">Paste a URL or describe the product</div></div></div>
+            <div class="field">
+              <label class="label" for="in-url">Product URL</label>
+              <input class="input" id="in-url" placeholder="https://… (optional)" spellcheck="false">
+            </div>
+            <div class="field">
+              <label class="label" for="in-name">Product name</label>
+              <input class="input" id="in-name" placeholder="EmberFlow Smart Diffuser">
+            </div>
+            <div class="grid grid-cols-2 gap-3">
+              <div class="field">
+                <label class="label" for="in-price">Price (USD)</label>
+                <input class="input" id="in-price" type="number" value="59" placeholder="59">
+              </div>
+              <div class="field">
+                <label class="label" for="in-market">Market</label>
+                <select class="select" id="in-market"></select>
+              </div>
+            </div>
+            <div class="grid grid-cols-2 gap-3">
+              <div class="field">
+                <label class="label" for="in-language">Language</label>
+                <select class="select" id="in-language"></select>
+              </div>
+              <div class="field">
+                <label class="label" for="btn-upload-file">Product file (.txt)</label>
+                <input type="file" id="in-file" accept=".txt,text/plain" class="hidden">
+                <button type="button" class="upload-drop" id="btn-upload-file">
+                  <i data-lucide="file-text" style="width:16px;height:16px"></i>
+                  <span id="file-btn-label">Upload a .txt file</span>
+                </button>
+                <div class="flex items-center gap-2 mt-2 hidden" id="file-chip">
+                  <span class="pill green"><i data-lucide="file-check" style="width:12px;height:12px"></i><span id="file-chip-label"></span></span>
+                  <button type="button" class="btn-link" id="btn-clear-file">Remove</button>
+                </div>
+                <div class="hint mt-1.5">Optional — a .txt file with extra product info the AI uses during analysis.</div>
+              </div>
+            </div>
+            <div class="flex gap-2.5">
+              <button class="btn btn-primary flex-1" id="btn-analyze"><i data-lucide="sparkles" style="width:17px;height:17px"></i> Analyze product</button>
+              <button class="btn btn-ghost" id="btn-next" disabled title="Continue to Brand voice">Next <i data-lucide="arrow-right" style="width:17px;height:17px"></i></button>
+            </div>
+            <div class="hint mt-3">Scraping may require real URLs. Without them, we extract from what you enter and mark everything else UNKNOWN.</div>
+          </div>
+
+          <!-- Pipeline -->
+          <div class="card lg:col-span-3">
+            <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="workflow" style="width:17px;height:17px"></i></span><div><div class="card-title">Analysis Pipeline</div><div class="card-sub">Live status of the AI analysis — driven by the models from your Settings</div></div></div>
+            <div id="progress-wrap" class="hidden mb-4">
+              <div class="flex items-center justify-between mb-1.5">
+                <span class="label" style="margin:0">Analysis progress</span>
+                <span class="text-[12.5px] font-extrabold text-[#1C1C1E]" id="progress-label">0%</span>
+              </div>
+              <div class="bar" style="height:10px"><i id="progress-bar" style="width:0%"></i></div>
+            </div>
+            <div id="pipeline" class="flex flex-col gap-4"></div>
+            <div id="ai-run" class="hidden">
+              <div class="ai-orb"><i data-lucide="bot" style="width:20px;height:20px"></i></div>
+              <div class="ai-run-copy">
+                <div class="ai-run-title">AI is analyzing your product</div>
+                <div class="ai-run-sub" id="ai-run-sub">Contacting the model<span class="typing"><i></i><i></i><i></i></span></div>
+              </div>
+              <div class="ai-run-meta" id="ai-run-meta"></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Results -->
+        <section class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+          <div class="card">
+            <div class="card-head"><span class="icon-tile green"><i data-lucide="layers" style="width:17px;height:17px"></i></span><div><div class="card-title">Product Snapshot</div><div class="card-sub" id="snap-sub">Waiting for analysis</div></div></div>
+            <div id="snapshot">
+              <div class="muted">Run an analysis to populate the product snapshot.</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="badge-check" style="width:17px;height:17px"></i></span><div><div class="card-title">Verified Facts</div><div class="card-sub">Traceable or confirmed by the user</div></div></div>
+            <div id="facts" class="flex flex-col gap-2.5">
+              <div class="muted">No verified facts yet.</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="target" style="width:17px;height:17px"></i></span><div><div class="card-title">Problems this product solves</div><div class="card-sub">The core problems EmberFlow addresses</div></div></div>
+            <div id="solves" class="flex flex-col gap-2.5">
+              <div class="muted">Run an analysis to map the problems this product solves.</div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="pt-6 mt-8 flex flex-wrap items-center justify-between gap-2 border-t border-[#ECECEE] text-[11.5px] text-[#B5B5BB]">
+        <span>Punchline — AI Marketing Intelligence</span>
+        <span id="backend-state" class="pill gray">Detecting backend…</span>
+        <span>Demo data · UNKNOWN values marked</span>
+      </footer>
+    </div>
+  </div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/charts.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/products.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Punchline — Settings</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { accent: '#3DDC72', accentDark: '#2ECC71', ink: '#1C1C1E', card: '#F7F8F7' }, fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] } } } };
+  </script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="page-bg">
+    <div class="canvas">
+      <header class="site-nav"><div id="app-nav"></div></header>
+
+      <main>
+        <div id="page-head"></div>
+
+        <section class="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-6">
+          <div class="card">
+            <div class="card-head"><span class="icon-tile green"><i data-lucide="key-round" style="width:17px;height:17px"></i></span><div><div class="card-title">Add an API Key</div><div class="card-sub">Stored server-side only — never in this page</div></div></div>
+            <div class="field">
+              <label class="label" for="key-provider">Provider</label>
+              <select class="select" id="key-provider"></select>
+            </div>
+            <div id="provider-models" class="mt-1"></div>
+            <div class="field">
+              <label class="label" for="key-value">API key</label>
+              <input class="input" id="key-value" type="password" placeholder="sk-…" autocomplete="off">
+            </div>
+            <button class="btn btn-primary w-full" id="btn-save-key"><i data-lucide="lock" style="width:16px;height:16px"></i> Save key</button>
+            <button class="btn btn-ghost w-full mt-2 hidden" id="btn-test-key"><i data-lucide="plug-zap" style="width:16px;height:16px"></i> Test key</button>
+            <div id="test-result" class="mt-3"></div>
+            <div class="hint mt-3">Keys go to the server's settings file. They are masked everywhere in this UI.</div>
+          </div>
+
+          <div class="card lg:col-span-2">
+            <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="server" style="width:17px;height:17px"></i></span><div><div class="card-title">AI Providers</div><div class="card-sub">8 supported · status from server</div></div></div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3" id="providers"></div>
+          </div>
+        </section>
+
+        <section class="mb-6">
+          <div class="card">
+            <div class="card-head"><span class="icon-tile green"><i data-lucide="database" style="width:17px;height:17px"></i></span><div><div class="card-title">Saved keys &amp; available models</div><div class="card-sub">Each API you add — with the AI models available inside it, fetched live</div></div></div>
+            <div class="overflow-x-auto"><table class="table">
+              <thead><tr><th>Provider</th><th>Key</th><th>Models available</th><th class="text-right">Actions</th></tr></thead>
+              <tbody id="keys-models-body"></tbody>
+            </table></div>
+          </div>
+        </section>
+
+        <section class="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-6">
+          <div class="card">
+            <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="git-branch" style="width:17px;height:17px"></i></span><div><div class="card-title">Task Routing</div><div class="card-sub">Role → provider → model (with auto-fallback)</div></div></div>
+            <div class="overflow-x-auto"><table class="table">
+              <thead><tr><th>Role</th><th>Provider</th><th>Model</th></tr></thead>
+              <tbody id="routing-body"></tbody>
+            </table></div>
+          </div>
+          <div class="card">
+            <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="list" style="width:17px;height:17px"></i></span><div><div class="card-title">AI Request Logs</div><div class="card-sub">Every call: provider, model, latency, cost</div></div></div>
+            <button class="btn btn-ghost btn-sm mb-3" id="btn-refresh-logs"><i data-lucide="refresh-cw" style="width:15px;height:15px"></i> Refresh</button>
+            <div class="overflow-x-auto"><table class="table">
+              <thead><tr><th>Task</th><th>Provider</th><th>Model</th><th>Status</th></tr></thead>
+              <tbody id="logs-body"></tbody>
+            </table></div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="pt-6 mt-8 flex flex-wrap items-center justify-between gap-2 border-t border-[#ECECEE] text-[11.5px] text-[#B5B5BB]">
+        <span>Punchline — AI Marketing Intelligence</span>
+        <span id="backend-state" class="pill gray">Detecting backend…</span>
+        <span>Demo data · UNKNOWN values marked</span>
+      </footer>
+    </div>
+  </div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/charts.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/settings.js"></script>
+</body>
+</html>

@@ -137,6 +137,7 @@ import { SkillPreviewEngine } from './SkillPreviewEngine';
 import { ChatGPTMarkdownDocumentRenderer, StatusBadge } from './ChatGPTComponents';
 import { AppNodeCanvasCard } from './AppNodeCanvasCard';
 import { AppSidebar } from '../navigation/AppSidebar';
+import { ServicesMenuDropdown } from '../navigation/ServicesMenuDropdown';
 import { ProductPreviewModal } from '../products/ProductPreviewModal';
 import { ProductImportModal } from '../products/ProductImportModal';
 import { ProductRegrouperApp, CampaignBlueprint } from './ProductRegrouperApp';
@@ -6921,17 +6922,16 @@ The commercial viability of **${pTitle}** in the e-commerce market is driven by 
       <header className="h-14 bg-white border-b border-slate-200/90 px-5 flex items-center justify-between gap-4 shrink-0 z-30 shadow-2xs text-slate-800">
         {/* Left: App Logo & Breadcrumb */}
         <div className="flex items-center gap-3">
-          <div
-            onClick={onNavigateHome}
-            className="flex items-center gap-2.5 cursor-pointer hover:opacity-90 transition-opacity"
-          >
-            <div className="w-8 h-8 rounded-xl bg-blue-600 text-white flex items-center justify-center font-bold shadow-xs shrink-0">
-              <Workflow className="w-4 h-4 text-white stroke-[2.2]" />
-            </div>
-            <span className="font-bold text-sm text-slate-900 hidden sm:inline tracking-tight">
-              Product Intelligence OS
-            </span>
-          </div>
+          <ServicesMenuDropdown
+            currentView="board"
+            onNavigate={(view, subItem) => {
+              if (view === 'dashboard') {
+                onNavigateHome();
+              } else {
+                onNavigateToView(view, subItem);
+              }
+            }}
+          />
 
           {/* Return to Hub Button */}
           <button

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Punchline — AI Winning Product Intelligence Center</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { accent: '#0FA05A', accentDark: '#0B8A4C', ink: '#1C1C1E', card: '#F7F8F7' }, fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] } } } };
+  </script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/product22.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="page-bg">
+    <div class="canvas">
+      <header class="site-nav"><div id="app-nav"></div></header>
+
+      <main>
+        <div class="p22-frame">
+          <aside class="p22-sidebar" id="p22-sidebar" aria-label="Product intelligence modules"></aside>
+          <div class="p22-main">
+            <div class="p22-topbar" id="p22-topbar"></div>
+            <div id="p22-content"></div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="pt-6 mt-8 flex flex-wrap items-center justify-between gap-2 border-t border-[#ECECEE] text-[11.5px] text-[#B5B5BB]">
+        <span>Punchline — AI Marketing Intelligence · Winning Product Intelligence Center</span>
+        <span id="p22-backend" class="pill gray">Detecting backend…</span>
+        <span>PRODUCT DATA → MARKET EVIDENCE → ECONOMICS → CREATIVE → OFFER → TEST → RESULTS → LEARNING</span>
+      </footer>
+    </div>
+  </div>
+
+  <div id="p22-drawer-mask"></div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/charts.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/product22.js"></script>
+</body>
+</html>

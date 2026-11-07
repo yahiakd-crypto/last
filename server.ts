@@ -5407,9 +5407,140 @@ app.post('/api/meta/action', async (req: Request, res: Response) => {
   }
 });
 
-// Health check endpoint
+// Health check endpoint (Dual React + Punchline API)
 app.get('/api/health', (_req: Request, res: Response) => {
-  res.json({ status: 'ok' });
+  res.json({ status: 'ok', ok: true, name: 'punchline-api', providers: 8 });
+});
+
+// Punchline Settings & Local Data Store APIs (Completely self-contained in workspace)
+const PUNCHLINE_DATA_DIR = path.join(__dirname, 'punchline-server', 'data');
+if (!fs.existsSync(PUNCHLINE_DATA_DIR)) {
+  fs.mkdirSync(PUNCHLINE_DATA_DIR, { recursive: true });
+}
+
+function readPunchlineStore(name: string) {
+  const p = path.join(PUNCHLINE_DATA_DIR, name);
+  if (!fs.existsSync(p)) return {};
+  try {
+    return JSON.parse(fs.readFileSync(p, 'utf8'));
+  } catch {
+    return {};
+  }
+}
+
+function writePunchlineStore(name: string, data: any) {
+  const p = path.join(PUNCHLINE_DATA_DIR, name);
+  fs.writeFileSync(p, JSON.stringify(data, null, 2));
+  return data;
+}
+
+app.get('/api/settings', (_req: Request, res: Response) => {
+  const s = readPunchlineStore('settings.json');
+  res.json({
+    routing: s.routing || {},
+    providers: {
+      gemini: { name: 'Google Gemini', keyMasked: process.env.GEMINI_API_KEY ? '••••••••' : '' },
+      openai: { name: 'OpenAI', keyMasked: process.env.OPENAI_API_KEY ? '••••••••' : '' },
+      deepseek: { name: 'DeepSeek', keyMasked: process.env.DEEPSEEK_API_KEY ? '••••••••' : '' },
+      openrouter: { name: 'OpenRouter', keyMasked: process.env.OPENROUTER_API_KEY ? '••••••••' : '' },
+      nvidia: { name: 'Nvidia NIM', keyMasked: process.env.NVIDIA_API_KEY ? '••••••••' : '' },
+    },
+  });
+});
+
+app.post('/api/settings', (req: Request, res: Response) => {
+  const s = readPunchlineStore('settings.json') || {};
+  if (req.body.keys) s.keys = { ...(s.keys || {}), ...req.body.keys };
+  if (req.body.removeKey && s.keys) delete s.keys[req.body.removeKey];
+  if (req.body.routing) s.routing = req.body.routing;
+  writePunchlineStore('settings.json', s);
+  res.json({ ok: true });
+});
+
+app.get('/api/logs', (_req: Request, res: Response) => {
+  const logs = readPunchlineStore('logs.json');
+  res.json({ items: logs.items || [] });
+});
+
+const PUNCHLINE_ENTITIES = [
+  'users', 'products', 'brands', 'personas', 'competitors', 'creative_concepts',
+  'ads', 'campaigns', 'experiments', 'ai_providers', 'ai_models', 'analysis_reports', 'orders'
+];
+
+app.get('/api/entities/:entity', (req: Request, res: Response) => {
+  const entity = req.params.entity;
+  if (!PUNCHLINE_ENTITIES.includes(entity)) return res.status(404).json({ error: 'unknown entity' });
+  const data = readPunchlineStore(`${entity}.json`);
+  res.json({ items: data.items || [] });
+});
+
+app.post('/api/entities/:entity', (req: Request, res: Response) => {
+  const entity = req.params.entity;
+  if (!PUNCHLINE_ENTITIES.includes(entity)) return res.status(404).json({ error: 'unknown entity' });
+  const file = `${entity}.json`;
+  const data = readPunchlineStore(file);
+  const items = data.items || [];
+  const newItem = { id: (req.body && req.body.id) || Date.now().toString(), ...(req.body || {}) };
+  const idx = items.findIndex((x: any) => x.id === newItem.id);
+  if (idx >= 0) items[idx] = newItem;
+  else items.unshift(newItem);
+  writePunchlineStore(file, { items });
+  res.json(newItem);
+});
+
+app.delete('/api/entities/:entity/:id', (req: Request, res: Response) => {
+  const file = `${req.params.entity}.json`;
+  const data = readPunchlineStore(file);
+  const items = (data.items || []).filter((x: any) => x.id !== req.params.id);
+  writePunchlineStore(file, { items });
+  res.json({ ok: true });
+});
+
+app.post('/api/orders', (req: Request, res: Response) => {
+  const b = req.body || {};
+  const order = {
+    id: Date.now().toString(),
+    orderNumber: `PL-${Date.now().toString().slice(-6)}`,
+    status: 'pending',
+    createdAt: new Date().toISOString(),
+    name: String(b.name || '').trim(),
+    phone: String(b.phone || '').trim(),
+    wilaya: String(b.wilaya || '').trim(),
+    address: String(b.address || '').trim(),
+    product: String(b.product || '').slice(0, 300),
+    quantity: Number(b.quantity) || 1,
+    unitPrice: Number(b.unitPrice) || 0,
+    shipping: Number(b.shipping) || 0,
+    total: Number(b.total) || 0,
+    currency: String(b.currency || 'DZD').toUpperCase(),
+  };
+  const data = readPunchlineStore('orders.json');
+  const items = data.items || [];
+  items.unshift(order);
+  writePunchlineStore('orders.json', { items });
+  res.json({ ok: true, id: order.id, orderNumber: order.orderNumber });
+});
+
+app.post('/api/ai/:task', async (req: Request, res: Response) => {
+  const task = req.params.task;
+  const { prompt, payload } = req.body || {};
+  if (ai) {
+    try {
+      const response = await ai.models.generateContent({
+        model: 'gemini-2.5-flash',
+        contents: prompt || `Execute e-commerce intelligence task ${task} for ${JSON.stringify(payload)}`,
+      });
+      return res.json({ ok: true, task, output: response.text });
+    } catch (e: any) {
+      console.error('AI error:', e);
+    }
+  }
+  return res.json({
+    ok: true,
+    task,
+    output: `[Punchline AI Engine] Completed analysis for ${task}.`,
+    simulated: true,
+  });
 });
 
 // Vite middleware in dev or static files in production

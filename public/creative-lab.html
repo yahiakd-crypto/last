@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Punchline — Creative Lab</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { accent: '#3DDC72', accentDark: '#2ECC71', ink: '#1C1C1E', card: '#F7F8F7' }, fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] } } } };
+  </script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="page-bg">
+    <div class="canvas">
+      <header class="site-nav"><div id="app-nav"></div></header>
+
+      <main>
+        <div id="page-head"></div>
+
+        <section class="card mb-6">
+          <div class="flex items-center justify-between flex-wrap gap-3 mb-4">
+            <div class="flex items-center gap-3">
+              <span class="icon-tile green-soft"><i data-lucide="palette" style="width:17px;height:17px"></i></span>
+              <div><div class="font-bold text-[15px] text-[#1C1C1E]">Creative Matrix</div><div class="muted text-[12.5px]">Test axes, not just ads — 3 axes × variants</div></div>
+            </div>
+            <div class="flex items-center gap-2.5 flex-wrap">
+              <button class="btn btn-primary btn-sm" id="btn-matrix"><i data-lucide="sparkles" style="width:16px;height:16px"></i> Build matrix</button>
+              <button class="btn btn-ghost btn-sm" id="btn-next" disabled title="Continue to Campaigns">Next <i data-lucide="arrow-right" style="width:16px;height:16px"></i></button>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-4" id="axes"></div>
+          <div class="overflow-x-auto"><table class="table">
+            <thead><tr><th>Hook style</th><th>Proof type</th><th>Format</th><th>Notes</th></tr></thead>
+            <tbody id="matrix-body"></tbody>
+          </table></div>
+        </section>
+
+        <section class="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-6">
+          <div class="card">
+            <div class="card-head"><span class="icon-tile green"><i data-lucide="zap" style="width:17px;height:17px"></i></span><div><div class="card-title">Hook Lab</div><div class="card-sub">10 hooks scored · TEST FIRST wins</div></div></div>
+            <div id="hooks" class="flex flex-col gap-2.5"></div>
+          </div>
+          <div class="card">
+            <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="clapperboard" style="width:17px;height:17px"></i></span><div><div class="card-title">UGC Creator Scripts</div><div class="card-sub">5 ready-to-send briefs</div></div></div>
+            <div id="scripts" class="flex flex-col gap-3"></div>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="calendar-range" style="width:17px;height:17px"></i></span><div><div class="card-title">Testing Plan</div><div class="card-sub">6-week roadmap · every test has a pass metric and a decision</div></div></div>
+          <div class="overflow-x-auto"><table class="table">
+            <thead><tr><th>Week</th><th>What we test</th><th>Pass metric</th><th>Decision on win</th></tr></thead>
+            <tbody id="plan-body"></tbody>
+          </table></div>
+        </section>
+      </main>
+
+      <footer class="pt-6 mt-8 flex flex-wrap items-center justify-between gap-2 border-t border-[#ECECEE] text-[11.5px] text-[#B5B5BB]">
+        <span>Punchline — AI Marketing Intelligence</span>
+        <span id="backend-state" class="pill gray">Detecting backend…</span>
+        <span>Demo data · UNKNOWN values marked</span>
+      </footer>
+    </div>
+  </div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/charts.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/creative-lab.js"></script>
+</body>
+</html>

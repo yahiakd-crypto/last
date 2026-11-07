@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Punchline — NOTE · Sidebar Dock Canvas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/breakdown.css">
+  <link rel="stylesheet" href="assets/css/notes.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="page-bg">
+    <div class="canvas">
+      <header class="site-nav"><div id="app-nav"></div></header>
+
+      <main class="nt-app" id="nt-app"></main>
+
+      <footer class="eat-foot">
+        <span>Punchline — NOTE · sidebar note dock + infinite mind-map canvas</span>
+        <span id="nt-state" class="pill gray">Autosaved</span>
+        <span>Drag cards onto the canvas · draw boards · connect nodes</span>
+      </footer>
+    </div>
+  </div>
+
+  <div id="toast-stack"></div>
+  <div class="nt-modal" id="nt-modal"><div class="nt-modal-box" id="nt-modal-box"></div></div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/notes.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Punchline — Brand</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { accent: '#3DDC72', accentDark: '#2ECC71', ink: '#1C1C1E', card: '#F7F8F7' }, fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] } } } };
+  </script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="page-bg">
+    <div class="canvas">
+      <header class="site-nav"><div id="app-nav"></div></header>
+
+      <main>
+        <div id="page-head"></div>
+
+        <section class="hero rise mb-6">
+          <div class="grid-dots"></div>
+          <div class="hero-inner p-6 md:p-8 flex flex-col md:flex-row items-start md:items-center gap-6">
+            <div class="flex-1 min-w-0">
+              <div class="text-[12px] font-bold tracking-wide text-[#3DDC72] uppercase mb-2">Brand Mission</div>
+              <h2 class="text-white text-[22px] md:text-[26px] font-extrabold leading-snug" id="mission">Turn any room into a calm, focus-ready environment without screens or noise.</h2>
+              <p class="text-[#A9AAB0] text-[14px] mt-3" id="tone-line">Voice: warm, confident, science-leaning but never clinical. Short sentences. No hype.</p>
+            </div>
+            <div class="flex-none flex flex-col items-start md:items-end gap-3">
+              <div id="product-ctx" class="pill gray hidden"></div>
+              <div class="flex gap-2.5 flex-wrap">
+                <button class="btn btn-primary btn-sm flex-none" id="btn-draft"><i data-lucide="sparkles" style="width:16px;height:16px"></i> Regenerate draft</button>
+                <button class="btn btn-ghost btn-sm flex-none" id="btn-next" disabled title="Continue to Personas">Next <i data-lucide="arrow-right" style="width:16px;height:16px"></i></button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+          <div class="card">
+            <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="heart" style="width:17px;height:17px"></i></span><div><div class="card-title">Core Values</div><div class="card-sub">What we never trade away</div></div></div>
+            <div id="values" class="flex flex-col gap-2.5"></div>
+          </div>
+          <div class="card">
+            <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="type" style="width:17px;height:17px"></i></span><div><div class="card-title">Tone & Voice</div><div class="card-sub">How we say things</div></div></div>
+            <div id="voice" class="flex flex-col gap-2.5"></div>
+          </div>
+          <div class="card">
+            <div class="card-head"><span class="icon-tile green-soft"><i data-lucide="shield-check" style="width:17px;height:17px"></i></span><div><div class="card-title">Compliance Guardrails</div><div class="card-sub">Hard rules, non-negotiable</div></div></div>
+            <div id="guardrails" class="flex flex-col gap-2.5"></div>
+          </div>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="card" style="border-color:#DFF2E4">
+            <div class="card-head"><span class="icon-tile green"><i data-lucide="check-circle-2" style="width:17px;height:17px"></i></span><div><div class="card-title">Say it like this</div><div class="card-sub">Benefit-first, traceable</div></div></div>
+            <div id="do-ex" class="rounded-xl p-4 text-[13.5px] leading-relaxed" style="background:#fff;border:1px solid var(--line)"></div>
+          </div>
+          <div class="card" style="border-color:#F7DFDF">
+            <div class="card-head"><span class="icon-tile" style="background:#FDECEC;color:#C93A3F"><i data-lucide="x-circle" style="width:17px;height:17px"></i></span><div><div class="card-title">Avoid this</div><div class="card-sub">Unverifiable or regulated</div></div></div>
+            <div id="dont-ex" class="rounded-xl p-4 text-[13.5px] leading-relaxed" style="background:#fff;border:1px solid var(--line)"></div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="pt-6 mt-8 flex flex-wrap items-center justify-between gap-2 border-t border-[#ECECEE] text-[11.5px] text-[#B5B5BB]">
+        <span>Punchline — AI Marketing Intelligence</span>
+        <span id="backend-state" class="pill gray">Detecting backend…</span>
+        <span>Demo data · UNKNOWN values marked</span>
+      </footer>
+    </div>
+  </div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/charts.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/brand.js"></script>
+</body>
+</html>

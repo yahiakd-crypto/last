@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Punchline Store — Order Now</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: { DEFAULT: '#FF6B1A', dark: '#E85D0F', light: '#FFE8D9' },
+            ink: '#1C1C1E', paper: '#F7F7F5',
+          },
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+        },
+      },
+    };
+  </script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-paper text-ink font-sans antialiased">
+
+  <div id="announce" class="bg-brand text-white text-center text-[12px] font-semibold py-1.5 px-3">
+    <i data-lucide="truck" style="width:14px;height:14px;display:inline-block;vertical-align:-2px"></i>
+    <span data-i18n="announce">Fast delivery &bull; Cash on Delivery available</span>
+  </div>
+
+  <header class="sticky top-0 z-40 bg-white/90 backdrop-blur border-b border-[#ECECEE]">
+    <div class="mx-auto max-w-[1000px] px-4 h-14 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-2">
+        <span class="brand-tile-orange" style="width:32px;height:32px;border-radius:10px;display:grid;place-items:center;background:#FF6B1A;color:#fff;font-weight:800;font-size:16px">P</span>
+        <span class="font-extrabold tracking-tight">Punch<em class="not-italic" style="color:#FF6B1A">line</em> <span class="text-[11px] font-semibold text-[#9A9AA2] normal-case ml-1">Store</span></span>
+      </a>
+      <div class="flex items-center gap-2">
+        <a href="tel:+213000000000" id="phone-btn" class="circle-btn" aria-label="Call us" title="Call us">
+          <i data-lucide="phone" style="width:18px;height:18px"></i>
+        </a>
+        <a href="https://wa.me/213000000000" id="wa-btn" target="_blank" rel="noopener" class="circle-btn" aria-label="WhatsApp" title="WhatsApp">
+          <i data-lucide="message-circle" style="width:18px;height:18px"></i>
+        </a>
+        <div class="lang-switch">
+          <button data-lang="en" class="lang-btn active">EN</button>
+          <button data-lang="fr" class="lang-btn">FR</button>
+          <button data-lang="ar" class="lang-btn">ع</button>
+          <button data-lang="dz" class="lang-btn">د</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-[1000px] px-4 pt-5 pb-28 sm:pb-12">
+
+    <!-- ============ HERO ============ -->
+    <section class="grid sm:grid-cols-2 gap-5">
+      <div class="card p-0 overflow-hidden flex flex-col">
+        <div class="relative flex-1 min-h-[260px] sm:min-h-[360px] bg-[#F1F0EE] grid place-items-center" id="product-visual">
+          <div class="text-center px-6">
+            <i data-lucide="image" style="width:44px;height:44px;color:#C9C7C3;display:inline-block"></i>
+            <p class="text-[13px] text-[#9A9AA2] font-medium mt-2" data-i18n="imgPlaceholder">Product image — add yours</p>
+          </div>
+          <span class="pill orange absolute top-4 left-4" id="save-pill">-25%</span>
+          <span class="pill red absolute top-4 right-4" id="stock-pill">Only 12 left</span>
+        </div>
+        <div class="p-4 flex items-center gap-2 border-t border-[#F1F0EE]">
+          <div class="flex" id="hero-stars" aria-hidden="true"></div>
+          <span class="text-[13px] font-bold" id="hero-rating">4.8</span>
+          <span class="text-[12.5px] text-[#9A9AA2]" data-i18n="reviewsLabel">reviews</span>
+        </div>
+      </div>
+
+      <div class="card flex flex-col">
+        <div class="flex items-center justify-between">
+          <span class="kicker">FEATURED PRODUCT</span>
+          <span class="pill amber" data-i18n="featuredPill">Hot offer</span>
+        </div>
+        <h1 class="text-[24px] sm:text-[28px] font-extrabold leading-tight mt-3" data-i18n="productName">Your Product Name</h1>
+        <p class="text-[14px] text-[#6B6B73] mt-2 leading-relaxed" data-i18n="tagline">Add a short persuasive benefit line here — set in CONFIG in main.js.</p>
+
+        <div class="flex items-end gap-3 mt-5">
+          <div class="text-[34px] font-black leading-none" id="hero-price" style="color:#FF6B1A">1,490</div>
+          <div class="text-[15px] font-semibold text-[#9A9AA2] line-through" id="hero-old-price">1,990</div>
+          <span class="pill orange" id="hero-save-pct">Save 25%</span>
+        </div>
+        <div class="text-[12px] text-[#9A9AA2] mt-1"><span data-i18n="currencyNote">Price per unit</span> (DZD)</div>
+
+        <div class="flex items-center gap-3 mt-6">
+          <div class="qty" data-qty-group="hero">
+            <button type="button" class="qty-btn" data-dir="-1" aria-label="Decrease">−</button>
+            <span class="qty-val" data-qty-val>1</span>
+            <button type="button" class="qty-btn" data-dir="1" aria-label="Increase">+</button>
+          </div>
+          <button type="button" class="btn-primary flex-1" id="hero-order-btn">
+            <i data-lucide="shopping-cart" style="width:17px;height:17px"></i>
+            <span data-i18n="orderNow">Order Now</span>
+          </button>
+        </div>
+        <p class="flex items-center gap-1.5 text-[12px] text-[#6B6B73] mt-3">
+          <i data-lucide="lock" style="width:13px;height:13px;color:#0FA05A"></i>
+          <span data-i18n="secureOrder">100% secure order — pay when you receive it</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ ORDER FORM ============ -->
+    <section id="order-form" class="card mt-5 scroll-mt-20">
+      <div class="flex items-center gap-3 pb-4 border-b border-[#F1F0EE]">
+        <span class="icon-square orange"><i data-lucide="clipboard-check" style="width:19px;height:19px"></i></span>
+        <div>
+          <div class="font-extrabold" data-i18n="form.title">Complete your order</div>
+          <div class="text-[12px] text-[#9A9AA2]" data-i18n="form.subtitle">Fill in the form — we will call you to confirm</div>
+        </div>
+      </div>
+
+      <form id="cod-form" class="mt-5 grid gap-4" novalidate>
+        <div class="grid sm:grid-cols-2 gap-4">
+          <div>
+            <label class="field-label" for="f-name" data-i18n="form.name">Full name</label>
+            <input class="input" id="f-name" name="name" type="text" data-i18n-ph="form.namePh" placeholder="e.g. Ahmed Benali" autocomplete="name">
+            <p class="err-msg" data-err-for="name"></p>
+          </div>
+          <div>
+            <label class="field-label" for="f-phone" data-i18n="form.phone">Phone number</label>
+            <input class="input" id="f-phone" name="phone" type="tel" data-i18n-ph="form.phonePh" placeholder="0550 12 34 56" inputmode="tel" autocomplete="tel">
+            <p class="hint-msg" data-i18n="form.phoneHint">Algerian format: 05/06/07 + 8 digits</p>
+            <p class="err-msg" data-err-for="phone"></p>
+          </div>
+        </div>
+        <div class="grid sm:grid-cols-2 gap-4">
+          <div>
+            <label class="field-label" for="f-wilaya" data-i18n="form.wilaya">Wilaya</label>
+            <select class="input" id="f-wilaya" name="wilaya">
+              <option value="" data-i18n-opt="form.wilayaPh">Select your wilaya</option>
+            </select>
+            <p class="err-msg" data-err-for="wilaya"></p>
+          </div>
+          <div>
+            <label class="field-label" for="f-address" data-i18n="form.address">Commune / address</label>
+            <input class="input" id="f-address" name="address" type="text" data-i18n-ph="form.addressPh" placeholder="Commune, street, house number" autocomplete="street-address">
+            <p class="err-msg" data-err-for="address"></p>
+          </div>
+        </div>
+
+        <div class="rounded-2xl p-4" style="background:#FAF6F2;border:1px solid #FFE8D9">
+          <div class="flex items-center justify-between gap-3 flex-wrap">
+            <div class="flex items-center gap-2 text-[14px] font-bold">
+              <span data-i18n="form.qty">Quantity</span>
+              <span class="qty ml-1" data-qty-group="form">
+                <button type="button" class="qty-btn" data-dir="-1" aria-label="Decrease">−</button>
+                <span class="qty-val" data-qty-val>1</span>
+                <button type="button" class="qty-btn" data-dir="1" aria-label="Increase">+</button>
+              </span>
+            </div>
+            <span class="pill amber" id="tier-hint" data-i18n="form.tierHint">Buy 2+ and save per unit</span>
+          </div>
+        </div>
+
+        <div class="rounded-2xl border border-[#ECECEE] p-4 sm:p-5">
+          <div class="font-extrabold mb-3" data-i18n="form.summary">Order summary</div>
+          <div class="space-y-2 text-[14px]">
+            <div class="flex justify-between"><span data-i18n="form.unit">Unit price</span><span id="sum-unit" class="font-semibold">1,490</span></div>
+            <div class="flex justify-between"><span data-i18n="form.qty">Quantity</span><span id="sum-qty" class="font-semibold">1</span></div>
+            <div class="flex justify-between" id="sum-savings-row" hidden><span class="text-[#0FA05A]" data-i18n="form.savings">You save</span><span id="sum-savings" class="font-semibold text-[#0FA05A]">0</span></div>
+            <div class="flex justify-between" id="sum-ship-row"><span data-i18n="form.shipping">Shipping</span><span id="sum-ship" class="font-semibold">400</span></div>
+            <div class="flex justify-between items-end pt-3 mt-1 border-t border-[#F1F0EE]">
+              <span class="text-[15px] font-bold" data-i18n="form.total">Total</span>
+              <span class="text-[26px] font-black leading-none" id="sum-total" style="color:#FF6B1A">1,890</span>
+            </div>
+          </div>
+          <div class="mt-4 flex items-center gap-2.5 rounded-xl px-3.5 py-3" style="background:#FFF7EF;border:1px solid #FFE8D9">
+            <span class="icon-square orange" style="width:30px;height:30px"><i data-lucide="package-check" style="width:16px;height:16px"></i></span>
+            <div class="text-[13px] font-semibold leading-snug" data-i18n="form.paymentLabel">Cash on Delivery — pay when you receive your order</div>
+          </div>
+        </div>
+
+        <button type="submit" class="btn-primary w-full !py-4 text-[16px]" id="submit-btn">
+          <i data-lucide="lock" style="width:18px;height:18px"></i>
+          <span data-i18n="form.submit">Confirm my order</span>
+        </button>
+        <p class="flex items-center justify-center gap-1.5 text-[12px] text-[#6B6B73] -mt-1">
+          <i data-lucide="shield-check" style="width:13px;height:13px;color:#0FA05A"></i>
+          <span data-i18n="form.submitMicro">100% secure order &bull; No prepayment</span>
+        </p>
+      </form>
+
+      <div id="order-success" class="hidden text-center py-10">
+        <span class="icon-square green mx-auto" style="width:64px;height:64px;border-radius:20px"><i data-lucide="check" style="width:30px;height:30px"></i></span>
+        <div class="text-[22px] font-extrabold mt-4" data-i18n="success.title">Your order has been received!</div>
+        <p class="text-[14px] text-[#6B6B73] mt-2" data-i18n="success.msg">Our team will call you to confirm delivery details.</p>
+        <p class="text-[13px] text-[#9A9AA2] mt-1" id="success-order"></p>
+        <p class="text-[12px] text-[#B98A1F] mt-4" id="success-demo" hidden data-i18n="success.demoNote">Demo mode — no backend configured, order stored in this browser only.</p>
+        <button type="button" class="btn-secondary mt-6" id="new-order-btn">
+          <i data-lucide="rotate-ccw" style="width:16px;height:16px"></i>
+          <span data-i18n="success.newOrder">Place another order</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ============ TRUST STRIP ============ -->
+    <section class="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-5">
+      <div class="card p-4 flex flex-col items-start gap-2">
+        <span class="icon-square orange"><i data-lucide="truck" style="width:18px;height:18px"></i></span>
+        <div class="text-[13.5px] font-bold" data-i18n="trust.fastT">Fast delivery</div>
+        <div class="text-[12px] text-[#9A9AA2] leading-snug" data-i18n="trust.fastD">Delivered to your door in days</div>
+      </div>
+      <div class="card p-4 flex flex-col items-start gap-2">
+        <span class="icon-square orange"><i data-lucide="banknote" style="width:18px;height:18px"></i></span>
+        <div class="text-[13.5px] font-bold" data-i18n="trust.payT">Pay on delivery</div>
+        <div class="text-[12px] text-[#9A9AA2] leading-snug" data-i18n="trust.payD">Cash when your order arrives</div>
+      </div>
+      <div class="card p-4 flex flex-col items-start gap-2">
+        <span class="icon-square orange"><i data-lucide="refresh-ccw" style="width:18px;height:18px"></i></span>
+        <div class="text-[13.5px] font-bold" data-i18n="trust.returnsT">Easy returns</div>
+        <div class="text-[12px] text-[#9A9AA2] leading-snug" data-i18n="trust.returnsD">Hassle-free within the return window</div>
+      </div>
+      <div class="card p-4 flex flex-col items-start gap-2">
+        <span class="icon-square orange"><i data-lucide="badge-check" style="width:18px;height:18px"></i></span>
+        <div class="text-[13.5px] font-bold" data-i18n="trust.qualityT">Verified quality</div>
+        <div class="text-[12px] text-[#9A9AA2] leading-snug" data-i18n="trust.qualityD">Checked before it ships to you</div>
+      </div>
+    </section>
+
+    <!-- ============ BENEFITS ============ -->
+    <section class="mt-5">
+      <h2 class="section-title" data-i18n="benefits.title">Why you will love it</h2>
+      <div class="grid sm:grid-cols-3 gap-4">
+        <div class="card p-5">
+          <div class="text-[15px] font-extrabold" data-i18n="benefits.b1t">Benefit 1 (edit me)</div>
+          <p class="text-[13px] text-[#6B6B73] mt-1.5 leading-relaxed" data-i18n="benefits.b1d">Add your first product benefit here — set the copy in CONFIG.</p>
+        </div>
+        <div class="card p-5">
+          <div class="text-[15px] font-extrabold" data-i18n="benefits.b2t">Benefit 2 (edit me)</div>
+          <p class="text-[13px] text-[#6B6B73] mt-1.5 leading-relaxed" data-i18n="benefits.b2d">Add your second product benefit here — never invent facts.</p>
+        </div>
+        <div class="card p-5">
+          <div class="text-[15px] font-extrabold" data-i18n="benefits.b3t">Benefit 3 (edit me)</div>
+          <p class="text-[13px] text-[#6B6B73] mt-1.5 leading-relaxed" data-i18n="benefits.b3d">Add your third product benefit here — set the copy in CONFIG.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SOCIAL PROOF ============ -->
+    <section class="mt-5">
+      <h2 class="section-title" data-i18n="proof.title">Trusted by customers</h2>
+      <div class="grid grid-cols-3 gap-3">
+        <div class="card p-4 text-center">
+          <div class="text-[26px] font-black" id="kpi-orders">2,300+</div>
+          <div class="text-[12px] text-[#9A9AA2]" data-i18n="proof.ordersL">orders delivered</div>
+        </div>
+        <div class="card p-4 text-center">
+          <div class="text-[26px] font-black" id="kpi-rating">4.8★</div>
+          <div class="text-[12px] text-[#9A9AA2]" data-i18n="proof.ratingL">average rating</div>
+        </div>
+        <div class="card p-4 text-center">
+          <div class="text-[26px] font-black" id="kpi-wilayas">58</div>
+          <div class="text-[12px] text-[#9A9AA2]" data-i18n="proof.wilayasL">wilayas covered</div>
+        </div>
+      </div>
+
+      <div class="grid sm:grid-cols-2 gap-4 mt-4">
+        <div class="card p-5">
+          <div class="flex gap-1 mb-2" data-stars="5"></div>
+          <p class="text-[13.5px] leading-relaxed text-[#3F3F46]" data-i18n="proof.t1q">"Add a real customer quote here — never invent testimonials."</p>
+          <div class="flex items-center gap-2.5 mt-3">
+            <span class="avatar" data-avatar>Client 1</span>
+            <div>
+              <div class="text-[13px] font-bold" data-i18n="proof.t1n">Customer name</div>
+              <div class="text-[11.5px] text-[#9A9AA2]" data-i18n="proof.t1c">Algiers</div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-5">
+          <div class="flex gap-1 mb-2" data-stars="5"></div>
+          <p class="text-[13.5px] leading-relaxed text-[#3F3F46]" data-i18n="proof.t2q">"Add a second real customer quote here — replace before going live."</p>
+          <div class="flex items-center gap-2.5 mt-3">
+            <span class="avatar" data-avatar>Client 2</span>
+            <div>
+              <div class="text-[13px] font-bold" data-i18n="proof.t2n">Customer name</div>
+              <div class="text-[11.5px] text-[#9A9AA2]" data-i18n="proof.t2c">Oran</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="mt-5">
+      <h2 class="section-title" data-i18n="faq.title">Questions &amp; answers</h2>
+      <div class="card p-2" id="faq-list"></div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="mt-10 pt-6 border-t border-[#E7E6E3] text-[12px] text-[#9A9AA2]">
+      <div class="flex flex-wrap items-center justify-between gap-3">
+        <div class="font-extrabold text-[#1C1C1E]">Punch<em class="not-italic" style="color:#FF6B1A">line</em> Store</div>
+        <div class="flex items-center gap-4">
+          <a href="#" data-i18n="footer.delivery">Delivery &amp; returns</a>
+          <a href="#" data-i18n="footer.contact">Contact us</a>
+        </div>
+      </div>
+      <p class="mt-4 leading-relaxed" data-i18n="footer.demo">Demo preview — all prices, stock and review numbers are placeholders. Set your real product values in CONFIG inside assets/js/main.js.</p>
+    </footer>
+  </main>
+
+  <!-- ============ STICKY MOBILE ORDER BAR ============ -->
+  <div id="sticky-bar" class="sm:hidden fixed bottom-0 inset-x-0 z-40 bg-white border-t border-[#ECECEE] px-4 py-3 flex items-center gap-3" style="box-shadow:0 -6px 24px rgba(28,28,30,.08)">
+    <div>
+      <div class="text-[18px] font-black leading-none" id="sticky-price" style="color:#FF6B1A">1,890</div>
+      <div class="text-[11px] text-[#9A9AA2]" data-i18n="sticky.totalLabel">Total (incl. shipping)</div>
+    </div>
+    <button type="button" class="btn-primary flex-1 !py-3" id="sticky-order-btn">
+      <i data-lucide="shopping-cart" style="width:16px;height:16px"></i>
+      <span data-i18n="orderNow">Order Now</span>
+    </button>
+  </div>
+
+  <button type="button" id="back-top" class="circle-btn fixed z-30" style="right:16px;bottom:84px;display:none" aria-label="Back to top">
+    <i data-lucide="chevron-up" style="width:18px;height:18px"></i>
+  </button>
+
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

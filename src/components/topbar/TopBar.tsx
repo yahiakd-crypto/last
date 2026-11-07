@@ -19,6 +19,7 @@ import {
   Plus,
 } from 'lucide-react';
 import { WorkflowProject } from '../../types/workflow';
+import { ServicesMenuDropdown } from '../navigation/ServicesMenuDropdown';
 
 interface TopBarProps {
   projectName: string;
@@ -44,6 +45,7 @@ interface TopBarProps {
   particleStyle: 'people' | 'dots' | 'hybrid';
   onParticleStyleChange: (s: 'people' | 'dots' | 'hybrid') => void;
   onNavigateHome?: () => void;
+  onNavigate?: (view: string, subItem?: string) => void;
   canvases?: WorkflowProject[];
   activeCanvasId?: string;
   onSelectCanvas?: (id: string) => void;
@@ -75,6 +77,7 @@ export const TopBar: React.FC<TopBarProps> = ({
   particleStyle,
   onParticleStyleChange,
   onNavigateHome,
+  onNavigate,
   canvases,
   activeCanvasId,
   onSelectCanvas,
@@ -100,18 +103,18 @@ export const TopBar: React.FC<TopBarProps> = ({
 
   return (
     <header className="h-14 bg-white border-b border-slate-200/90 px-4 flex items-center justify-between gap-4 z-30 select-none shadow-2xs">
-      {/* Zone 1: Logo & Workspace / Project Breadcrumb (Screenshot 2 Match) */}
+      {/* Zone 1: Logo & Workspace / Project Breadcrumb */}
       <div className="flex items-center gap-3 shrink-0">
-        <button
-          onClick={onNavigateHome}
-          className="flex items-center gap-2 group text-left cursor-pointer hover:opacity-90 transition-opacity"
-          title="Return to Dashboard"
-        >
-          {/* Logo Mark */}
-          <div className="w-8 h-8 rounded-xl bg-blue-600 flex items-center justify-center text-white shadow-xs group-hover:scale-105 transition-transform">
-            <Zap className="w-4.5 h-4.5 fill-white" />
-          </div>
-        </button>
+        <ServicesMenuDropdown
+          currentView="canvas"
+          onNavigate={(view, subItem) => {
+            if (onNavigate) {
+              onNavigate(view, subItem);
+            } else if (onNavigateHome) {
+              onNavigateHome();
+            }
+          }}
+        />
 
         <div className="w-[1px] h-5 bg-slate-200 mx-1" />
 

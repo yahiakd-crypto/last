@@ -1,0 +1,28 @@
+{
+  "keys": {
+    "nvidia": "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",
+    "openrouter": "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"
+  },
+  "routing": {
+    "fast": {
+      "provider": "openrouter",
+      "model": "poolside/laguna-s-2.1:free"
+    },
+    "deep": {
+      "provider": "openrouter",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b:free"
+    },
+    "reasoning": {
+      "provider": "openrouter",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b:free"
+    },
+    "copywriting": {
+      "provider": "openrouter",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b:free"
+    },
+    "cheap": {
+      "provider": "openrouter",
+      "model": "poolside/laguna-s-2.1:free"
+    }
+  }
+}
