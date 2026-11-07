@@ -1,0 +1,6 @@
+{
+  "name": "Product Intelligence OS",
+  "description": "Interactive E-commerce Workflow Canvas with animated nodes, COD operations, conversion paths, and AI automation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,2545 @@
+================================================================================
+                       COMPLETE AI SKILL LIBRARY DIRECTORY                      
+================================================================================
+Total Categories: 43
+Total Skills: 255
+Generated on: 2026-10-22T21:57:56.536Z
+================================================================================
+
+################################################################################
+CATEGORY 1: ALL IN ONE (ID: ALL_IN_ONE)
+Total Skills in Category: 16
+################################################################################
+
+--------------------------------------------------------------------------------
+[Skill #1] All In One (Master 15-Stage Funnel)
+Skill ID:    full_funnel_workflow_master
+Category:    All In One (ALL_IN_ONE)
+Icon:        Layers
+Subtitle / Description:
+  Executes a complete 15-stage full-funnel analysis on the selected stages with the visual E-commerce Command Dashboard.
+
+--------------------------------------------------------------------------------
+[Skill #2] 1. Product Intelligence
+Skill ID:    stage_1_product
+Category:    All In One (ALL_IN_ONE)
+Icon:        Package
+Subtitle / Description:
+  Find, validate, and prepare the product (19 sub-skills).
+Sub-Skills / Features Included:
+  Product Discovery, Winning Product Finder, Product Deep Dive, Product Demand Analysis, Product Market Research, Product Trend Analysis, Product Validation, Product DNA Analysis, Product Problem-Solution Fit, Product Differentiation, Product Profitability, Product Sourcing, Supplier Research, Supplier Quality Check, Product Cost Analysis, Product Risk Analysis, Product Compliance Check, Product Test Recommendation, Product Launch Readiness
+
+--------------------------------------------------------------------------------
+[Skill #3] 2. Strategy Intelligence
+Skill ID:    stage_2_strategy
+Category:    All In One (ALL_IN_ONE)
+Icon:        Target
+Subtitle / Description:
+  Define the offer, audience, and positioning (26 sub-skills).
+Sub-Skills / Features Included:
+  Market Strategy, Target Market Research, Buyer Persona Research, Customer Segmentation, Pain Point Discovery, Desire & Motivation Analysis, Customer Awareness Level, Buying Intent Analysis, Customer Jobs-to-be-Done, Offer Strategy, Unique Selling Proposition (USP), Value Proposition, Product Positioning, Pricing Strategy, Discount Strategy, Bundle Strategy, Upsell Strategy, Cross-Sell Strategy, Guarantee Strategy, COD Offer Strategy, Competitor Strategy, Funnel Strategy, Customer Acquisition Strategy, Profit Margin Strategy, Launch Strategy, Scaling Strategy
+
+--------------------------------------------------------------------------------
+[Skill #4] 3. Creative Intelligence
+Skill ID:    stage_3_creative
+Category:    All In One (ALL_IN_ONE)
+Icon:        Palette
+Subtitle / Description:
+  Generate and analyze ads that communicate the offer (32 sub-skills).
+Sub-Skills / Features Included:
+  Creative Strategy, Creative Angle Discovery, Marketing Angle Analyzer, Buyer Persona Creative Matcher, Hook Generator, Hook Analyzer, Pattern Interrupt Generator, Pain Point Creative, Desire-Based Creative, Problem-Solution Creative, Before & After Creative, Demonstration Creative, Testimonial Creative, UGC Creative, Founder-Style Creative, Lifestyle Creative, Product Showcase Creative, Comparison Creative, Offer Creative, Objection-Handling Creative, Image Ad Analyzer, Video Ad Analyzer, Ad Copy Analyzer, Primary Text Generator, Headline Generator, CTA Generator, Thumbnail Analyzer, Creative Fatigue Detector, Creative Winner Detector, Creative Testing Matrix, AI Image Generation, AI Video Generation
+
+--------------------------------------------------------------------------------
+[Skill #5] 4. Campaign Intelligence
+Skill ID:    stage_4_campaign
+Category:    All In One (ALL_IN_ONE)
+Icon:        Megaphone
+Subtitle / Description:
+  Build, launch, and manage ad campaigns (30 sub-skills).
+Sub-Skills / Features Included:
+  Campaign Strategy, Campaign Structure, Campaign Objective Selection, Sales Campaign Setup, Traffic Campaign Setup, Engagement Campaign Setup, Messages Campaign Setup, Awareness Campaign Setup, Conversion Campaign Setup, CBO Campaign Strategy, ABO Campaign Strategy, Ad Set Structure, Audience Setup, Broad Targeting, Interest Targeting, Lookalike Audience, Retargeting Campaign, Budget Allocation, Budget Scaling, Bid Strategy, Bid Cap Strategy, Cost Cap Strategy, Lowest Cost Strategy, Campaign Testing, Creative Testing Campaign, Campaign Launch Checklist, Campaign Monitoring, Campaign Troubleshooting, Campaign Scaling, Campaign Pause / Restart
+
+--------------------------------------------------------------------------------
+[Skill #6] 5. Traffic Intelligence
+Skill ID:    stage_5_traffic
+Category:    All In One (ALL_IN_ONE)
+Icon:        MousePointer
+Subtitle / Description:
+  Understand where visitors come from and how they behave (28 sub-skills).
+Sub-Skills / Features Included:
+  Traffic Acquisition, Traffic Source Analysis, Meta Traffic Analysis, Organic Traffic Analysis, Paid Traffic Analysis, Website Visitor Analysis, Landing Page Traffic, Product Page Traffic, Mobile Traffic Analysis, Desktop Traffic Analysis, New Visitor Analysis, Returning Visitor Analysis, Traffic Quality Analysis, Click Quality Analysis, CTR Analysis, CPC Analysis, CPM Analysis, Landing Page View Rate, Add to Cart Rate, Checkout Initiation Rate, Traffic-to-Order Conversion, Visitor Behavior Analysis, Bounce Rate Analysis, Funnel Drop-Off Analysis, Traffic Source Comparison, UTM Tracking, Pixel Event Tracking, Traffic Scaling
+
+--------------------------------------------------------------------------------
+[Skill #7] 6. Order Intelligence
+Skill ID:    stage_6_order
+Category:    All In One (ALL_IN_ONE)
+Icon:        ShoppingCart
+Subtitle / Description:
+  Track the customer journey from checkout to submitted order (23 sub-skills).
+Sub-Skills / Features Included:
+  Order Analytics, Order Volume Analysis, Order Conversion Rate, Checkout Analysis, Checkout Drop-Off, Cart Abandonment, Add to Cart Analysis, Order Value Analysis, Average Order Value (AOV), Orders by Product, Orders by Creative, Orders by Campaign, Orders by Ad Set, Orders by Wilaya, Orders by Customer Segment, First-Time Order Analysis, Repeat Order Analysis, Order Source Attribution, Order Fraud Detection, Duplicate Order Detection, COD Order Management, Order Quality Scoring
+
+--------------------------------------------------------------------------------
+[Skill #8] 7. Confirmation Intelligence
+Skill ID:    stage_7_confirmation
+Category:    All In One (ALL_IN_ONE)
+Icon:        PhoneCall
+Subtitle / Description:
+  Improve confirmed orders and reduce invalid submissions (21 sub-skills).
+Sub-Skills / Features Included:
+  Order Confirmation, Confirmation Rate, Confirmation Call Analysis, Confirmation Script Generator, Confirmation Team Performance, Customer Contact Rate, Customer Response Rate, Unreachable Customer Analysis, Wrong Phone Number Detection, Fake Order Detection, Duplicate Order Detection, Customer Intent Verification, Order Cancellation Analysis, Confirmation Time Analysis, Confirmation by Wilaya, Confirmation by Product, Confirmation by Campaign, Confirmation by Creative, Confirmed Order Value, Confirmed Order Attribution, Confirmation Optimization
+
+--------------------------------------------------------------------------------
+[Skill #9] 8. Delivery Intelligence
+Skill ID:    stage_8_delivery
+Category:    All In One (ALL_IN_ONE)
+Icon:        Truck
+Subtitle / Description:
+  Track shipments, delivery performance, and successful receipts (21 sub-skills).
+Sub-Skills / Features Included:
+  Delivery Tracking, Delivery Rate, Successful Delivery Rate, Delivery Time Analysis, Average Delivery Time, Delivery by Wilaya, Delivery by Courier, Delivery by Product, Delivery by Campaign, Delivery by Customer, Delivery Cost Analysis, Shipping Cost Analysis, Shipping Profitability, Failed Delivery Analysis, Delivery Delay Analysis, Courier Performance, Wilaya Performance, First Attempt Delivery Rate, Reattempt Delivery Analysis, Delivery Experience Analysis, Delivery Optimization
+
+--------------------------------------------------------------------------------
+[Skill #10] 9. RTO Intelligence
+Skill ID:    stage_9_rto
+Category:    All In One (ALL_IN_ONE)
+Icon:        RotateCcw
+Subtitle / Description:
+  Analyze returns to origin and their financial impact (24 sub-skills).
+Sub-Skills / Features Included:
+  RTO Analysis, RTO Rate, Return to Origin Tracking, RTO Reason Analysis, RTO by Wilaya, RTO by Courier, RTO by Product, RTO by Campaign, RTO by Ad Set, RTO by Creative, RTO by Customer Segment, RTO by Order Source, Customer Refusal Analysis, Wrong Address Analysis, Unreachable Customer RTO, Delivery Delay RTO, RTO Cost Analysis, Reverse Shipping Cost, Return Handling Cost, RTO Profit Impact, RTO Prediction, RTO Risk Scoring, RTO Reduction Strategy, RTO Prevention
+
+--------------------------------------------------------------------------------
+[Skill #11] 10. Revenue Intelligence
+Skill ID:    stage_10_revenue
+Category:    All In One (ALL_IN_ONE)
+Icon:        DollarSign
+Subtitle / Description:
+  Measure money generated by the business (22 sub-skills).
+Sub-Skills / Features Included:
+  Revenue Analytics, Gross Revenue, Net Revenue, Delivered Revenue, Collected Revenue, Revenue by Product, Revenue by Campaign, Revenue by Ad Set, Revenue by Creative, Revenue by Wilaya, Revenue by Customer, Revenue by Date, Revenue Growth, Revenue Forecasting, Revenue Attribution, Revenue per Customer, Average Order Value, Revenue per Ad Spend, Daily Revenue Tracking, Weekly Revenue Tracking, Monthly Revenue Tracking, Revenue Dashboard
+
+--------------------------------------------------------------------------------
+[Skill #12] 11. Profit Intelligence
+Skill ID:    stage_11_profit
+Category:    All In One (ALL_IN_ONE)
+Icon:        TrendingUp
+Subtitle / Description:
+  Calculate the real economics of every sale (26 sub-skills).
+Sub-Skills / Features Included:
+  Profit Analytics, Gross Profit, Net Profit, Contribution Margin, Profit Margin, Profit per Order, Profit per Delivered Order, Profit per Product, Profit per Campaign, Profit per Ad Set, Profit per Creative, Profit per Wilaya, Cost of Goods Sold (COGS), Shipping Cost, Confirmation Cost, Return Cost, RTO Cost, Ad Spend, Operating Expenses, Break-Even Analysis, Break-Even ROAS, Break-Even CPA, Maximum CPA, Maximum CAC, Target ROAS, Profit Forecasting, Profit Optimization, Scaling Profitability
+
+--------------------------------------------------------------------------------
+[Skill #13] 12. Customer Quality Intelligence
+Skill ID:    stage_12_customer_quality
+Category:    All In One (ALL_IN_ONE)
+Icon:        Users
+Subtitle / Description:
+  Measure whether acquired customers create sustainable value (25 sub-skills).
+Sub-Skills / Features Included:
+  Customer Quality Score, Customer Lifetime Value (LTV), Customer Acquisition Cost (CAC), Customer Retention, Repeat Purchase Rate, Repeat Order Analysis, Customer Segmentation, High-Value Customer Detection, Low-Value Customer Detection, RTO-Prone Customer Analysis, Customer Refusal Rate, Customer Cancellation Rate, Customer Confirmation Rate, Customer Delivery Rate, Customer Profitability, Customer Feedback Analysis, Customer Satisfaction Analysis, Customer Complaints, Customer Loyalty, Customer Cohort Analysis, Customer Quality by Wilaya, Customer Quality by Product, Customer Quality by Campaign, Customer Quality by Creative, Customer Quality Prediction
+
+--------------------------------------------------------------------------------
+[Skill #14] 13. Ad Platform Signal Intelligence
+Skill ID:    stage_13_signal
+Category:    All In One (ALL_IN_ONE)
+Icon:        Radio
+Subtitle / Description:
+  Analyze the signals sent back to Meta and other ad platforms (26 sub-skills).
+Sub-Skills / Features Included:
+  Pixel Signal Analysis, Conversion API (CAPI) Analysis, Event Tracking, Event Match Quality, Purchase Event Quality, Lead Event Quality, Add to Cart Signal, Initiate Checkout Signal, Confirmed Order Signal, Delivered Order Signal, Purchase Value Signal, Revenue Signal Quality, Customer Quality Signal, Offline Conversion Tracking, Server-Side Tracking, Browser-Side Tracking, Deduplication Analysis, Event Match Rate, Signal Loss Detection, Event Delay Analysis, Conversion Attribution, Data Quality Monitoring, Signal-to-Conversion Analysis, Signal Optimization, Meta Learning Phase Analysis, Audience Feedback Loop
+
+--------------------------------------------------------------------------------
+[Skill #15] 14. AI Optimization Engine
+Skill ID:    stage_14_optimization
+Category:    All In One (ALL_IN_ONE)
+Icon:        Sliders
+Subtitle / Description:
+  Turn business and customer data into better campaign decisions (34 sub-skills).
+Sub-Skills / Features Included:
+  AI Campaign Optimization, AI Budget Optimization, AI Bid Optimization, AI Creative Optimization, AI Audience Optimization, AI Targeting Optimization, AI Product Optimization, AI Offer Optimization, AI Funnel Optimization, AI Landing Page Optimization, AI Conversion Rate Optimization (CRO), AI CPA Optimization, AI ROAS Optimization, AI Profit Optimization, AI Revenue Optimization, AI RTO Reduction, AI Delivery Rate Optimization, AI Confirmation Rate Optimization, AI Customer Quality Optimization, AI Signal Optimization, Budget Reallocation, Creative Rotation, Creative Fatigue Prevention, Audience Expansion, Audience Exclusion, Broad vs Interest Targeting, Scaling Recommendations, Kill / Keep / Scale Analysis, Daily Performance Monitoring, Automated Decision Rules, 7-Day Average Comparison, Anomaly Detection, Performance Alerts, Testing Prioritization
+
+--------------------------------------------------------------------------------
+[Skill #16] 15. New Traffic Acquisition
+Skill ID:    stage_15_new_traffic
+Category:    All In One (ALL_IN_ONE)
+Icon:        Waves
+Subtitle / Description:
+  Use optimization insights to acquire the next wave of customers (26 sub-skills).
+Sub-Skills / Features Included:
+  New Traffic Generation, New Audience Discovery, Audience Expansion, Lookalike Expansion, Broad Audience Expansion, New Interest Discovery, New Buyer Persona Discovery, New Market Discovery, New Wilaya Expansion, New Creative Launch, New Offer Testing, New Product Testing, New Campaign Launch, New Traffic Source Discovery, Organic Traffic Expansion, Paid Traffic Expansion, Influencer Traffic, UGC Traffic, Social Media Traffic, Search Traffic, Retargeting Expansion, Customer Referral Traffic, New Customer Acquisition, Traffic Scaling, Market Expansion, Growth Loop
+
+
+################################################################################
+CATEGORY 2: BUSINESS & COMPANY SETUP (ID: BUSINESS)
+Total Skills in Category: 5
+################################################################################
+
+--------------------------------------------------------------------------------
+[Skill #1] LLC Company
+Skill ID:    llc_company
+Category:    Business & Company Setup (BUSINESS)
+Icon:        Building2
+Subtitle / Description:
+  Get your US LLC company plan: when to create, tax deadlines, required documents, and which non-resident banks to apply with
+
+--------------------------------------------------------------------------------
+[Skill #2] LTD Company (UK)
+Skill ID:    ltd_company
+Category:    Business & Company Setup (BUSINESS)
+Icon:        Crown
+Subtitle / Description:
+  Get your UK Ltd company plan: Companies House formation, tax deadlines, documents, and non-resident business banks
+
+--------------------------------------------------------------------------------
+[Skill #3] Hong Kong Company
+Skill ID:    hong_kong_company
+Category:    Business & Company Setup (BUSINESS)
+Icon:        Building
+Subtitle / Description:
+  Get your Hong Kong company plan: Companies Registry formation, profits tax, documents, and corporate banks
+
+--------------------------------------------------------------------------------
+[Skill #4] UAE Company
+Skill ID:    uae_company
+Category:    Business & Company Setup (BUSINESS)
+Icon:        Landmark
+Subtitle / Description:
+  Get your UAE company plan: mainland or free zone, corporate tax, documents, and business banks
+
+--------------------------------------------------------------------------------
+[Skill #5] Estonia Company
+Skill ID:    estonia_company
+Category:    Business & Company Setup (BUSINESS)
+Icon:        IdCard
+Subtitle / Description:
+  Get your Estonia OÜ plan via e-Residency: 0% reinvested tax, documents, and e-Resident banks
+
+
+################################################################################
+CATEGORY 3: ADVANCED PRODUCT INTELLIGENCE (ID: ADVANCED_PRODUCT)
+Total Skills in Category: 19
+################################################################################
+
+--------------------------------------------------------------------------------
+[Skill #1] Product Master List
+Skill ID:    product_master_list
+Category:    Advanced Product Intelligence (ADVANCED_PRODUCT)
+Icon:        Table
+Subtitle / Description:
+  Build a master reference list of core product identity, pricing, suppliers, and marketplace presence
+
+--------------------------------------------------------------------------------
+[Skill #2] Product Deep Dive
+Skill ID:    product_deep_dive
+Category:    Advanced Product Intelligence (ADVANCED_PRODUCT)
+Icon:        Microscope
+Subtitle / Description:
+  Full-depth product investigation for a go/no-go decision
+
+--------------------------------------------------------------------------------
+[Skill #3] Product DNA
+Skill ID:    product_dna
+Category:    Advanced Product Intelligence (ADVANCED_PRODUCT)
+Icon:        Dna
+Subtitle / Description:
+  Decode why a product wins or loses: hook, pain point, mechanism, trigger, visual wow
+
+--------------------------------------------------------------------------------
+[Skill #4] Why People Buy
+Skill ID:    why_people_buy
+Category:    Advanced Product Intelligence (ADVANCED_PRODUCT)
+Icon:        BrainCircuit
+Subtitle / Description:
+  Identify purchase psychology — stated vs actual buying drivers with evidence
+
+--------------------------------------------------------------------------------
+[Skill #5] Why People Don
+Skill ID:    why_people_dont_buy
+Category:    Advanced Product Intelligence (ADVANCED_PRODUCT)
+Icon:        OctagonMinus
+Subtitle / Description:
+  Identify conversion blockers — objections, root causes, and concrete fixes
+
+--------------------------------------------------------------------------------
+[Skill #6] Viral Potential Score
+Skill ID:    viral_potential_score
+Category:    Advanced Product Intelligence (ADVANCED_PRODUCT)
+Icon:        Flame
+Subtitle / Description:
+  Score viral potential 0-100 with breakdown and best platform
+
+--------------------------------------------------------------------------------
+[Skill #7] Product Complexity Score
+Skill ID:    product_complexity_score
+Category:    Advanced Product Intelligence (ADVANCED_PRODUCT)
+Icon:        Package
+Subtitle / Description:
+  Determine operational difficulty — sourcing, shipping, support, returns, setup
+
+--------------------------------------------------------------------------------
+[Skill #8] Product Risk Score
+Skill ID:    product_risk_score
+Category:    Advanced Product Intelligence (ADVANCED_PRODUCT)
+Icon:        TriangleAlert
+Subtitle / Description:
+  Identify commercial risks — legal, ad-policy, seasonality, reputational, supplier
+
+--------------------------------------------------------------------------------
+[Skill #9] Untapped Product Finder
+Skill ID:    untapped_product_finder
+Category:    Advanced Product Intelligence (ADVANCED_PRODUCT)
+Icon:        Gem
+Subtitle / Description:
+  Find underserved opportunities with rising demand and low saturation
+
+--------------------------------------------------------------------------------
+[Skill #10] Product Trend Reversal
+Skill ID:    product_trend_reversal
+Category:    Advanced Product Intelligence (ADVANCED_PRODUCT)
+Icon:        RotateCcw
+Subtitle / Description:
+  Detect products returning or falling off — reversal direction and timing
+
+--------------------------------------------------------------------------------
+[Skill #11] Product Ecosystem
+Skill ID:    product_ecosystem
+Category:    Advanced Product Intelligence (ADVANCED_PRODUCT)
+Icon:        Network
+Subtitle / Description:
+  Map complementary products, upsell bundles, and the broader lifestyle niche
+
+--------------------------------------------------------------------------------
+[Skill #12] Price Elasticity Analysis
+Skill ID:    price_elasticity_analysis
+Category:    Advanced Product Intelligence (ADVANCED_PRODUCT)
+Icon:        CircleDollarSign
+Subtitle / Description:
+  Estimate response to price changes — floor, ceiling, anchors, elasticity level
+
+--------------------------------------------------------------------------------
+[Skill #13] Commodity vs Brandable
+Skill ID:    commodity_vs_brandable
+Category:    Advanced Product Intelligence (ADVANCED_PRODUCT)
+Icon:        Tag
+Subtitle / Description:
+  Determine whether a product can become a brand — verdict, score, reasoning
+
+--------------------------------------------------------------------------------
+[Skill #14] Scale Potential
+Skill ID:    scale_potential
+Category:    Advanced Product Intelligence (ADVANCED_PRODUCT)
+Icon:        Rocket
+Subtitle / Description:
+  Estimate scaling ceiling in tiers — revenue, bottlenecks, and the path up
+
+--------------------------------------------------------------------------------
+[Skill #15] Test Priority Score
+Skill ID:    test_priority_score
+Category:    Advanced Product Intelligence (ADVANCED_PRODUCT)
+Icon:        ListOrdered
+Subtitle / Description:
+  Rank products by testing priority — speed, cost, signal quality, upside
+
+--------------------------------------------------------------------------------
+[Skill #16] Portfolio Product Ranking
+Skill ID:    portfolio_product_ranking
+Category:    Advanced Product Intelligence (ADVANCED_PRODUCT)
+Icon:        Trophy
+Subtitle / Description:
+  Rank multiple connected products against each other — connect 2+ products
+
+--------------------------------------------------------------------------------
+[Skill #17] Product Sourcing Compliance
+Skill ID:    product_sourcing_compliance
+Category:    Advanced Product Intelligence (ADVANCED_PRODUCT)
+Icon:        ShieldCheck
+Subtitle / Description:
+  Map sourcing flows, compliance gates, and brand flags for the target country
+
+--------------------------------------------------------------------------------
+[Skill #18] Find Winning Products — Chinese Sources
+Skill ID:    winning_product_methods
+Category:    Advanced Product Intelligence (ADVANCED_PRODUCT)
+Icon:        Telescope
+Subtitle / Description:
+  Secret methods to find winning products from Chinese sources — pick any method on the card (1688 deep mining, Taobao trends, Douyin viral mining, TMIC data, AliExpress intel, WeChat & Xiaohongshu, Alibaba suppliers, spy tools, freight forwarders, social commerce + dropshipping/product-spy/wholesale mega-methods) and get its complete step-by-step playbook
+
+--------------------------------------------------------------------------------
+[Skill #19] 01
+Skill ID:    product_intelligence_01
+Category:    Advanced Product Intelligence (ADVANCED_PRODUCT)
+Icon:        Database
+Subtitle / Description:
+  Run the full 17-skill Product Intelligence pipeline (Group 01 & Group 02).
+
+
+################################################################################
+CATEGORY 4: TREND & VIRAL RESEARCH (ID: TREND_VIRAL)
+Total Skills in Category: 10
+################################################################################
+
+--------------------------------------------------------------------------------
+[Skill #1] Trend Detector
+Skill ID:    trend_detector
+Category:    Trend & Viral Research (TREND_VIRAL)
+Icon:        Radar
+Subtitle / Description:
+  Detect emerging trends
+
+--------------------------------------------------------------------------------
+[Skill #2] Trend Momentum
+Skill ID:    trend_momentum
+Category:    Trend & Viral Research (TREND_VIRAL)
+Icon:        TrendingUp
+Subtitle / Description:
+  Measure whether interest is accelerating
+
+--------------------------------------------------------------------------------
+[Skill #3] Trend Forecast
+Skill ID:    trend_forecast
+Category:    Trend & Viral Research (TREND_VIRAL)
+Icon:        LineChart
+Subtitle / Description:
+  Estimate future demand
+
+--------------------------------------------------------------------------------
+[Skill #4] Trend Wave Finder
+Skill ID:    trend_wave_finder
+Category:    Trend & Viral Research (TREND_VIRAL)
+Icon:        Waves
+Subtitle / Description:
+  Find products riding a larger trend
+
+--------------------------------------------------------------------------------
+[Skill #5] Trend-to-Product Matcher
+Skill ID:    trend_to_product_matcher
+Category:    Trend & Viral Research (TREND_VIRAL)
+Icon:        Target
+Subtitle / Description:
+  Match trends with products
+
+--------------------------------------------------------------------------------
+[Skill #6] Viral Product Detector
+Skill ID:    viral_product_detector
+Category:    Trend & Viral Research (TREND_VIRAL)
+Icon:        Bomb
+Subtitle / Description:
+  Identify products gaining attention
+
+--------------------------------------------------------------------------------
+[Skill #7] Social Trend Analyzer
+Skill ID:    social_trend_analyzer
+Category:    Trend & Viral Research (TREND_VIRAL)
+Icon:        Smartphone
+Subtitle / Description:
+  Analyze social-media trends
+
+--------------------------------------------------------------------------------
+[Skill #8] Viral Creative Analyzer
+Skill ID:    viral_creative_analyzer
+Category:    Trend & Viral Research (TREND_VIRAL)
+Icon:        Clapperboard
+Subtitle / Description:
+  Identify patterns in viral ads/content
+
+--------------------------------------------------------------------------------
+[Skill #9] Trend Hook Generator
+Skill ID:    trend_hook_generator
+Category:    Trend & Viral Research (TREND_VIRAL)
+Icon:        Magnet
+Subtitle / Description:
+  Create hooks around current trends
+
+--------------------------------------------------------------------------------
+[Skill #10] Seasonality Detector
+Skill ID:    seasonality_detector
+Category:    Trend & Viral Research (TREND_VIRAL)
+Icon:        Clock
+Subtitle / Description:
+  Identify seasonal demand
+
+
+################################################################################
+CATEGORY 5: COMPETITOR INTELLIGENCE (ID: COMPETITOR)
+Total Skills in Category: 14
+################################################################################
+
+--------------------------------------------------------------------------------
+[Skill #1] Competitor Recon
+Skill ID:    competitor_recon
+Category:    Competitor Intelligence (COMPETITOR)
+Icon:        UserMinus
+Subtitle / Description:
+  Complete competitor investigation
+
+--------------------------------------------------------------------------------
+[Skill #2] Revenue Estimator
+Skill ID:    competitor_revenue_estimator
+Category:    Competitor Intelligence (COMPETITOR)
+Icon:        CircleDollarSign
+Subtitle / Description:
+  Estimate competitor sales potential
+
+--------------------------------------------------------------------------------
+[Skill #3] Ad Library Analyzer
+Skill ID:    ad_library_analyzer
+Category:    Competitor Intelligence (COMPETITOR)
+Icon:        Library
+Subtitle / Description:
+  Analyze competitor advertising patterns
+
+--------------------------------------------------------------------------------
+[Skill #4] Spy Facebook Library
+Skill ID:    spy_facebook_library
+Category:    Competitor Intelligence (COMPETITOR)
+Icon:        ScanEye
+Subtitle / Description:
+  Transform one product image into a full Meta Ads Library competitor research report + 7 original ad creatives in Algerian Arabic & French for the COD market
+
+--------------------------------------------------------------------------------
+[Skill #5] Competitor Psychology
+Skill ID:    competitor_psychology
+Category:    Competitor Intelligence (COMPETITOR)
+Icon:        Brain
+Subtitle / Description:
+  Understand competitor positioning
+
+--------------------------------------------------------------------------------
+[Skill #6] Target Audience
+Skill ID:    competitor_target_audience
+Category:    Competitor Intelligence (COMPETITOR)
+Icon:        Users
+Subtitle / Description:
+  Determine who they target
+
+--------------------------------------------------------------------------------
+[Skill #7] Hook Analyzer
+Skill ID:    competitor_hook_analyzer
+Category:    Competitor Intelligence (COMPETITOR)
+Icon:        Magnet
+Subtitle / Description:
+  Extract recurring hooks
+
+--------------------------------------------------------------------------------
+[Skill #8] Offer Reverse Engineer
+Skill ID:    competitor_offer_reverse_engineer
+Category:    Competitor Intelligence (COMPETITOR)
+Icon:        Gem
+Subtitle / Description:
+  Reconstruct their offer
+
+--------------------------------------------------------------------------------
+[Skill #9] Funnel Reverse Engineer
+Skill ID:    competitor_funnel_reverse_engineer
+Category:    Competitor Intelligence (COMPETITOR)
+Icon:        Filter
+Subtitle / Description:
+  Reconstruct their funnel
+
+--------------------------------------------------------------------------------
+[Skill #10] Creative Breakdown
+Skill ID:    competitor_creative_breakdown
+Category:    Competitor Intelligence (COMPETITOR)
+Icon:        Image
+Subtitle / Description:
+  Analyze visual creatives
+
+--------------------------------------------------------------------------------
+[Skill #11] Messaging Breakdown
+Skill ID:    competitor_messaging_breakdown
+Category:    Competitor Intelligence (COMPETITOR)
+Icon:        MessageSquare
+Subtitle / Description:
+  Analyze their messaging
+
+--------------------------------------------------------------------------------
+[Skill #12] Battle Card Generator
+Skill ID:    battle_card_generator
+Category:    Competitor Intelligence (COMPETITOR)
+Icon:        Swords
+Subtitle / Description:
+  Create a sales/marketing battle card
+
+--------------------------------------------------------------------------------
+[Skill #13] Market Leader Analysis
+Skill ID:    market_leader_analysis
+Category:    Competitor Intelligence (COMPETITOR)
+Icon:        Medal
+Subtitle / Description:
+  Identify what the strongest competitor does differently
+
+--------------------------------------------------------------------------------
+[Skill #14] Competitor Gap Finder
+Skill ID:    competitor_gap_finder
+Category:    Competitor Intelligence (COMPETITOR)
+Icon:        SearchCode
+Subtitle / Description:
+  Find gaps competitors aren't serving
+
+
+################################################################################
+CATEGORY 6: CUSTOMER & REVIEW INTELLIGENCE (ID: CUSTOMER_REVIEW)
+Total Skills in Category: 12
+################################################################################
+
+--------------------------------------------------------------------------------
+[Skill #1] Review Intelligence
+Skill ID:    review_intelligence
+Category:    Customer & Review Intelligence (CUSTOMER_REVIEW)
+Icon:        Star
+Subtitle / Description:
+  Analyze thousands of reviews
+
+--------------------------------------------------------------------------------
+[Skill #2] Complaint Mining
+Skill ID:    complaint_mining
+Category:    Customer & Review Intelligence (CUSTOMER_REVIEW)
+Icon:        Frown
+Subtitle / Description:
+  Find recurring complaints
+
+--------------------------------------------------------------------------------
+[Skill #3] Love Mining
+Skill ID:    love_mining
+Category:    Customer & Review Intelligence (CUSTOMER_REVIEW)
+Icon:        Heart
+Subtitle / Description:
+  Find what customers love
+
+--------------------------------------------------------------------------------
+[Skill #4] Feature Demand Finder
+Skill ID:    feature_demand_finder
+Category:    Customer & Review Intelligence (CUSTOMER_REVIEW)
+Icon:        PlusCircle
+Subtitle / Description:
+  Identify requested features
+
+--------------------------------------------------------------------------------
+[Skill #5] Customer Idea Generator
+Skill ID:    customer_idea_generator
+Category:    Customer & Review Intelligence (CUSTOMER_REVIEW)
+Icon:        Lightbulb
+Subtitle / Description:
+  Turn complaints into product ideas
+
+--------------------------------------------------------------------------------
+[Skill #6] Language Extractor
+Skill ID:    customer_language_extractor
+Category:    Customer & Review Intelligence (CUSTOMER_REVIEW)
+Icon:        MessageCircle
+Subtitle / Description:
+  Extract exact customer vocabulary
+
+--------------------------------------------------------------------------------
+[Skill #7] Intent Detector
+Skill ID:    customer_intent_detector
+Category:    Customer & Review Intelligence (CUSTOMER_REVIEW)
+Icon:        Target
+Subtitle / Description:
+  Determine buying intent
+
+--------------------------------------------------------------------------------
+[Skill #8] Awareness Stage Analyzer
+Skill ID:    awareness_stage_analyzer
+Category:    Customer & Review Intelligence (CUSTOMER_REVIEW)
+Icon:        Eye
+Subtitle / Description:
+  Identify customer awareness
+
+--------------------------------------------------------------------------------
+[Skill #9] Willingness-to-Pay Analysis
+Skill ID:    willingness_to_pay_analysis
+Category:    Customer & Review Intelligence (CUSTOMER_REVIEW)
+Icon:        Wallet
+Subtitle / Description:
+  Estimate acceptable price range
+
+--------------------------------------------------------------------------------
+[Skill #10] Purchase Barrier Analyzer
+Skill ID:    purchase_barrier_analyzer
+Category:    Customer & Review Intelligence (CUSTOMER_REVIEW)
+Icon:        ShieldAlert
+Subtitle / Description:
+  Find barriers to purchase
+
+--------------------------------------------------------------------------------
+[Skill #11] Retention Analyzer
+Skill ID:    customer_retention_analyzer
+Category:    Customer & Review Intelligence (CUSTOMER_REVIEW)
+Icon:        Repeat
+Subtitle / Description:
+  Identify reasons customers return
+
+--------------------------------------------------------------------------------
+[Skill #12] Churn Reason Analyzer
+Skill ID:    churn_reason_analyzer
+Category:    Customer & Review Intelligence (CUSTOMER_REVIEW)
+Icon:        UserMinus
+Subtitle / Description:
+  Identify why customers leave
+
+
+################################################################################
+CATEGORY 7: ADVANCED OFFER SKILLS (ID: ADVANCED_OFFER)
+Total Skills in Category: 15
+################################################################################
+
+--------------------------------------------------------------------------------
+[Skill #1] Offer Architect
+Skill ID:    offer_architect
+Category:    Advanced Offer Skills (ADVANCED_OFFER)
+Icon:        PenTool
+Subtitle / Description:
+  Architect compelling offers
+
+--------------------------------------------------------------------------------
+[Skill #2] Value Stack Builder
+Skill ID:    value_stack_builder
+Category:    Advanced Offer Skills (ADVANCED_OFFER)
+Icon:        Layers
+Subtitle / Description:
+  Build perceived value stacks
+
+--------------------------------------------------------------------------------
+[Skill #3] Bonus Stack Generator
+Skill ID:    bonus_stack_generator
+Category:    Advanced Offer Skills (ADVANCED_OFFER)
+Icon:        Gift
+Subtitle / Description:
+  Create high-value bonuses
+
+--------------------------------------------------------------------------------
+[Skill #4] Bundle Profit Optimizer
+Skill ID:    bundle_profit_optimizer
+Category:    Advanced Offer Skills (ADVANCED_OFFER)
+Icon:        PackagePlus
+Subtitle / Description:
+  Optimize bundle pricing
+
+--------------------------------------------------------------------------------
+[Skill #5] AOV Optimizer
+Skill ID:    aov_optimizer
+Category:    Advanced Offer Skills (ADVANCED_OFFER)
+Icon:        TrendingUp
+Subtitle / Description:
+  Increase average order value
+
+--------------------------------------------------------------------------------
+[Skill #6] Irresistibility Score
+Skill ID:    irresistibility_score
+Category:    Advanced Offer Skills (ADVANCED_OFFER)
+Icon:        Flame
+Subtitle / Description:
+  Score the offer's appeal
+
+--------------------------------------------------------------------------------
+[Skill #7] Price Anchoring Strategy
+Skill ID:    price_anchoring_strategy
+Category:    Advanced Offer Skills (ADVANCED_OFFER)
+Icon:        Anchor
+Subtitle / Description:
+  Anchor high prices effectively
+
+--------------------------------------------------------------------------------
+[Skill #8] Offer Comparison Matrix
+Skill ID:    offer_comparison_matrix
+Category:    Advanced Offer Skills (ADVANCED_OFFER)
+Icon:        GitCompare
+Subtitle / Description:
+  Compare offer structures
+
+--------------------------------------------------------------------------------
+[Skill #9] Offer-to-Audience Matcher
+Skill ID:    offer_to_audience_matcher
+Category:    Advanced Offer Skills (ADVANCED_OFFER)
+Icon:        Users
+Subtitle / Description:
+  Match offers to segments
+
+--------------------------------------------------------------------------------
+[Skill #10] Offer Weakness Detector
+Skill ID:    offer_weakness_detector
+Category:    Advanced Offer Skills (ADVANCED_OFFER)
+Icon:        SearchX
+Subtitle / Description:
+  Find leaks in your offer
+
+--------------------------------------------------------------------------------
+[Skill #11] Offer Iteration Generator
+Skill ID:    offer_iteration_generator
+Category:    Advanced Offer Skills (ADVANCED_OFFER)
+Icon:        RefreshCw
+Subtitle / Description:
+  Iterate to improve offer
+
+--------------------------------------------------------------------------------
+[Skill #12] Discount Profit Simulator
+Skill ID:    discount_profit_simulator
+Category:    Advanced Offer Skills (ADVANCED_OFFER)
+Icon:        Percent
+Subtitle / Description:
+  Simulate discount impact
+
+--------------------------------------------------------------------------------
+[Skill #13] Checkout Offer Optimizer
+Skill ID:    checkout_offer_optimizer
+Category:    Advanced Offer Skills (ADVANCED_OFFER)
+Icon:        ShoppingCart
+Subtitle / Description:
+  Optimize cart page offers
+
+--------------------------------------------------------------------------------
+[Skill #14] Free Gift Strategy
+Skill ID:    free_gift_strategy
+Category:    Advanced Offer Skills (ADVANCED_OFFER)
+Icon:        Gift
+Subtitle / Description:
+  Leverage free gifts for conversion
+
+--------------------------------------------------------------------------------
+[Skill #15] Upsell Revenue Simulator
+Skill ID:    upsell_revenue_simulator
+Category:    Advanced Offer Skills (ADVANCED_OFFER)
+Icon:        ArrowUpRight
+Subtitle / Description:
+  Simulate upsell paths
+
+
+################################################################################
+CATEGORY 8: ADVANCED CREATIVE INTELLIGENCE (ID: ADVANCED_CREATIVE)
+Total Skills in Category: 23
+################################################################################
+
+--------------------------------------------------------------------------------
+[Skill #1] Creative Deconstructor
+Skill ID:    creative_deconstructor
+Category:    Advanced Creative Intelligence (ADVANCED_CREATIVE)
+Icon:        Scissors
+Subtitle / Description:
+  Deconstruct winning ads
+
+--------------------------------------------------------------------------------
+[Skill #2] Hook Score
+Skill ID:    hook_score
+Category:    Advanced Creative Intelligence (ADVANCED_CREATIVE)
+Icon:        Magnet
+Subtitle / Description:
+  Score hook effectiveness
+
+--------------------------------------------------------------------------------
+[Skill #3] Creative-Audience Matcher
+Skill ID:    creative_audience_matcher
+Category:    Advanced Creative Intelligence (ADVANCED_CREATIVE)
+Icon:        Users
+Subtitle / Description:
+  Match creatives to audiences
+
+--------------------------------------------------------------------------------
+[Skill #4] Creative Psychology Analyzer
+Skill ID:    creative_psychology_analyzer
+Category:    Advanced Creative Intelligence (ADVANCED_CREATIVE)
+Icon:        Brain
+Subtitle / Description:
+  Analyze psychological triggers
+
+--------------------------------------------------------------------------------
+[Skill #5] UGC Persona Generator
+Skill ID:    ugc_persona_generator
+Category:    Advanced Creative Intelligence (ADVANCED_CREATIVE)
+Icon:        UserCircle
+Subtitle / Description:
+  Generate UGC creator personas
+
+--------------------------------------------------------------------------------
+[Skill #6] UGC Character Generator
+Skill ID:    ugc_character_generator
+Category:    Advanced Creative Intelligence (ADVANCED_CREATIVE)
+Icon:        UserPlus
+Subtitle / Description:
+  Generate specific UGC characters
+
+--------------------------------------------------------------------------------
+[Skill #7] Scene Generator
+Skill ID:    scene_generator
+Category:    Advanced Creative Intelligence (ADVANCED_CREATIVE)
+Icon:        Film
+Subtitle / Description:
+  Generate ad scenes
+
+--------------------------------------------------------------------------------
+[Skill #8] Storyboard Builder
+Skill ID:    storyboard_builder
+Category:    Advanced Creative Intelligence (ADVANCED_CREATIVE)
+Icon:        Layout
+Subtitle / Description:
+  Build video storyboards
+
+--------------------------------------------------------------------------------
+[Skill #9] Shot List Generator
+Skill ID:    shot_list_generator
+Category:    Advanced Creative Intelligence (ADVANCED_CREATIVE)
+Icon:        List
+Subtitle / Description:
+  Generate video shot lists
+
+--------------------------------------------------------------------------------
+[Skill #10] Voiceover Script Generator
+Skill ID:    voiceover_script_generator
+Category:    Advanced Creative Intelligence (ADVANCED_CREATIVE)
+Icon:        Mic
+Subtitle / Description:
+  Write voiceover scripts
+
+--------------------------------------------------------------------------------
+[Skill #11] Creative Variation Engine
+Skill ID:    creative_variation_engine
+Category:    Advanced Creative Intelligence (ADVANCED_CREATIVE)
+Icon:        Copy
+Subtitle / Description:
+  Generate variations of an ad
+
+--------------------------------------------------------------------------------
+[Skill #12] Hook × Angle Mixer
+Skill ID:    hook_angle_mixer
+Category:    Advanced Creative Intelligence (ADVANCED_CREATIVE)
+Icon:        Shuffle
+Subtitle / Description:
+  Mix hooks and angles
+
+--------------------------------------------------------------------------------
+[Skill #13] Static Ad Generator
+Skill ID:    static_ad_generator
+Category:    Advanced Creative Intelligence (ADVANCED_CREATIVE)
+Icon:        Image
+Subtitle / Description:
+  Generate static ad concepts
+
+--------------------------------------------------------------------------------
+[Skill #14] Video Ad Generator
+Skill ID:    video_ad_generator
+Category:    Advanced Creative Intelligence (ADVANCED_CREATIVE)
+Icon:        Video
+Subtitle / Description:
+  Generate video ad concepts
+
+--------------------------------------------------------------------------------
+[Skill #15] Creative Winner Predictor
+Skill ID:    creative_winner_predictor
+Category:    Advanced Creative Intelligence (ADVANCED_CREATIVE)
+Icon:        Trophy
+Subtitle / Description:
+  Predict winning creatives
+
+--------------------------------------------------------------------------------
+[Skill #16] Creative Repurposer
+Skill ID:    creative_repurposer
+Category:    Advanced Creative Intelligence (ADVANCED_CREATIVE)
+Icon:        Recycle
+Subtitle / Description:
+  Repurpose existing creatives
+
+--------------------------------------------------------------------------------
+[Skill #17] Creative Localization
+Skill ID:    creative_localization
+Category:    Advanced Creative Intelligence (ADVANCED_CREATIVE)
+Icon:        Globe
+Subtitle / Description:
+  Localize creatives for markets
+
+--------------------------------------------------------------------------------
+[Skill #18] Arabic Ad Localization
+Skill ID:    arabic_ad_localization
+Category:    Advanced Creative Intelligence (ADVANCED_CREATIVE)
+Icon:        Languages
+Subtitle / Description:
+  Localize for Arabic markets
+
+--------------------------------------------------------------------------------
+[Skill #19] French Ad Localization
+Skill ID:    french_ad_localization
+Category:    Advanced Creative Intelligence (ADVANCED_CREATIVE)
+Icon:        Languages
+Subtitle / Description:
+  Localize for French markets
+
+--------------------------------------------------------------------------------
+[Skill #20] International Ad Localization
+Skill ID:    international_ad_localization
+Category:    Advanced Creative Intelligence (ADVANCED_CREATIVE)
+Icon:        Globe2
+Subtitle / Description:
+  Global ad localization
+
+--------------------------------------------------------------------------------
+[Skill #21] Cinematic Storyboard Director & Prompt Engineer
+Skill ID:    cinematic_storyboard_director
+Category:    Advanced Creative Intelligence (ADVANCED_CREATIVE)
+Icon:        Film
+Subtitle / Description:
+  Advertising & Creative Strategy. Cinematic ASMR storyboard with HARD 30s/45s duration cap - Master Storyboard prompt + one chained segment prompt per 10s with locked character/product/color/palette continuity bible (never re-introduce the character, never change the product), seamless end-frame-to-start-frame chaining
+
+--------------------------------------------------------------------------------
+[Skill #22] Image Ad Concept Generator
+Skill ID:    image_ad_concept_generator
+Category:    Advanced Creative Intelligence (ADVANCED_CREATIVE)
+Icon:        Image
+Subtitle / Description:
+  Ads Analytics. Image Ad Concept Generator & Creative Prompt Engine — transforms product, customer & competitor intelligence into copy-ready image ad concepts (Warning, US vs Them, News, Post Note...) with complete image-generation prompts ready to paste into an AI image tool
+
+--------------------------------------------------------------------------------
+[Skill #23] UGC Creative Prompt Generator
+Skill ID:    ugc_creative_prompt_generator
+Category:    Advanced Creative Intelligence (ADVANCED_CREATIVE)
+Icon:        Video
+Subtitle / Description:
+  Ads Analytics. UGC Creative Prompt Generator — transforms product, customer & competitor intelligence into native-looking customer-style UGC ad concepts (hook, creator profile, story, shot list, full script, AI video prompt, caption, primary text, headline, CTA) ready for Meta/Instagram, with objection mining and a creative testing matrix
+
+
+################################################################################
+CATEGORY 9: ADVANCED ADS ANALYTICS (ID: ADS_ANALYTICS)
+Total Skills in Category: 46
+################################################################################
+
+--------------------------------------------------------------------------------
+[Skill #1] AdSet & Ad Table
+Skill ID:    adset_table_generator
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Table
+Subtitle / Description:
+  Generate a complete data table of every Ad Set with its ads from the connected group — clean rows you can copy and analyze
+
+--------------------------------------------------------------------------------
+[Skill #2] Meta Ads Breakdown Intelligence
+Skill ID:    breakdown_intelligence
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        PieChart
+Subtitle / Description:
+  Ads Analytics. Meta Ads Breakdown Intelligence & Segment Action Engine — age, gender, location, placement, platform, device, OS, time, day segments: who/where/when ads work or fail, why, and exact actions (scale, budget drain, dedicated ad sets)
+
+--------------------------------------------------------------------------------
+[Skill #3] Meta Ads Bid Cap Analyzer
+Skill ID:    bid_cap_analyzer
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Sliders
+Subtitle / Description:
+  Ads Analytics. Meta Ads Bid Cap Analyzer & Bid Strategy Engine — Lowest Cost vs Cost Cap vs Bid Cap, starting test bid cap from historical CPA, delivery risk, adjustment rules
+
+--------------------------------------------------------------------------------
+[Skill #4] Facebook Ads Performance Engine
+Skill ID:    fb_ads_performance_engine
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Workflow
+Subtitle / Description:
+  Ads Analytics. Facebook Ads Performance Engine — full diagnostic of campaigns, ad sets & ads from an AdSet & Ad Table: benchmarks, funnel bottleneck, winner detection, push delivery, test plan and next 48h/7d actions
+
+--------------------------------------------------------------------------------
+[Skill #5] Meta Ads Scaling & Creative Testing
+Skill ID:    meta_ads_scaling_system
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        BarChart3
+Subtitle / Description:
+  Ads Analytics. Meta Ads Scaling & Creative Testing System — profit-first Meta account machine: campaign architecture per offer (main, offer/bundle, influencer, catalog ~10%, short-term sales), Creative ID + Concept ID testing engine (70% new concepts / 30% winner expansion), image-first validation, COD real-performance model (delivered CPA, confirmation/delivery/refusal rates, real profit), campaign-specific CPA targets, 7-day scaling engine, anti-overreaction rules, fatigue detection, winner expansion variations, creative status system IDEA→ARCHIVED, decision hierarchy profit>delivered>quality>CPA>ROAS
+
+--------------------------------------------------------------------------------
+[Skill #6] Facebook Ads Scaling & Creative Testing
+Skill ID:    facebook_ads_scaling_system
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        TrendingUp
+Subtitle / Description:
+  Ads Analytics. Facebook Ads Scaling & Creative Testing System — account structure analysis, Concept-based weekly creative testing (4-6 concepts x 3-5 variations), winner/loser logic with CPA+AOV+ROAS+profit+COD, winning creative DNA, iteration, fatigue, hero product/offer, 7-day test plan and scaling plan
+
+--------------------------------------------------------------------------------
+[Skill #7] Facebook Ads Testing
+Skill ID:    facebook_ads_testing
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Facebook
+Subtitle / Description:
+  Generate an org chart of Campaign -> Ad Sets -> Ads strategy with parameters
+
+--------------------------------------------------------------------------------
+[Skill #8] Ad KPIs Analyzer
+Skill ID:    ad_kpi_analyzer
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        ChartNoAxesCombined
+Subtitle / Description:
+  Ads Analytics. Ad KPI analyzer — reads a connected AdSet & Ad Table and analyzes every KPI per level (CTR, CPM, CPC, CVR, CPA, ROAS, spend, results) and gives SCALE / TEST / PAUSE / KILL verdicts per campaign, ad set and ad
+
+--------------------------------------------------------------------------------
+[Skill #9] Buyer Persona Testing
+Skill ID:    buyer_persona_testing
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Users
+Subtitle / Description:
+  Detect 3 buyer personas with direct targeting and testing strategy
+
+--------------------------------------------------------------------------------
+[Skill #10] E-commerce Performance Intelligence
+Skill ID:    campaign_analyzer
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        BarChart3
+Subtitle / Description:
+  Ads Analytics. Campaign Analyzer — full-funnel e-commerce performance analysis: ads → landing page → orders → delivery → collection → net profit. Finds where money is lost, what works, TRUE ROAS & profit, STOP/FIX/SCALE/TEST
+
+--------------------------------------------------------------------------------
+[Skill #11] Ad Profitability Analyzer
+Skill ID:    ad_profitability_analyzer
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        DollarSign
+Subtitle / Description:
+  Analyze ad profitability
+
+--------------------------------------------------------------------------------
+[Skill #12] CPA Diagnosis
+Skill ID:    cpa_diagnosis
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Target
+Subtitle / Description:
+  Diagnose high CPA
+
+--------------------------------------------------------------------------------
+[Skill #13] CTR Diagnosis
+Skill ID:    ctr_diagnosis
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        MousePointerClick
+Subtitle / Description:
+  Diagnose low CTR
+
+--------------------------------------------------------------------------------
+[Skill #14] CPC Diagnosis
+Skill ID:    cpc_diagnosis
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Coins
+Subtitle / Description:
+  Diagnose high CPC
+
+--------------------------------------------------------------------------------
+[Skill #15] Conversion Rate Diagnosis
+Skill ID:    conversion_rate_diagnosis
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Activity
+Subtitle / Description:
+  Diagnose low CVR
+
+--------------------------------------------------------------------------------
+[Skill #16] Funnel Drop-Off Analyzer
+Skill ID:    funnel_drop_off_analyzer
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        TrendingDown
+Subtitle / Description:
+  Analyze funnel leaks
+
+--------------------------------------------------------------------------------
+[Skill #17] Winning Ad Detector
+Skill ID:    winning_ad_detector
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Trophy
+Subtitle / Description:
+  Detect winning ads early
+
+--------------------------------------------------------------------------------
+[Skill #18] Ad Fatigue Detector
+Skill ID:    ad_fatigue_detector
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        BatteryWarning
+Subtitle / Description:
+  Detect ad fatigue
+
+--------------------------------------------------------------------------------
+[Skill #19] A/B Test Analyzer
+Skill ID:    ab_test_analyzer
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        SplitSquareHorizontal
+Subtitle / Description:
+  Analyze split tests
+
+--------------------------------------------------------------------------------
+[Skill #20] Scaling Readiness Score
+Skill ID:    scaling_readiness_score
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Rocket
+Subtitle / Description:
+  Score readiness to scale
+
+--------------------------------------------------------------------------------
+[Skill #21] Budget Allocation Optimizer
+Skill ID:    budget_allocation_optimizer
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        PieChart
+Subtitle / Description:
+  Optimize ad budget
+
+--------------------------------------------------------------------------------
+[Skill #22] Audience Performance Analyzer
+Skill ID:    audience_performance_analyzer
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Users
+Subtitle / Description:
+  Analyze audience performance
+
+--------------------------------------------------------------------------------
+[Skill #23] Creative Performance Analyzer
+Skill ID:    creative_performance_analyzer
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Image
+Subtitle / Description:
+  Analyze creative performance
+
+--------------------------------------------------------------------------------
+[Skill #24] Campaign Forecast
+Skill ID:    campaign_forecast
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        LineChart
+Subtitle / Description:
+  Forecast future campaign results
+
+--------------------------------------------------------------------------------
+[Skill #25] Lookalike Audience
+Skill ID:    lookalike_audience_strategy
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Users
+Subtitle / Description:
+  Build and scale Meta lookalike audiences (1%-10%) for small budgets
+
+--------------------------------------------------------------------------------
+[Skill #26] Bid Cap / Cost Cap
+Skill ID:    bid_cost_cap_strategy
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Gauge
+Subtitle / Description:
+  Bid strategy: Lowest cost vs Bid cap vs Cost cap, with exact values
+
+--------------------------------------------------------------------------------
+[Skill #27] Carousel Ads
+Skill ID:    carousel_ads_strategy
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Images
+Subtitle / Description:
+  Build winning carousels: card order, CTAs, when carousel beats single image
+
+--------------------------------------------------------------------------------
+[Skill #28] Flexible Ads
+Skill ID:    flexible_ads_strategy
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Shapes
+Subtitle / Description:
+  Use Meta Flexible Ads (dynamic creative) the right way
+
+--------------------------------------------------------------------------------
+[Skill #29] Pixel Events
+Skill ID:    pixel_events_strategy
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Activity
+Subtitle / Description:
+  Tracking: pixel + CAPI events that lower your CPA
+
+--------------------------------------------------------------------------------
+[Skill #30] Ad Testing Plan
+Skill ID:    ad_testing_plan
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        FlaskConical
+Subtitle / Description:
+  A realistic testing system: how many ads/wk, kill and pause rules
+
+--------------------------------------------------------------------------------
+[Skill #31] Campaign Scaling
+Skill ID:    campaign_scaling_plan
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Rocket
+Subtitle / Description:
+  Scale winners safely: budget rise rules, when to duplicate
+
+--------------------------------------------------------------------------------
+[Skill #32] Offline Conversions
+Skill ID:    offline_conversions_strategy
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Store
+Subtitle / Description:
+  Pass real payment/delivery data to Meta so it learns who stays COD customers
+
+--------------------------------------------------------------------------------
+[Skill #33] Marketplace Expansion
+Skill ID:    marketplace_expansion
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        ShoppingBag
+Subtitle / Description:
+  Sell on marketplaces (Amazon, Noon, Jumia) combined with your store
+
+--------------------------------------------------------------------------------
+[Skill #34] TOF Strategy (Top Funnel)
+Skill ID:    tof_strategy
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Magnet
+Subtitle / Description:
+  Cold traffic: prospecting, broad audiences, awareness objectives
+
+--------------------------------------------------------------------------------
+[Skill #35] MOF Strategy (Middle Funnel)
+Skill ID:    mof_strategy
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Filter
+Subtitle / Description:
+  Warm up: retargeting visitors, AddToCart, video viewers
+
+--------------------------------------------------------------------------------
+[Skill #36] BOF Strategy (Bottom Funnel)
+Skill ID:    bof_strategy
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        BadgeCheck
+Subtitle / Description:
+  Convert: cart abandoners, offers, conversion settings
+
+--------------------------------------------------------------------------------
+[Skill #37] Identify Winning Ads
+Skill ID:    identify_winning_ads
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        SearchCheck
+Subtitle / Description:
+  Spot winners early: day 1-3-7 metrics, thresholds, promote safely
+
+--------------------------------------------------------------------------------
+[Skill #38] SPC Analysis
+Skill ID:    spc_analysis
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Crosshair
+Subtitle / Description:
+  Single Product Campaign: structure, test creatives, read results
+
+--------------------------------------------------------------------------------
+[Skill #39] Viral Organic Strategy
+Skill ID:    viral_organic_strategy
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Share2
+Subtitle / Description:
+  TikTok/Reels organic that sells and feeds your pixel
+
+--------------------------------------------------------------------------------
+[Skill #40] SEO Strategy
+Skill ID:    seo_strategy
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Search
+Subtitle / Description:
+  Keywords, page SEO, blog, local + voice search for my store
+
+--------------------------------------------------------------------------------
+[Skill #41] Ad Scheduling
+Skill ID:    ad_scheduling
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        CalendarClock
+Subtitle / Description:
+  Best hours/days to run ads for COD markets, dayparting
+
+--------------------------------------------------------------------------------
+[Skill #42] Optimization Playbook
+Skill ID:    campaign_optimization
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        SlidersHorizontal
+Subtitle / Description:
+  Weekly optimization checklist: pause, raise, reallocate budget
+
+--------------------------------------------------------------------------------
+[Skill #43] Prospecting Strategy
+Skill ID:    prospecting_strategy
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Radar
+Subtitle / Description:
+  Find cold buyers: broad, interests, Advantage+ audiences, exclusions
+
+--------------------------------------------------------------------------------
+[Skill #44] Retargeting
+Skill ID:    retargeting_strategy
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        RefreshCw
+Subtitle / Description:
+  Pixel-based retargeting audiences that actually convert
+
+--------------------------------------------------------------------------------
+[Skill #45] Remarketing
+Skill ID:    remarketing_strategy
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Repeat
+Subtitle / Description:
+  Email/SMS/WhatsApp remarketing combined with Meta ads
+
+--------------------------------------------------------------------------------
+[Skill #46] Train Pixel
+Skill ID:    pixel_training
+Category:    Advanced Ads Analytics (ADS_ANALYTICS)
+Icon:        Cpu
+Subtitle / Description:
+  Teach Meta's pixel to learn buyers faster on small budgets
+
+
+################################################################################
+CATEGORY 10: AWARENESS FUNNEL STRATEGY (ID: AWARENESS)
+Total Skills in Category: 6
+################################################################################
+
+--------------------------------------------------------------------------------
+[Skill #1] Brand Awareness
+Skill ID:    brand_awareness
+Category:    Awareness Funnel Strategy (AWARENESS)
+Icon:        Megaphone
+Subtitle / Description:
+  Awareness Funnel. Brand awareness campaign strategy — objectives, cold audiences, creative that makes people remember, frequency & reach management, KPI targets
+
+--------------------------------------------------------------------------------
+[Skill #2] Product Awareness
+Skill ID:    product_awareness
+Category:    Awareness Funnel Strategy (AWARENESS)
+Icon:        Eye
+Subtitle / Description:
+  Awareness Funnel. Product awareness campaign strategy — teach the problem & the product, hooks, solution creatives, warm targeting, KPI targets
+
+--------------------------------------------------------------------------------
+[Skill #3] Value Awareness
+Skill ID:    value_awareness
+Category:    Awareness Funnel Strategy (AWARENESS)
+Icon:        Gem
+Subtitle / Description:
+  Awareness Funnel. Value awareness campaign strategy — communicate the product value, proof, pricing & offer perception to convert cold users, ROAS-focused KPIs
+
+--------------------------------------------------------------------------------
+[Skill #4] Customer Awareness Stages
+Skill ID:    customer_awareness_stages
+Category:    Awareness Funnel Strategy (AWARENESS)
+Icon:        Footprints
+Subtitle / Description:
+  Awareness Funnel. The 5 awareness stages of the customer journey (unaware to most aware) — mindset, message, creative, offer and budget per stage
+
+--------------------------------------------------------------------------------
+[Skill #5] Marketing Funnel Stages
+Skill ID:    marketing_funnel_stages
+Category:    Awareness Funnel Strategy (AWARENESS)
+Icon:        Filter
+Subtitle / Description:
+  Awareness Funnel. Full marketing funnel stages (TOFU awareness → MOFU consideration → BOFU conversion → retention) — goal, campaign, offer, KPIs and budget per stage
+
+--------------------------------------------------------------------------------
+[Skill #6] 4 Pillars of Brand Awareness
+Skill ID:    four_pillars_brand_awareness
+Category:    Awareness Funnel Strategy (AWARENESS)
+Icon:        Columns
+Subtitle / Description:
+  Awareness Funnel. The 4 pillars of brand awareness — Visibility, Memorability, Trust, Relevance — with concrete actions, KPIs and creative per pillar
+
+
+################################################################################
+CATEGORY 11: COPYWRITING FRAMEWORKS (ID: COPYWRITING)
+Total Skills in Category: 5
+################################################################################
+
+--------------------------------------------------------------------------------
+[Skill #1] AIDA Copywriting
+Skill ID:    aida_copy
+Category:    Copywriting Frameworks (COPYWRITING)
+Icon:        Zap
+Subtitle / Description:
+  Copywriting. AIDA framework (Attention, Interest, Desire, Action) — headlines, full ad copy and landing structure
+
+--------------------------------------------------------------------------------
+[Skill #2] PAS Copywriting
+Skill ID:    pas_copy
+Category:    Copywriting Frameworks (COPYWRITING)
+Icon:        AlertCircle
+Subtitle / Description:
+  Copywriting. PAS framework (Problem, Agitate, Solve) — pain-driven hooks, full ad copy and landing angle
+
+--------------------------------------------------------------------------------
+[Skill #3] 4P Copywriting
+Skill ID:    four_p_copy
+Category:    Copywriting Frameworks (COPYWRITING)
+Icon:        Layers
+Subtitle / Description:
+  Copywriting. 4P framework (Picture, Promise, Prove, Push) — vivid future, core promise, proof and strong CTA
+
+--------------------------------------------------------------------------------
+[Skill #4] Hook Story Offer
+Skill ID:    hook_story_offer_copy
+Category:    Copywriting Frameworks (COPYWRITING)
+Icon:        BookOpen
+Subtitle / Description:
+  Copywriting. Hook-Story-Offer framework — scroll-stopping hook, emotional story, irresistible offer
+
+--------------------------------------------------------------------------------
+[Skill #5] BAB Copywriting
+Skill ID:    bab_copy
+Category:    Copywriting Frameworks (COPYWRITING)
+Icon:        Repeat
+Subtitle / Description:
+  Copywriting. BAB framework (Before, After, Bridge) — transformation before/after with the product as the bridge
+
+
+################################################################################
+CATEGORY 12: SHOPIFY STORE & APPS (ID: SHOPIFY)
+Total Skills in Category: 3
+################################################################################
+
+--------------------------------------------------------------------------------
+[Skill #1] Shopify Store (Build)
+Skill ID:    shopify_store_generator
+Category:    Shopify Store & Apps (SHOPIFY)
+Icon:        Store
+Subtitle / Description:
+  Design your complete Shopify store: theme, pages, collections, and product page
+
+--------------------------------------------------------------------------------
+[Skill #2] I Need Shopify Apps
+Skill ID:    shopify_apps_research
+Category:    Shopify Store & Apps (SHOPIFY)
+Icon:        Puzzle
+Subtitle / Description:
+  Get the best Shopify apps for COD dropshipping: reviews, email, COD fees, order tracking
+
+--------------------------------------------------------------------------------
+[Skill #3] Liquid Prompt (HTML → Shopify)
+Skill ID:    liquid_prompt
+Category:    Shopify Store & Apps (SHOPIFY)
+Icon:        FileCode2
+Subtitle / Description:
+  Paste any HTML page and get a complete Shopify Liquid theme — Tailwind setup, /sections/*.liquid with editable schema, index.json, theme.js — with LIVE progress and a downloadable theme ZIP
+
+
+################################################################################
+CATEGORY 13: ADVANCED ALGERIA SKILLS (ID: ALGERIA)
+Total Skills in Category: 21
+################################################################################
+
+--------------------------------------------------------------------------------
+[Skill #1] Master DZ Landing Page Strategy
+Skill ID:    master_dz_landing_page_strategy
+Category:    Advanced Algeria Skills (ALGERIA)
+Icon:        LayoutTemplate
+Subtitle / Description:
+  Builds a $10,000+ landing page strategy in Algerian Darja
+
+--------------------------------------------------------------------------------
+[Skill #2] Wilaya Profitability Map
+Skill ID:    wilaya_profitability_map
+Category:    Advanced Algeria Skills (ALGERIA)
+Icon:        Map
+Subtitle / Description:
+  Map profitability by Wilaya
+
+--------------------------------------------------------------------------------
+[Skill #3] Wilaya Demand Predictor
+Skill ID:    wilaya_demand_predictor
+Category:    Advanced Algeria Skills (ALGERIA)
+Icon:        TrendingUp
+Subtitle / Description:
+  Predict demand by Wilaya
+
+--------------------------------------------------------------------------------
+[Skill #4] Wilaya Delivery Cost Analyzer
+Skill ID:    wilaya_delivery_cost_analyzer
+Category:    Advanced Algeria Skills (ALGERIA)
+Icon:        Truck
+Subtitle / Description:
+  Analyze delivery costs
+
+--------------------------------------------------------------------------------
+[Skill #5] Confirmation Rate Analyzer
+Skill ID:    confirmation_rate_analyzer
+Category:    Advanced Algeria Skills (ALGERIA)
+Icon:        PhoneCall
+Subtitle / Description:
+  Analyze phone confirmation rates
+
+--------------------------------------------------------------------------------
+[Skill #6] Cancellation Predictor
+Skill ID:    cancellation_predictor
+Category:    Advanced Algeria Skills (ALGERIA)
+Icon:        PhoneOff
+Subtitle / Description:
+  Predict order cancellations
+
+--------------------------------------------------------------------------------
+[Skill #7] Delivery Success Predictor
+Skill ID:    delivery_success_predictor
+Category:    Advanced Algeria Skills (ALGERIA)
+Icon:        CheckCircle
+Subtitle / Description:
+  Predict successful deliveries
+
+--------------------------------------------------------------------------------
+[Skill #8] True COD Profit Calculator
+Skill ID:    true_cod_profit_calculator
+Category:    Advanced Algeria Skills (ALGERIA)
+Icon:        Calculator
+Subtitle / Description:
+  Calculate profit after returns
+
+--------------------------------------------------------------------------------
+[Skill #9] DZ Buyer Psychology
+Skill ID:    dz_buyer_psychology
+Category:    Advanced Algeria Skills (ALGERIA)
+Icon:        Brain
+Subtitle / Description:
+  Understand Algerian buyers
+
+--------------------------------------------------------------------------------
+[Skill #10] Algerian Arabic Copywriter
+Skill ID:    algerian_arabic_copywriter
+Category:    Advanced Algeria Skills (ALGERIA)
+Icon:        PenTool
+Subtitle / Description:
+  Write in Algerian Arabic (Darja)
+
+--------------------------------------------------------------------------------
+[Skill #11] Algerian French Copywriter
+Skill ID:    algerian_french_copywriter
+Category:    Advanced Algeria Skills (ALGERIA)
+Icon:        PenTool
+Subtitle / Description:
+  Write in Algerian French
+
+--------------------------------------------------------------------------------
+[Skill #12] DZ Facebook Strategy
+Skill ID:    dz_facebook_strategy
+Category:    Advanced Algeria Skills (ALGERIA)
+Icon:        Facebook
+Subtitle / Description:
+  Facebook strategy for DZ
+
+--------------------------------------------------------------------------------
+[Skill #13] DZ TikTok Strategy
+Skill ID:    dz_tiktok_strategy
+Category:    Advanced Algeria Skills (ALGERIA)
+Icon:        Music
+Subtitle / Description:
+  TikTok strategy for DZ
+
+--------------------------------------------------------------------------------
+[Skill #14] DZ Marketplace Analysis
+Skill ID:    dz_marketplace_analysis
+Category:    Advanced Algeria Skills (ALGERIA)
+Icon:        Store
+Subtitle / Description:
+  Analyze Ouedkniss/Marketplace
+
+--------------------------------------------------------------------------------
+[Skill #15] DZD Price Psychology
+Skill ID:    dzd_price_psychology
+Category:    Advanced Algeria Skills (ALGERIA)
+Icon:        Tags
+Subtitle / Description:
+  Optimize DZD pricing
+
+--------------------------------------------------------------------------------
+[Skill #16] DZ Offer Generator
+Skill ID:    dz_offer_generator
+Category:    Advanced Algeria Skills (ALGERIA)
+Icon:        Gift
+Subtitle / Description:
+  Generate offers for DZ market
+
+--------------------------------------------------------------------------------
+[Skill #17] COD Confirmation Script Optimizer
+Skill ID:    cod_confirmation_script_optimizer
+Category:    Advanced Algeria Skills (ALGERIA)
+Icon:        Mic
+Subtitle / Description:
+  Optimize call scripts
+
+--------------------------------------------------------------------------------
+[Skill #18] Fake Order Detector
+Skill ID:    fake_order_detector
+Category:    Advanced Algeria Skills (ALGERIA)
+Icon:        ShieldAlert
+Subtitle / Description:
+  Detect fake orders
+
+--------------------------------------------------------------------------------
+[Skill #19] Failed Delivery Analyzer
+Skill ID:    failed_delivery_analyzer
+Category:    Advanced Algeria Skills (ALGERIA)
+Icon:        PackageX
+Subtitle / Description:
+  Analyze return reasons
+
+--------------------------------------------------------------------------------
+[Skill #20] DZ Local Competitor Finder
+Skill ID:    dz_local_competitor_finder
+Category:    Advanced Algeria Skills (ALGERIA)
+Icon:        Search
+Subtitle / Description:
+  Find local competitors
+
+--------------------------------------------------------------------------------
+[Skill #21] Best Wilaya Launch Strategy
+Skill ID:    best_wilaya_launch_strategy
+Category:    Advanced Algeria Skills (ALGERIA)
+Icon:        Rocket
+Subtitle / Description:
+  Wilaya rollout strategy
+
+
+################################################################################
+CATEGORY 14: ADVANCED INTERNATIONAL SKILLS (ID: INTERNATIONAL)
+Total Skills in Category: 15
+################################################################################
+
+--------------------------------------------------------------------------------
+[Skill #1] Country Ranking Engine
+Skill ID:    country_ranking_engine
+Category:    Advanced International Skills (INTERNATIONAL)
+Icon:        ListOrdered
+Subtitle / Description:
+  Rank countries for expansion
+
+--------------------------------------------------------------------------------
+[Skill #2] Purchasing Power Analyzer
+Skill ID:    purchasing_power_analyzer
+Category:    Advanced International Skills (INTERNATIONAL)
+Icon:        Wallet
+Subtitle / Description:
+  Analyze purchasing power
+
+--------------------------------------------------------------------------------
+[Skill #3] Currency Risk Analyzer
+Skill ID:    currency_risk_analyzer
+Category:    Advanced International Skills (INTERNATIONAL)
+Icon:        Banknote
+Subtitle / Description:
+  Analyze currency risks
+
+--------------------------------------------------------------------------------
+[Skill #4] Country E-commerce Maturity
+Skill ID:    country_ecommerce_maturity
+Category:    Advanced International Skills (INTERNATIONAL)
+Icon:        TrendingUp
+Subtitle / Description:
+  Analyze market maturity
+
+--------------------------------------------------------------------------------
+[Skill #5] Payment Preference Analyzer
+Skill ID:    payment_preference_analyzer
+Category:    Advanced International Skills (INTERNATIONAL)
+Icon:        CreditCard
+Subtitle / Description:
+  Analyze payment habits
+
+--------------------------------------------------------------------------------
+[Skill #6] Logistics Difficulty Score
+Skill ID:    logistics_difficulty_score
+Category:    Advanced International Skills (INTERNATIONAL)
+Icon:        Truck
+Subtitle / Description:
+  Score logistics difficulty
+
+--------------------------------------------------------------------------------
+[Skill #7] Tax Impact Analyzer
+Skill ID:    tax_impact_analyzer
+Category:    Advanced International Skills (INTERNATIONAL)
+Icon:        FileText
+Subtitle / Description:
+  Analyze tax implications
+
+--------------------------------------------------------------------------------
+[Skill #8] Regulatory Risk Analyzer
+Skill ID:    regulatory_risk_analyzer
+Category:    Advanced International Skills (INTERNATIONAL)
+Icon:        Scale
+Subtitle / Description:
+  Analyze regulations
+
+--------------------------------------------------------------------------------
+[Skill #9] Localization Score
+Skill ID:    localization_score
+Category:    Advanced International Skills (INTERNATIONAL)
+Icon:        Globe
+Subtitle / Description:
+  Score localization effort
+
+--------------------------------------------------------------------------------
+[Skill #10] Language Localization
+Skill ID:    language_localization
+Category:    Advanced International Skills (INTERNATIONAL)
+Icon:        Languages
+Subtitle / Description:
+  Localize language content
+
+--------------------------------------------------------------------------------
+[Skill #11] Cultural Fit Analyzer
+Skill ID:    cultural_fit_analyzer
+Category:    Advanced International Skills (INTERNATIONAL)
+Icon:        Users
+Subtitle / Description:
+  Analyze cultural fit
+
+--------------------------------------------------------------------------------
+[Skill #12] International Margin Calculator
+Skill ID:    international_margin_calculator
+Category:    Advanced International Skills (INTERNATIONAL)
+Icon:        Calculator
+Subtitle / Description:
+  Calculate margins across borders
+
+--------------------------------------------------------------------------------
+[Skill #13] Country ROAS Benchmark
+Skill ID:    country_roas_benchmark
+Category:    Advanced International Skills (INTERNATIONAL)
+Icon:        BarChart
+Subtitle / Description:
+  Benchmark ROAS by country
+
+--------------------------------------------------------------------------------
+[Skill #14] Best Country Selector
+Skill ID:    best_country_selector
+Category:    Advanced International Skills (INTERNATIONAL)
+Icon:        Target
+Subtitle / Description:
+  Select best country
+
+--------------------------------------------------------------------------------
+[Skill #15] International Expansion Planner
+Skill ID:    international_expansion_planner
+Category:    Advanced International Skills (INTERNATIONAL)
+Icon:        Map
+Subtitle / Description:
+  Plan international expansion
+
+
+################################################################################
+CATEGORY 15: VERY ADVANCED AI SKILLS (ID: ADVANCED_AI)
+Total Skills in Category: 17
+################################################################################
+
+--------------------------------------------------------------------------------
+[Skill #1] Website Preview
+Skill ID:    website_preview
+Category:    Very Advanced AI Skills (ADVANCED_AI)
+Icon:        Globe
+Subtitle / Description:
+  Live preview of a website URL
+
+--------------------------------------------------------------------------------
+[Skill #2] Human Text Converter
+Skill ID:    json_to_text_converter
+Category:    Very Advanced AI Skills (ADVANCED_AI)
+Icon:        FileText
+Subtitle / Description:
+  Convert any raw JSON or data into a beautifully formatted, easy-to-read report
+
+--------------------------------------------------------------------------------
+[Skill #3] E-commerce Strategist
+Skill ID:    ecommerce_strategist
+Category:    Very Advanced AI Skills (ADVANCED_AI)
+Icon:        Brain
+Subtitle / Description:
+  AI Master Strategist
+
+--------------------------------------------------------------------------------
+[Skill #4] Autonomous Product Researcher
+Skill ID:    autonomous_product_researcher
+Category:    Very Advanced AI Skills (ADVANCED_AI)
+Icon:        Bot
+Subtitle / Description:
+  Auto-research products
+
+--------------------------------------------------------------------------------
+[Skill #5] Autonomous Competitor Researcher
+Skill ID:    autonomous_competitor_researcher
+Category:    Very Advanced AI Skills (ADVANCED_AI)
+Icon:        Bot
+Subtitle / Description:
+  Auto-research competitors
+
+--------------------------------------------------------------------------------
+[Skill #6] Autonomous Market Researcher
+Skill ID:    autonomous_market_researcher
+Category:    Very Advanced AI Skills (ADVANCED_AI)
+Icon:        Bot
+Subtitle / Description:
+  Auto-research markets
+
+--------------------------------------------------------------------------------
+[Skill #7] Autonomous Data Analyst
+Skill ID:    autonomous_data_analyst
+Category:    Very Advanced AI Skills (ADVANCED_AI)
+Icon:        Bot
+Subtitle / Description:
+  Auto-analyze data
+
+--------------------------------------------------------------------------------
+[Skill #8] Research Critic
+Skill ID:    research_critic
+Category:    Very Advanced AI Skills (ADVANCED_AI)
+Icon:        Eye
+Subtitle / Description:
+  Critique existing research
+
+--------------------------------------------------------------------------------
+[Skill #9] Evidence Validator
+Skill ID:    evidence_validator
+Category:    Very Advanced AI Skills (ADVANCED_AI)
+Icon:        CheckSquare
+Subtitle / Description:
+  Validate claims and evidence
+
+--------------------------------------------------------------------------------
+[Skill #10] Contradiction Detector
+Skill ID:    contradiction_detector
+Category:    Very Advanced AI Skills (ADVANCED_AI)
+Icon:        AlertTriangle
+Subtitle / Description:
+  Detect contradictory data
+
+--------------------------------------------------------------------------------
+[Skill #11] Risk Detector
+Skill ID:    risk_detector
+Category:    Very Advanced AI Skills (ADVANCED_AI)
+Icon:        ShieldAlert
+Subtitle / Description:
+  Detect business risks
+
+--------------------------------------------------------------------------------
+[Skill #12] Opportunity Detector
+Skill ID:    opportunity_detector
+Category:    Very Advanced AI Skills (ADVANCED_AI)
+Icon:        Lightbulb
+Subtitle / Description:
+  Detect hidden opportunities
+
+--------------------------------------------------------------------------------
+[Skill #13] Insight Generator
+Skill ID:    insight_generator
+Category:    Very Advanced AI Skills (ADVANCED_AI)
+Icon:        Zap
+Subtitle / Description:
+  Generate actionable insights
+
+--------------------------------------------------------------------------------
+[Skill #14] Insight Connector
+Skill ID:    insight_connector
+Category:    Very Advanced AI Skills (ADVANCED_AI)
+Icon:        Link
+Subtitle / Description:
+  Connect disparate insights
+
+--------------------------------------------------------------------------------
+[Skill #15] Next Best Action
+Skill ID:    next_best_action
+Category:    Very Advanced AI Skills (ADVANCED_AI)
+Icon:        ArrowRight
+Subtitle / Description:
+  Determine next logical step
+
+--------------------------------------------------------------------------------
+[Skill #16] Decision Assistant
+Skill ID:    decision_assistant
+Category:    Very Advanced AI Skills (ADVANCED_AI)
+Icon:        HelpCircle
+Subtitle / Description:
+  Assist with strategic decisions
+
+--------------------------------------------------------------------------------
+[Skill #17] Best Strategy Selector
+Skill ID:    best_strategy_selector
+Category:    Very Advanced AI Skills (ADVANCED_AI)
+Icon:        Target
+Subtitle / Description:
+  Select the optimal strategy
+
+
+################################################################################
+CATEGORY 17: WINNING PRODUCT 2.0 (ID: PRODUCT_2)
+Total Skills in Category: 1
+################################################################################
+
+--------------------------------------------------------------------------------
+[Skill #1] Winning Digital Product
+Skill ID:    winning_digital_product
+Category:    Winning Product 2.0 (PRODUCT_2)
+Icon:        FileSpreadsheet
+Subtitle / Description:
+  Analyze a CSV of digital product listings to identify winning products with strong commercial potential.
+
+
+################################################################################
+CATEGORY 18: GEO-ARBITRAGE INTELLIGENCE (ID: GEO_ARBITRAGE)
+Total Skills in Category: 1
+################################################################################
+
+--------------------------------------------------------------------------------
+[Skill #1] Geo-Arbitrage Opportunity Engine
+Skill ID:    geo_arbitrage_engine
+Category:    Geo-Arbitrage Intelligence (GEO_ARBITRAGE)
+Icon:        Compass
+Subtitle / Description:
+  Master engine: where a product is early, saturated, or best to enter first
+
+
+################################################################################
+CATEGORY 21: ADVANCED FINANCIAL INTELLIGENCE (ID: FINANCE)
+Total Skills in Category: 2
+################################################################################
+
+--------------------------------------------------------------------------------
+[Skill #1] Unit Economics Engine
+Skill ID:    unit_economics_engine
+Category:    Advanced Financial Intelligence (FINANCE)
+Icon:        Calculator
+Subtitle / Description:
+  Full per-unit economics and all break-even limits
+
+--------------------------------------------------------------------------------
+[Skill #2] Profit Reality Engine
+Skill ID:    profit_reality_engine
+Category:    Advanced Financial Intelligence (FINANCE)
+Icon:        Wallet
+Subtitle / Description:
+  True bottom-line profit after every single cost
+
+
+################################################################################
+CATEGORY 23: CONVERSION RATE OPTIMIZATION (ID: CRO)
+Total Skills in Category: 10
+################################################################################
+
+--------------------------------------------------------------------------------
+[Skill #1] CRO Landing Page Builder (Mobile)
+Skill ID:    landing_page_builder
+Category:    Conversion Rate Optimization (CRO)
+Icon:        MonitorSmartphone
+Subtitle / Description:
+  CRO Landing Page Builder — build a conversion-focused landing page for ANY product — mobile-first, live two-pane preview with click-to-edit of any element, editable section parameters, CRO audit + auto-optimization, and one-click HTML export
+
+--------------------------------------------------------------------------------
+[Skill #2] Facebook Ads Testing — 15 Methods
+Skill ID:    facebook_ads_testing_methods
+Category:    Conversion Rate Optimization (CRO)
+Icon:        FlaskConical
+Subtitle / Description:
+  15 Facebook Ads testing methods from the master guide — pick any method on the card (Classic ABO, CBO broad, creative-first, ASC, hooks, copy, lookalikes, retargeting, cost cap, UGC, international, offers, full-funnel…) and get its complete step-by-step playbook with budgets, KPIs and kill/scale rules
+
+--------------------------------------------------------------------------------
+[Skill #3] Facebook Ads Scaling — 15 Methods
+Skill ID:    facebook_ads_scaling_methods
+Category:    Conversion Rate Optimization (CRO)
+Icon:        TrendingUp
+Subtitle / Description:
+  15 Facebook Ads scaling methods — pick any method on the card (vertical budget ladder, horizontal duplication, CBO consolidation, ASC scale, cost cap, creative refresh, lookalikes, geo expansion, retargeting, offers/AOV, email+SMS, dayparting, influencers, multi-product, full-funnel) and get its complete playbook
+
+--------------------------------------------------------------------------------
+[Skill #4] Master Guide — 50+ Revenue Methods
+Skill ID:    sales_master_guide
+Category:    Conversion Rate Optimization (CRO)
+Icon:        BookMarked
+Subtitle / Description:
+  The complete master guide — 50+ methods to get more sales — pick any mega-method on the card (price psychology, checkout & cart, product page, email marketing, traffic expansion) or any method 020-050 (YouTube SEO, affiliates, retargeting, bundles, influencers…) and get its complete playbook
+
+--------------------------------------------------------------------------------
+[Skill #5] 100 Expert Messages — Media-Buyer Analysis
+Skill ID:    media_buyer_100_analysis
+Category:    Conversion Rate Optimization (CRO)
+Icon:        MessagesSquare
+Subtitle / Description:
+  100 expert WhatsApp-style media-buyer messages from the Algerian/Darija playbook (hooks, COD traps, creative fatigue, delivery chaos, retargeting lies, account bans, scaling mistakes…) — pick any message on the card and get a full strategy analysis with transferable frameworks
+
+--------------------------------------------------------------------------------
+[Skill #6] AIDA Framework
+Skill ID:    aida_framework
+Category:    Conversion Rate Optimization (CRO)
+Icon:        PenLine
+Subtitle / Description:
+  Apply the AIDA copy formula (Attention → Interest → Desire → Action)
+
+--------------------------------------------------------------------------------
+[Skill #7] PAS Framework
+Skill ID:    pas_framework
+Category:    Conversion Rate Optimization (CRO)
+Icon:        Feather
+Subtitle / Description:
+  Apply the PAS copy formula (Problem → Agitate → Solution)
+
+--------------------------------------------------------------------------------
+[Skill #8] Hook → Story → Offer
+Skill ID:    hook_story_offer
+Category:    Conversion Rate Optimization (CRO)
+Icon:        Play
+Subtitle / Description:
+  Structure ads and creatives with the Hook-Story-Offer framework
+
+--------------------------------------------------------------------------------
+[Skill #9] Headline Copy Psychology
+Skill ID:    headline_copy_psychology
+Category:    Conversion Rate Optimization (CRO)
+Icon:        Type
+Subtitle / Description:
+  Generate psychologically-grounded headlines for product, ads and emails
+
+--------------------------------------------------------------------------------
+[Skill #10] Facebook Ads Psychology Strategy
+Skill ID:    facebook_ads_psychology_strategy
+Category:    Conversion Rate Optimization (CRO)
+Icon:        Brain
+Subtitle / Description:
+  Full Facebook/Instagram ads strategy built on buyer psychology
+
+
+################################################################################
+CATEGORY 31: PRODUCT TESTING INTELLIGENCE (ID: PRODUCT_TESTING)
+Total Skills in Category: 1
+################################################################################
+
+--------------------------------------------------------------------------------
+[Skill #1] Product Test Planner
+Skill ID:    product_test_planner
+Category:    Product Testing Intelligence (PRODUCT_TESTING)
+Icon:        ListChecks
+Subtitle / Description:
+  Full test system: budget, duration, audience, creatives, KPIs, kill/scale rules
+
+
+################################################################################
+CATEGORY 33: PRODUCT ECOSYSTEM 2.0 (ID: ECOSYSTEM_2)
+Total Skills in Category: 1
+################################################################################
+
+--------------------------------------------------------------------------------
+[Skill #1] Product Ecosystem Expansion Engine
+Skill ID:    product_ecosystem_expansion_engine
+Category:    Product Ecosystem 2.0 (ECOSYSTEM_2)
+Icon:        Network
+Subtitle / Description:
+  Expand one winning product into a full portfolio
+
+
+################################################################################
+CATEGORY 38: AUTONOMOUS AGENTS (ID: AGENTS)
+Total Skills in Category: 7
+################################################################################
+
+--------------------------------------------------------------------------------
+[Skill #1] Product Agent
+Skill ID:    product_agent
+Category:    Autonomous Agents (AGENTS)
+Icon:        Bot
+Subtitle / Description:
+  Auto: find → research → score → source → margin → recommend test
+
+--------------------------------------------------------------------------------
+[Skill #2] Competitor Agent
+Skill ID:    competitor_agent
+Category:    Autonomous Agents (AGENTS)
+Icon:        Swords
+Subtitle / Description:
+  Auto: find competitors → analyze weaknesses
+
+--------------------------------------------------------------------------------
+[Skill #3] Market Agent
+Skill ID:    market_agent
+Category:    Autonomous Agents (AGENTS)
+Icon:        Globe2
+Subtitle / Description:
+  Auto: market → demand → competition → price → opportunity
+
+--------------------------------------------------------------------------------
+[Skill #4] Launch Agent
+Skill ID:    launch_agent
+Category:    Autonomous Agents (AGENTS)
+Icon:        Rocket
+Subtitle / Description:
+  Auto: offer, landing, creative, campaign, test plan
+
+--------------------------------------------------------------------------------
+[Skill #5] Scaling Agent
+Skill ID:    scaling_agent
+Category:    Autonomous Agents (AGENTS)
+Icon:        TrendingUp
+Subtitle / Description:
+  Auto: read data → winners → reallocate → expand
+
+--------------------------------------------------------------------------------
+[Skill #6] Profit Agent
+Skill ID:    profit_agent
+Category:    Autonomous Agents (AGENTS)
+Icon:        DollarSign
+Subtitle / Description:
+  Auto: costs + orders + ads → true profit → fixes
+
+--------------------------------------------------------------------------------
+[Skill #7] Growth Agent
+Skill ID:    growth_agent
+Category:    Autonomous Agents (AGENTS)
+Icon:        Zap
+Subtitle / Description:
+  Auto: business → biggest bottleneck → action plan
+
+
+################################################################################
+CATEGORY 39: E-COMMERCE COMMAND CENTER (ID: COMMAND)
+Total Skills in Category: 1
+################################################################################
+
+--------------------------------------------------------------------------------
+[Skill #1] E-commerce Command Center
+Skill ID:    ecommerce_command_center
+Category:    E-commerce Command Center (COMMAND)
+Icon:        Command
+Subtitle / Description:
+  One master skill that analyzes the whole business and decides next steps
+
+
+################################################################################
+CATEGORY 41: OPPORTUNITY RADAR (ID: RADAR)
+Total Skills in Category: 1
+################################################################################
+
+--------------------------------------------------------------------------------
+[Skill #1] Opportunity Radar
+Skill ID:    opportunity_radar
+Category:    Opportunity Radar (RADAR)
+Icon:        Radar
+Subtitle / Description:
+  Auto-scan for product, trend, price and market opportunities
+
+
+################################################################################
+CATEGORY 42: E-COMMERCE (ECOM) (ID: ECOM)
+Total Skills in Category: 1
+################################################################################
+
+--------------------------------------------------------------------------------
+[Skill #1] Meta Ads Daily Decision Flow
+Skill ID:    meta_daily_decision_flow
+Category:    E-commerce (ecom) (ECOM)
+Icon:        GitBranch
+Subtitle / Description:
+  E-commerce (ecom). Interactive decision-flow / org-chart visual of the Meta Ads daily optimization engine: EVERY DAY -> COLLECT DATA -> 7-DAY AVERAGES -> COMPARE WITH TARGETS -> DECISION (ON TARGET: +10-20% budget -> MONITOR; BELOW TARGET: WAIT 24-48h -> RE-CHECK -> still below: -10-20% budget, recovered: KEEP -> MONITOR), with COLLECT DATA metrics (Meta/Website/Business/COD), the 7-day-average node with the no-overreaction rule, target comparison criteria, the high-AOV warning, the creative fatigue branch, the traffic-quality branch, and the COLLECT -> ANALYZE -> COMPARE -> DECIDE -> ADJUST -> MONITOR -> REPEAT feedback loop
+
+
+################################################################################
+CATEGORY 43: ADVANCED STRATEGY INTELLIGENCE (ID: ADVANCED_STRATEGY)
+Total Skills in Category: 2
+################################################################################
+
+--------------------------------------------------------------------------------
+[Skill #1] Nose Hair Trimmer Launch Agent
+Skill ID:    nose_hair_trimmer_launch_agent
+Category:    Advanced Strategy Intelligence (ADVANCED_STRATEGY)
+Icon:        Rocket
+Subtitle / Description:
+  Executes the 6-phase pre-launch plan for the Mini Portable Nose Hair Trimmer (DZ COD market).
+
+--------------------------------------------------------------------------------
+[Skill #2] E-Commerce Growth Loop Intelligence Engine (V2)
+Skill ID:    ecommerce_growth_loop_v2
+Category:    Advanced Strategy Intelligence (ADVANCED_STRATEGY)
+Icon:        TrendingUp
+Subtitle / Description:
+  Analyze the complete business as ONE connected COD/e-commerce feedback loop (Duplicate)
+
+
+================================================================================
+                        COMPACT SUMMARY LIST (ALL SKILLS)                       
+================================================================================
+
+=== ALL IN ONE (16) ===
+1. [full_funnel_workflow_master] All In One (Master 15-Stage Funnel) — Executes a complete 15-stage full-funnel analysis on the selected stages with the visual E-commerce Command Dashboard.
+2. [stage_1_product] 1. Product Intelligence — Find, validate, and prepare the product (19 sub-skills).
+3. [stage_2_strategy] 2. Strategy Intelligence — Define the offer, audience, and positioning (26 sub-skills).
+4. [stage_3_creative] 3. Creative Intelligence — Generate and analyze ads that communicate the offer (32 sub-skills).
+5. [stage_4_campaign] 4. Campaign Intelligence — Build, launch, and manage ad campaigns (30 sub-skills).
+6. [stage_5_traffic] 5. Traffic Intelligence — Understand where visitors come from and how they behave (28 sub-skills).
+7. [stage_6_order] 6. Order Intelligence — Track the customer journey from checkout to submitted order (23 sub-skills).
+8. [stage_7_confirmation] 7. Confirmation Intelligence — Improve confirmed orders and reduce invalid submissions (21 sub-skills).
+9. [stage_8_delivery] 8. Delivery Intelligence — Track shipments, delivery performance, and successful receipts (21 sub-skills).
+10. [stage_9_rto] 9. RTO Intelligence — Analyze returns to origin and their financial impact (24 sub-skills).
+11. [stage_10_revenue] 10. Revenue Intelligence — Measure money generated by the business (22 sub-skills).
+12. [stage_11_profit] 11. Profit Intelligence — Calculate the real economics of every sale (26 sub-skills).
+13. [stage_12_customer_quality] 12. Customer Quality Intelligence — Measure whether acquired customers create sustainable value (25 sub-skills).
+14. [stage_13_signal] 13. Ad Platform Signal Intelligence — Analyze the signals sent back to Meta and other ad platforms (26 sub-skills).
+15. [stage_14_optimization] 14. AI Optimization Engine — Turn business and customer data into better campaign decisions (34 sub-skills).
+16. [stage_15_new_traffic] 15. New Traffic Acquisition — Use optimization insights to acquire the next wave of customers (26 sub-skills).
+
+=== BUSINESS & COMPANY SETUP (5) ===
+1. [llc_company] LLC Company — Get your US LLC company plan: when to create, tax deadlines, required documents, and which non-resident banks to apply with
+2. [ltd_company] LTD Company (UK) — Get your UK Ltd company plan: Companies House formation, tax deadlines, documents, and non-resident business banks
+3. [hong_kong_company] Hong Kong Company — Get your Hong Kong company plan: Companies Registry formation, profits tax, documents, and corporate banks
+4. [uae_company] UAE Company — Get your UAE company plan: mainland or free zone, corporate tax, documents, and business banks
+5. [estonia_company] Estonia Company — Get your Estonia OÜ plan via e-Residency: 0% reinvested tax, documents, and e-Resident banks
+
+=== ADVANCED PRODUCT INTELLIGENCE (19) ===
+1. [product_master_list] Product Master List — Build a master reference list of core product identity, pricing, suppliers, and marketplace presence
+2. [product_deep_dive] Product Deep Dive — Full-depth product investigation for a go/no-go decision
+3. [product_dna] Product DNA — Decode why a product wins or loses: hook, pain point, mechanism, trigger, visual wow
+4. [why_people_buy] Why People Buy — Identify purchase psychology — stated vs actual buying drivers with evidence
+5. [why_people_dont_buy] Why People Don — Identify conversion blockers — objections, root causes, and concrete fixes
+6. [viral_potential_score] Viral Potential Score — Score viral potential 0-100 with breakdown and best platform
+7. [product_complexity_score] Product Complexity Score — Determine operational difficulty — sourcing, shipping, support, returns, setup
+8. [product_risk_score] Product Risk Score — Identify commercial risks — legal, ad-policy, seasonality, reputational, supplier
+9. [untapped_product_finder] Untapped Product Finder — Find underserved opportunities with rising demand and low saturation
+10. [product_trend_reversal] Product Trend Reversal — Detect products returning or falling off — reversal direction and timing
+11. [product_ecosystem] Product Ecosystem — Map complementary products, upsell bundles, and the broader lifestyle niche
+12. [price_elasticity_analysis] Price Elasticity Analysis — Estimate response to price changes — floor, ceiling, anchors, elasticity level
+13. [commodity_vs_brandable] Commodity vs Brandable — Determine whether a product can become a brand — verdict, score, reasoning
+14. [scale_potential] Scale Potential — Estimate scaling ceiling in tiers — revenue, bottlenecks, and the path up
+15. [test_priority_score] Test Priority Score — Rank products by testing priority — speed, cost, signal quality, upside
+16. [portfolio_product_ranking] Portfolio Product Ranking — Rank multiple connected products against each other — connect 2+ products
+17. [product_sourcing_compliance] Product Sourcing Compliance — Map sourcing flows, compliance gates, and brand flags for the target country
+18. [winning_product_methods] Find Winning Products — Chinese Sources — Secret methods to find winning products from Chinese sources — pick any method on the card (1688 deep mining, Taobao trends, Douyin viral mining, TMIC data, AliExpress intel, WeChat & Xiaohongshu, Alibaba suppliers, spy tools, freight forwarders, social commerce + dropshipping/product-spy/wholesale mega-methods) and get its complete step-by-step playbook
+19. [product_intelligence_01] 01 — Run the full 17-skill Product Intelligence pipeline (Group 01 & Group 02).
+
+=== TREND & VIRAL RESEARCH (10) ===
+1. [trend_detector] Trend Detector — Detect emerging trends
+2. [trend_momentum] Trend Momentum — Measure whether interest is accelerating
+3. [trend_forecast] Trend Forecast — Estimate future demand
+4. [trend_wave_finder] Trend Wave Finder — Find products riding a larger trend
+5. [trend_to_product_matcher] Trend-to-Product Matcher — Match trends with products
+6. [viral_product_detector] Viral Product Detector — Identify products gaining attention
+7. [social_trend_analyzer] Social Trend Analyzer — Analyze social-media trends
+8. [viral_creative_analyzer] Viral Creative Analyzer — Identify patterns in viral ads/content
+9. [trend_hook_generator] Trend Hook Generator — Create hooks around current trends
+10. [seasonality_detector] Seasonality Detector — Identify seasonal demand
+
+=== COMPETITOR INTELLIGENCE (14) ===
+1. [competitor_recon] Competitor Recon — Complete competitor investigation
+2. [competitor_revenue_estimator] Revenue Estimator — Estimate competitor sales potential
+3. [ad_library_analyzer] Ad Library Analyzer — Analyze competitor advertising patterns
+4. [spy_facebook_library] Spy Facebook Library — Transform one product image into a full Meta Ads Library competitor research report + 7 original ad creatives in Algerian Arabic & French for the COD market
+5. [competitor_psychology] Competitor Psychology — Understand competitor positioning
+6. [competitor_target_audience] Target Audience — Determine who they target
+7. [competitor_hook_analyzer] Hook Analyzer — Extract recurring hooks
+8. [competitor_offer_reverse_engineer] Offer Reverse Engineer — Reconstruct their offer
+9. [competitor_funnel_reverse_engineer] Funnel Reverse Engineer — Reconstruct their funnel
+10. [competitor_creative_breakdown] Creative Breakdown — Analyze visual creatives
+11. [competitor_messaging_breakdown] Messaging Breakdown — Analyze their messaging
+12. [battle_card_generator] Battle Card Generator — Create a sales/marketing battle card
+13. [market_leader_analysis] Market Leader Analysis — Identify what the strongest competitor does differently
+14. [competitor_gap_finder] Competitor Gap Finder — Find gaps competitors aren't serving
+
+=== CUSTOMER & REVIEW INTELLIGENCE (12) ===
+1. [review_intelligence] Review Intelligence — Analyze thousands of reviews
+2. [complaint_mining] Complaint Mining — Find recurring complaints
+3. [love_mining] Love Mining — Find what customers love
+4. [feature_demand_finder] Feature Demand Finder — Identify requested features
+5. [customer_idea_generator] Customer Idea Generator — Turn complaints into product ideas
+6. [customer_language_extractor] Language Extractor — Extract exact customer vocabulary
+7. [customer_intent_detector] Intent Detector — Determine buying intent
+8. [awareness_stage_analyzer] Awareness Stage Analyzer — Identify customer awareness
+9. [willingness_to_pay_analysis] Willingness-to-Pay Analysis — Estimate acceptable price range
+10. [purchase_barrier_analyzer] Purchase Barrier Analyzer — Find barriers to purchase
+11. [customer_retention_analyzer] Retention Analyzer — Identify reasons customers return
+12. [churn_reason_analyzer] Churn Reason Analyzer — Identify why customers leave
+
+=== ADVANCED OFFER SKILLS (15) ===
+1. [offer_architect] Offer Architect — Architect compelling offers
+2. [value_stack_builder] Value Stack Builder — Build perceived value stacks
+3. [bonus_stack_generator] Bonus Stack Generator — Create high-value bonuses
+4. [bundle_profit_optimizer] Bundle Profit Optimizer — Optimize bundle pricing
+5. [aov_optimizer] AOV Optimizer — Increase average order value
+6. [irresistibility_score] Irresistibility Score — Score the offer's appeal
+7. [price_anchoring_strategy] Price Anchoring Strategy — Anchor high prices effectively
+8. [offer_comparison_matrix] Offer Comparison Matrix — Compare offer structures
+9. [offer_to_audience_matcher] Offer-to-Audience Matcher — Match offers to segments
+10. [offer_weakness_detector] Offer Weakness Detector — Find leaks in your offer
+11. [offer_iteration_generator] Offer Iteration Generator — Iterate to improve offer
+12. [discount_profit_simulator] Discount Profit Simulator — Simulate discount impact
+13. [checkout_offer_optimizer] Checkout Offer Optimizer — Optimize cart page offers
+14. [free_gift_strategy] Free Gift Strategy — Leverage free gifts for conversion
+15. [upsell_revenue_simulator] Upsell Revenue Simulator — Simulate upsell paths
+
+=== ADVANCED CREATIVE INTELLIGENCE (23) ===
+1. [creative_deconstructor] Creative Deconstructor — Deconstruct winning ads
+2. [hook_score] Hook Score — Score hook effectiveness
+3. [creative_audience_matcher] Creative-Audience Matcher — Match creatives to audiences
+4. [creative_psychology_analyzer] Creative Psychology Analyzer — Analyze psychological triggers
+5. [ugc_persona_generator] UGC Persona Generator — Generate UGC creator personas
+6. [ugc_character_generator] UGC Character Generator — Generate specific UGC characters
+7. [scene_generator] Scene Generator — Generate ad scenes
+8. [storyboard_builder] Storyboard Builder — Build video storyboards
+9. [shot_list_generator] Shot List Generator — Generate video shot lists
+10. [voiceover_script_generator] Voiceover Script Generator — Write voiceover scripts
+11. [creative_variation_engine] Creative Variation Engine — Generate variations of an ad
+12. [hook_angle_mixer] Hook × Angle Mixer — Mix hooks and angles
+13. [static_ad_generator] Static Ad Generator — Generate static ad concepts
+14. [video_ad_generator] Video Ad Generator — Generate video ad concepts
+15. [creative_winner_predictor] Creative Winner Predictor — Predict winning creatives
+16. [creative_repurposer] Creative Repurposer — Repurpose existing creatives
+17. [creative_localization] Creative Localization — Localize creatives for markets
+18. [arabic_ad_localization] Arabic Ad Localization — Localize for Arabic markets
+19. [french_ad_localization] French Ad Localization — Localize for French markets
+20. [international_ad_localization] International Ad Localization — Global ad localization
+21. [cinematic_storyboard_director] Cinematic Storyboard Director & Prompt Engineer — Advertising & Creative Strategy. Cinematic ASMR storyboard with HARD 30s/45s duration cap - Master Storyboard prompt + one chained segment prompt per 10s with locked character/product/color/palette continuity bible (never re-introduce the character, never change the product), seamless end-frame-to-start-frame chaining
+22. [image_ad_concept_generator] Image Ad Concept Generator — Ads Analytics. Image Ad Concept Generator & Creative Prompt Engine — transforms product, customer & competitor intelligence into copy-ready image ad concepts (Warning, US vs Them, News, Post Note...) with complete image-generation prompts ready to paste into an AI image tool
+23. [ugc_creative_prompt_generator] UGC Creative Prompt Generator — Ads Analytics. UGC Creative Prompt Generator — transforms product, customer & competitor intelligence into native-looking customer-style UGC ad concepts (hook, creator profile, story, shot list, full script, AI video prompt, caption, primary text, headline, CTA) ready for Meta/Instagram, with objection mining and a creative testing matrix
+
+=== ADVANCED ADS ANALYTICS (46) ===
+1. [adset_table_generator] AdSet & Ad Table — Generate a complete data table of every Ad Set with its ads from the connected group — clean rows you can copy and analyze
+2. [breakdown_intelligence] Meta Ads Breakdown Intelligence — Ads Analytics. Meta Ads Breakdown Intelligence & Segment Action Engine — age, gender, location, placement, platform, device, OS, time, day segments: who/where/when ads work or fail, why, and exact actions (scale, budget drain, dedicated ad sets)
+3. [bid_cap_analyzer] Meta Ads Bid Cap Analyzer — Ads Analytics. Meta Ads Bid Cap Analyzer & Bid Strategy Engine — Lowest Cost vs Cost Cap vs Bid Cap, starting test bid cap from historical CPA, delivery risk, adjustment rules
+4. [fb_ads_performance_engine] Facebook Ads Performance Engine — Ads Analytics. Facebook Ads Performance Engine — full diagnostic of campaigns, ad sets & ads from an AdSet & Ad Table: benchmarks, funnel bottleneck, winner detection, push delivery, test plan and next 48h/7d actions
+5. [meta_ads_scaling_system] Meta Ads Scaling & Creative Testing — Ads Analytics. Meta Ads Scaling & Creative Testing System — profit-first Meta account machine: campaign architecture per offer (main, offer/bundle, influencer, catalog ~10%, short-term sales), Creative ID + Concept ID testing engine (70% new concepts / 30% winner expansion), image-first validation, COD real-performance model (delivered CPA, confirmation/delivery/refusal rates, real profit), campaign-specific CPA targets, 7-day scaling engine, anti-overreaction rules, fatigue detection, winner expansion variations, creative status system IDEA→ARCHIVED, decision hierarchy profit>delivered>quality>CPA>ROAS
+6. [facebook_ads_scaling_system] Facebook Ads Scaling & Creative Testing — Ads Analytics. Facebook Ads Scaling & Creative Testing System — account structure analysis, Concept-based weekly creative testing (4-6 concepts x 3-5 variations), winner/loser logic with CPA+AOV+ROAS+profit+COD, winning creative DNA, iteration, fatigue, hero product/offer, 7-day test plan and scaling plan
+7. [facebook_ads_testing] Facebook Ads Testing — Generate an org chart of Campaign -> Ad Sets -> Ads strategy with parameters
+8. [ad_kpi_analyzer] Ad KPIs Analyzer — Ads Analytics. Ad KPI analyzer — reads a connected AdSet & Ad Table and analyzes every KPI per level (CTR, CPM, CPC, CVR, CPA, ROAS, spend, results) and gives SCALE / TEST / PAUSE / KILL verdicts per campaign, ad set and ad
+9. [buyer_persona_testing] Buyer Persona Testing — Detect 3 buyer personas with direct targeting and testing strategy
+10. [campaign_analyzer] E-commerce Performance Intelligence — Ads Analytics. Campaign Analyzer — full-funnel e-commerce performance analysis: ads → landing page → orders → delivery → collection → net profit. Finds where money is lost, what works, TRUE ROAS & profit, STOP/FIX/SCALE/TEST
+11. [ad_profitability_analyzer] Ad Profitability Analyzer — Analyze ad profitability
+12. [cpa_diagnosis] CPA Diagnosis — Diagnose high CPA
+13. [ctr_diagnosis] CTR Diagnosis — Diagnose low CTR
+14. [cpc_diagnosis] CPC Diagnosis — Diagnose high CPC
+15. [conversion_rate_diagnosis] Conversion Rate Diagnosis — Diagnose low CVR
+16. [funnel_drop_off_analyzer] Funnel Drop-Off Analyzer — Analyze funnel leaks
+17. [winning_ad_detector] Winning Ad Detector — Detect winning ads early
+18. [ad_fatigue_detector] Ad Fatigue Detector — Detect ad fatigue
+19. [ab_test_analyzer] A/B Test Analyzer — Analyze split tests
+20. [scaling_readiness_score] Scaling Readiness Score — Score readiness to scale
+21. [budget_allocation_optimizer] Budget Allocation Optimizer — Optimize ad budget
+22. [audience_performance_analyzer] Audience Performance Analyzer — Analyze audience performance
+23. [creative_performance_analyzer] Creative Performance Analyzer — Analyze creative performance
+24. [campaign_forecast] Campaign Forecast — Forecast future campaign results
+25. [lookalike_audience_strategy] Lookalike Audience — Build and scale Meta lookalike audiences (1%-10%) for small budgets
+26. [bid_cost_cap_strategy] Bid Cap / Cost Cap — Bid strategy: Lowest cost vs Bid cap vs Cost cap, with exact values
+27. [carousel_ads_strategy] Carousel Ads — Build winning carousels: card order, CTAs, when carousel beats single image
+28. [flexible_ads_strategy] Flexible Ads — Use Meta Flexible Ads (dynamic creative) the right way
+29. [pixel_events_strategy] Pixel Events — Tracking: pixel + CAPI events that lower your CPA
+30. [ad_testing_plan] Ad Testing Plan — A realistic testing system: how many ads/wk, kill and pause rules
+31. [campaign_scaling_plan] Campaign Scaling — Scale winners safely: budget rise rules, when to duplicate
+32. [offline_conversions_strategy] Offline Conversions — Pass real payment/delivery data to Meta so it learns who stays COD customers
+33. [marketplace_expansion] Marketplace Expansion — Sell on marketplaces (Amazon, Noon, Jumia) combined with your store
+34. [tof_strategy] TOF Strategy (Top Funnel) — Cold traffic: prospecting, broad audiences, awareness objectives
+35. [mof_strategy] MOF Strategy (Middle Funnel) — Warm up: retargeting visitors, AddToCart, video viewers
+36. [bof_strategy] BOF Strategy (Bottom Funnel) — Convert: cart abandoners, offers, conversion settings
+37. [identify_winning_ads] Identify Winning Ads — Spot winners early: day 1-3-7 metrics, thresholds, promote safely
+38. [spc_analysis] SPC Analysis — Single Product Campaign: structure, test creatives, read results
+39. [viral_organic_strategy] Viral Organic Strategy — TikTok/Reels organic that sells and feeds your pixel
+40. [seo_strategy] SEO Strategy — Keywords, page SEO, blog, local + voice search for my store
+41. [ad_scheduling] Ad Scheduling — Best hours/days to run ads for COD markets, dayparting
+42. [campaign_optimization] Optimization Playbook — Weekly optimization checklist: pause, raise, reallocate budget
+43. [prospecting_strategy] Prospecting Strategy — Find cold buyers: broad, interests, Advantage+ audiences, exclusions
+44. [retargeting_strategy] Retargeting — Pixel-based retargeting audiences that actually convert
+45. [remarketing_strategy] Remarketing — Email/SMS/WhatsApp remarketing combined with Meta ads
+46. [pixel_training] Train Pixel — Teach Meta's pixel to learn buyers faster on small budgets
+
+=== AWARENESS FUNNEL STRATEGY (6) ===
+1. [brand_awareness] Brand Awareness — Awareness Funnel. Brand awareness campaign strategy — objectives, cold audiences, creative that makes people remember, frequency & reach management, KPI targets
+2. [product_awareness] Product Awareness — Awareness Funnel. Product awareness campaign strategy — teach the problem & the product, hooks, solution creatives, warm targeting, KPI targets
+3. [value_awareness] Value Awareness — Awareness Funnel. Value awareness campaign strategy — communicate the product value, proof, pricing & offer perception to convert cold users, ROAS-focused KPIs
+4. [customer_awareness_stages] Customer Awareness Stages — Awareness Funnel. The 5 awareness stages of the customer journey (unaware to most aware) — mindset, message, creative, offer and budget per stage
+5. [marketing_funnel_stages] Marketing Funnel Stages — Awareness Funnel. Full marketing funnel stages (TOFU awareness → MOFU consideration → BOFU conversion → retention) — goal, campaign, offer, KPIs and budget per stage
+6. [four_pillars_brand_awareness] 4 Pillars of Brand Awareness — Awareness Funnel. The 4 pillars of brand awareness — Visibility, Memorability, Trust, Relevance — with concrete actions, KPIs and creative per pillar
+
+=== COPYWRITING FRAMEWORKS (5) ===
+1. [aida_copy] AIDA Copywriting — Copywriting. AIDA framework (Attention, Interest, Desire, Action) — headlines, full ad copy and landing structure
+2. [pas_copy] PAS Copywriting — Copywriting. PAS framework (Problem, Agitate, Solve) — pain-driven hooks, full ad copy and landing angle
+3. [four_p_copy] 4P Copywriting — Copywriting. 4P framework (Picture, Promise, Prove, Push) — vivid future, core promise, proof and strong CTA
+4. [hook_story_offer_copy] Hook Story Offer — Copywriting. Hook-Story-Offer framework — scroll-stopping hook, emotional story, irresistible offer
+5. [bab_copy] BAB Copywriting — Copywriting. BAB framework (Before, After, Bridge) — transformation before/after with the product as the bridge
+
+=== SHOPIFY STORE & APPS (3) ===
+1. [shopify_store_generator] Shopify Store (Build) — Design your complete Shopify store: theme, pages, collections, and product page
+2. [shopify_apps_research] I Need Shopify Apps — Get the best Shopify apps for COD dropshipping: reviews, email, COD fees, order tracking
+3. [liquid_prompt] Liquid Prompt (HTML → Shopify) — Paste any HTML page and get a complete Shopify Liquid theme — Tailwind setup, /sections/*.liquid with editable schema, index.json, theme.js — with LIVE progress and a downloadable theme ZIP
+
+=== ADVANCED ALGERIA SKILLS (21) ===
+1. [master_dz_landing_page_strategy] Master DZ Landing Page Strategy — Builds a $10,000+ landing page strategy in Algerian Darja
+2. [wilaya_profitability_map] Wilaya Profitability Map — Map profitability by Wilaya
+3. [wilaya_demand_predictor] Wilaya Demand Predictor — Predict demand by Wilaya
+4. [wilaya_delivery_cost_analyzer] Wilaya Delivery Cost Analyzer — Analyze delivery costs
+5. [confirmation_rate_analyzer] Confirmation Rate Analyzer — Analyze phone confirmation rates
+6. [cancellation_predictor] Cancellation Predictor — Predict order cancellations
+7. [delivery_success_predictor] Delivery Success Predictor — Predict successful deliveries
+8. [true_cod_profit_calculator] True COD Profit Calculator — Calculate profit after returns
+9. [dz_buyer_psychology] DZ Buyer Psychology — Understand Algerian buyers
+10. [algerian_arabic_copywriter] Algerian Arabic Copywriter — Write in Algerian Arabic (Darja)
+11. [algerian_french_copywriter] Algerian French Copywriter — Write in Algerian French
+12. [dz_facebook_strategy] DZ Facebook Strategy — Facebook strategy for DZ
+13. [dz_tiktok_strategy] DZ TikTok Strategy — TikTok strategy for DZ
+14. [dz_marketplace_analysis] DZ Marketplace Analysis — Analyze Ouedkniss/Marketplace
+15. [dzd_price_psychology] DZD Price Psychology — Optimize DZD pricing
+16. [dz_offer_generator] DZ Offer Generator — Generate offers for DZ market
+17. [cod_confirmation_script_optimizer] COD Confirmation Script Optimizer — Optimize call scripts
+18. [fake_order_detector] Fake Order Detector — Detect fake orders
+19. [failed_delivery_analyzer] Failed Delivery Analyzer — Analyze return reasons
+20. [dz_local_competitor_finder] DZ Local Competitor Finder — Find local competitors
+21. [best_wilaya_launch_strategy] Best Wilaya Launch Strategy — Wilaya rollout strategy
+
+=== ADVANCED INTERNATIONAL SKILLS (15) ===
+1. [country_ranking_engine] Country Ranking Engine — Rank countries for expansion
+2. [purchasing_power_analyzer] Purchasing Power Analyzer — Analyze purchasing power
+3. [currency_risk_analyzer] Currency Risk Analyzer — Analyze currency risks
+4. [country_ecommerce_maturity] Country E-commerce Maturity — Analyze market maturity
+5. [payment_preference_analyzer] Payment Preference Analyzer — Analyze payment habits
+6. [logistics_difficulty_score] Logistics Difficulty Score — Score logistics difficulty
+7. [tax_impact_analyzer] Tax Impact Analyzer — Analyze tax implications
+8. [regulatory_risk_analyzer] Regulatory Risk Analyzer — Analyze regulations
+9. [localization_score] Localization Score — Score localization effort
+10. [language_localization] Language Localization — Localize language content
+11. [cultural_fit_analyzer] Cultural Fit Analyzer — Analyze cultural fit
+12. [international_margin_calculator] International Margin Calculator — Calculate margins across borders
+13. [country_roas_benchmark] Country ROAS Benchmark — Benchmark ROAS by country
+14. [best_country_selector] Best Country Selector — Select best country
+15. [international_expansion_planner] International Expansion Planner — Plan international expansion
+
+=== VERY ADVANCED AI SKILLS (17) ===
+1. [website_preview] Website Preview — Live preview of a website URL
+2. [json_to_text_converter] Human Text Converter — Convert any raw JSON or data into a beautifully formatted, easy-to-read report
+3. [ecommerce_strategist] E-commerce Strategist — AI Master Strategist
+4. [autonomous_product_researcher] Autonomous Product Researcher — Auto-research products
+5. [autonomous_competitor_researcher] Autonomous Competitor Researcher — Auto-research competitors
+6. [autonomous_market_researcher] Autonomous Market Researcher — Auto-research markets
+7. [autonomous_data_analyst] Autonomous Data Analyst — Auto-analyze data
+8. [research_critic] Research Critic — Critique existing research
+9. [evidence_validator] Evidence Validator — Validate claims and evidence
+10. [contradiction_detector] Contradiction Detector — Detect contradictory data
+11. [risk_detector] Risk Detector — Detect business risks
+12. [opportunity_detector] Opportunity Detector — Detect hidden opportunities
+13. [insight_generator] Insight Generator — Generate actionable insights
+14. [insight_connector] Insight Connector — Connect disparate insights
+15. [next_best_action] Next Best Action — Determine next logical step
+16. [decision_assistant] Decision Assistant — Assist with strategic decisions
+17. [best_strategy_selector] Best Strategy Selector — Select the optimal strategy
+
+=== WINNING PRODUCT 2.0 (1) ===
+1. [winning_digital_product] Winning Digital Product — Analyze a CSV of digital product listings to identify winning products with strong commercial potential.
+
+=== GEO-ARBITRAGE INTELLIGENCE (1) ===
+1. [geo_arbitrage_engine] Geo-Arbitrage Opportunity Engine — Master engine: where a product is early, saturated, or best to enter first
+
+=== ADVANCED FINANCIAL INTELLIGENCE (2) ===
+1. [unit_economics_engine] Unit Economics Engine — Full per-unit economics and all break-even limits
+2. [profit_reality_engine] Profit Reality Engine — True bottom-line profit after every single cost
+
+=== CONVERSION RATE OPTIMIZATION (10) ===
+1. [landing_page_builder] CRO Landing Page Builder (Mobile) — CRO Landing Page Builder — build a conversion-focused landing page for ANY product — mobile-first, live two-pane preview with click-to-edit of any element, editable section parameters, CRO audit + auto-optimization, and one-click HTML export
+2. [facebook_ads_testing_methods] Facebook Ads Testing — 15 Methods — 15 Facebook Ads testing methods from the master guide — pick any method on the card (Classic ABO, CBO broad, creative-first, ASC, hooks, copy, lookalikes, retargeting, cost cap, UGC, international, offers, full-funnel…) and get its complete step-by-step playbook with budgets, KPIs and kill/scale rules
+3. [facebook_ads_scaling_methods] Facebook Ads Scaling — 15 Methods — 15 Facebook Ads scaling methods — pick any method on the card (vertical budget ladder, horizontal duplication, CBO consolidation, ASC scale, cost cap, creative refresh, lookalikes, geo expansion, retargeting, offers/AOV, email+SMS, dayparting, influencers, multi-product, full-funnel) and get its complete playbook
+4. [sales_master_guide] Master Guide — 50+ Revenue Methods — The complete master guide — 50+ methods to get more sales — pick any mega-method on the card (price psychology, checkout & cart, product page, email marketing, traffic expansion) or any method 020-050 (YouTube SEO, affiliates, retargeting, bundles, influencers…) and get its complete playbook
+5. [media_buyer_100_analysis] 100 Expert Messages — Media-Buyer Analysis — 100 expert WhatsApp-style media-buyer messages from the Algerian/Darija playbook (hooks, COD traps, creative fatigue, delivery chaos, retargeting lies, account bans, scaling mistakes…) — pick any message on the card and get a full strategy analysis with transferable frameworks
+6. [aida_framework] AIDA Framework — Apply the AIDA copy formula (Attention → Interest → Desire → Action)
+7. [pas_framework] PAS Framework — Apply the PAS copy formula (Problem → Agitate → Solution)
+8. [hook_story_offer] Hook → Story → Offer — Structure ads and creatives with the Hook-Story-Offer framework
+9. [headline_copy_psychology] Headline Copy Psychology — Generate psychologically-grounded headlines for product, ads and emails
+10. [facebook_ads_psychology_strategy] Facebook Ads Psychology Strategy — Full Facebook/Instagram ads strategy built on buyer psychology
+
+=== PRODUCT TESTING INTELLIGENCE (1) ===
+1. [product_test_planner] Product Test Planner — Full test system: budget, duration, audience, creatives, KPIs, kill/scale rules
+
+=== PRODUCT ECOSYSTEM 2.0 (1) ===
+1. [product_ecosystem_expansion_engine] Product Ecosystem Expansion Engine — Expand one winning product into a full portfolio
+
+=== AUTONOMOUS AGENTS (7) ===
+1. [product_agent] Product Agent — Auto: find → research → score → source → margin → recommend test
+2. [competitor_agent] Competitor Agent — Auto: find competitors → analyze weaknesses
+3. [market_agent] Market Agent — Auto: market → demand → competition → price → opportunity
+4. [launch_agent] Launch Agent — Auto: offer, landing, creative, campaign, test plan
+5. [scaling_agent] Scaling Agent — Auto: read data → winners → reallocate → expand
+6. [profit_agent] Profit Agent — Auto: costs + orders + ads → true profit → fixes
+7. [growth_agent] Growth Agent — Auto: business → biggest bottleneck → action plan
+
+=== E-COMMERCE COMMAND CENTER (1) ===
+1. [ecommerce_command_center] E-commerce Command Center — One master skill that analyzes the whole business and decides next steps
+
+=== OPPORTUNITY RADAR (1) ===
+1. [opportunity_radar] Opportunity Radar — Auto-scan for product, trend, price and market opportunities
+
+=== E-COMMERCE (ECOM) (1) ===
+1. [meta_daily_decision_flow] Meta Ads Daily Decision Flow — E-commerce (ecom). Interactive decision-flow / org-chart visual of the Meta Ads daily optimization engine: EVERY DAY -> COLLECT DATA -> 7-DAY AVERAGES -> COMPARE WITH TARGETS -> DECISION (ON TARGET: +10-20% budget -> MONITOR; BELOW TARGET: WAIT 24-48h -> RE-CHECK -> still below: -10-20% budget, recovered: KEEP -> MONITOR), with COLLECT DATA metrics (Meta/Website/Business/COD), the 7-day-average node with the no-overreaction rule, target comparison criteria, the high-AOV warning, the creative fatigue branch, the traffic-quality branch, and the COLLECT -> ANALYZE -> COMPARE -> DECIDE -> ADJUST -> MONITOR -> REPEAT feedback loop
+
+=== ADVANCED STRATEGY INTELLIGENCE (2) ===
+1. [nose_hair_trimmer_launch_agent] Nose Hair Trimmer Launch Agent — Executes the 6-phase pre-launch plan for the Mini Portable Nose Hair Trimmer (DZ COD market).
+2. [ecommerce_growth_loop_v2] E-Commerce Growth Loop Intelligence Engine (V2) — Analyze the complete business as ONE connected COD/e-commerce feedback loop (Duplicate)
+

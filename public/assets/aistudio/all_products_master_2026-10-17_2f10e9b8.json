@@ -1,0 +1,3491 @@
+{
+  "meta": {
+    "title": "Universal Product Intelligence — Master Collection (Algeria COD)",
+    "generatedAt": "2026-10-17T10:50:36Z",
+    "businessModel": "COD (Cash on Delivery)",
+    "targetMarket": "Algeria",
+    "currency": "DZD",
+    "sourcingCountry": "China (1688/Alibaba/Yiwugo/AliExpress)",
+    "scoringWeights": {
+      "demand": 0.2,
+      "competition": 0.15,
+      "margin": 0.2,
+      "supplier": 0.1,
+      "trend": 0.1,
+      "algeriaCod": 0.15,
+      "adPotential": 0.1
+    },
+    "totalProducts": 10,
+    "statusDistribution": {
+      "Test Recommended": 4,
+      "Needs Verification": 3,
+      "Researching": 1,
+      "Rejected": 2
+    },
+    "schemaNote": "Each element of 'products' follows the fixed Product Intelligence OS schema; null = data unavailable/not verifiable, 'TBC' = to be confirmed; gated sources disclosed inside researchMetadata.sourcesUnavailable.",
+    "sourceFiles": [
+      "egg_sitter_research_record.json",
+      "product_research_batch_2026-10-17.json",
+      "product_research_batch2_2026-10-17.json"
+    ]
+  },
+  "index": [
+    {
+      "id": "prd-20261017-eggsitter-dz-001",
+      "name": "Egg Sitter-style Honeycomb Gel Seat Cushion (branded original: Egg Sitter Support Cushion by BulbHead)",
+      "status": "Test Recommended",
+      "overallScore": 69,
+      "evidenceQuality": 70,
+      "confidence": "MEDIUM",
+      "sellingPrice_DZD": 3500,
+      "costPrice_DZD": 1080,
+      "roi_pct": 10,
+      "demandLevel": "HIGH",
+      "competitionLevel": "HIGH",
+      "lastResearched": "2026-10-17T09:27:47Z"
+    },
+    {
+      "id": "prd-20261017-mugwarmer-dz-001",
+      "name": "Electric Mug Warmer Plate with 55-75C Temperature Control (EU plug, LED display)",
+      "status": "Test Recommended",
+      "overallScore": 63,
+      "evidenceQuality": 65,
+      "confidence": "MEDIUM",
+      "sellingPrice_DZD": 3500,
+      "costPrice_DZD": 1200,
+      "roi_pct": 6,
+      "demandLevel": "MEDIUM",
+      "competitionLevel": "MEDIUM",
+      "lastResearched": "2026-10-17T12:30:00Z"
+    },
+    {
+      "id": "prd-20261017-toolbelt-dz-002",
+      "name": "Heavy-Duty Multi-Pocket Tool Belt / Waist Tool Organizer with Buckle & Carry Handles",
+      "status": "Test Recommended",
+      "overallScore": 65,
+      "evidenceQuality": 65,
+      "confidence": "MEDIUM",
+      "sellingPrice_DZD": 3500,
+      "costPrice_DZD": 1235,
+      "roi_pct": 5,
+      "demandLevel": "HIGH",
+      "competitionLevel": "MEDIUM",
+      "lastResearched": "2026-10-17T12:30:00Z"
+    },
+    {
+      "id": "prd-20261017-kneepads-dz-003",
+      "name": "Professional Work Knee Pads with Hard Shell Cap & Gel/EVA Foam (pair, adjustable straps)",
+      "status": "Needs Verification",
+      "overallScore": 54,
+      "evidenceQuality": 60,
+      "confidence": "LOW",
+      "sellingPrice_DZD": 2900,
+      "costPrice_DZD": 1360,
+      "roi_pct": 0,
+      "demandLevel": "MEDIUM",
+      "competitionLevel": "MEDIUM",
+      "lastResearched": "2026-10-17T12:30:00Z"
+    },
+    {
+      "id": "prd-20261017-umbrella-dz-004",
+      "name": "Compact Folding Umbrella with Carabiner D-Ring Handle (macaron colors)",
+      "status": "Researching",
+      "overallScore": 52,
+      "evidenceQuality": 60,
+      "confidence": "MEDIUM",
+      "sellingPrice_DZD": 1400,
+      "costPrice_DZD": 760,
+      "roi_pct": -26,
+      "demandLevel": "MEDIUM",
+      "competitionLevel": "HIGH",
+      "lastResearched": "2026-10-17T12:30:00Z"
+    },
+    {
+      "id": "prd-20261017-soapdish-dz-005",
+      "name": "Wall-Mounted Flip-Top Soap Dish with Drain Grid & Rose-Gold Trim (no-drill)",
+      "status": "Rejected",
+      "overallScore": 46,
+      "evidenceQuality": 60,
+      "confidence": "MEDIUM",
+      "sellingPrice_DZD": 700,
+      "costPrice_DZD": 420,
+      "roi_pct": -44,
+      "demandLevel": "MEDIUM",
+      "competitionLevel": "MEDIUM",
+      "lastResearched": "2026-10-17T12:30:00Z"
+    },
+    {
+      "id": "prd-20261017-babyliss-trimmer-dz-006",
+      "name": "BaByliss for Men Nose/Ear Hair Trimmer (model BAB 205 IBE) — BRANDED product",
+      "status": "Rejected",
+      "overallScore": 54,
+      "evidenceQuality": 65,
+      "confidence": "MEDIUM",
+      "sellingPrice_DZD": 3500,
+      "costPrice_DZD": null,
+      "roi_pct": null,
+      "demandLevel": "HIGH",
+      "competitionLevel": "HIGH",
+      "lastResearched": "2026-10-17T12:30:00Z"
+    },
+    {
+      "id": "prd-20261017-sprinkler-dz-007",
+      "name": "360° Rotating Garden Sprinkler with 12 Flexible Tube Nozzles (fan spray)",
+      "status": "Needs Verification",
+      "overallScore": 58,
+      "evidenceQuality": 60,
+      "confidence": "LOW",
+      "sellingPrice_DZD": 3300,
+      "costPrice_DZD": 840,
+      "roi_pct": 9,
+      "demandLevel": "UNKNOWN",
+      "competitionLevel": "LOW",
+      "lastResearched": "2026-10-17T12:30:00Z"
+    },
+    {
+      "id": "prd-20261017-campinglight-dz-008",
+      "name": "Two-Leaf Foldable Multifunctional Camping Light (Model L-46, USB rechargeable, IPX4-class, warm/white modes)",
+      "status": "Test Recommended",
+      "overallScore": 70,
+      "evidenceQuality": 65,
+      "confidence": "MEDIUM",
+      "sellingPrice_DZD": 3500,
+      "costPrice_DZD": 966,
+      "roi_pct": 15,
+      "demandLevel": "HIGH",
+      "competitionLevel": "MEDIUM",
+      "lastResearched": "2026-10-17T13:35:00Z"
+    },
+    {
+      "id": "prd-20261017-coatrack-dz-009",
+      "name": "Tree-Design Freestanding Metal Coat Rack / Hall Tree (45° inclined hanging rods, triangular base, bold steel pipe — WF-01 / Item 4664-7, black & white)",
+      "status": "Needs Verification",
+      "overallScore": 59,
+      "evidenceQuality": 60,
+      "confidence": "LOW-MEDIUM",
+      "sellingPrice_DZD": 4700,
+      "costPrice_DZD": 1860,
+      "roi_pct": 12,
+      "demandLevel": "MEDIUM",
+      "competitionLevel": "MEDIUM",
+      "lastResearched": "2026-10-17T13:35:00Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prd-20261017-eggsitter-dz-001",
+      "name": "Egg Sitter-style Honeycomb Gel Seat Cushion (branded original: Egg Sitter Support Cushion by BulbHead)",
+      "status": "Test Recommended",
+      "category": "Home & Living > Chair & Seat Accessories > Gel Pressure-Relief Seat Cushion",
+      "source": "User-submitted product image; verified via live web research (Amazon, Walmart, BulbHead, AliExpress, Jumia, Ozon, Temu, Ouedkniss, Alibaba, Yiwugo)",
+      "country": "DZ",
+      "mainImage": "https://z-cdn-media.chatglm.cn/files/9edf99f0-4154-4f3c-96d2-a923e45f5931.png?auth_key=1892228839-0a7f79216dbc4253b428065dd0137f2d-0-2be501ae4c158c4404dc4a963f3f6ab1",
+      "gallery": [],
+      "favorite": false,
+      "pinned": false,
+      "hot": false,
+      "highMargin": false,
+      "supplier": {
+        "name": "Yiwu/Jinhua (Zhejiang) gel-cushion manufacturers via Yiwugo — exact legal entity TBC; alt: Ningbo Jiangqiang Trade Co., Ltd. (Alibaba)",
+        "rating": null,
+        "reliabilityScore": null,
+        "storeAge": "TBC (Ningbo Jiangqiang on Alibaba: 3 years, unverified rating)",
+        "orders": null,
+        "shippingTime": "Processing 48h (claimed by Jinhua supplier, MOQ 200); freight to Algeria ~25-45 days sea / 10-18 days air consolidation (TBC with forwarder)",
+        "processingTime": "48 hours (Jinhua Yiwugo supplier claim; unverified)",
+        "moq": 200,
+        "location": "Yiwu / Jinhua, Zhejiang, China (alt: Ningbo, Zhejiang, China)"
+      },
+      "financials": {
+        "sellingPrice": 3500,
+        "costPrice": 1080,
+        "shippingCost": 336,
+        "roi": 10,
+        "breakEvenPrice": 1630
+      },
+      "opportunity": {
+        "overallScore": 69,
+        "demand": 75,
+        "competition": 60,
+        "margin": 70,
+        "supplier": 55,
+        "trend": 60,
+        "algeriaCodSuitability": 75,
+        "advertisingPotential": 80,
+        "evidenceQuality": 70
+      },
+      "competitors": [
+        {
+          "name": "BulbHead (brand owner, As Seen on TV)",
+          "productUrl": "https://bulbheadinternational.com/products/egg-sitter-support-cushion-offers",
+          "price": 39.99,
+          "currency": "USD",
+          "shipping": null,
+          "rating": 4.8,
+          "reviews": 30,
+          "positioning": "Premium brand owner retail price; 2-pack $59.98; Deluxe $49.99",
+          "differentiation": "Registered brand, 10-year guarantee, TV-commercial creative library",
+          "type": "exact"
+        },
+        {
+          "name": "Amazon.com — BulbHead Egg Sitter (ASIN B077JH8156)",
+          "productUrl": "https://www.amazon.com/BulbHead-Egg-Sitter-Seat-Breathable/dp/B077JH8156",
+          "price": null,
+          "currency": "USD",
+          "shipping": null,
+          "rating": 4.1,
+          "reviews": 5514,
+          "positioning": "Reference listing for US demand; buy-box currently unavailable",
+          "differentiation": "Largest verified review base found (5,514 ratings)",
+          "type": "exact"
+        },
+        {
+          "name": "Amazon.co.za — same BulbHead ASIN",
+          "productUrl": "https://www.amazon.co.za/BulbHead-Egg-Sitter-Seat-Breathable/dp/B077JH8156",
+          "price": 170.0,
+          "currency": "ZAR",
+          "shipping": null,
+          "rating": 4.0,
+          "reviews": 5264,
+          "positioning": "Low-price regional Amazon availability (~USD 9.6)",
+          "differentiation": "Demonstrates wide international price dispersion",
+          "type": "exact"
+        },
+        {
+          "name": "AliExpress — Summer Cooling Gel Egg Sitter Cushion 40x35x2.5cm",
+          "productUrl": "https://www.aliexpress.com/item/1005012791096753.html",
+          "price": 17.49,
+          "currency": "USD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Mid generic tier; 45% off from $31.80",
+          "differentiation": "Ships worldwide; direct comparable for landed-cost benchmark",
+          "type": "exact"
+        },
+        {
+          "name": "AliExpress FR — Coussin gel nid d'abeille (breathing summer gel cushion)",
+          "productUrl": "https://fr.aliexpress.com/w/wholesale-coussin-gel-nid-abeille.html",
+          "price": 13.19,
+          "currency": "EUR",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "EU-market generic; search page shows '+50,000 vendus' on comparable listing",
+          "differentiation": "French-language market evidence relevant for Algeria creatives",
+          "type": "exact"
+        },
+        {
+          "name": "Amazon.fr — Coussin de siège gel nid d'abeille 43x38x4 (Bleu)",
+          "productUrl": "https://www.amazon.fr/coussin-gel-nid-dabeille/s?k=coussin+en+gel+nid+d%27abeille",
+          "price": 25.99,
+          "currency": "EUR",
+          "shipping": 0,
+          "rating": null,
+          "reviews": null,
+          "positioning": "EU retail median tier with free shipping",
+          "differentiation": "EU price anchor for premium generic positioning",
+          "type": "exact"
+        },
+        {
+          "name": "Jumia Egypt — Egg Sitter Support Cushion (Medical street seller)",
+          "productUrl": "https://www.jumia.com.eg/egg-sitter-support-cushion-generic-mpg704888.html",
+          "price": 228.0,
+          "currency": "EGP",
+          "shipping": 25.0,
+          "rating": 3.7,
+          "reviews": 71,
+          "positioning": "African marketplace low tier (~USD 4.7); 77% discount vs EGP 1,000 anchor",
+          "differentiation": "Documented quality complaints (1-star: 'fake', mismatch vs images) — quality risk benchmark",
+          "type": "exact"
+        },
+        {
+          "name": "Jumia Kenya — Gel Enhanced Egg Sitter Cushion",
+          "productUrl": "https://www.jumia.co.ke/generic-gel-enhanced-egg-sitter-seat-cushion-pressure-relief-cushion-122576049.html",
+          "price": 1600.0,
+          "currency": "KES",
+          "shipping": null,
+          "rating": 2.0,
+          "reviews": 6,
+          "positioning": "Low tier (~USD 12.4); mixed verified ratings",
+          "differentiation": "Shows African-market COD/e-commerce price point parity",
+          "type": "exact"
+        },
+        {
+          "name": "Ouedkniss — Coussin anti-escarres en gel Starcare (Alger, Beni Messous)",
+          "productUrl": "https://www.ouedkniss.com/medical-coussin-anti-escarres-en-gel-starcare-beni-messous-alger-algerie-d56584778?lang=fr",
+          "price": 5800.0,
+          "currency": "DZD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Local medical gel cushion substitute (~USD 43); delivery available",
+          "differentiation": "Substitute product: proves local willingness to pay for gel seating; not the egg-honeycomb design",
+          "type": "substitute"
+        },
+        {
+          "name": "Ouedkniss — Coussin coccyx / gel rafraîchissant listings (category search)",
+          "productUrl": "https://www.ouedkniss.com/oreiller-r",
+          "price": 2000.0,
+          "currency": "DZD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Local substitutes: coccyx cushion 2,000 DA; cooling gel cushions 8,470-11,000 DA",
+          "differentiation": "Substitutes on Algeria's main classifieds; no verified 'egg sitter' honeycomb listing found — partial whitespace",
+          "type": "substitute"
+        }
+      ],
+      "intelligence": {
+        "demandLevel": "HIGH",
+        "competitionLevel": "HIGH",
+        "trendDirection": "STABLE",
+        "seasonality": "SEASONAL",
+        "impulseBuy": "HIGH",
+        "targetCustomer": "Urban office workers, taxi/long-haul drivers, students, gamers and 45+ adults with coccyx/sciatica discomfort; in Algeria: French/Arabic-speaking social-commerce buyers, 25-60, ordering COD",
+        "evidenceNotes": "Demand: 5,514 Amazon.com ratings + 829 Walmart ratings on branded ASIN; one AliExpress FR comparable shows +50,000 sold; global gel-seat-cushion market ~USD 1.57B (2025, 5.6% CAGR). Competition: commoditized generics across Amazon/AliExpress/Temu/Ozon/Jumia. Trend: mature since 2017, stable with summer cooling peaks. Caveat: high ratings are cumulative history, not proof of current velocity; Algeria-specific demand unverified."
+      },
+      "details": {
+        "material": "TPE gel / 'ultra-flex polymer' honeycomb matrix + polyester non-slip machine-washable cover",
+        "supportType": "Flexible honeycomb gel pressure-relief seat cushion (collapses to absorb pressure points; air-circulating cells)",
+        "contents": "1x gel cushion + 1x washable non-slip cover (color box); Deluxe variant: bamboo-charcoal cover",
+        "colorVariants": [
+          "Blue",
+          "Black",
+          "Pink",
+          "Beige"
+        ],
+        "sizes": "Generic: 40x32x3.2 cm (600 g) to 42x36x4.8 cm (900 g); 42x35x3 cm double-sided (920 g); BulbHead: 15x16.5x1.5 in (~38x42x3.8 cm)",
+        "certifications": [],
+        "packaging": "Color box 39x4.5x33 cm + magnetic cloth cover; 20 pcs/ctn; carton 71.5x41x47 cm, 19-28 kg/ctn by weight variant",
+        "identifiers": "BulbHead UPC 097298060243, ASIN B077JH8156; IP: EGG SITTER EU trademark 017593567 (registered), US trademark (registered), US design patent 29/628,102 (filed 2017-12-01), EU RCD 004543072-0001",
+        "warranty": "BulbHead: 10-year extended guarantee (brand only); generics: TBC"
+      },
+      "aiAnalysis": {
+        "whySell": [
+          "Proven, sustained global demand: 5,514 ratings on the branded Amazon ASIN, 829 on Walmart, and a French AliExpress comparable showing 50,000+ sold",
+          "Perfect video-ad product: the 'sit on a raw egg without breaking it' demo is instantly understandable, filmable, and hook-rich for TikTok/Reels/Meta",
+          "Strong price ladder: generic landed cost ~1,080 DZD supports retail at 2,900-3,900 DZD — a 60-70% gross margin at plausible Algerian price points",
+          "Light (~0.7-1.1 kg packed), non-fragile, no sizing/fit problems, low after-sales burden — well suited to COD logistics and 58-wilaya courier networks",
+          "Dual year-round angles (back/tailbone relief for office & driving) plus a strong summer cooling hook for seasonal spikes",
+          "No verified dedicated local seller of this design found on Ouedkniss — partial whitespace vs. generic gel cushions priced 2,000-11,000 DZD"
+        ],
+        "risks": [
+          "IP risk: 'EGG SITTER' is a registered EU/US trademark and the honeycomb design holds US/EU design patents — sell under generic naming ('coussin gel nid d'abeille'), never use brand name, packaging, or copied images",
+          "Quality variance in cheap TPE generics: Jumia Egypt/Kenya listings show 2.0-3.7 ratings with 'fake/thin' complaints — supplier sample testing is mandatory",
+          "Algeria import friction: 30% duty (assumed, TBC) + 19% VAT on CIF, plus import-licensing/forwarde constraints — landed cost must be confirmed with a transitaire before scaling",
+          "COD economics are CPA-sensitive: at 56% effective delivery rate, profit at 3,500 DZD turns negative above ~585 DZD CPA per placed order — bundle offers (2-pack) materially improve survivability",
+          "Low-grade gel can deform in hot cars or emit odor in summer heat — quality spec must be enforced (density 700 g+, TPE grade)",
+          "Medical claims (treatment of sciatica, hemorrhoids, discs) are unsupported and risk ad rejection — comfort/relief language only",
+          "Algeria demand is an unvalidated hypothesis extrapolated from foreign marketplaces and substitute listings"
+        ],
+        "marketingAngle": "Demonstration-first creatives: raw-egg squeeze test, slow-mo pressure collapse, 'before/after 8-hour sitting day'; secondary angles: summer cooling honeycomb airflow, gift for parents/drivers; localize in French + Algerian Arabic (darija) with COD call-to-action 'payer à la livraison — 58 wilayas'",
+        "suggestedPrice": "2,900-3,900 DZD single unit; 5,400-5,900 DZD 2-pack bundle as lead offer (recommended)",
+        "adScore": 80,
+        "customerSegments": [
+          "Office/desk workers with lower-back fatigue",
+          "Drivers (taxi, rideshare, long-haul)",
+          "Adults 45+ with coccyx/sciatica sitting discomfort (comfort claim only)",
+          "Students & remote workers on hard chairs",
+          "Gift buyers for elderly parents"
+        ],
+        "painPoints": [
+          "Hard chairs cause tailbone/hip pain and numbness",
+          "Heat and sweating during long sitting",
+          "Memory-foam cushions trap heat and flatten",
+          "Long drives without rest stops"
+        ],
+        "usp": [
+          "Sits on a raw egg without breaking it (demonstrable)",
+          "Honeycomb airflow stays cool",
+          "Washable non-slip cover",
+          "Retains shape after long use",
+          "Fits most chairs/car seats"
+        ],
+        "objections": [
+          "Is it the cheap fake that flattens after a week?",
+          "Will it slide on smooth chairs?",
+          "Is it hygienic / washable?",
+          "Why pay this when cheaper cushions exist on marketplaces?"
+        ],
+        "creativeFormats": [
+          "9:16 raw-egg demo video (hero hook, first 2s)",
+          "Side-by-side vs memory-foam heat test (thermal camera optional)",
+          "UGC darija voiceover unboxing + chair test",
+          "Static carousel: pain points -> honeycomb cells -> COD guarantee"
+        ],
+        "adHooks": [
+          "'Il s'assoit sur un oeuf CRU — et l'oeuf ne casse pas.'",
+          "'Votre chaise vous fait mal au dos après 2 heures? Regardez ça.'",
+          "'L'été, votre siège devient un four. Ce coussin en gel respire.'"
+        ],
+        "landingPageStructure": [
+          "Hero: egg-demo video + price in DZD + 'Paiement à la livraison'",
+          "Benefit icons (pressure, heat, slip)",
+          "3-photo gallery incl. washable cover",
+          "Bundle selector (1-pack / 2-pack discount)",
+          "COD form (name, phone, wilaya, commune)",
+          "Delivery 58 wilayas + return policy + fake-warning trust block"
+        ],
+        "bundles": [
+          "2-pack at 5,400-5,900 DZD (lead offer)",
+          "Cushion + second cover (blue/black)",
+          "Cross-sell: coccyx gel travel cushion or car lumbar support"
+        ],
+        "testingPlan": "Phase 1 (validation): 2-3 supplier samples -> quality/egg/density test; parallel micro ad test 30-50 orders at 2,900-3,500 DZD, 3 creatives x 2 hooks, measure confirmation >=70%, delivered >=80%, CPA <=400 DZD. Phase 2 (scale): if KPIs met, shift lead offer to 2-pack, add UMPIX/second courier, test 3,900 DZD price point.",
+        "scaleReviseStop": "Scale: CPA <=400 DZD and net >=150 DZD per placed order for 7 consecutive days. Revise: CPA 400-600 DZD -> change hook/price/bundle before raising budget. Stop: confirmation <60%, delivered <75%, or CPA >600 DZD after 150+ orders, or sample quality fails egg/density test."
+      },
+      "structuredNotes": {
+        "supplierNotes": "Verified sourcing options: (1) Yiwugo listing 932437023 (Yiwu): CNY 13.0-22.5 EXW by weight, MOQ 1,000 pcs — 700 g w/ color box + black cover = CNY 17.5 (~USD 2.45); (2) Yiwugo listing 979471377 (Jinhua): CNY 15.80-18.80, MOQ 200 pcs, 48h dispatch, invoicing offered; (3) Alibaba — Ningbo Jiangqiang Trade Co., Ltd (3-yr store): USD 3.01-7.14, MOQ 1, sample CNY 72.52, ODM/OEM, colors black/pink/blue/beige, 625 g net. Ratings, store age and transaction volumes for Yiwu/Jinhua suppliers: TBC — request business licence, TPE material spec (density, odor), and RoHS/REACH docs before deposit. AliExpress re-sellers (e.g., item 1005012791096753, USD 17.49) are fallback only for samples, not for volume.",
+        "pricingNotes": "All DZD at FX 134.5 (mid-market 2026-10-17). Landed cost/unit: product 330 + intl freight allocation 336 + duty 30% 200 + VAT 19% 165 + packaging 50 = 1,080 DZD (duty band for HS 9404 assumed 30% — TBC with transitaire). Scenario at 3,500 DZD: contribution on delivered order 1,920 DZD before ads; break-even CPA per delivered order 1,870 DZD; with confirmation 70% x delivery 80% (=56% delivered) and RTO loss 1,000 DZD, risk-adjusted break-even CPA ~585 DZD per placed order; at CPA 400: net ~185 DZD/order, ROI ~10% (denominator: total variable invested cost incl. ads), ROAS ~4.9. Bundle 2-pack at 5,900 DZD: delivered contribution ~3,190 DZD — strongly improves COD economics. financials.breakEvenPrice = 1,630 DZD = non-ad break-even selling price (landed + delivery + confirmation).",
+        "competitionNotes": "Observed price ladder for exact/substitute products: Jumia EG ~USD 4.7 (quality-flagged) | Amazon ZA ZAR 170 (~USD 9.6) | AliExpress FR EUR 13.19 | AliExpress US USD 17.49 | Temu USD 8.7-25 | Amazon FR EUR 25.99 | BulbHead USD 39.99-49.99. Algeria: no verified egg-honeycomb listing found on Ouedkniss; substitutes sell at 2,000 DZD (coccyx cushion) to 11,000 DZD (cooling gel) and 5,800 DZD (medical anti-bedsore gel). Price position proposal: 2,900-3,900 DZD undercuts medical gel substitutes while staying above low-trust import parity. Caution: highest observed prices do not prove willingness to pay in Algeria.",
+        "aiNotes": "Evidence quality is good for global product identity, pricing ladder, and supplier availability (70/100), weak for Algeria-specific demand. Key differentiator of this record: IP constraint (trademark + design patents) and COD-math showing bundle-first strategy. Recommend 30-50-order validation before any inventory commitment beyond 200 pcs MOQ. Do not use 'Egg Sitter' naming, BulbHead imagery, or medical claims in Algerian creatives."
+      },
+      "checklist": [
+        {
+          "text": "Product identity verified: branded original (BulbHead Egg Sitter, UPC 097298060243) vs generic TPE honeycomb equivalents; specs, sizes, materials recorded",
+          "done": true
+        },
+        {
+          "text": "IP screening completed: EGG SITTER trademark (EU 017593567, US) + design patents (US 29/628,102, EU RCD 004543072-0001) identified — generic branding required",
+          "done": true
+        },
+        {
+          "text": "Legal clearance for generic branding & own-shot imagery finalized (no BulbHead assets)",
+          "done": false
+        },
+        {
+          "text": "Confirm price, MOQ 200-1,000, TPE spec sheets and business licences with 3 shortlisted suppliers (Yiwu, Jinhua, Ningbo Jiangqiang)",
+          "done": false
+        },
+        {
+          "text": "Order 2-3 samples (incl. 700 g color-box version) and egg-demo/density/odor/heat test",
+          "done": false
+        },
+        {
+          "text": "Quality testing: 200-compression durability, cover fit & wash cycles, non-slip dots",
+          "done": false
+        },
+        {
+          "text": "Shoot own product photos/videos for creatives (egg demo, honeycomb close-up, cover wash)",
+          "done": false
+        },
+        {
+          "text": "Verify HS code (9404.90), 30% duty band, VAT 19%, and import-licensing route with Algerian transitaire",
+          "done": false
+        },
+        {
+          "text": "Competitor validation in Algeria: mystery-shop Ouedkniss/social gel-cushion sellers, log prices & delivery terms",
+          "done": false
+        },
+        {
+          "text": "Algeria demand validation: 30-50-order COD micro test with French/darija creatives",
+          "done": false
+        },
+        {
+          "text": "Profitability validation: confirm CPA <=400 DZD, confirmation >=70%, delivered >=80% on test cohort",
+          "done": false
+        },
+        {
+          "text": "Ad policy review: no medical claims (sciatica/hemorrhoid/disc treatment), comfort language only; Meta/TikTok policies",
+          "done": false
+        },
+        {
+          "text": "Landing page + COD workflow: form, 58-wilaya courier integration (Yalidine/ZR/UMPIX), confirmation call script",
+          "done": false
+        }
+      ],
+      "timeline": [
+        {
+          "type": "research",
+          "text": "Research started from user-submitted product image (Egg Sitter packaging, blue honeycomb gel cushion with washable cover)",
+          "date": 1792229267000
+        },
+        {
+          "type": "evidence",
+          "text": "Verified listings & evidence: Amazon 4.1/5,514; Walmart 829 ratings; BulbHead $39.99; AliExpress $17.49 & FR 50k+ sold; Jumia EG 3.7/71-85; Ozon; Temu; Ouedkniss substitutes 2,000-11,000 DZD; suppliers Yiwu/Jinhua/Ningbo with MOQ 200-1,000; FX 134.5 DZD/USD; Algeria duty bands + VAT 19%; EGG SITTER trademark/design-patent risk",
+          "date": 1792229267000
+        },
+        {
+          "type": "decision",
+          "text": "Status set to Test Recommended (weighted score 69/100): proceed to supplier sampling + 30-50-order Algeria COD validation; avoid trademarked naming",
+          "date": 1792229267000
+        }
+      ],
+      "links": {
+        "productLink": "https://www.amazon.com/BulbHead-Egg-Sitter-Seat-Breathable/dp/B077JH8156",
+        "supplierLink": "http://en.yiwugo.com/product/detail/932437023.html",
+        "facebookAd": null,
+        "tiktok": null,
+        "landingPage": null,
+        "supplierLinkAlt": "https://yiwugo.com/product/detail/979471377.html",
+        "brandPage": "https://www.bulbhead.com/products/egg-sitter-support-cushion-deluxe-1-pack"
+      },
+      "researchMetadata": {
+        "targetMarket": "Algeria",
+        "businessModel": "COD",
+        "currency": "DZD",
+        "sourcesChecked": [
+          "WebSearch (web-wide)",
+          "bulbhead.com",
+          "bulbheadinternational.com",
+          "amazon.com (ASIN B077JH8156 page fetch)",
+          "amazon.co.za",
+          "amazon.fr",
+          "walmart.com (ratings page)",
+          "aliexpress.com",
+          "fr.aliexpress.com",
+          "jumia.com.eg (2 listings fetched)",
+          "jumia.co.ke",
+          "ozon.ru",
+          "ozon.by",
+          "temu.com",
+          "ouedkniss.com (category + medical listing)",
+          "chinese.alibaba.com (Ningbo Jiangqiang listing)",
+          "en.yiwugo.com (2 listings)",
+          "wise.com / xe.com / investing.com (FX)",
+          "upgrowth.dz / deepbeez.com (Algeria customs)",
+          "businessresearchinsights.com (gel seat cushion market size)",
+          "sohu.com IP-firm article (trademark/design patent evidence)"
+        ],
+        "sourcesUnavailable": [
+          "1688.com and Taobao (login/app-gated; not directly accessed — Yiwugo/Alibaba used as proxies)",
+          "Google Trends (not directly queried; trend classification based on listing history and market reports)",
+          "Facebook Ad Library (not queried; no ad status verified — facebookAd link null)",
+          "TikTok search (snippet-level only; no product-specific Algeria ad verified)",
+          "jumia.dz (no Algeria-specific listing surfaced in search results)",
+          "Amazon.com buy-box price (listing currently unavailable)",
+          "Ozon exact pricing (limited page data; one sold-out listing at 19,448 RUB not price-representative)",
+          "Ozon/Wildberries sales counts, AliExpress per-listing review counts (not retrievable in this session)"
+        ],
+        "evidenceQuality": 70,
+        "confidence": "MEDIUM",
+        "assumptions": [
+          "FX: 1 USD = 134.5 DZD mid-market (Wise/xe, 2026-10-17); parallel-market rates not used",
+          "Import duty 30% (HS 9404 band) + VAT 19% on CIF assumed; licensing route TBC with transitaire",
+          "International freight allocation USD 2.50/unit (~1 kg consolidated) — quote TBC",
+          "Local home delivery 500 DZD average; confirmation/call-center cost 50 DZD per placed order",
+          "COD funnel: 70% order confirmation x 80% delivery of confirmed = 56% effective delivery; RTO loss 1,000 DZD (courier + return, goods recovered resellable)",
+          "Scenario CPA 400 DZD per placed order; selling price scenario 3,500 DZD single unit",
+          "Algeria willingness to pay inferred from Ouedkniss gel-cushion substitutes (2,000-11,000 DZD) and African Jumia price points — unvalidated hypothesis"
+        ],
+        "lastResearched": "2026-10-17T09:27:47Z",
+        "nextActions": [
+          "Order 2-3 supplier samples (700 g+ color-box version; Ningbo Jiangqiang sample CNY 72.52) and run egg-demo/density/odor/heat tests",
+          "Get transitaire quote for consolidated sea+air freight to Algiers; confirm HS 9404 duty (30%?), VAT 19%, licensing route — recompute landed cost",
+          "Launch 30-50-order COD validation at 2,900-3,500 DZD (lead offer: 2-pack) with 3 French/darija demo creatives; kill/scale per testingPlan thresholds"
+        ]
+      },
+      "evidence": {
+        "priceRangeGlobal": {
+          "low": 4.7,
+          "lowCurrency": "USD",
+          "lowSource": "Jumia Egypt EGP 228 @ ~48.5 EGP/USD",
+          "median": "USD 10-18 (AliExpress/Temu/Amazon ZA cluster)",
+          "high": 49.99,
+          "highCurrency": "USD",
+          "highSource": "BulbHead Deluxe retail",
+          "note": "Highest observed competitor price is not proof of Algerian willingness to pay"
+        },
+        "priceRangeAlgeriaSubstitutes": {
+          "low": 2000,
+          "median": 5800,
+          "high": 11000,
+          "currency": "DZD",
+          "source": "Ouedkniss category + medical gel listings"
+        },
+        "demandSignals": [
+          "Amazon.com 5,514 ratings (branded ASIN)",
+          "Walmart 829 ratings",
+          "AliExpress FR comparable '+50,000 vendus'",
+          "Gel seat cushions market USD 1.57B 2025, 5.6% CAGR (Business Research Insights)"
+        ],
+        "ipEvidence": "EGG SITTER = registered EU trademark 017593567 + US registration; US design patent 29/628,102 (filed 2017-12-01); EU RCD 004543072-0001; Amazon sellers reported takedowns for using the term"
+      }
+    },
+    {
+      "id": "prd-20261017-mugwarmer-dz-001",
+      "name": "Electric Mug Warmer Plate with 55-75C Temperature Control (EU plug, LED display)",
+      "status": "Test Recommended",
+      "category": "Home & Kitchen > Small Appliances > Drink Warmers",
+      "source": "User-submitted product image; verified via web research (Amazon, AliExpress, Global Sources, Alibaba, Ouedkniss, made-in-china)",
+      "country": "DZ",
+      "mainImage": "https://z-cdn-media.chatglm.cn/files/22c4bacf-9a06-4ba8-8b74-b14fe94a9893.png?auth_key=1892229987-de3113f3f54640628cfa74c9952b690c-0-c789dd1c5e449e8ea52d24e1eaea10ec",
+      "gallery": [],
+      "favorite": false,
+      "pinned": false,
+      "hot": false,
+      "highMargin": false,
+      "supplier": {
+        "name": "Guangzhou/Zhejiang small-appliance makers via Global Sources & Alibaba — exact legal entity TBC",
+        "rating": null,
+        "reliabilityScore": null,
+        "storeAge": "TBC",
+        "orders": null,
+        "shippingTime": "Processing TBC; freight to Algeria ~25-45 days sea / 10-18 days air (TBC with forwarder)",
+        "processingTime": "TBC",
+        "moq": 30,
+        "location": "Guangdong / Zhejiang, China (TBC)"
+      },
+      "financials": {
+        "sellingPrice": 3500,
+        "costPrice": 1200,
+        "shippingCost": 269,
+        "roi": 6,
+        "breakEvenPrice": 1750
+      },
+      "opportunity": {
+        "overallScore": 63,
+        "demand": 65,
+        "competition": 65,
+        "margin": 55,
+        "supplier": 60,
+        "trend": 55,
+        "algeriaCodSuitability": 70,
+        "advertisingPotential": 75,
+        "evidenceQuality": 65
+      },
+      "competitors": [
+        {
+          "name": "Ouedkniss — Chauffe-Tasse électrique avec tasse céramique 55C (Dar El Beida)",
+          "productUrl": "https://www.ouedkniss.com/robots-mixeurs-batteurs-chauffe-tasse-electrique-avec-ceramique-dar-el-beida-alger-algerie-d33621128",
+          "price": 3500,
+          "currency": "DZD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Local COD listing incl. ceramic mug",
+          "differentiation": "Direct Algeria price anchor; 'الدفع عند الاستلام' (COD)",
+          "type": "exact"
+        },
+        {
+          "name": "Ouedkniss — Chauffe-tasse 3 températures 55/65/75C (Blida, Oct 2026)",
+          "productUrl": "https://www.ouedkniss.com/plaques-de-cuisson-chauffe-tasse-electrique-avec-mains-3-temperatures-reglables-blida-algerie-d58129269?lang=fr",
+          "price": 3800,
+          "currency": "DZD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "3-temperature model with hand-warmer; fresh listing (Oct 2026)",
+          "differentiation": "Closest match to image product (65C display class)",
+          "type": "exact"
+        },
+        {
+          "name": "AliExpress — Electric Cup Warmer Coaster EU plug 40-80C",
+          "productUrl": "https://www.aliexpress.com/item/1005010654390965.html",
+          "price": 13.08,
+          "currency": "USD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Cross-border generic mid tier (33% off $19.52)",
+          "differentiation": "EU plug — matches Algeria 220-230V type C/E sockets",
+          "type": "exact"
+        },
+        {
+          "name": "Global Sources — EU/USA cup warmer heater",
+          "productUrl": "https://m.globalsources.com/Mug-warmer/Mug-Warmer-1233315197p.htm",
+          "price": 8.8,
+          "currency": "USD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Supplier tier $8.8-9.8, MOQ 30",
+          "differentiation": "Small-MOQ sourcing option for testing",
+          "type": "exact"
+        },
+        {
+          "name": "Amazon.com — KitchekShop / iKago smart mug warmers (price TBC)",
+          "productUrl": "https://www.amazon.com/Coffee-Mug-Warmer-Temperature-Settings/dp/B0CC8DS2S5",
+          "price": null,
+          "currency": "USD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "US premium smart tier with 4 temp settings + timer",
+          "differentiation": "Feature benchmark: auto shut-off, 1-12h timer",
+          "type": "exact"
+        }
+      ],
+      "intelligence": {
+        "demandLevel": "MEDIUM",
+        "competitionLevel": "MEDIUM",
+        "trendDirection": "STABLE",
+        "seasonality": "SEASONAL",
+        "impulseBuy": "MEDIUM",
+        "targetCustomer": "Office workers, students, tea/coffee drinkers, gift buyers; Algeria: autumn-winter impulse gifting (sahraw tea culture, office desks)",
+        "evidenceNotes": "Verified local COD listings (3,500-3,800 DZD, incl. Oct 2026) prove demand exists at viable price points; global category large (Alibaba notes USB cup-warmer segment ~$312-412M). Algeria demand depth unmeasured."
+      },
+      "details": {
+        "material": "Aluminium heating plate + ABS housing, LED temperature display, touch buttons",
+        "supportType": "Electric cup-warmer plate, 15-25W class, 40-80C range (3 temp steps on comparable models)",
+        "contents": "1x warmer plate + EU plug cable; some sets include ceramic mug and lid",
+        "colorVariants": [
+          "Beige/cream",
+          "Black",
+          "Rose-gold trim (as pictured)"
+        ],
+        "sizes": "Plate ~15-20 x 12-15 x 2-2.5 cm; boxed weight ~0.4-0.6 kg",
+        "certifications": [],
+        "packaging": "Color box; CE marking claimed by suppliers — certificate copies TBC",
+        "identifiers": "Electric appliance: voltage 220-240V EU plug compatible with Algeria type C/E; Wattage TBC",
+        "warranty": "TBC (recommend 6-month seller warranty)"
+      },
+      "aiAnalysis": {
+        "whySell": [
+          "Verified Algeria COD listings already sell this at 3,500-3,800 DZD — demand and price point proven locally",
+          "Strong autumn/winter gifting angle (tea/coffee culture, office workers, elderly parents) — season starts now",
+          "Small, light (~0.5 kg), non-fragile if boxed well — cheap last-mile, low RTO damage",
+          "Visual demo creatives (steam, 65C display) work for TikTok/Reels; low competition vs gadgets"
+        ],
+        "risks": [
+          "Electric product: requires Algeria conformity (IANOR/CoC per SGS-Intertek PCA) — non-compliant imports face customs blocks",
+          "Safety/liability: cheap thermostats can overheat; must verify CE file and fuse/auto-shutoff",
+          "Margin is moderate: landed ~1,200 DZD limits discount room; CPA above ~518 DZD/placed order kills unit economics",
+          "Perceived as commodity; local sellers already active — need bundle (mug set) to differentiate"
+        ],
+        "marketingAngle": "Winter-comfort demo: 'votre thé reste à 65°C toute la journée' + gift positioning for parents/office; bundle with ceramic mug; FR/darija creatives, COD CTA",
+        "suggestedPrice": "2,900-3,500 DZD single; 3,900-4,500 DZD with mug set bundle",
+        "adScore": 75,
+        "customerSegments": [
+          "Office/desk workers",
+          "Tea & coffee drinkers (sahraw tea culture)",
+          "Gift buyers (parents, colleagues)",
+          "Students in cold regions (Highlands)"
+        ],
+        "painPoints": [
+          "Tea/coffee goes cold in minutes while working",
+          "Re-boiling is wasteful",
+          "Cheap warmers overheat or melt cups"
+        ],
+        "usp": [
+          "Precise 55-75C control with LED display",
+          "Auto shut-off safety",
+          "Fits any mug",
+          "Gift-ready box"
+        ],
+        "objections": [
+          "Is it safe to leave plugged in?",
+          "Does it fit my mug?",
+          "Electricity consumption?"
+        ],
+        "creativeFormats": [
+          "9:16 steam/thermometer demo",
+          "Gift-unboxing UGC",
+          "Office-situation skit in darija"
+        ],
+        "adHooks": [
+          "'Thé froid au bureau? Plus jamais — 65°C constant.'",
+          "'Le cadeau parfait pour papa qui boit 10 thés par jour.'"
+        ],
+        "landingPageStructure": [
+          "Hero video demo + price DZD",
+          "Safety/CE block",
+          "3 temp modes icons",
+          "Bundle selector (plate vs plate+mug)",
+          "COD form 58 wilayas",
+          "Warranty + fake-warning"
+        ],
+        "bundles": [
+          "Plate + ceramic mug set",
+          "Plate + mug + spoon/lid",
+          "2-pack gift offer"
+        ],
+        "testingPlan": "Micro-test 30 orders at 3,500 DZD with 2 creatives; require confirmation >=70%, delivered >=80%, CPA <=450 DZD; verify CE/CoC docs before ordering 300+ units",
+        "scaleReviseStop": "Scale if net >=100 DZD/order over 7 days; revise price/bundle if CPA 450-600; stop if return rate >25% or safety complaints appear"
+      },
+      "structuredNotes": {
+        "supplierNotes": "Global Sources supplier offers $8.8-9.8 MOQ 30 (retail-ish tier, good for samples); Alibaba hosts Guangzhou USB/desk warmer makers with MOQ as low as 2-30 pcs. Request: CE/LVD test report, thermostat brand, auto-shutoff spec, plug type C/E, HS 8516 quote. Legal entity names, ratings and store age TBC.",
+        "pricingNotes": "DZD @134.5/USD. Landed/unit: FOB $3.50=471 + freight 269 + duty 30% 222 + VAT 19% 183 + pack 50 = ~1,200 DZD (duty band HS 8516 assumed 30% TBC; IANOR CoC cost excluded). At 3,500 DZD: contribution 1,800/delivered; risk-adj breakeven CPA ~518/placed (56% effective delivery); scenario ROI ~6% at CPA 400. Mug-set bundle at 4,200+ materially improves economics. financials.breakEvenPrice=1,750 = non-ad break-even selling price.",
+        "competitionNotes": "Local: Ouedkniss 2,000-3,800 DZD (car 12V mugs at 2,000-2,200; desk plates with mug 3,500; 3-temp+hand-warmer 3,800). Global: AliExpress $5.62-19.52; Global Sources $8.8-9.8; Amazon premium smart tier. Whitespace: organized Facebook/TikTok COD sellers for desk-warmers appear limited — but local evidence exists, so do not assume exclusivity.",
+        "aiNotes": "Best window: Oct-Feb (cold + gift season). Differentiate via mug-set bundle and safety guarantee. Verify conformity docs BEFORE inventory. Recommend 30-order micro-test from a 30-50 unit sample batch."
+      },
+      "checklist": [
+        {
+          "text": "Product identity & local listings verified (Ouedkniss 3,500/3,800 DZD; specs from comparable models)",
+          "done": true
+        },
+        {
+          "text": "Supplier shortlist from Global Sources/Alibaba; legal entity, rating, store age unverified",
+          "done": false
+        },
+        {
+          "text": "CE/LVD + IANOR Certificate of Conformity route confirmed for electric appliance",
+          "done": false
+        },
+        {
+          "text": "Sample order incl. 3-temp 65C display model; thermostat & auto-shutoff test",
+          "done": false
+        },
+        {
+          "text": "Price/MOQ confirmation (target FOB <=$3.5 at 100-300 pcs)",
+          "done": false
+        },
+        {
+          "text": "Quality: plug type C/E fit, heating uniformity, 8h continuous run, cup compatibility",
+          "done": false
+        },
+        {
+          "text": "Own photos/videos shot; no copied supplier creatives",
+          "done": false
+        },
+        {
+          "text": "Transitaire quote + HS 8516 duty/VAT confirmation",
+          "done": false
+        },
+        {
+          "text": "Algeria demand validation: 30-order COD micro-test",
+          "done": false
+        },
+        {
+          "text": "Profitability validation: CPA <=450, confirmation >=70%",
+          "done": false
+        },
+        {
+          "text": "Ad policy review: electrical safety claims accurate, no medical claims",
+          "done": false
+        },
+        {
+          "text": "Landing page + COD courier workflow (Yalidine/ZR) ready",
+          "done": false
+        }
+      ],
+      "timeline": [
+        {
+          "type": "research",
+          "text": "Research started from user image (65C LED mug warmer, rose-gold trim)",
+          "date": 1792240200000
+        },
+        {
+          "type": "evidence",
+          "text": "Verified: Ouedkniss COD listings 3,500-3,800 DZD (incl. Oct 2026); AliExpress $13.08 EU plug; Global Sources $8.8-9.8 MOQ30; Algeria IANOR/CoC requirement for electric goods; rain/cold season Oct-Feb",
+          "date": 1792240200000
+        },
+        {
+          "type": "decision",
+          "text": "Test Recommended (63/100): micro-test 30 orders at 3,500 DZD pending CE/CoC verification",
+          "date": 1792240200000
+        }
+      ],
+      "links": {
+        "productLink": "https://www.aliexpress.com/item/1005010654390965.html",
+        "supplierLink": "https://m.globalsources.com/Mug-warmer/Mug-Warmer-1233315197p.htm",
+        "facebookAd": null,
+        "tiktok": null,
+        "landingPage": null,
+        "localListing": "https://www.ouedkniss.com/plaques-de-cuisson-chauffe-tasse-electrique-avec-mains-3-temperatures-reglables-blida-algerie-d58129269?lang=fr"
+      },
+      "researchMetadata": {
+        "targetMarket": "Algeria",
+        "businessModel": "COD",
+        "currency": "DZD",
+        "sourcesChecked": [
+          "WebSearch (web-wide)",
+          "ouedkniss.com (3 listings)",
+          "aliexpress.com",
+          "m.globalsources.com",
+          "alibaba.com",
+          "amazon.com",
+          "fr.made-in-china.com",
+          "lionshome.fr",
+          "sgs.com/intertek.com (Algeria PCA/CoC)",
+          "wise.com/xe.com (FX 134.5)"
+        ],
+        "sourcesUnavailable": [
+          "1688.com and Taobao (login-gated; Alibaba/Yiwugo used as proxies)",
+          "Google Trends (not directly queried)",
+          "Facebook Ad Library (not queried; no ad status verified — facebookAd links null)",
+          "TikTok search (snippet-level only; no product-specific Algeria ads verified)",
+          "Amazon buy-box prices for several listings (not exposed in search results)",
+          "Exact review/sold counts for some listings (not retrievable in this session)"
+        ],
+        "evidenceQuality": 65,
+        "confidence": "MEDIUM",
+        "assumptions": [
+          "FX 1 USD = 134.5 DZD (mid-market, 2026-10-17)",
+          "FOB $3.50/unit for 65C display model (estimate from supplier tiers; quote TBC)",
+          "Freight allocation $2.00/unit (~0.5 kg)",
+          "Duty 30% + VAT 19% on CIF (HS 8516 band assumed, TBC) + CoC costs excluded",
+          "Delivery 500 DZD home avg; confirmation cost 50 DZD; funnel 70% confirmation x 80% delivery; RTO loss 1,000 DZD",
+          "Scenario CPA 400 DZD/placed order; price scenario 3,500 DZD"
+        ],
+        "lastResearched": "2026-10-17T12:30:00Z",
+        "nextActions": [
+          "Verify CE + IANOR CoC path with transitaire/SGS; get 3 supplier quotes with HS code",
+          "Order 5-10 samples (3-temp model); 8h safety test",
+          "Run 30-order COD micro-test at 3,500 DZD (single) vs 4,200 DZD (mug set)"
+        ]
+      }
+    },
+    {
+      "id": "prd-20261017-toolbelt-dz-002",
+      "name": "Heavy-Duty Multi-Pocket Tool Belt / Waist Tool Organizer with Buckle & Carry Handles",
+      "status": "Test Recommended",
+      "category": "Tools & Hardware > Tool Storage > Tool Belts & Pouches",
+      "source": "User-submitted product image; verified via web research (Amazon, AliExpress, Alibaba, Ouedkniss, mabricole.dz)",
+      "country": "DZ",
+      "mainImage": "https://z-cdn-media.chatglm.cn/files/262a442e-3245-451f-833f-053ab6acead8.png?auth_key=1892229987-ffb08c368e7d4415b873c421453f9484-0-c3f40602308f5dc6475389be90e55fc7",
+      "gallery": [],
+      "favorite": false,
+      "pinned": false,
+      "hot": false,
+      "highMargin": false,
+      "supplier": {
+        "name": "Canvas/Oxford tool-bag factories (e.g., Alibaba OEM listing 1601427776171; Shantou Daigain Industrial Co., Ltd.)",
+        "rating": null,
+        "reliabilityScore": null,
+        "storeAge": "OEM listing shows 2 yrs; Shantou Daigain store age TBC",
+        "orders": null,
+        "shippingTime": "Processing TBC; freight to Algeria ~25-45 days sea (TBC)",
+        "processingTime": "TBC",
+        "moq": 2,
+        "location": "Zhejiang / Guangdong, China (TBC)"
+      },
+      "financials": {
+        "sellingPrice": 3500,
+        "costPrice": 1235,
+        "shippingCost": 336,
+        "roi": 5,
+        "breakEvenPrice": 1785
+      },
+      "opportunity": {
+        "overallScore": 65,
+        "demand": 70,
+        "competition": 65,
+        "margin": 60,
+        "supplier": 65,
+        "trend": 60,
+        "algeriaCodSuitability": 70,
+        "advertisingPotential": 65,
+        "evidenceQuality": 65
+      },
+      "competitors": [
+        {
+          "name": "mabricole.dz — Ceinture à outils 11 poches sangle réglable",
+          "productUrl": "https://mabricole.com.dz/ceinture-porte-outils",
+          "price": 1390,
+          "currency": "DZD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Local DZ tool store entry tier",
+          "differentiation": "Verified local e-commerce price anchor for 11-pocket belt",
+          "type": "exact"
+        },
+        {
+          "name": "Ouedkniss — Sacoche/Ceinture 10 poches multi-fonctions (Hussein Dey, COD)",
+          "productUrl": "https://www.ouedkniss.com/materiaux_equipement?keywords=porte-outil&lang=fr",
+          "price": 3500,
+          "currency": "DZD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Local classifieds premium tier with paiement à la livraison",
+          "differentiation": "Proves 3,500 DZD COD price tolerance for 10-pocket version",
+          "type": "exact"
+        },
+        {
+          "name": "AliExpress — TKIGZNW T008 Mini Tool Waist Bag (4.6★, 5,000+ sold)",
+          "productUrl": "https://www.aliexpress.com/item/1005009185257014.html",
+          "price": null,
+          "currency": "USD",
+          "shipping": null,
+          "rating": 4.6,
+          "reviews": null,
+          "positioning": "Cross-border volume seller (5,000+ sold)",
+          "differentiation": "Demand signal; smaller format than image product",
+          "type": "exact"
+        },
+        {
+          "name": "Klein Tools 55428 / 42242K (US professional tier)",
+          "productUrl": "https://www.protoolreviews.com/best-tool-belt-rig",
+          "price": 85,
+          "currency": "USD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "US pro tier $85-365",
+          "differentiation": "Premium reference; not directly importable (brand)",
+          "type": "substitute"
+        }
+      ],
+      "intelligence": {
+        "demandLevel": "HIGH",
+        "competitionLevel": "MEDIUM",
+        "trendDirection": "STABLE",
+        "seasonality": "UNKNOWN",
+        "impulseBuy": "MEDIUM",
+        "targetCustomer": "Electricians, plumbers, tilers, carpenters, AC technicians, DIY homeowners; Algeria: large informal BTP/construction workforce",
+        "evidenceNotes": "Local stores (mabricole) and Ouedkniss COD sellers already retail tool belts at 1,390-3,500 DZD; AliExpress mini-format shows 5,000+ sold; construction is a major Algerian employment sector. No verified data on current local sell-through velocity."
+      },
+      "details": {
+        "material": "600D/1680D Oxford polyester or canvas, yellow piping, nylon webbing belt + plastic quick-release buckle, metal rivets",
+        "supportType": "Wearable multi-pocket organizer (10-15 pockets + 2 side carry handles as pictured)",
+        "contents": "1x tool belt/organizer (tools not included)",
+        "colorVariants": [
+          "Black/yellow",
+          "Black/red",
+          "All-black"
+        ],
+        "sizes": "Adjustable waist ~80-130 cm; bag ~30x20x12 cm; weight ~0.6-0.9 kg",
+        "certifications": [],
+        "packaging": "Polybag or color box (TBC); 20-40 pcs/ctn",
+        "identifiers": "HS 4202.92 (tool bags) assumed — TBC with forwarder",
+        "warranty": "TBC (stitching/rivets failure is the key QC point)"
+      },
+      "aiAnalysis": {
+        "whySell": [
+          "Huge, always-on professional audience in Algeria (BTP workers, electricians, AC techs) with repeat/pair purchases",
+          "Verified local price ladder 1,390-3,500 DZD leaves room for a mid-premium 2,900-3,500 DZD offer with better fabric",
+          "Utility + demonstrative creatives (pocket-by-pocket tour, drill-in-and-out) convert well on TikTok/Facebook",
+          "Light, unbreakable, one-size adjustable — very COD-friendly logistics, low RTO damage"
+        ],
+        "risks": [
+          "Low-ticket utility item: profit per order is CPA-sensitive (breakeven CPA ~498 DZD/placed at 3,500 DZD)",
+          "Quality variance on cheap Oxford bags (stitching, buckle cracks) — QC mandatory",
+          "Local hardware souks sell basic versions cheaper; differentiation must be fabric, pockets layout, handles",
+          "Seasonality of construction slows in Ramadan/winter rain months"
+        ],
+        "marketingAngle": "Pro-credibility angle: 'tout votre outillage à portée de main' pocket tour video; target electrician/tiler interest groups; bundle with knee pads for BTP combo offer",
+        "suggestedPrice": "2,900-3,500 DZD single; 4,900 DZD belt+knee-pads BTP bundle",
+        "adScore": 65,
+        "customerSegments": [
+          "Electricians & plumbers",
+          "Tilers/floorers & masons",
+          "AC/appliance technicians",
+          "DIY homeowners"
+        ],
+        "painPoints": [
+          "Walking back and forth to the toolbox",
+          "Pockets rip and buckles break on cheap bags",
+          "Tools get lost on site"
+        ],
+        "usp": [
+          "10+ organized pockets incl. drill pocket",
+          "Quick-release buckle + 2 carry handles",
+          "Reinforced stitching & rivets",
+          "Fits all waist sizes"
+        ],
+        "objections": [
+          "Will the stitching hold with a heavy drill?",
+          "Is the buckle durable?",
+          "Cheaper at the souk?"
+        ],
+        "creativeFormats": [
+          "Pocket-by-pocket walkthrough",
+          "Loaded-belt weight test",
+          "Day-on-the-jobsite UGC (darija)"
+        ],
+        "adHooks": [
+          "'Le perçeuse, les pinces, les vis — tout sur vous, plus besoin de descendre l'échelle.'",
+          "'Arrêtez de chercher vos outils 20 fois par jour.'"
+        ],
+        "landingPageStructure": [
+          "Hero: loaded belt demo",
+          "Pocket diagram with labels",
+          "Fabric/buckle close-ups",
+          "BTP bundle offer",
+          "COD form + 58 wilayas"
+        ],
+        "bundles": [
+          "Belt + work knee pads (BTP combo)",
+          "Belt + screwdriver set",
+          "2-pack for teams"
+        ],
+        "testingPlan": "Sample 2-3 factories incl. Shantou Daigain; load-test 10 kg; micro-test 30-50 orders at 3,200-3,500 DZD targeting trades via FB interests; KPI CPA <=450, confirmation >=70%",
+        "scaleReviseStop": "Scale if net >=100 DZD/order; revise (bundle w/ knee pads) if CPA 450-600; stop if stitching complaints >5% of orders"
+      },
+      "structuredNotes": {
+        "supplierNotes": "Alibaba OEM canvas electrician belt $2.80-3.60 MOQ 2 (listing 1601427776171, 2-yr supplier); Shantou Daigain Industrial Co., Ltd: tool bags $8-9.30 MOQ 300; other listed factories $6.70-13.20 MOQ 300. Image shows premium multi-pocket w/ handles — expect FOB $3-5 at 200-500 pcs. Ratings/store age TBC; request stitching spec (bar-tack), buckle sample.",
+        "pricingNotes": "DZD @134.5. Landed: FOB $3.20=430 + freight 336 + duty 30% 230 + VAT 19% 189 + pack 50 = ~1,235. At 3,500: contribution 1,765/delivered; risk-adj breakeven CPA ~498/placed; scenario ROI ~5% at CPA 400. Bundle (belt+kneepads) at 4,900 pushes contribution >3,000/delivered. financials.breakEvenPrice=1,785 = non-ad break-even price.",
+        "competitionNotes": "Local verified: 1,390 DZD (mabricole, 11 pockets) to 3,500 DZD (Ouedkniss COD 10 pockets). Global: AliExpress mini bags $4-27 (one 4.6★/5,000+ sold); US pro Klein $85-365. No dominant organized local brand seen — positioning gap at 2,900-3,500 with premium build.",
+        "aiNotes": "Audience targeting is the moat (trade interests + job titles). Time creatives around wedding/renovation seasons. Pair with knee pads record (prd-...-dz-003) as a combo funnel to lift AOV above 4,500 DZD."
+      },
+      "checklist": [
+        {
+          "text": "Product identity verified; local price anchors found (1,390-3,500 DZD)",
+          "done": true
+        },
+        {
+          "text": "Supplier verification: factory licence, stitching/bar-tack spec, buckle quality",
+          "done": false
+        },
+        {
+          "text": "Sample order incl. loaded 10 kg stress test",
+          "done": false
+        },
+        {
+          "text": "Price/MOQ confirmation at 200-500 pcs (target FOB <=$3.5)",
+          "done": false
+        },
+        {
+          "text": "HS 4202 duty/VAT confirmation with transitaire",
+          "done": false
+        },
+        {
+          "text": "Own pocket-tour photos/videos shot",
+          "done": false
+        },
+        {
+          "text": "Competitor mystery-shop: mabricole + Ouedkniss sellers",
+          "done": false
+        },
+        {
+          "text": "Algeria demand validation: 30-50 order COD test to trades",
+          "done": false
+        },
+        {
+          "text": "Profitability validation: CPA <=450 DZD, confirmation >=70%",
+          "done": false
+        },
+        {
+          "text": "Bundle pricing with knee pads validated",
+          "done": false
+        },
+        {
+          "text": "Ad policy review (no false durability claims)",
+          "done": false
+        },
+        {
+          "text": "Landing page + COD courier workflow ready",
+          "done": false
+        }
+      ],
+      "timeline": [
+        {
+          "type": "research",
+          "text": "Research started from user image (black/yellow multi-pocket tool belt with handles)",
+          "date": 1792240200000
+        },
+        {
+          "type": "evidence",
+          "text": "Verified: mabricole 1,390 DZD; Ouedkniss 3,500 DZD COD; AliExpress 4.6★ 5,000+ sold; Alibaba OEM $2.80-3.60 MOQ2; Klein premium $85+ US tier",
+          "date": 1792240200000
+        },
+        {
+          "type": "decision",
+          "text": "Test Recommended (65/100): 30-50 order COD test at 3,200-3,500 DZD + BTP bundle with knee pads",
+          "date": 1792240200000
+        }
+      ],
+      "links": {
+        "productLink": "https://www.aliexpress.com/item/1005009185257014.html",
+        "supplierLink": "https://www.alibaba.com/pla/Manufacturer-Hot-Selling-High-Quality-Low_1601427776171.html",
+        "facebookAd": null,
+        "tiktok": null,
+        "landingPage": null,
+        "localListing": "https://mabricole.com.dz/ceinture-porte-outils"
+      },
+      "researchMetadata": {
+        "targetMarket": "Algeria",
+        "businessModel": "COD",
+        "currency": "DZD",
+        "sourcesChecked": [
+          "WebSearch (web-wide)",
+          "mabricole.com.dz",
+          "ouedkniss.com",
+          "aliexpress.com (+pricearchive.org)",
+          "alibaba.com (2 listings)",
+          "protoolreviews.com",
+          "amazon.com (category pages)",
+          "gamaoutillage.net",
+          "wise.com/xe.com (FX)"
+        ],
+        "sourcesUnavailable": [
+          "1688.com and Taobao (login-gated; Alibaba/Yiwugo used as proxies)",
+          "Google Trends (not directly queried)",
+          "Facebook Ad Library (not queried; no ad status verified — facebookAd links null)",
+          "TikTok search (snippet-level only; no product-specific Algeria ads verified)",
+          "Amazon buy-box prices for several listings (not exposed in search results)",
+          "Exact review/sold counts for some listings (not retrievable in this session)"
+        ],
+        "evidenceQuality": 65,
+        "confidence": "MEDIUM",
+        "assumptions": [
+          "FX 1 USD = 134.5 DZD",
+          "FOB $3.20/unit estimate at 200-500 pcs (quotes TBC)",
+          "Freight allocation $2.50/unit (~0.8 kg)",
+          "Duty 30% + VAT 19% (HS 4202 band assumed, TBC)",
+          "Delivery 500 DZD; confirmation 50 DZD; funnel 70%x80%; RTO 1,000 DZD",
+          "Scenario CPA 400 DZD; price scenario 3,500 DZD"
+        ],
+        "lastResearched": "2026-10-17T12:30:00Z",
+        "nextActions": [
+          "Get 3 factory quotes (FOB, MOQ 200-500) with stitch/buckle specs",
+          "Order samples; 10 kg load test",
+          "30-50 order COD test at 3,200-3,500 DZD; validate BTP bundle"
+        ]
+      }
+    },
+    {
+      "id": "prd-20261017-kneepads-dz-003",
+      "name": "Professional Work Knee Pads with Hard Shell Cap & Gel/EVA Foam (pair, adjustable straps)",
+      "status": "Needs Verification",
+      "category": "Safety & Workwear > Personal Protective Equipment > Knee Protection",
+      "source": "User-submitted product image; verified via web research (Amazon, Alibaba, AliExpress, Ouedkniss, mabricole.dz)",
+      "country": "DZ",
+      "mainImage": "https://z-cdn-media.chatglm.cn/files/8621dea2-976d-455d-b094-3cdab78686ef.png?auth_key=1892229987-9940e4824777407ba0eb9889c934cb13-0-3d4d6052ad5bbbb79ba48ee8a88130da",
+      "gallery": [],
+      "favorite": false,
+      "pinned": false,
+      "hot": false,
+      "highMargin": false,
+      "supplier": {
+        "name": "PPE/gel-pad manufacturers via Alibaba (tiered listings; e.g., 'Adjustable Heavy-Duty Gel Cushion Knee Protector' 1601900555275)",
+        "rating": null,
+        "reliabilityScore": null,
+        "storeAge": "TBC",
+        "orders": null,
+        "shippingTime": "Processing TBC; freight to Algeria ~25-45 days sea (TBC)",
+        "processingTime": "TBC",
+        "moq": 100,
+        "location": "China (Zhejiang/Guangdong typical; TBC)"
+      },
+      "financials": {
+        "sellingPrice": 2900,
+        "costPrice": 1360,
+        "shippingCost": 336,
+        "roi": 0,
+        "breakEvenPrice": 1910
+      },
+      "opportunity": {
+        "overallScore": 54,
+        "demand": 60,
+        "competition": 70,
+        "margin": 35,
+        "supplier": 60,
+        "trend": 55,
+        "algeriaCodSuitability": 55,
+        "advertisingPotential": 50,
+        "evidenceQuality": 60
+      },
+      "competitors": [
+        {
+          "name": "mabricole.dz — Protège genoux paire, coque rigide PVC",
+          "productUrl": "https://mabricole.com.dz/protege-genoux",
+          "price": 950,
+          "currency": "DZD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Local entry tier (basic PVC shell pair)",
+          "differentiation": "Undercuts import landed cost — direct price pressure",
+          "type": "exact"
+        },
+        {
+          "name": "Ouedkniss — Protège genoux tissu 2pcs (Dar El Beida, PPE category)",
+          "productUrl": "https://www.ouedkniss.com/construction-travaux-protege-jeneaux-tissu-2pcs-biliota-dar-el-beida-alger-algerie-d53239115?lang=fr",
+          "price": 1550,
+          "currency": "DZD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Local classifieds mid tier, livraison disponible",
+          "differentiation": "Verified local willingness to pay ~1,550 for fabric pads",
+          "type": "exact"
+        },
+        {
+          "name": "Alibaba — professional construction knee pads wholesale",
+          "productUrl": "https://apparel.alibaba.com/supplier/knee-pads-for-work-wholesaler",
+          "price": 4.6,
+          "currency": "USD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Wholesale $4.60-6.80/pair, low MOQs (100-500)",
+          "differentiation": "Sourcing benchmark used in landed-cost model",
+          "type": "exact"
+        },
+        {
+          "name": "NoCry Professional Construction Knee Pads (Amazon US brand)",
+          "productUrl": "https://www.amazon.com/clp/B01N0O7CT0",
+          "price": null,
+          "currency": "USD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "US pro-tier brand (foam + hard cap, metal rivets)",
+          "differentiation": "Feature benchmark: rivets, adjustable straps, heavy-duty cap",
+          "type": "substitute"
+        }
+      ],
+      "intelligence": {
+        "demandLevel": "MEDIUM",
+        "competitionLevel": "MEDIUM",
+        "trendDirection": "STABLE",
+        "seasonality": "UNKNOWN",
+        "impulseBuy": "LOW",
+        "targetCustomer": "Tilers, floorers, masons, electricians, gardeners; Algeria: construction trades and home renovators",
+        "evidenceNotes": "Local basic versions sell 950-1,550 DZD; professional gel versions not clearly present locally (gap), but landed cost of gel versions (~1,360 DZD) forces retail >=2,900 — willingness to pay unverified. US/EU pro tier ($20-60 NoCry/ProKnee) proves product-market fit abroad."
+      },
+      "details": {
+        "material": "EVA foam + gel core insert, PP hard shell cap (I-pattern anti-slip), polyester straps with buckles, side wing padding",
+        "supportType": "Kneeling protection PPE, pair, adjustable",
+        "contents": "2x knee pads (pair) + strap set",
+        "colorVariants": [
+          "Black/orange",
+          "Black/yellow",
+          "Black/red"
+        ],
+        "sizes": "One size adjustable; ~25x15 cm shell; ~0.6-0.8 kg/pair",
+        "certifications": [],
+        "packaging": "Polybag + header card (TBC); 20-40 pairs/ctn",
+        "identifiers": "HS 9506.62 / 6307.90 band assumed — TBC; PPE classification may trigger conformity checks",
+        "warranty": "TBC"
+      },
+      "aiAnalysis": {
+        "whySell": [
+          "Clear professional niche with steady demand and almost no organized premium competition locally (verified offers are basic 950-1,550 DZD)",
+          "Pairs naturally with tool belt for a high-AOV BTP bundle (4,900 DZD) that fixes standalone margin weakness",
+          "Durable, non-fragile, light — COD logistics friendly",
+          "Tilers/floorers feel knee pain daily — problem-aware audience converts on simple demo creatives"
+        ],
+        "risks": [
+          "MARGIN IS THE CORE RISK: landed ~1,360 DZD vs local basic price 950 DZD; standalone CPA above ~200 DZD/placed order erases profit at 2,900 DZD price",
+          "Unverified willingness to pay 2,900+ for gel/pro version in Algeria",
+          "PPE classification may require conformity verification (IANOR)",
+          "Low impulse factor — needs targeting, not virality"
+        ],
+        "marketingAngle": "Trade-testimonial angle: '8h à genoux sur carrelage sans douleur' kneel-on-nail demo; sell as part of BTP kit, not standalone impulse",
+        "suggestedPrice": "2,900-3,400 DZD standalone; 4,900 DZD with tool belt (recommended route)",
+        "adScore": 50,
+        "customerSegments": [
+          "Tilers & floorers",
+          "Masons/concrete workers",
+          "Electricians & plumbers",
+          "Gardeners & home renovators"
+        ],
+        "painPoints": [
+          "Knee pain after minutes on hard floors",
+          "Cheap pads slip down and dig in",
+          "Bruises and long-term joint damage"
+        ],
+        "usp": [
+          "Gel + EVA dual cushioning",
+          "Hard anti-slip I-shell",
+          "Adjustable non-slip straps",
+          "All-day wear"
+        ],
+        "objections": [
+          "Will they stay up while walking?",
+          "Hot/sweaty after hours?",
+          "Why not the 950 DZD ones?"
+        ],
+        "creativeFormats": [
+          "Kneel-on-rough-surface demo",
+          "8-hour jobsite POV",
+          "Comparison vs basic foam pad"
+        ],
+        "adHooks": [
+          "'Posez du carrelage toute la journée — vos genoux vous remercieront.'",
+          "'Le test: à genoux sur du gravier, zéro douleur.'"
+        ],
+        "landingPageStructure": [
+          "Hero kneel demo",
+          "Gel/EVA/shell 3-layer explainer",
+          "Strap system close-up",
+          "Bundle with tool belt",
+          "COD form + wilayas"
+        ],
+        "bundles": [
+          "With tool belt (lead)",
+          "2-pair pro pack",
+          "With gloves + belt full kit"
+        ],
+        "testingPlan": "Only test as BUNDLE lead-in: sample gel version (FOB $3.8-4.6), micro-test 30 bundle orders at 4,900 DZD; if standalone test, price 3,400 and require CPA <=250",
+        "scaleReviseStop": "Scale via trade-targeting if bundle net >=250 DZD/order; revise to EVA-only version if CPA high; stop standalone if CPA >300 after 100 orders"
+      },
+      "structuredNotes": {
+        "supplierNotes": "Alibaba wholesale article (Aug 2026): professional construction pads $4.60-6.80/pair, MOQ 100-500; tiered listing 1601900555275: $5.00/1pc, $4.80/50-99, $3.80/100+; market note: EVA inserts $0.90, gel-core $3.50-7.80. Entity names/ratings TBC; request gel density, shell thickness, strap spec, PPE conformity docs.",
+        "pricingNotes": "DZD @134.5. Landed (gel version @$3.80): 511 + freight 336 + duty 254 + VAT 209 + pack 50 = ~1,360. At 2,900: contribution 1,040; risk-adj breakeven CPA ~82/placed order — STANDALONE ECONOMICS VERY THIN (roi ~0 at CPA 400). At 3,400: breakeven CPA ~362. Recommended: bundle at 4,900 DZD with tool belt (contribution >3,000/delivered). financials.breakEvenPrice=1,910 = non-ad break-even price. ROI shown as 0 (breakeven) — do not read as verified performance.",
+        "competitionNotes": "Local: 950 DZD (mabricole PVC pair), 1,550 DZD (Ouedkniss fabric pair); medical/orthopedic genouillères 3,000-15,000 DZD (different category). Global: wholesale $4.60-6.80; NoCry/ProKnee $20-60+ retail US. Gap: nobody verified selling gel hard-shell pro pads locally at 2,900-3,400 — that gap is unproven, not necessarily real.",
+        "aiNotes": "Do NOT run this standalone-first. Its value is as the second item in a BTP bundle funnel with the tool belt. Verify price tolerance with 30 bundle orders before any 500+ unit order. Mark evidence for '2,900+ DZD willingness to pay' as unvalidated."
+      },
+      "checklist": [
+        {
+          "text": "Product identity & local substitutes verified (950-1,550 DZD basic tier)",
+          "done": true
+        },
+        {
+          "text": "Supplier verification: gel density, shell spec, PPE conformity docs",
+          "done": false
+        },
+        {
+          "text": "Sample order (gel + EVA versions) and 8h wear test",
+          "done": false
+        },
+        {
+          "text": "Price/MOQ confirmation at 100-500 pairs (target FOB <=$4.2)",
+          "done": false
+        },
+        {
+          "text": "HS code + PPE conformity check with transitaire",
+          "done": false
+        },
+        {
+          "text": "Own demo photos/videos (kneel test, strap test)",
+          "done": false
+        },
+        {
+          "text": "Willingness-to-pay validation for pro version (2,900+ DZD)",
+          "done": false
+        },
+        {
+          "text": "Bundle economics validated with tool belt (4,900 DZD)",
+          "done": false
+        },
+        {
+          "text": "Algeria demand validation: 30 bundle orders",
+          "done": false
+        },
+        {
+          "text": "Profitability validation: bundle CPA <=600, net >=250/order",
+          "done": false
+        },
+        {
+          "text": "Ad policy review (PPE claims accurate)",
+          "done": false
+        },
+        {
+          "text": "Landing page + COD workflow ready",
+          "done": false
+        }
+      ],
+      "timeline": [
+        {
+          "type": "research",
+          "text": "Research started from user image (black/orange hard-shell work knee pads)",
+          "date": 1792240200000
+        },
+        {
+          "type": "evidence",
+          "text": "Verified: local basic 950-1,550 DZD; wholesale $4.60-6.80 MOQ 100-500; NoCry pro benchmark; landed cost model shows standalone margin risk",
+          "date": 1792240200000
+        },
+        {
+          "type": "decision",
+          "text": "Needs Verification (54/100): standalone economics thin — validate via BTP bundle before inventory",
+          "date": 1792240200000
+        }
+      ],
+      "links": {
+        "productLink": "https://www.amazon.com/clp/B01N0O7CT0",
+        "supplierLink": "https://germany.alibaba.com/product-detail/Adjustable-Heavy-Duty-Gel-Cushion-Knee_1601900555275.html",
+        "facebookAd": null,
+        "tiktok": null,
+        "landingPage": null,
+        "localListing": "https://mabricole.com.dz/protege-genoux"
+      },
+      "researchMetadata": {
+        "targetMarket": "Algeria",
+        "businessModel": "COD",
+        "currency": "DZD",
+        "sourcesChecked": [
+          "WebSearch (web-wide)",
+          "mabricole.com.dz",
+          "ouedkniss.com (2 listings)",
+          "apparel.alibaba.com (wholesale guide)",
+          "germany.alibaba.com (tiered listing)",
+          "amazon.com (NoCry brand)",
+          "bobvila.com (2026 reviews)",
+          "wise.com/xe.com (FX)"
+        ],
+        "sourcesUnavailable": [
+          "1688.com and Taobao (login-gated; Alibaba/Yiwugo used as proxies)",
+          "Google Trends (not directly queried)",
+          "Facebook Ad Library (not queried; no ad status verified — facebookAd links null)",
+          "TikTok search (snippet-level only; no product-specific Algeria ads verified)",
+          "Amazon buy-box prices for several listings (not exposed in search results)",
+          "Exact review/sold counts for some listings (not retrievable in this session)"
+        ],
+        "evidenceQuality": 60,
+        "confidence": "LOW",
+        "assumptions": [
+          "FX 1 USD = 134.5 DZD",
+          "FOB $3.80/pair gel version at 100+ pcs (quote TBC)",
+          "Freight allocation $2.50/pair",
+          "Duty 30% + VAT 19% (band assumed, TBC)",
+          "Delivery 500 DZD; confirmation 50 DZD; funnel 70%x80%; RTO 1,000 DZD",
+          "Scenario CPA 400 DZD standalone; price scenario 2,900 DZD — economics validated only as bundle"
+        ],
+        "lastResearched": "2026-10-17T12:30:00Z",
+        "nextActions": [
+          "Get gel + EVA quotes with specs; order samples",
+          "Validate 2,900+ DZD price tolerance via 30 bundle orders (belt + pads)",
+          "Confirm HS/PPE conformity route"
+        ]
+      }
+    },
+    {
+      "id": "prd-20261017-umbrella-dz-004",
+      "name": "Compact Folding Umbrella with Carabiner D-Ring Handle (macaron colors)",
+      "status": "Researching",
+      "category": "Fashion Accessories > Rain Gear > Folding Umbrellas",
+      "source": "User-submitted product image; verified via web research (Alibaba, Amazon categories, Ouedkniss, kiabi.dz, Facebook DZ stores)",
+      "country": "DZ",
+      "mainImage": "https://z-cdn-media.chatglm.cn/files/71cd62f4-3921-4c63-9ba6-b6c387ba4a7e.png?auth_key=1892229987-b6c5bd61b89941fab402acbe08ecae7c-0-13df9f3f681149e80175972fd80c64c7",
+      "gallery": [],
+      "favorite": false,
+      "pinned": false,
+      "hot": false,
+      "highMargin": false,
+      "supplier": {
+        "name": "Umbrella factories: Shenzhen Tianfeng Umbrella Co., Ltd.; Zhejiang Haizhou Umbrella Co., Ltd. (Alibaba)",
+        "rating": null,
+        "reliabilityScore": null,
+        "storeAge": "TBC",
+        "orders": null,
+        "shippingTime": "Processing TBC; sea freight ~25-45 days to Algeria (TBC)",
+        "processingTime": "TBC",
+        "moq": 3,
+        "location": "Guangdong / Zhejiang, China (umbrella manufacturing clusters)"
+      },
+      "financials": {
+        "sellingPrice": 1400,
+        "costPrice": 760,
+        "shippingCost": 202,
+        "roi": -26,
+        "breakEvenPrice": 1310
+      },
+      "opportunity": {
+        "overallScore": 52,
+        "demand": 55,
+        "competition": 75,
+        "margin": 30,
+        "supplier": 70,
+        "trend": 60,
+        "algeriaCodSuitability": 45,
+        "advertisingPotential": 40,
+        "evidenceQuality": 60
+      },
+      "competitors": [
+        {
+          "name": "Facebook DZ store (lesmagasinstafsut) — Parapluie enfants/adultes, livraison 58 wilayas",
+          "productUrl": "https://www.facebook.com/lesmagasinstafsut/posts/1238013565021683",
+          "price": 550,
+          "currency": "DZD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Local COD basic tier 500-650 DZD depending on model",
+          "differentiation": "Direct COD competitor at half the import viable price",
+          "type": "exact"
+        },
+        {
+          "name": "kiabi.dz — Parapluie transparent 'Panda'",
+          "productUrl": "https://kiabi.dz/products/parapluie-transparent-panda-noir",
+          "price": 1500,
+          "currency": "DZD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Local fashion retail mid tier (1,500 DZD)",
+          "differentiation": "Proves 1,500 DZD retail acceptance for design umbrellas",
+          "type": "substitute"
+        },
+        {
+          "name": "Shenzhen Tianfeng Umbrella Co., Ltd. (Alibaba)",
+          "productUrl": "https://umbrella-bag.en.alibaba.com",
+          "price": 2.3,
+          "currency": "USD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Windproof/promotional umbrellas $2.30-3.00, MOQ 3",
+          "differentiation": "Low-MOQ sampling route; custom logo possible",
+          "type": "exact"
+        },
+        {
+          "name": "Alibaba bulk folding umbrellas",
+          "productUrl": "https://apparel.alibaba.com/supplier/umbrella-wholesale-cheap-wholesaler",
+          "price": 1.4,
+          "currency": "USD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "$1.40-2.30 MOQ 500; $1.90-3.60 MOQ 10",
+          "differentiation": "Volume tier for landed-cost model",
+          "type": "exact"
+        }
+      ],
+      "intelligence": {
+        "demandLevel": "MEDIUM",
+        "competitionLevel": "HIGH",
+        "trendDirection": "SEASONAL",
+        "seasonality": "SEASONAL",
+        "impulseBuy": "MEDIUM",
+        "targetCustomer": "Women 18-40 (macaron aesthetics), students, commuters; Algeria: urban north where Nov-Jan rains are heaviest",
+        "evidenceNotes": "Algeria rain season peaks Nov-Jan (climate sources) — timing is imminent. Local COD sellers already move basic umbrellas at 500-650 DZD; kiabi retails design umbrellas at 1,500 DZD. The D-ring carabiner is a differentiator but low AOV undermines COD math. No Google Trends verification available this session."
+      },
+      "details": {
+        "material": "190T pongee/silk-touch canopy, black coating UV option, aluminium/fiberglass ribs, ABS D-ring carabiner handle",
+        "supportType": "Manual or auto-open folding umbrella (5-8 ribs), D-ring handle doubles as hang hook",
+        "contents": "1x umbrella + strap tie + sleeve",
+        "colorVariants": [
+          "Cream/ivory",
+          "Pink",
+          "Light blue",
+          "Purple (as pictured)"
+        ],
+        "sizes": "Folded ~20-25 cm; canopy ~90-100 cm; weight ~250-350 g",
+        "certifications": [],
+        "packaging": "Polybag/sleeve; 50-100 pcs/ctn",
+        "identifiers": "HS 6601.91 (folding umbrellas) assumed — TBC",
+        "warranty": "TBC (wind-flip ribs are the QC point)"
+      },
+      "aiAnalysis": {
+        "whySell": [
+          "Rain season starts within weeks (Nov-Jan peak) — a well-timed offer can ride real weather demand",
+          "Design differentiation (macaron colors + carabiner D-ring) vs generic souk umbrellas; kiabi sells design umbrellas at 1,500 DZD so the tier exists",
+          "Very light (~300 g) and non-fragile — cheapest possible last-mile; easy color-based retargeting for women 18-40",
+          "Low supplier risk: mature manufacturing clusters, tiny MOQs (3-10 pcs) for sampling"
+        ],
+        "risks": [
+          "FATAL ECONOMICS AT LOW AOV: landed ~760 DZD vs local basic 500-650 DZD — contribution after 500 DZD delivery is negative at 1,200-1,400 DZD retail; only works above ~1,700-2,000 DZD or as 2-pack at 2,400+",
+          "Season is short (rain window ~3 months) and unpredictable; leftover inventory risk",
+          "Commodity competition: street markets and existing COD stores undercut",
+          "Wind-flip quality complaints are common on cheap umbrellas — QC critical"
+        ],
+        "marketingAngle": "Weather-triggered + aesthetic angle: 'l'accessoire pluie qui matche ton fit' color-matching creatives; carabiner clip-on demo to bags; push during first November rains",
+        "suggestedPrice": "1,700-2,000 DZD single (stopdesk delivery only); 2,400-2,600 DZD 2-pack (recommended)",
+        "adScore": 40,
+        "customerSegments": [
+          "Women 18-40 fashion-conscious",
+          "Students/commuters",
+          "Gift buyers (cute accessory)",
+          "Parents (kids versions)"
+        ],
+        "painPoints": [
+          "Cheap umbrellas flip inside out and break in wind",
+          "Forget/lose umbrellas — carabiner fixes attachment",
+          "Ugly black umbrellas vs outfit"
+        ],
+        "usp": [
+          "Carabiner D-ring clips to bag",
+          "Macaron color range",
+          "Windproof rib frame (verify)",
+          "Compact 5-fold"
+        ],
+        "objections": [
+          "Will it survive strong wind?",
+          "Why 2x souk price?",
+          "Does the paint rub off?"
+        ],
+        "creativeFormats": [
+          "Rain-day street UGC",
+          "Color-fit montage",
+          "Wind test video"
+        ],
+        "adHooks": [
+          "'La première pluie de novembre arrive — sois prête avec l'parapluie qui se clipse partout.'",
+          "'4 couleurs maccaron, un seul réflexe pluie.'"
+        ],
+        "landingPageStructure": [
+          "Hero color carousel",
+          "Carabiner clip demo GIF",
+          "Wind test",
+          "2-pack selector",
+          "COD form + stopdesk option"
+        ],
+        "bundles": [
+          "2-pack (couple/family)",
+          "Umbrella + rain pouch",
+          "4-color family pack"
+        ],
+        "testingPlan": "Only test if willing to price >=1,700 with stopdesk delivery (400 DZD) and 2-pack lead at 2,400; 20-30 order micro-test at first rains; otherwise deprioritize",
+        "scaleReviseStop": "Scale only during Nov-Jan window with CPA <=300; revise to 2-pack if standalone fails; stop when rains end (Feb) and clear stock"
+      },
+      "structuredNotes": {
+        "supplierNotes": "Verified Alibaba clusters: Shenzhen Tianfeng ($2.30-3.00, MOQ 3, custom logo), Zhejiang Haizhou (folding umbrellas MOQ 300, $6-11 big-canopy tiers), bulk aggregators $1.40-2.30 MOQ 500 / $1.90-3.60 MOQ 10. Macaron D-ring style expect FOB $1.6-2.4 at 500 pcs. Ratings/store age TBC; request rib count, 190T canopy spec, wind test video.",
+        "pricingNotes": "DZD @134.5. Landed (FOB $2.00): 269 + freight 202 + duty 141 + VAT 116 + pack 30 = ~760. At 1,400: contribution 140/delivered → strongly negative risk-adjusted (E[profit] ≈ -412 before ads; roi ≈ -26% at CPA 400) — DO NOT test at this price. Breakeven requires retail >=1,700 (stopdesk 400) or 2-pack 2,400. financials.breakEvenPrice=1,310 = non-ad break-even price (home delivery). financials.roi negative = scenario math, not verified performance.",
+        "competitionNotes": "Local: basic COD umbrellas 500-650 DZD (Facebook store, 58 wilayas), kiabi design tier 1,500 DZD; souk/unorganized dominance. Global: Alibaba $1.4-6.0; Amazon folding best-sellers exist (prices not exposed this session). The 500-650 local tier is the core threat to any import model at low AOV.",
+        "aiNotes": "This is a 'timing + bundle' product: economics only clear at >=1,700 DZD or 2-pack during Nov-Jan. If the user wants a rain-season offer, consider umbrella as an ADD-ON/upsell in another funnel (e.g., +700 DZD with any order) rather than a standalone product launch."
+      },
+      "checklist": [
+        {
+          "text": "Product identity & local price anchors verified (500-650 basic; 1,500 design tier)",
+          "done": true
+        },
+        {
+          "text": "Supplier verification: Shenzhen Tianfeng / Zhejiang Haizhou licences & wind test video",
+          "done": false
+        },
+        {
+          "text": "Sample order (4 colors); wind-flip and coating test",
+          "done": false
+        },
+        {
+          "text": "Price/MOQ confirmation at 500 pcs (target FOB <=$2.0)",
+          "done": false
+        },
+        {
+          "text": "HS 6601 duty/VAT confirmation",
+          "done": false
+        },
+        {
+          "text": "Decision gate: proceed only with >=1,700 DZD price / 2-pack model",
+          "done": false
+        },
+        {
+          "text": "Own color-carousel photos/videos",
+          "done": false
+        },
+        {
+          "text": "Competitor check: DZ Facebook COD stores & kiabi stock",
+          "done": false
+        },
+        {
+          "text": "Demand validation at first November rains (20-30 orders)",
+          "done": false
+        },
+        {
+          "text": "Profitability validation: CPA <=300, 2-pack AOV >=2,400",
+          "done": false
+        },
+        {
+          "text": "Ad policy review (no exaggerated windproof claims without test)",
+          "done": false
+        },
+        {
+          "text": "Landing page + stopdesk-first COD workflow",
+          "done": false
+        }
+      ],
+      "timeline": [
+        {
+          "type": "research",
+          "text": "Research started from user image (4 macaron folding umbrellas with D-ring handles)",
+          "date": 1792240200000
+        },
+        {
+          "type": "evidence",
+          "text": "Verified: local COD 500-650 DZD; kiabi 1,500 DZD; Alibaba $1.40-3.00 MOQ 3-500; DZ rain peak Nov-Jan; landed model shows negative standalone economics at 1,400",
+          "date": 1792240200000
+        },
+        {
+          "type": "decision",
+          "text": "Researching (52/100): hold for pricing decision gate (>=1,700 or 2-pack/upsell route) before any test",
+          "date": 1792240200000
+        }
+      ],
+      "links": {
+        "productLink": "https://apparel.alibaba.com/supplier/umbrella-wholesale-cheap-wholesaler",
+        "supplierLink": "https://umbrella-bag.en.alibaba.com",
+        "facebookAd": null,
+        "tiktok": null,
+        "landingPage": null,
+        "localListing": "https://kiabi.dz/products/parapluie-transparent-panda-noir"
+      },
+      "researchMetadata": {
+        "targetMarket": "Algeria",
+        "businessModel": "COD",
+        "currency": "DZD",
+        "sourcesChecked": [
+          "WebSearch (web-wide)",
+          "alibaba.com (3 supplier pages)",
+          "apparel.alibaba.com (bulk guide)",
+          "amazon.com (category pages)",
+          "ouedkniss.com",
+          "kiabi.dz",
+          "facebook.com (DZ COD store)",
+          "climatestotravel.com / seasonsyear.com (rain season)",
+          "wise.com/xe.com (FX)"
+        ],
+        "sourcesUnavailable": [
+          "1688.com and Taobao (login-gated; Alibaba/Yiwugo used as proxies)",
+          "Google Trends (not directly queried)",
+          "Facebook Ad Library (not queried; no ad status verified — facebookAd links null)",
+          "TikTok search (snippet-level only; no product-specific Algeria ads verified)",
+          "Amazon buy-box prices for several listings (not exposed in search results)",
+          "Exact review/sold counts for some listings (not retrievable in this session)"
+        ],
+        "evidenceQuality": 60,
+        "confidence": "MEDIUM",
+        "assumptions": [
+          "FX 1 USD = 134.5 DZD",
+          "FOB $2.00/unit estimate for D-ring macaron style (quote TBC)",
+          "Freight allocation $1.50/unit (~0.3 kg)",
+          "Duty 30% + VAT 19% (HS 6601 assumed, TBC)",
+          "Delivery 500 DZD home / 400 stopdesk; funnel 70%x80%; RTO 1,000 DZD",
+          "Scenario CPA 400; price scenario 1,400 — shown to demonstrate negative economics; viable only >=1,700 or 2-pack"
+        ],
+        "lastResearched": "2026-10-17T12:30:00Z",
+        "nextActions": [
+          "Decide pricing gate: >=1,700 single / 2-pack 2,400 / upsell role",
+          "Order 4-color samples from Tianfeng (MOQ 3); wind test",
+          "If gate passes: 20-30 order test at first November rains"
+        ]
+      }
+    },
+    {
+      "id": "prd-20261017-soapdish-dz-005",
+      "name": "Wall-Mounted Flip-Top Soap Dish with Drain Grid & Rose-Gold Trim (no-drill)",
+      "status": "Rejected",
+      "category": "Home & Living > Bathroom Accessories > Soap Dishes & Holders",
+      "source": "User-submitted product image; verified via web research (Amazon, Walmart, Alibaba, eBay, letshop.dz)",
+      "country": "DZ",
+      "mainImage": "https://z-cdn-media.chatglm.cn/files/0350ac48-a1ed-4291-b96e-266f500a128c.png?auth_key=1892229987-e17cbb6be2af42eabf8cec08b35ed1e3-0-8bd3a42d0ccf9f87e695c1266aef19e7",
+      "gallery": [],
+      "favorite": false,
+      "pinned": false,
+      "hot": false,
+      "highMargin": false,
+      "supplier": {
+        "name": "Houseware factories via Alibaba (e.g., bamboo/plastic soap dish suppliers, 9-yr store listed)",
+        "rating": null,
+        "reliabilityScore": null,
+        "storeAge": "One listed supplier: 9 yrs (bamboo line) — rating TBC",
+        "orders": null,
+        "shippingTime": "Processing TBC; sea freight ~25-45 days (TBC)",
+        "processingTime": "TBC",
+        "moq": 20,
+        "location": "China (Zhejiang/Guangdong typical; TBC)"
+      },
+      "financials": {
+        "sellingPrice": 700,
+        "costPrice": 420,
+        "shippingCost": 135,
+        "roi": -44,
+        "breakEvenPrice": 970
+      },
+      "opportunity": {
+        "overallScore": 46,
+        "demand": 60,
+        "competition": 70,
+        "margin": 25,
+        "supplier": 70,
+        "trend": 55,
+        "algeriaCodSuitability": 25,
+        "advertisingPotential": 25,
+        "evidenceQuality": 60
+      },
+      "competitors": [
+        {
+          "name": "Walmart — Wall Mounted Soap Dish with Lid (suction, pink/clear PET)",
+          "productUrl": "https://www.walmart.com/ip/Wall-Mounted-Soap-Dish-Lid-Drill-Suction-Cup-Soap-Holder-Bathroom-Shower-Large-Pink-Soap-Box-Drainage-Holes-Removable-Tray-1-Pc/19919818136",
+          "price": 4.97,
+          "currency": "USD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "US mass retail $4.97",
+          "differentiation": "Direct comparable with lid + drainage",
+          "type": "exact"
+        },
+        {
+          "name": "Amazon — Waterproof Soap Dish with Drainage, Wall Mounted (B0CNTPWKYY)",
+          "productUrl": "https://www.amazon.com/clp/B0CNTPWKYY",
+          "price": null,
+          "currency": "USD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "High-velocity Amazon listing: '1K+ bought in past week'",
+          "differentiation": "Strong demand signal for lid+drain format",
+          "type": "exact"
+        },
+        {
+          "name": "Alibaba — bathroom houseware soap dishes",
+          "productUrl": "https://www.alibaba.com/countrysearch/CN/bathroom-soap-holders.html",
+          "price": 0.48,
+          "currency": "USD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Factory tier $0.48-1.50, MOQ 20-50",
+          "differentiation": "Low FOB confirmed across several suppliers",
+          "type": "exact"
+        },
+        {
+          "name": "letshop.dz — Ensemble 6 accessoires de salle de bain",
+          "productUrl": "https://www.letshop.dz/boutique/ensemble-de-6-accessoires-de-salle-de-bain-design-ovales",
+          "price": 5200,
+          "currency": "DZD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Local DZ bathroom-set tier 5,200-8,200 DZD (6 pieces)",
+          "differentiation": "Shows Algerians buy bathroom accessories as SETS — supports multi-item basket, not single soap dish",
+          "type": "substitute"
+        }
+      ],
+      "intelligence": {
+        "demandLevel": "MEDIUM",
+        "competitionLevel": "MEDIUM",
+        "trendDirection": "STABLE",
+        "seasonality": "UNKNOWN",
+        "impulseBuy": "MEDIUM",
+        "targetCustomer": "Households upgrading bathrooms, renters (no-drill), newlywed home setups; Algeria: urban apartments",
+        "evidenceNotes": "Global demand signal is real (Amazon '1K+ bought in past week' on comparable; Walmart $4.97 retail). In Algeria, verified retail is mostly bathroom SETS (5,200-8,200 DZD for 6-piece). Single soap dish at ~700 DZD cannot survive 500 DZD delivery — verified local single-item price is TBC."
+      },
+      "details": {
+        "material": "ABS/PP body with rose-gold/champagne trim, removable drain grid, wall adhesive or suction mount",
+        "supportType": "Wall-mounted flip-lid soap box with drain tray (no-drill adhesive mount)",
+        "contents": "1x soap box + drain grid + adhesive pad/suction",
+        "colorVariants": [
+          "White/rose-gold (pictured)",
+          "All-white",
+          "Grey/champagne"
+        ],
+        "sizes": "~13-14 x 9-10 x 5-6 cm closed; fits standard 100-150 g soap bars",
+        "certifications": [],
+        "packaging": "Color box; 60-120 pcs/ctn (light, high cube-to-weight)",
+        "identifiers": "HS 3924.90 (plastic table/kitchen/washroom articles) assumed — TBC",
+        "warranty": "TBC"
+      },
+      "aiAnalysis": {
+        "whySell": [
+          "Proven format internationally: comparable Amazon listing shows 1K+ purchases in a single week",
+          "Extremely low FOB ($0.48-1.50) and tiny size make bulk buying trivial and inventory risk minimal",
+          "No-drill mounting suits Algerian renters; flip-lid + drainage is a clear upgrade over open dishes sold in souks",
+          "Potential as a margin-boosting ADD-ON inside multi-item bathroom orders (sets retail 5,200+ locally)"
+        ],
+        "risks": [
+          "FATAL STANDALONE ECONOMICS: even at 2x markup (~700 DZD) the 500 DZD home delivery wipes the margin; non-ad break-even price is 970 DZD — above what a single soap dish realistically retails for in DZ",
+          "Local demand for a standalone item at 1,000+ DZD unproven; verified local purchases happen as SETS",
+          "COD refusal risk high for low-value items (customers cancel on price/impulse mismatch)",
+          "Ad spend cannot be recovered: maximum profitable CPA is negative at any realistic price"
+        ],
+        "marketingAngle": "Only viable as an upsell/add-on card in checkout ('+450 DZD avec votre commande') or inside a 3-4 piece bathroom bundle; not a standalone funnel",
+        "suggestedPrice": "Standalone: not viable. As upsell: 400-500 DZD; inside set: 3-piece bathroom kit 1,900-2,400 DZD",
+        "adScore": 25,
+        "customerSegments": [
+          "Renters (no-drill)",
+          "New household setups",
+          "Gift/basket builders"
+        ],
+        "painPoints": [
+          "Soggy soap wasting bars",
+          "Wall damage from drilling",
+          "Ugly open dishes collecting slime"
+        ],
+        "usp": [
+          "Flip-lid keeps soap dry & dust-free",
+          "Drain grid",
+          "No-drill adhesive mount",
+          "Rose-gold modern look"
+        ],
+        "objections": [
+          "Will the adhesive hold on tile?",
+          "Is it too small for big soap bars?",
+          "Cheaper in the souk?"
+        ],
+        "creativeFormats": [
+          "Soggy-soap vs dry-soap comparison",
+          "3-second install clip",
+          "Bathroom-makeover set reel"
+        ],
+        "adHooks": [
+          "'Votre savon qui fond? Cette boîte le garde sec 3x plus longtemps.'"
+        ],
+        "landingPageStructure": [
+          "N/A standalone — use checkout upsell card or 3-piece set page with COD form"
+        ],
+        "bundles": [
+          "Soap dish + toothbrush holder + tumbler (3-piece kit)",
+          "Add-on card +450 DZD",
+          "6-piece set vs letshop 5,200 benchmark"
+        ],
+        "testingPlan": "Do NOT run paid standalone test. If pursuing, test only as upsell card on an existing bathroom/kitchen funnel and measure take-rate >=12%",
+        "scaleReviseStop": "Scale only as bundled SKU with proven take-rate; revise price/kit composition if take-rate <8%; stop standalone funnel — rejected"
+      },
+      "structuredNotes": {
+        "supplierNotes": "Alibaba shows abundant suppliers: bamboo mini dishes $0.48-0.76 MOQ 50 (9-yr store), ceramic/plastic trays $1-1.50 MOQ 20 (5-yr), bath trays $7.15 MOQ 200. The pictured flip-lid plastic version with rose-gold trim expected FOB $0.6-1.1 at 500+ pcs. Entity names/ratings TBC; request adhesive pad spec (load, tile type).",
+        "pricingNotes": "DZD @134.5. Landed (FOB $0.90): 121 + freight 135 + duty 77 + VAT 63 + pack 20 = ~420. Non-ad break-even = 970 DZD vs realistic retail 600-900 → scenario at 700 shows roi ≈ -44% at CPA 400 (i.e., unworkable). financials.breakEvenPrice=970. Only path: 3-6 piece kits at 1,900-5,200 (set anchor verified) or checkout upsell at 450 DZD with near-zero incremental CPA.",
+        "competitionNotes": "Global: Walmart $4.97; Amazon comparable '1K+/week'. Local: single-item listings not verified this session; sets at 5,200 (letshop.dz) and 8,200 (omniaceramica) confirm set-led purchasing. Souk soap dishes likely <300 DZD — price ceiling pressure.",
+        "aiNotes": "Verdict: REJECTED as a standalone COD product (score 46/100 — below deprioritization line). Keep as candidate SKU for a bathroom SET funnel where it rides shared CPA. Evidence quality is decent globally but thin locally (no verified single-item DZ listing)."
+      },
+      "checklist": [
+        {
+          "text": "Product identity & format verified; global demand signals recorded",
+          "done": true
+        },
+        {
+          "text": "Local single-item price discovery in DZ (souk + online) — TBC",
+          "done": false
+        },
+        {
+          "text": "Supplier verification + adhesive load spec",
+          "done": false
+        },
+        {
+          "text": "Sample order (3 suppliers); adhesive 30-day tile test",
+          "done": false
+        },
+        {
+          "text": "Price/MOQ confirmation at 500 pcs (target FOB <=$0.9)",
+          "done": false
+        },
+        {
+          "text": "3-6 piece bathroom set costing vs letshop 5,200 DZD anchor",
+          "done": false
+        },
+        {
+          "text": "Own comparison photos/videos",
+          "done": false
+        },
+        {
+          "text": "Standalone viability decision gate — currently FAILED (break-even 970 > market price)",
+          "done": true
+        },
+        {
+          "text": "If re-activated: upsell take-rate test >=12% on existing funnel",
+          "done": false
+        },
+        {
+          "text": "HS 3924 duty/VAT confirmation",
+          "done": false
+        },
+        {
+          "text": "Ad policy review (not applicable while rejected)",
+          "done": false
+        },
+        {
+          "text": "Landing page: set-page only (standalone page cancelled)",
+          "done": false
+        }
+      ],
+      "timeline": [
+        {
+          "type": "research",
+          "text": "Research started from user image (white flip-top soap dish, rose-gold trim)",
+          "date": 1792240200000
+        },
+        {
+          "type": "evidence",
+          "text": "Verified: Amazon comparable 1K+/week; Walmart $4.97; Alibaba FOB $0.48-1.50 MOQ 20-50; DZ market buys bathroom sets 5,200-8,200 DZD; landed/break-even math shows standalone COD unviable",
+          "date": 1792240200000
+        },
+        {
+          "type": "decision",
+          "text": "Rejected (46/100) as standalone; retained as upsell/set SKU candidate",
+          "date": 1792240200000
+        }
+      ],
+      "links": {
+        "productLink": "https://www.walmart.com/ip/Wall-Mounted-Soap-Dish-Lid-Drill-Suction-Cup-Soap-Holder-Bathroom-Shower-Large-Pink-Soap-Box-Drainage-Holes-Removable-Tray-1-Pc/19919818136",
+        "supplierLink": "https://www.alibaba.com/countrysearch/CN/bathroom-soap-holders.html",
+        "facebookAd": null,
+        "tiktok": null,
+        "landingPage": null,
+        "localListing": "https://www.letshop.dz/boutique/ensemble-de-6-accessoires-de-salle-de-bain-design-ovales"
+      },
+      "researchMetadata": {
+        "targetMarket": "Algeria",
+        "businessModel": "COD",
+        "currency": "DZD",
+        "sourcesChecked": [
+          "WebSearch (web-wide)",
+          "walmart.com",
+          "amazon.com (2 listings)",
+          "alibaba.com (2 category pages)",
+          "ebay.com",
+          "letshop.dz",
+          "omniaceramica-dz.com",
+          "jumia.ma (benchmark only)",
+          "wise.com/xe.com (FX)"
+        ],
+        "sourcesUnavailable": [
+          "1688.com and Taobao (login-gated; Alibaba/Yiwugo used as proxies)",
+          "Google Trends (not directly queried)",
+          "Facebook Ad Library (not queried; no ad status verified — facebookAd links null)",
+          "TikTok search (snippet-level only; no product-specific Algeria ads verified)",
+          "Amazon buy-box prices for several listings (not exposed in search results)",
+          "Exact review/sold counts for some listings (not retrievable in this session)",
+          "Verified Algeria single-item soap-dish retail listing (not found this session)"
+        ],
+        "evidenceQuality": 60,
+        "confidence": "MEDIUM",
+        "assumptions": [
+          "FX 1 USD = 134.5 DZD",
+          "FOB $0.90 estimate for flip-lid rose-gold trim version (quote TBC)",
+          "Freight allocation $1.00/unit (~0.25 kg)",
+          "Duty 30% + VAT 19% (HS 3924 assumed, TBC)",
+          "Delivery 500 DZD; funnel 70%x80%; RTO 1,000 DZD",
+          "Scenario CPA 400; price scenario 700 DZD — math demonstrates rejection rationale"
+        ],
+        "lastResearched": "2026-10-17T12:30:00Z",
+        "nextActions": [
+          "Confirm local single-item price ceiling (souk/online) to close the record definitively",
+          "If pursuing set route: cost a 3-piece kit and benchmark against 5,200 DZD",
+          "Keep SKU in upsell catalog (+450 DZD card)"
+        ]
+      }
+    },
+    {
+      "id": "prd-20261017-babyliss-trimmer-dz-006",
+      "name": "BaByliss for Men Nose/Ear Hair Trimmer (model BAB 205 IBE) — BRANDED product",
+      "status": "Rejected",
+      "category": "Personal Care > Grooming > Nose & Ear Trimmers",
+      "source": "User-submitted retail-pack photo (store shelf); verified via web research (babylisspro.com, babyliss.fr, Boulanger, Walmart, Target, DZ stores)",
+      "country": "DZ",
+      "mainImage": "https://z-cdn-media.chatglm.cn/files/425e46e3-7124-440a-86c9-f9c5413e41a0.png?auth_key=1892229987-38a3d1113a2240a38155e7f8e923e2fb-0-d9bcde377218b8783c8b81ced762e882",
+      "gallery": [],
+      "favorite": false,
+      "pinned": false,
+      "hot": false,
+      "highMargin": false,
+      "supplier": {
+        "name": "NONE VERIFIABLE — genuine Conair/BaByliss goods require authorized distribution; Chinese wholesale would be counterfeit",
+        "rating": null,
+        "reliabilityScore": null,
+        "storeAge": "TBC",
+        "orders": null,
+        "shippingTime": "TBC",
+        "processingTime": "TBC",
+        "moq": null,
+        "location": "Brand owner: Conair Corporation (USA) / licensed manufacturers — China supply chain = counterfeit risk"
+      },
+      "financials": {
+        "sellingPrice": 3500,
+        "costPrice": null,
+        "shippingCost": null,
+        "roi": null,
+        "breakEvenPrice": null
+      },
+      "opportunity": {
+        "overallScore": 54,
+        "demand": 70,
+        "competition": 60,
+        "margin": 40,
+        "supplier": 10,
+        "trend": 60,
+        "algeriaCodSuitability": 60,
+        "advertisingPotential": 65,
+        "evidenceQuality": 65
+      },
+      "competitors": [
+        {
+          "name": "Boulanger (FR) — BaByliss Tondeuse nez/oreilles E650E",
+          "productUrl": "https://www.boulanger.com/c/rasoir-tondeuse/brand~babyliss/facettes_tondeuse_____type~nez2foreilles",
+          "price": 14.03,
+          "currency": "EUR",
+          "shipping": null,
+          "rating": 5,
+          "reviews": 6,
+          "positioning": "Entry genuine BaByliss nose/ear trimmer tier",
+          "differentiation": "Genuine retail benchmark; Super-X E116E at €27.38, E112E €39.90 on babyliss.fr",
+          "type": "exact"
+        },
+        {
+          "name": "Tristar Algérie (Facebook) — Tondeuse nez/oreilles TR-2587",
+          "productUrl": "https://www.facebook.com/Tristar.Algerie/posts/4155540771138761",
+          "price": 1200,
+          "currency": "DZD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Local budget brand competitor at 1,200 DZD",
+          "differentiation": "Undercuts any genuine-BaByliss DZ price point",
+          "type": "substitute"
+        },
+        {
+          "name": "Philips Nose Trimmer Series 3000 (DZ reseller)",
+          "productUrl": "https://confiseriedubonheur.net/product/philips-tondeuse-nez-oreilles-et-sourcils-nose-trimmer-series-3000",
+          "price": 3500,
+          "currency": "DZD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Global brand tier verified retailing at 3,500 DZD in Algeria",
+          "differentiation": "Sets the realistic genuine-brand ceiling in DZ",
+          "type": "substitute"
+        },
+        {
+          "name": "Target/US grooming kits (BaByliss men's kits $34.99-44.99)",
+          "productUrl": "https://www.target.com/s/babyliss+beard+trimmer",
+          "price": 34.99,
+          "currency": "USD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "US multi-tool kit tier",
+          "differentiation": "Category price context only",
+          "type": "substitute"
+        }
+      ],
+      "intelligence": {
+        "demandLevel": "HIGH",
+        "competitionLevel": "HIGH",
+        "trendDirection": "STABLE",
+        "seasonality": "UNKNOWN",
+        "impulseBuy": "HIGH",
+        "targetCustomer": "Men 25-60 (ear/nose grooming), barbers, gift purchases from women; Algeria: strong men's grooming culture",
+        "evidenceNotes": "Category demand is real (BaByliss FR/US lines; Philips retails 3,500 DZD locally; Tristar 1,200 DZD). BUT this record is a BRANDED item: no verified genuine wholesale source exists for COD dropship from China; grey/counterfeit sourcing is illegal and routinely seized. Demand evidence must not be conflated with sourcing viability."
+      },
+      "details": {
+        "material": "Stainless-steel rotary cutting head, metal-look ABS body, battery powered",
+        "supportType": "Rotary nose/ear hair trimmer (also brow/beard touch-up per box icons)",
+        "contents": "1x trimmer + protective cap + cleaning brush; battery type (likely AA/AAA) TBC from box",
+        "colorVariants": [
+          "Silver/black (as pictured)"
+        ],
+        "sizes": "Compact pen-style; boxed ~0.15-0.25 kg",
+        "certifications": [
+          "CE (claimed by brand for EU market) — certificate copies via distributor only"
+        ],
+        "packaging": "Original BaByliss retail box (as pictured; 'Designed in Italy')",
+        "identifiers": "Model BAB 205 IBE (Italian-market SKU); brand owner Conair/BaByliss — trademarks enforced",
+        "warranty": "Brand warranty via authorized retailers only (2 yrs EU norm); grey imports void it"
+      },
+      "aiAnalysis": {
+        "whySell": [
+          "Men's grooming demand in Algeria is strong and year-round; Philips sells at 3,500 DZD proving genuine-brand pricing power",
+          "Small, light, impulse-friendly product with giftable packaging",
+          "Trusted-brand positioning converts better than generics IF genuinely sourced",
+          "Reusable purchase with low return rate in category"
+        ],
+        "risks": [
+          "DECISIVE: sourcing from Chinese wholesale would mean counterfeit BaByliss goods — trademark infringement, customs seizure, ad account bans, and consumer fraud exposure",
+          "No verified authorized-distributor route for small COD e-commerce (MOQs, distributor agreements, price controls)",
+          "Electric personal-care device: IANOR/CoC conformity applies",
+          "Local budget competitors (Tristar 1,200 DZD) undercut generics; genuine BaByliss lands near Philips price (3,500 DZD) with thin margin after duties/VAT"
+        ],
+        "marketingAngle": "IF (and only if) genuine stock is secured via authorized channel: barber-credibility angle 'l'outil des barbiers'. Otherwise: switch to an UNBRANDED equivalent record — do not market under BaByliss name",
+        "suggestedPrice": "Genuine via authorized channel: 3,200-3,900 DZD (Philips anchor 3,500). Generic equivalent: 1,900-2,400 DZD",
+        "adScore": 65,
+        "customerSegments": [
+          "Men 25-60",
+          "Barbers/grooming gift buyers",
+          "Women buying for partners/fathers"
+        ],
+        "painPoints": [
+          "Visible nose/ear hair embarrassment",
+          "Cheap trimmers pull hairs and hurt",
+          "Blade rust and battery drain"
+        ],
+        "usp": [
+          "Rotary stainless cutting system",
+          "Washable head",
+          "Genuine brand trust (if authorized)",
+          "Compact travel size"
+        ],
+        "objections": [
+          "Is it original?",
+          "Why pay 3x Tristar price?",
+          "Battery included?"
+        ],
+        "creativeFormats": [
+          "Barbershop POV demo",
+          "Close-up trim macro video",
+          "Gift-box reveal"
+        ],
+        "adHooks": [
+          "'Le nez et les oreilles — le détail que tout le monde voit sauf vous.'",
+          "'Le trimmer que les barbiers utilisent.' (only if genuine)"
+        ],
+        "landingPageStructure": [
+          "Authenticity block (serial/verify)",
+          "Macro demo video",
+          "Comparison vs pulling tweezers",
+          "COD form"
+        ],
+        "bundles": [
+          "Trimmer + beard comb",
+          "Trimmer + grooming kit"
+        ],
+        "testingPlan": "STOP for this SKU as China-sourced. Two legal paths: (1) request authorized Conair/BaByliss distributor terms for Algeria; (2) open a separate record for an unbranded equivalent trimmer and test that",
+        "scaleReviseStop": "Do not scale. If authorized route materializes: re-evaluate economics at distributor pricing; if generic route chosen: new research record required"
+      },
+      "structuredNotes": {
+        "supplierNotes": "NO verified supplier. BaByliss is a Conair (US) professional/personal-care brand; genuine units flow through authorized distributors (babylisspro.com lists pro channels). Chinese listings of this SKU would be counterfeits — excluded by policy and law. Authorized-distributor contact is the only compliant sourcing path; MOQ/pricing TBC.",
+        "pricingNotes": "Verified retail anchors: BaByliss E650E €14.03 (Boulanger, 6 reviews 5/5), Super-X E116E €27.38, E112E €39.90 (babyliss.fr); Philips Series 3000 = 3,500 DZD in DZ; Tristar TR-2587 = 1,200 DZD local budget competitor. financials: sellingPrice=3,500 (observed brand-tier anchor); costPrice/roi/breakEvenPrice = null because no compliant unit cost exists. Approx duty for HS 8510 would be 30% + VAT 19% (TBC) IF authorized pricing is ever obtained.",
+        "competitionNotes": "Two-tier local market: budget generics/Tristar at 1,200 DZD vs genuine brands (Philips 3,500 DZD). BaByliss sits in the brand tier abroad (€14-40). Competing against a famous brand you cannot legally source is not a business; competing AS that brand without authorization is infringement.",
+        "aiNotes": "Record kept because the category is attractive; the specific BRANDED SKU is rejected. Recommended pivot: unbranded stainless rotary trimmer (new record) at 1,900-2,400 DZD, or negotiate authorized distribution. Do not use the supplied retail-pack photo in ads (trademark/trade dress)."
+      },
+      "checklist": [
+        {
+          "text": "Product identity verified: BaByliss for Men BAB 205 IBE, brand owner Conair; retail-pack photo confirmed as branded SKU",
+          "done": true
+        },
+        {
+          "text": "Sourcing legality assessed: no verifiable genuine supplier in China — counterfeit route excluded",
+          "done": true
+        },
+        {
+          "text": "Authorized distributor inquiry sent to Conair/BaByliss (or DZ beauty-appliance importer)",
+          "done": false
+        },
+        {
+          "text": "If authorized: obtain official price list, MOQ, warranty terms",
+          "done": false
+        },
+        {
+          "text": "Decision gate: pivot to unbranded equivalent record",
+          "done": false
+        },
+        {
+          "text": "Sample & quality test (only for pivoted generic SKU)",
+          "done": false
+        },
+        {
+          "text": "IANOR/CoC check for electric personal-care device",
+          "done": false
+        },
+        {
+          "text": "Competitor validation: Tristar/Philips price & stock check in DZ",
+          "done": false
+        },
+        {
+          "text": "Trademark counsel review before any ad usage of brand assets",
+          "done": false
+        },
+        {
+          "text": "Profitability model rebuilt with compliant cost inputs",
+          "done": false
+        },
+        {
+          "text": "Ad policy review (no brand name in creatives unless authorized)",
+          "done": false
+        },
+        {
+          "text": "Record closed as Rejected pending pivot",
+          "done": true
+        }
+      ],
+      "timeline": [
+        {
+          "type": "research",
+          "text": "Research started from user image (BaByliss for Men BAB 205 IBE retail box on store shelf)",
+          "date": 1792240200000
+        },
+        {
+          "type": "evidence",
+          "text": "Verified: brand owner Conair; FR retail €14.03-39.90; DZ anchors Philips 3,500 DZD / Tristar 1,200 DZD; no genuine China wholesale source exists; IANOR CoC applies",
+          "date": 1792240200000
+        },
+        {
+          "type": "decision",
+          "text": "Rejected (54/100; supplier-reliability 10/100): branded SKU not sourceable compliantly — pivot to unbranded equivalent or authorized distribution",
+          "date": 1792240200000
+        }
+      ],
+      "links": {
+        "productLink": "https://www.boulanger.com/c/rasoir-tondeuse/brand~babyliss/facettes_tondeuse_____type~nez2foreilles",
+        "supplierLink": null,
+        "facebookAd": null,
+        "tiktok": null,
+        "landingPage": null,
+        "brandPage": "https://www.babylisspro.com/barber-trimmers"
+      },
+      "researchMetadata": {
+        "targetMarket": "Algeria",
+        "businessModel": "COD",
+        "currency": "DZD",
+        "sourcesChecked": [
+          "WebSearch (web-wide)",
+          "babylisspro.com",
+          "babyliss.com (fr)",
+          "boulanger.com",
+          "walmart.com",
+          "target.com",
+          "facebook.com (Tristar Algérie)",
+          "confiseriedubonheur.net (DZ reseller)",
+          "sgs.com/intertek.com (CoC)",
+          "wise.com/xe.com (FX)"
+        ],
+        "sourcesUnavailable": [
+          "1688.com and Taobao (login-gated; Alibaba/Yiwugo used as proxies)",
+          "Google Trends (not directly queried)",
+          "Facebook Ad Library (not queried; no ad status verified — facebookAd links null)",
+          "TikTok search (snippet-level only; no product-specific Algeria ads verified)",
+          "Amazon buy-box prices for several listings (not exposed in search results)",
+          "Exact review/sold counts for some listings (not retrievable in this session)",
+          "Authorized distributor pricing (requires direct inquiry)",
+          "Exact BAB 205 IBE spec sheet (discontinued/regional SKU)"
+        ],
+        "evidenceQuality": 65,
+        "confidence": "MEDIUM",
+        "assumptions": [
+          "FX 1 EUR anchor: prices kept in native currencies",
+          "DZ brand-tier price ceiling = Philips 3,500 DZD (observed)",
+          "No landed-cost model: no compliant unit cost exists — financials nulls are intentional"
+        ],
+        "lastResearched": "2026-10-17T12:30:00Z",
+        "nextActions": [
+          "Contact Conair/authorized distributors for Algeria terms",
+          "Create separate research record for unbranded rotary trimmer (1,900-2,400 DZD)",
+          "Keep this record closed unless authorized pricing arrives"
+        ]
+      }
+    },
+    {
+      "id": "prd-20261017-sprinkler-dz-007",
+      "name": "360° Rotating Garden Sprinkler with 12 Flexible Tube Nozzles (fan spray)",
+      "status": "Needs Verification",
+      "category": "Garden & Outdoor > Watering & Irrigation > Lawn Sprinklers",
+      "source": "User-submitted product image; verified via web research (AliExpress, Alibaba, Ouedkniss, yby-irrigation.com)",
+      "country": "DZ",
+      "mainImage": "https://z-cdn-media.chatglm.cn/files/f450fb90-c2d0-4139-a35d-25721a8b7583.png?auth_key=1892229987-46e84651cc3245fca2383a3a8d61c2e0-0-48a40f128f542e0eb880afd0eb644d17",
+      "gallery": [],
+      "favorite": false,
+      "pinned": false,
+      "hot": false,
+      "highMargin": false,
+      "supplier": {
+        "name": "Irrigation manufacturers via Alibaba (e.g., 'Lawn Sprinkler' verified listing $4.59-5.98 MOQ 10; Ningbo/Xiamen irrigation clusters; yby-irrigation.com MOQ 100)",
+        "rating": null,
+        "reliabilityScore": null,
+        "storeAge": "TBC",
+        "orders": null,
+        "shippingTime": "Processing TBC; sea freight ~25-45 days (TBC)",
+        "processingTime": "TBC",
+        "moq": 10,
+        "location": "Zhejiang (Ningbo/Taizhou) / Fujian (Xiamen), China"
+      },
+      "financials": {
+        "sellingPrice": 3300,
+        "costPrice": 840,
+        "shippingCost": 202,
+        "roi": 9,
+        "breakEvenPrice": 1390
+      },
+      "opportunity": {
+        "overallScore": 58,
+        "demand": 50,
+        "competition": 70,
+        "margin": 55,
+        "supplier": 65,
+        "trend": 50,
+        "algeriaCodSuitability": 55,
+        "advertisingPotential": 65,
+        "evidenceQuality": 60
+      },
+      "competitors": [
+        {
+          "name": "Ouedkniss — Système d'Arrosage Rotatif 360° Arroseur avec 12 tuyaux flexibles",
+          "productUrl": "https://www.ouedkniss.com/arrosage_materiaux_equipement-r?lang=fr",
+          "price": null,
+          "currency": "DZD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Same-product-type listing present on Ouedkniss (price TBC)",
+          "differentiation": "Confirms the exact 12-tube rotating format already reaches Algeria via classifieds",
+          "type": "exact"
+        },
+        {
+          "name": "Ouedkniss — Arrosage Algérie irrigateur (16.5-29 m range, Bab Ezzouar)",
+          "productUrl": "https://www.ouedkniss.com/alger-bab-ezzouar-algerie-agricole-arrosage-alg%C3%A9rie-d9169447",
+          "price": 4600,
+          "currency": "DZD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Heavy-duty impact irrigator tier 4,600 DZD",
+          "differentiation": "Ceiling anchor for serious watering gear; 300 DZD drip emitters anchor the floor",
+          "type": "substitute"
+        },
+        {
+          "name": "AliExpress — Garden Sprinkler Multi-Nozzle Lawn Watering Sprayer",
+          "productUrl": "https://www.aliexpress.com/w/wholesale-atomizer-sprinkler.html",
+          "price": 9.78,
+          "currency": "USD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Cross-border retail $9.78 (list $19.99)",
+          "differentiation": "Consumer retail benchmark for the multi-nozzle format",
+          "type": "exact"
+        },
+        {
+          "name": "Alibaba — verified Lawn Sprinkler listing",
+          "productUrl": "https://www.alibaba.com/pla/x_1601887704127.html",
+          "price": 4.59,
+          "currency": "USD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Verified supplier tier $4.59-5.98 MOQ 10; nozzle components $0.34-0.96 MOQ 250",
+          "differentiation": "Sourcing benchmark used in landed model",
+          "type": "exact"
+        }
+      ],
+      "intelligence": {
+        "demandLevel": "UNKNOWN",
+        "competitionLevel": "LOW",
+        "trendDirection": "SEASONAL",
+        "seasonality": "SEASONAL",
+        "impulseBuy": "MEDIUM",
+        "targetCustomer": "Home gardeners, villa owners, nursery/agriculture smallholders; Algeria: northern coastal gardens + southern farm plots",
+        "evidenceNotes": "Product format already circulates on Ouedkniss (12-tube rotating sprinkler listing exists; price unverified) and irrigation gear sells 300-4,600 DZD. Watering demand peaks Mar-Jul; current month (Oct) is off-season. No sell-velocity data available — demand classification UNKNOWN pending test."
+      },
+      "details": {
+        "material": "ABS base with quick-connect hose adapter, 12x flexible PE tube nozzles with weighted tips",
+        "supportType": "Hose-fed rotating fan sprinkler; 360° coverage; adjustable spray direction",
+        "contents": "1x sprinkler unit (hose not included); standard 1/2\" tap connector",
+        "colorVariants": [
+          "Green base/black tubes (pictured)",
+          "All-green"
+        ],
+        "sizes": "Base ~25x15 cm; tubes ~15-20 cm; weight ~0.3-0.4 kg; coverage ~2-4 m radius (TBC)",
+        "certifications": [],
+        "packaging": "Color box or polybag; 40-60 pcs/ctn",
+        "identifiers": "HS 8424.89 (irrigation appliances) assumed — possibly reduced 15% band, TBC",
+        "warranty": "TBC (leak/wear on rotating joints is the QC point)"
+      },
+      "aiAnalysis": {
+        "whySell": [
+          "Attractive demo product: 12 graceful water arcs film beautifully — natural TikTok/garden-page creative",
+          "Verified mid-tier space on Ouedkniss (impact irrigators at 4,600 DZD; the 12-tube format exists locally, price TBC) with room at 2,900-3,300 DZD",
+          "Low MOQ (10 pcs verified) makes sampling and small-batch testing cheap",
+          "Land cost ~840 DZD supports >70% gross margin at 3,300 DZD — headroom to absorb CPA if demand shows up"
+        ],
+        "risks": [
+          "SEASONALITY MISMATCH: peak demand Mar-Jul; launching in October means 4-5 months of weak conversion unless targeting southern farm plots or indoor/greenhouse users",
+          "Algeria garden-e-com demand unproven (demandLevel UNKNOWN) — Ouedkniss listing presence is not sales evidence",
+          "QC risk: rotating joints leak/tubes kink on cheap units; hose-connector compatibility with local taps must be tested",
+          "Water-pressure variance across DZ municipalities affects spray quality — demo conditions may not match customer reality"
+        ],
+        "marketingAngle": "Rain-arc demo + 'arrose tout le jardin tout seul' set-and-forget angle; target villa/garden pages, nursery owners; time launch to March; test southern agricultural audience in off-season",
+        "suggestedPrice": "2,900-3,300 DZD spring launch; 3,600-3,900 DZD with tap timer bundle",
+        "adScore": 65,
+        "customerSegments": [
+          "Villa/home garden owners",
+          "Nursery & plant-shop owners",
+          "Smallholder farmers",
+          "Balcony plant enthusiasts (mini version)"
+        ],
+        "painPoints": [
+          "Hand-watering takes 30+ minutes daily",
+          "Hose-only watering floods some spots and misses others",
+          "Imported impact sprinklers cost 4,600+ DZD"
+        ],
+        "usp": [
+          "12 flexible nozzles = wide fan coverage",
+          "Rotates on water pressure — no batteries",
+          "Fits standard taps",
+          "Set-and-forget watering"
+        ],
+        "objections": [
+          "Will it work with my water pressure?",
+          "Does it leak at the base?",
+          "Is it better than a 300 DZD drip head?"
+        ],
+        "creativeFormats": [
+          "Slow-mo 12-arc demo",
+          "Before/after dry vs green lawn",
+          "Timer-bundle routine video"
+        ],
+        "adHooks": [
+          "'Branchez, ouvrez le robinet — le jardin s'arrose tout seul.'",
+          "'12 jets d'eau, zéro effort, tout le jardin couvert.'"
+        ],
+        "landingPageStructure": [
+          "Hero slow-mo demo",
+          "Coverage diagram (m²)",
+          "Tap compatibility note",
+          "Timer bundle offer",
+          "COD form + wilayas"
+        ],
+        "bundles": [
+          "Sprinkler + mechanical tap timer",
+          "2-pack for large gardens",
+          "Sprinkler + hose splitter"
+        ],
+        "testingPlan": "Pre-winter: buy 10-20 pcs (MOQ 10 verified) for quality test only; validate DZ demand via a 100 EUR March-ready waitlist page; launch paid test Mar 2027 at 3,300 DZD; KPI CPA <=500, confirmation >=70%",
+        "scaleReviseStop": "Scale Apr-Jun 2027 if net >=200 DZD/order; revise (bundle w/ timer) if CPA 500-700; stop if leak-complaint rate >8% or demand fails by mid-May"
+      },
+      "structuredNotes": {
+        "supplierNotes": "Verified tiers: Alibaba verified lawn sprinkler $4.59-5.98 MOQ 10; component nozzles $0.34-0.96 MOQ 250; yby-irrigation.com lawn sprinklers MOQ 100 (payment terms listed); AliExpress retail $9.78. The pictured 12-tube ABS unit expected FOB $2.5-3.5 at 100-500 pcs — quote TBC. Entity names/ratings TBC; request pressure-range spec (bar), connector standard, seal material.",
+        "pricingNotes": "DZD @134.5. Landed (FOB $2.80): 377 + freight 202 + duty 15% 87 + VAT 126 + pack 50 = ~840 (HS 8424.89 possibly 15% band — TBC; at 30% duty landed = ~925). At 3,300: contribution 1,960/delivered; risk-adj breakeven CPA ~608/placed; scenario ROI ~9% at CPA 400. financials.breakEvenPrice=1,390 = non-ad break-even price. Off-season launch would underperform these numbers.",
+        "competitionNotes": "Ouedkniss irrigation category active: impact irrigators 4,600 DZD; drip emitters 300 DZD; a 12-tube rotating sprinkler listing exists (price unverified). AliExpress multi-nozzle $9.78. No organized COD brand seen for this format — low organized competition, but demand unmeasured.",
+        "aiNotes": "Sequence matters: this is a SPRING product. Use Oct-Dec for supplier QC + waitlist landing page; commit to inventory in Jan-Feb; paid launch Mar 2027. Do not burn ad budget on a garden product in November. Evidence for demand is the weakest of the 7 records — treat 58/100 score as provisional."
+      },
+      "checklist": [
+        {
+          "text": "Product identity verified; exact-format listing confirmed present on Ouedkniss (price TBC)",
+          "done": true
+        },
+        {
+          "text": "Ouedkniss 12-tube listing price/seller contact (mystery-shop)",
+          "done": false
+        },
+        {
+          "text": "Supplier verification: pressure spec, seal material, connector standard",
+          "done": false
+        },
+        {
+          "text": "Sample order (10 pcs verified MOQ); leak + pressure test across 1-3 bar",
+          "done": false
+        },
+        {
+          "text": "Price/MOQ confirmation at 100-500 pcs (target FOB <=$3.0)",
+          "done": false
+        },
+        {
+          "text": "HS 8424.89 duty band confirmation (15% vs 30%)",
+          "done": false
+        },
+        {
+          "text": "Own slow-mo demo footage shot (spring water pressure)",
+          "done": false
+        },
+        {
+          "text": "Waitlist/pre-launch page live before winter",
+          "done": false
+        },
+        {
+          "text": "Demand validation: waitlist signups + 30-order March test",
+          "done": false
+        },
+        {
+          "text": "Profitability validation: CPA <=500, net >=200/order",
+          "done": false
+        },
+        {
+          "text": "Ad policy review (no exaggerated coverage-area claims)",
+          "done": false
+        },
+        {
+          "text": "Landing page + COD workflow ready before March",
+          "done": false
+        }
+      ],
+      "timeline": [
+        {
+          "type": "research",
+          "text": "Research started from user image (12-tube fan sprinkler on green base)",
+          "date": 1792240200000
+        },
+        {
+          "type": "evidence",
+          "text": "Verified: Ouedkniss same-format listing exists (price TBC); impact irrigator 4,600 DZD; AliExpress $9.78; Alibaba verified $4.59-5.98 MOQ 10; season peak Mar-Jul",
+          "date": 1792240200000
+        },
+        {
+          "type": "decision",
+          "text": "Needs Verification (58/100): QC + waitlist Oct-Dec, inventory Jan-Feb, paid launch Mar 2027",
+          "date": 1792240200000
+        }
+      ],
+      "links": {
+        "productLink": "https://www.aliexpress.com/w/wholesale-atomizer-sprinkler.html",
+        "supplierLink": "https://www.alibaba.com/pla/x_1601887704127.html",
+        "facebookAd": null,
+        "tiktok": null,
+        "landingPage": null,
+        "localListing": "https://www.ouedkniss.com/arrosage_materiaux_equipement-r?lang=fr"
+      },
+      "researchMetadata": {
+        "targetMarket": "Algeria",
+        "businessModel": "COD",
+        "currency": "DZD",
+        "sourcesChecked": [
+          "WebSearch (web-wide)",
+          "ouedkniss.com (2 listings)",
+          "aliexpress.com (2 category pages)",
+          "alibaba.com (2 listings incl. verified)",
+          "yby-irrigation.com",
+          "reddit.com/r/landscaping (context)",
+          "wise.com/xe.com (FX)"
+        ],
+        "sourcesUnavailable": [
+          "1688.com and Taobao (login-gated; Alibaba/Yiwugo used as proxies)",
+          "Google Trends (not directly queried)",
+          "Facebook Ad Library (not queried; no ad status verified — facebookAd links null)",
+          "TikTok search (snippet-level only; no product-specific Algeria ads verified)",
+          "Amazon buy-box prices for several listings (not exposed in search results)",
+          "Exact review/sold counts for some listings (not retrievable in this session)"
+        ],
+        "evidenceQuality": 60,
+        "confidence": "LOW",
+        "assumptions": [
+          "FX 1 USD = 134.5 DZD",
+          "FOB $2.80/unit estimate for 12-tube ABS unit (quote TBC)",
+          "Freight allocation $1.50/unit (~0.35 kg)",
+          "Duty 15% assumed for HS 8424.89 irrigation band (30% possible — TBC) + VAT 19%",
+          "Delivery 500 DZD; confirmation 50 DZD; funnel 70%x80%; RTO 1,000 DZD",
+          "Scenario CPA 400; price scenario 3,300 DZD at spring launch — off-season performance will be materially worse"
+        ],
+        "lastResearched": "2026-10-17T12:30:00Z",
+        "nextActions": [
+          "Mystery-shop the Ouedkniss 12-tube listing",
+          "Order 10-pc sample; 1-3 bar pressure & leak test",
+          "Build waitlist page Oct-Dec; commit inventory Jan-Feb for Mar 2027 launch"
+        ]
+      }
+    },
+    {
+      "id": "prd-20261017-campinglight-dz-008",
+      "name": "Two-Leaf Foldable Multifunctional Camping Light (Model L-46, USB rechargeable, IPX4-class, warm/white modes)",
+      "status": "Test Recommended",
+      "category": "Sports & Outdoors > Camping & Hiking > Lighting > Camping Lanterns",
+      "source": "User-submitted product image (retail-shelf photo of boxed L-46); verified via web research (Amazon, Takealot, Walmart, eBay, AliExpress, Yiwugo, Vendex-dz, Ouedkniss, Facebook shops)",
+      "country": "DZ",
+      "mainImage": "https://z-cdn-media.chatglm.cn/files/1de18fd1-c7d2-47f3-8367-5288e51d2522.png?auth_key=1892231498-1e0db6347da949e7822c915df783ebfe-0-4086abaf51e36ed4e02aed7c9339b964",
+      "gallery": [],
+      "favorite": false,
+      "pinned": false,
+      "hot": false,
+      "highMargin": false,
+      "supplier": {
+        "name": "Yiwu camping-lighting makers via Yiwugo/Alibaba — exact L-46 factory TBC (verified analogs: Yiwugo 'multifunctional camping lantern' listing 986316344, Jul 2026; Dist.6 spot folding LED lamp EXW CNY 14.2-15.2, MOQ 72)",
+        "rating": null,
+        "reliabilityScore": null,
+        "storeAge": "TBC (analog Yiwugo listings dated Jun-Jul 2026 show active suppliers)",
+        "orders": null,
+        "shippingTime": "Processing TBC; sea to Algeria ~25-45 days; built-in Li-ion battery restricts air freight (IATA) — plan sea",
+        "processingTime": "TBC",
+        "moq": 72,
+        "location": "Yiwu / Ningbo, Zhejiang, China (TBC)"
+      },
+      "financials": {
+        "sellingPrice": 3500,
+        "costPrice": 966,
+        "shippingCost": 269,
+        "roi": 15,
+        "breakEvenPrice": 1516
+      },
+      "opportunity": {
+        "overallScore": 70,
+        "demand": 75,
+        "competition": 65,
+        "margin": 70,
+        "supplier": 65,
+        "trend": 60,
+        "algeriaCodSuitability": 75,
+        "advertisingPotential": 80,
+        "evidenceQuality": 65
+      },
+      "competitors": [
+        {
+          "name": "Takealot (ZA) — Foldable Dual-Purpose Tri Leaf Camping Light",
+          "productUrl": "https://www.takealot.com/foldable-dual-purpose-tri-leaf-camping-light/PLID100599991",
+          "price": 278,
+          "currency": "ZAR",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Near-identical tri-leaf twin: 18650 battery, Type-C, 300 lm, 155 g, touch control, 4-level battery display; R278 (44% off); platform COD eligible; 0 reviews (new)",
+          "differentiation": "Closest global twin of L-46; proves ~$15 retail for this exact design class",
+          "type": "exact"
+        },
+        {
+          "name": "Amazon — Kronabelle 4-Leaf Foldable Solar Camping Lantern",
+          "productUrl": "https://www.amazon.com/Kronabelle-Foldable-Rechargeable-Portable-Emergency/dp/B0GRGKBMJD",
+          "price": 18.64,
+          "currency": "USD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "4-leaf + solar + remote, 210 g, ABS, 5 modes, hanging hook",
+          "differentiation": "Feature benchmark (solar+remote) at $18.64 verified",
+          "type": "exact"
+        },
+        {
+          "name": "Sofirn — Folding LED Camping Lantern USB rechargeable",
+          "productUrl": "https://www.sofirnlight.com/products/folding-led-camping-lantern-usb-rechargeable-collapsible-hanging-tent-lights",
+          "price": 10.99,
+          "currency": "USD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Named-brand tier, max 650 lm, 3-14 h runtime",
+          "differentiation": "Quality/branding reference at 2-3x supplier FOB",
+          "type": "substitute"
+        },
+        {
+          "name": "Vendex DZ — Lanterne de Camping LED Rechargeable (COD store)",
+          "productUrl": "https://vendex-dz.com/product-category/camping",
+          "price": 3400,
+          "currency": "DZD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Local COD e-commerce (claims 90,000+ orders, delivery 24-72 h, 58 wilayas); price 3,400 DA (was 3,600)",
+          "differentiation": "Direct Algeria anchor at premium tier for rechargeable lanterns",
+          "type": "substitute"
+        },
+        {
+          "name": "Vendex DZ — Lanterne de Camping Rechargeable 3 Niveaux",
+          "productUrl": "https://vendex-dz.com/product-category/camping",
+          "price": 1650,
+          "currency": "DZD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Entry-tier local lantern, 1,650 DA (was 1,800)",
+          "differentiation": "Local floor anchor: basic rechargeable lanterns start ~1,650 DA",
+          "type": "substitute"
+        },
+        {
+          "name": "Ouedkniss — Lampe de Camping Extérieur avec Crochet pour Tente",
+          "productUrl": "https://www.ouedkniss.com/loisirs_divertissements?keywords=lampe-camping&lang=fr",
+          "price": 1700,
+          "currency": "DZD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Classifieds listing w/ COD culture; portable lantern with hook 1,700 DA",
+          "differentiation": "Mid-tier classifieds anchor",
+          "type": "substitute"
+        },
+        {
+          "name": "Ouedkniss — Décathlon BL100 lampe de camping (Rais Hamidou, Alger)",
+          "productUrl": "https://www.ouedkniss.com/articles-de-sport-lampe-camping-bl100-100-lumens-rais-hamidou-alger-algerie-d32832998",
+          "price": 2500,
+          "currency": "DZD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Branded resell (Décathlon BL100, 100 lm), listed Mar 2026, 2,500 DA",
+          "differentiation": "Brand-name price point; 100 lm only — L-46 outspecs it on paper",
+          "type": "substitute"
+        },
+        {
+          "name": "AliExpress — Folding/rechargeable camping lights (category)",
+          "productUrl": "https://www.aliexpress.com/w/wholesale-folding-camping-light.html",
+          "price": 5.95,
+          "currency": "USD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Category range $5.95-32.30; sold-count badges (11 / 45 sold) visible on rechargeable items",
+          "differentiation": "Cross-border sourcing + volume demand signal",
+          "type": "exact"
+        },
+        {
+          "name": "Yiwugo (Dist.6 spot) — LED folding portable reading/emergency lamp",
+          "productUrl": "https://en.yiwugo.com/product/list.html?cpage=97&subMarket=1060&floor=3&subIndustry=106008",
+          "price": 14.2,
+          "currency": "CNY",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "EXW CNY 14.2-15.2, MOQ 72 pcs, logo printing available",
+          "differentiation": "Supplier floor anchor ≈ $2.0-2.1/unit for folding LED lamp class",
+          "type": "exact"
+        },
+        {
+          "name": "Walmart — 3-Leaf Folding Camping Light",
+          "productUrl": "https://www.walmart.com/ip/3-Leaf-Folding-Camping-Light-Camping-Essentials-Rechargeable-LED-Lantern-Portable-Flashlight-for-Hiking-Emergency-Tent-Light-Outdoor-Gear/20066804316",
+          "price": null,
+          "currency": "USD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "US mass-retail listing (buy-box price not exposed this session)",
+          "differentiation": "Design validation at US mass retail (3-leaf variant)",
+          "type": "exact"
+        },
+        {
+          "name": "Trekker Essentials — 4-Leaf Foldable Solar Camping Lantern",
+          "productUrl": "https://www.trekkeressentials.com/products/multifunctional-4-leaf-foldable-camping-lantern-solar-rechargeable-large-capacity-portable-outdoor-emergency-light",
+          "price": null,
+          "currency": "USD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "329 g, solar + USB backup charging (price not exposed)",
+          "differentiation": "Weight/spec comparison point (L-46 boxed class lighter)",
+          "type": "exact"
+        },
+        {
+          "name": "eBay — 4-Leaf Foldable Solar Camping Lantern",
+          "productUrl": "https://www.ebay.com/itm/397035975716",
+          "price": null,
+          "currency": "USD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Active eBay listing (price not exposed this session)",
+          "differentiation": "Multi-channel presence of the same design family",
+          "type": "exact"
+        }
+      ],
+      "intelligence": {
+        "demandLevel": "HIGH",
+        "competitionLevel": "MEDIUM",
+        "trendDirection": "STABLE",
+        "seasonality": "SEASONAL",
+        "impulseBuy": "HIGH",
+        "targetCustomer": "Campers/hikers (Kabylie, Atlas, Sahara routes), households (power-cut backup), students (desk/bedside), night-market vendors, gift buyers; Algeria: camping peak Mar-Sep + year-round emergency/ambience use",
+        "evidenceNotes": "Category verified live in Algeria across 5+ channels: Vendex-dz (283 camping SKUs, COD, 58 wilayas; lanterns 1,650 & 3,400 DA), Ouedkniss (1,700 DA hook lamp; 2,500 DA Décathlon BL100 Mar 2026), FB shop (1,200 DA), letshop/mabricole listings. Global: Amazon $18.64; Takealot R278 near-identical tri-leaf; AliExpress $5.95-32.30 with sold badges; supplier floor CNY 14.2 MOQ 72. No verified local sell-through velocity for the two-leaf design specifically."
+      },
+      "details": {
+        "material": "ABS housing + PC light diffuser, metal collapsible pole; LED + SMD source; warm 3000K + white modes; touch/press control TBC",
+        "supportType": "Two foldable leaf panels on collapsible pole; freestanding + hanging hook; USB port on unit (box art shows USB socket + battery indicator); powerbank-out function TBC",
+        "contents": "1x L-46 lamp + USB cable (TBC) + manual; no add-ons",
+        "colorVariants": [
+          "Grey-blue (as pictured)",
+          "Other OEM colors TBC (beige/green common in class)"
+        ],
+        "sizes": "Folded ~48x48x173 mm class (tri-leaf reference); L-46 two-leaf larger — exact dims TBC; boxed weight ~0.5-0.7 kg (est)",
+        "certifications": [],
+        "packaging": "Full-color EN box ('TWO LEAF GRASS FOLDABLE MULTIFUNCTIONAL CAMPING LIGHT', model L-46, '50㎡-220㎡' coverage claim, IPX4 + battery icons); carton qty TBC (analog: 100 pcs/ctn)",
+        "identifiers": "Model L-46; 'TWO LEAF GRASS' OEM series name on box; no UPC visible; HS 8513.10 assumed (portable electric lamps) — TBC",
+        "warranty": "TBC (recommend 6-month seller warranty; battery is key failure point)"
+      },
+      "aiAnalysis": {
+        "whySell": [
+          "Verified Algeria COD category: rechargeable lanterns retail at 1,650-3,400 DA across Vendex/Ouedkniss/FB shops — the two-leaf fashion design is visibly differentiated from the round lanterns currently on local shelves",
+          "Triple-use story (camping, power-cut backup, bedside/ambience) widens the audience beyond campers; summer grid strain makes emergency lighting a household need",
+          "Landed ~966 DA vs 3,500 DA retail leaves ~1,984 DA contribution per delivered order — strong margin structure; 2-pack bundle pushes pre-ad expected net to ~1,570 DA/placed",
+          "0.5-0.7 kg boxed, unbreakable ABS, no assembly — ideal for Yalidine/ZR-class COD with low RTO damage cost"
+        ],
+        "risks": [
+          "Built-in Li-ion battery: air freight restricted (IATA) → 25-45 day sea lead time; cell swelling/fire is the #1 QC failure mode — require named cell brand, cycle test, UN38.3 docs for sea shipment",
+          "Box claims '50㎡-220㎡' coverage and IPX4 are unverifiable marketing specs — do not repeat them in ads (consumer-protection exposure); realistic output 300-650 lm class",
+          "Local entry tier already at 1,200-1,700 DA — must sell design + bundle, not 'a camping lamp'",
+          "Electronics: IANOR conformity path and 6-month warranty reserve needed; cheap cells cause returns weeks after purchase"
+        ],
+        "marketingAngle": "Glow-demo creatives: 'une lampe, trois vies' — night camping shot, power-cut family scene, warm bedroom ambience; unfold ASMR; darija voiceover; lead CTA = 2-pack family offer, COD 58 wilayas",
+        "suggestedPrice": "3,300-3,500 DZD single; 6,200-6,500 DZD 2-pack (lead offer)",
+        "adScore": 80,
+        "customerSegments": [
+          "Campers & hikers (Kabylie/Atlas/Sahara)",
+          "Households (power-cut backup)",
+          "Students & bedroom/desk users",
+          "Gift buyers (practical, photogenic)"
+        ],
+        "painPoints": [
+          "Power cuts leave rooms dark",
+          "Cheap lanterns are dim, round, dull",
+          "Phone dies outdoors — no backup power",
+          "Tent/site lighting unstable or unsafe"
+        ],
+        "usp": [
+          "Fold-flat two-leaf design — wide light spread",
+          "Warm + white multi-mode glow",
+          "USB-C rechargeable; powerbank-out TBC",
+          "IPX4-class splash resistance for outdoors"
+        ],
+        "objections": [
+          "How long does the battery really last?",
+          "Does it charge my phone?",
+          "Will it survive rain?"
+        ],
+        "creativeFormats": [
+          "9:16 night glow demo",
+          "Power-cut UGC re-enactment",
+          "Unfold ASMR + hook demo",
+          "2-pack family pack shot"
+        ],
+        "adHooks": [
+          "'Coupure d'électricité ? Cette lampe éclaire toute la pièce toute la nuit.'",
+          "'La lampe de camping qui se plie comme une fleur — USB-C, 3 modes.'"
+        ],
+        "landingPageStructure": [
+          "Hero: unfolding + glow video",
+          "3 use-cases grid (camping / coupure / déco)",
+          "Battery + USB icons (verified specs only)",
+          "Honest weather-resistance wording",
+          "2-pack bundle selector",
+          "COD form 58 wilayas + warranty block"
+        ],
+        "bundles": [
+          "2-pack family offer (lead)",
+          "Lamp + headlamp combo",
+          "Lamp + USB cable kit"
+        ],
+        "testingPlan": "Sample 5-10 units from 2-3 Yiwu suppliers; 8h runtime + charge-cycle + drop + splash tests; sea-freight 100-150 pcs; micro-test 30 COD orders at 3,500 DA single vs 6,400 DA 2-pack; KPI: confirmation ≥70%, delivered ≥80%, CPA ≤450 DA",
+        "scaleReviseStop": "Scale if net ≥150 DA/order (2-pack) over 7-10 days; revise creative/price if CPA 450-650; stop if battery defect rate >3% or RTO >25%"
+      },
+      "structuredNotes": {
+        "supplierNotes": "Yiwugo verified analogs: 'cross-border new arrival multifunctional camping lantern' (detail 986316344; 1,200/2,400 mAh sizes, logo printing offered, listed Jul 2026); mushroom lantern (detail 985913189; 1,200 mAh, 5 W, 100 pcs/ctn, Jun 2026); Dist.6 spot folding LED lamp EXW CNY 14.2-15.2 MOQ 72. Exact L-46 factory TBC — request: cell brand (18650 class), real capacity, cycle life, IPX4 test report, CE/RoHS file, HS 8513.10 quote, carton dims.",
+        "pricingNotes": "FX 134.5 DZD/USD. Landed/unit: FOB $2.40=323 + freight $2.00=269 + duty 30% 178 + VAT 19% 146 + pack 50 = ~966 DA. At 3,500: contribution 1,984/delivered; risk-adj breakeven CPA 649/placed (56% effective delivery); scenario ROI ~15% at CPA 400; ROAS 4.9. 2-pack at 6,400 (landed 1,932): expected net ≈1,570/placed pre-ad — bundle is the scale lever. financials.breakEvenPrice=1,516 = non-ad break-even selling price.",
+        "competitionNotes": "Local verified: FB shop 1,200 DA; Vendex 1,650 & 3,400 DA; Ouedkniss 1,700 (hook lamp) & 2,500 (Décathlon BL100). Global: AliExpress $5.95-32.30 (sold badges); Amazon 4-leaf solar $18.64; Takealot tri-leaf R278 (≈$15) COD-eligible; Walmart/eBay 3-4-leaf listings; Sofirn brand $10.99. No two-leaf design observed on Algerian channels — partial whitespace on design, not on category.",
+        "aiNotes": "Best window: order by Feb-Mar to catch Mar-Sep camping season; power-cut/ambience angle carries Oct-Feb. Li-ion forces sea freight — lead time is the constraint; start sourcing now. Lead offer = 2-pack; single unit as A/B. Do not republish box coverage claims (50-220㎡) in ads."
+      },
+      "checklist": [
+        {
+          "text": "Product identity verified (L-46 two-leaf folding lamp; box specs captured; near-identical tri/4-leaf twins found globally)",
+          "done": true
+        },
+        {
+          "text": "Local Algeria COD price anchors verified (Vendex 1,650/3,400 DA; Ouedkniss 1,700/2,500 DA; FB shop 1,200 DA)",
+          "done": true
+        },
+        {
+          "text": "Factory quotes (FOB, MOQ 72-150 pcs) from 2-3 Yiwu suppliers incl. cell brand & real mAh",
+          "done": false
+        },
+        {
+          "text": "Samples: 8h runtime, charge-cycle, drop, splash (IPX4-class) tests",
+          "done": false
+        },
+        {
+          "text": "CE/RoHS + battery docs (UN38.3 for sea); IANOR/CoC route for electronics",
+          "done": false
+        },
+        {
+          "text": "HS 8513.10 duty/VAT confirmation with transitaire + sea freight quote",
+          "done": false
+        },
+        {
+          "text": "Own glow photos/videos shot; no supplier creative reuse",
+          "done": false
+        },
+        {
+          "text": "FR/AR landing page + COD form + Yalidine/ZR workflow ready",
+          "done": false
+        },
+        {
+          "text": "30-order COD micro-test: 3,500 DA single vs 6,400 DA 2-pack",
+          "done": false
+        },
+        {
+          "text": "Profitability validation: CPA ≤450 DA, confirmation ≥70%, delivered ≥80%",
+          "done": false
+        },
+        {
+          "text": "Battery defect tracking + 6-month warranty reserve policy",
+          "done": false
+        },
+        {
+          "text": "Ad claims audit: no '50-220㎡' / unverified IPX4 claims in creatives",
+          "done": false
+        },
+        {
+          "text": "Season plan: stock landed by March for camping season",
+          "done": false
+        }
+      ],
+      "timeline": [
+        {
+          "type": "research",
+          "text": "Research started from user image (boxed L-46 'Two Leaf Grass' folding camping light on retail shelf)",
+          "date": 1792246500000
+        },
+        {
+          "type": "evidence",
+          "text": "Verified: Amazon 4-leaf $18.64; Takealot tri-leaf R278 COD; AliExpress $5.95-32.30 (sold badges); Yiwugo CNY 14.2-15.2 MOQ 72; Vendex-dz 1,650/3,400 DA COD (58 wilayas); Ouedkniss 1,700/2,500 DA; FB shop 1,200 DA; Li-ion air-freight constraint flagged",
+          "date": 1792246500000
+        },
+        {
+          "type": "decision",
+          "text": "Test Recommended (70/100): 30-order COD micro-test at 3,500 DA single vs 6,400 DA 2-pack; sea freight; cell QC gate before volume",
+          "date": 1792246500000
+        }
+      ],
+      "links": {
+        "productLink": "https://www.takealot.com/foldable-dual-purpose-tri-leaf-camping-light/PLID100599991",
+        "supplierLink": "https://en.yiwugo.com/product/detail/986316344.html",
+        "facebookAd": null,
+        "tiktok": null,
+        "landingPage": null,
+        "localListing": "https://vendex-dz.com/product-category/camping"
+      },
+      "researchMetadata": {
+        "targetMarket": "Algeria",
+        "businessModel": "COD",
+        "currency": "DZD",
+        "sourcesChecked": [
+          "WebSearch (web-wide)",
+          "amazon.com (Kronabelle B0GRGKBMJD)",
+          "takealot.com (PLID100599991)",
+          "walmart.com (3-leaf listing 20066804316)",
+          "ebay.com (itm 397035975716)",
+          "aliexpress.com (folding/rechargeable camping light categories)",
+          "en.yiwugo.com (listings 985067624 / 985913189 / 986316344 + Dist.6 spot)",
+          "sofirnlight.com",
+          "trekkeressentials.com",
+          "vendex-dz.com (camping category, COD)",
+          "ouedkniss.com (via search snippets)",
+          "letshop.dz",
+          "mabricole.com.dz",
+          "facebook.com shops (HBoutdoors2)",
+          "wise.com/xe.com (FX 134.5)"
+        ],
+        "sourcesUnavailable": [
+          "1688.com and Taobao (login-gated; Alibaba/Yiwugo used as proxies)",
+          "Google Trends (not directly queried)",
+          "Facebook Ad Library (not queried; no ad status verified — facebookAd links null)",
+          "TikTok search (snippet-level only; no product-specific Algeria ads verified)",
+          "Amazon buy-box prices for several listings (not exposed in search results)",
+          "Exact review/sold counts for some listings (not retrievable in this session)",
+          "Ouedkniss listing pages (JS-gated; prices captured via search snippets only)",
+          "Yiwugo detail-page EXW price for the exact two-leaf L-46 (render limits) — analog listings used",
+          "letshop.dz / mabricole.dz lamp prices (pages not fully rendered this session)",
+          "Trademark/IP registry check for 'TWO LEAF GRASS' (no registry queried; no brand hits observed in searches)"
+        ],
+        "evidenceQuality": 65,
+        "confidence": "MEDIUM",
+        "assumptions": [
+          "FX 1 USD = 134.5 DZD (mid-market, 2026-10-17)",
+          "FOB $2.40/unit scenario (Yiwugo folding-LED anchor CNY 14.2-15.2 MOQ 72; exact L-46 quote TBC)",
+          "Freight allocation $2.00/unit (~0.6 kg boxed, sea, consolidated)",
+          "Duty 30% + VAT 19% on CIF (HS 8513.10 band assumed, TBC)",
+          "Delivery 500 DA home avg; confirmation 50 DA; funnel 70% x 80%; RTO loss 1,000 DA",
+          "Scenario CPA 400 DA/placed; price scenarios 3,500 DA single / 6,400 DA 2-pack",
+          "ZAR conversions ≈ R278 ≈ $15 (rate TBC) — informational only"
+        ],
+        "lastResearched": "2026-10-17T13:35:00Z",
+        "nextActions": [
+          "Get 3 factory quotes with cell specs & UN38.3 docs",
+          "Order samples; runtime/charge/splash tests",
+          "Sea-freight 100-150 pcs; run 30-order COD micro-test (single vs 2-pack)"
+        ]
+      }
+    },
+    {
+      "id": "prd-20261017-coatrack-dz-009",
+      "name": "Tree-Design Freestanding Metal Coat Rack / Hall Tree (45° inclined hanging rods, triangular base, bold steel pipe — WF-01 / Item 4664-7, black & white)",
+      "status": "Needs Verification",
+      "category": "Furniture > Entryway Furniture > Coat Racks & Stands",
+      "source": "User-submitted product image (import cartons CODE WF-01, ITEM NO 4664-7); verified via web research (Ouedkniss, letshop.dz, abmshopping.com, Amazon, Home Depot, Wayfair, Yiwugo, Facebook shops)",
+      "country": "DZ",
+      "mainImage": "https://z-cdn-media.chatglm.cn/files/3bc9682d-d01a-4dc8-995f-e2af8016ec75.png?auth_key=1892231498-247385af3c444138bcbc185d911ab0f9-0-e42ad170fe86fe62dcbe83ed9f439b53",
+      "gallery": [],
+      "favorite": false,
+      "pinned": false,
+      "hot": false,
+      "highMargin": false,
+      "supplier": {
+        "name": "Yiwu metal hanger/rack cluster via Yiwugo/Alibaba — verified proxy: YIWU CITY LITING HANGER CO.,LTD (Yiwu Int'l Trade City Dist. 2, door 89, store 36028); exact WF-01 factory TBC",
+        "rating": null,
+        "reliabilityScore": null,
+        "storeAge": "TBC",
+        "orders": null,
+        "shippingTime": "Processing TBC; sea to Algeria ~25-45 days; ~180 cm cartons → volumetric-weight pricing",
+        "processingTime": "TBC",
+        "moq": null,
+        "location": "Yiwu, Zhejiang, China (TBC)"
+      },
+      "financials": {
+        "sellingPrice": 4700,
+        "costPrice": 1860,
+        "shippingCost": 430,
+        "roi": 12,
+        "breakEvenPrice": 2410
+      },
+      "opportunity": {
+        "overallScore": 59,
+        "demand": 70,
+        "competition": 60,
+        "margin": 45,
+        "supplier": 60,
+        "trend": 55,
+        "algeriaCodSuitability": 55,
+        "advertisingPotential": 70,
+        "evidenceQuality": 60
+      },
+      "competitors": [
+        {
+          "name": "Ouedkniss — Penderie pour vêtements à double barre علاقة ملابس مزدوجة",
+          "productUrl": "https://www.ouedkniss.com/portant-vetements_maison-r?lang=fr",
+          "price": 4980,
+          "currency": "DZD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Local classified double-bar garment rack, 4,980 DA",
+          "differentiation": "Top local price anchor for garment racks (COD culture)",
+          "type": "substitute"
+        },
+        {
+          "name": "Ouedkniss — Penderie de vêtements علاقة الملابس",
+          "productUrl": "https://www.ouedkniss.com/portant-vetements_maison-r?lang=fr",
+          "price": 3400,
+          "currency": "DZD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Entry local garment rack 3,400 DA",
+          "differentiation": "Local floor anchor",
+          "type": "substitute"
+        },
+        {
+          "name": "letshop.dz — Double Penderie à vêtements portable à roulettes en Acier inoxydable",
+          "productUrl": "https://www.letshop.dz/boutique/double-penderie-a-vetements-portable-a-roulettes-en-acier-inoxydable",
+          "price": 4000,
+          "currency": "DZD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "DZ online store, stainless rolling double rack, 4,000 DA (was 4,900)",
+          "differentiation": "Verified live DZ e-commerce price for rolling-rack substitute",
+          "type": "substitute"
+        },
+        {
+          "name": "abmshopping.com — Porte-vêtements à double pôle 2 niveaux (48 kg, 96x44x162 cm)",
+          "productUrl": "https://abmshopping.com/produit/porte-vetements-a-double-pole-2-niveaux",
+          "price": null,
+          "currency": "DZD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Local DZ store; load/size benchmark (price not rendered)",
+          "differentiation": "Spec benchmark: capacity & height standards",
+          "type": "substitute"
+        },
+        {
+          "name": "Amazon — Hoctieon Coat Rack Freestanding, Coat Tree with 12 Hooks, 71.5 in",
+          "productUrl": "https://www.amazon.com/clp/B0B5D1ZTM6",
+          "price": null,
+          "currency": "USD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "US design benchmark: freestanding coat tree, 12 hooks, 18.3x18.3x71.5 in (price not exposed)",
+          "differentiation": "Design-parity reference for tree-style racks",
+          "type": "exact"
+        },
+        {
+          "name": "Wayfair — Iron Coat Tree (premium tier)",
+          "productUrl": "https://www.wayfair.com/furniture/sb1/iron-coat-racks-c1861466-a153976~512053.html",
+          "price": 125.99,
+          "currency": "USD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "US premium iron coat tree $125.99 (was $149.99)",
+          "differentiation": "Western retail ceiling; not an importable price",
+          "type": "substitute"
+        },
+        {
+          "name": "Home Depot — YIYIBYUS 66.14 in Black Coat Rack (carbon steel, wheels + basket)",
+          "productUrl": "https://www.homedepot.com/p/YIYIBYUS-66-14-in-H-Black-Coat-Rack-Free-Standing-Coat-Rack-with-Wheels-and-Storage-Basket-JJ294Z-002200/331818569",
+          "price": null,
+          "currency": "USD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "US mass-retail freestanding rack; category range $10-600",
+          "differentiation": "Category-range benchmark from big-box retail",
+          "type": "substitute"
+        },
+        {
+          "name": "Yiwugo — Floor-standing clothes rack one-piece (PP, multifunctional)",
+          "productUrl": "https://en.yiwugo.com/product/detail/984710540.html",
+          "price": null,
+          "currency": "CNY",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Yiwu supplier tier (plastic variant; EXW price not exposed); steel tree-rack quotes TBC",
+          "differentiation": "Supplier-cluster proxy; Liting hanger shop verified in Dist. 2",
+          "type": "exact"
+        },
+        {
+          "name": "Facebook (Bricaillerie) — Penderie robuste sur roulettes 60 kg acier",
+          "productUrl": "https://www.facebook.com/Bricaillerie/posts/1608653795975650",
+          "price": null,
+          "currency": "DZD",
+          "shipping": null,
+          "rating": null,
+          "reviews": null,
+          "positioning": "Local FB-commerce seller of heavy steel rolling racks (EU references cited)",
+          "differentiation": "Evidence of active FB-commerce competition in garment racks",
+          "type": "substitute"
+        }
+      ],
+      "intelligence": {
+        "demandLevel": "MEDIUM",
+        "competitionLevel": "MEDIUM",
+        "trendDirection": "STABLE",
+        "seasonality": "SEASONAL",
+        "impulseBuy": "MEDIUM",
+        "targetCustomer": "Urban tenants & small apartments (Algiers, Oran, Constantine), newlyweds (gift), students in studios/dorms, salons/offices/boutiques entryways; peaks: summer moving season, back-to-school, winter coat season",
+        "evidenceNotes": "Garment-rack substitutes verified across 4 Algeria channels: Ouedkniss 3,400 & 4,980 DA; letshop 4,000 DA; abmshopping listing; FB sellers active. Western references: US category $10-600; iron coat tree $125.99. Supplier side: Yiwu hanger cluster verified (Liting shop). No verified tree-design freestanding rack found on local channels — design gap, but demand depth for this specific design is unmeasured; FOB quotes not captured."
+      },
+      "details": {
+        "material": "Powder-coated bold steel tubes + joint fittings; 6-8 branch hooks with 45° inclined hanging rods; triangular mechanical base (per box art)",
+        "supportType": "Freestanding hall tree; screw-together center pole; 3-leg triangular base (assembly steps show X3 leg parts)",
+        "contents": "Pole segments, 3 base legs, branch rods, screws + assembly tool TBC, manual (language TBC)",
+        "colorVariants": [
+          "Black",
+          "White (both marked on box)"
+        ],
+        "sizes": "Height ~170-180 cm (TBC vs item 4664-7); base spread ~45-50 cm; retail box ~180x35.5x12 cm class ('35.5 CM' mark); ~3-4 kg/unit (TBC); 2 pcs per master carton ('QTY: 2...')",
+        "certifications": [],
+        "packaging": "Full-color retail box with EN selling points (TREE DESIGN / 45° INCLINED HANGING ROD / TRIANGULAR MECHANICAL BASE / BOLD STEEL PIPE) and numbered assembly steps; master carton 2 pcs, 'No tramping' handling mark",
+        "identifiers": "CODE: WF-01; ITEM NO: 4664-7; 'Upgrade Your Life' OEM series branding on box; HS 9403.20 assumed (metal furniture) — TBC",
+        "warranty": "TBC (joint wobble & base stability are the key QC/return drivers)"
+      },
+      "aiAnalysis": {
+        "whySell": [
+          "Evergreen home-organization need with verified local rack prices up to 4,980 DA — a styled tree rack photographs and sells far better than industrial rolling penderies",
+          "No verified tree-design freestanding rack observed on Ouedkniss/letshop/FB — visible design differentiation against commodity rolling racks",
+          "Non-electric furniture: no IANOR electronics conformity burden; simple screw-together assembly",
+          "Wedding/new-home gifting angle fits Algerian culture; strong before/after creative potential for FB/TikTok"
+        ],
+        "risks": [
+          "Bulky ~180 cm carton: volumetric-weight delivery fees, oversized handling, and transit damage — last-mile wobble complaints drive RTO",
+          "Freight-heavy economics: landed ~1,860 DA; at CPA 400 margin is thin (scenario ROI ~12%) — needs 4,700+ DA price or bundles",
+          "Stability on tiles/rugs: cheap joints loosen after weeks — torque/QC tests mandatory or reviews collapse",
+          "Demand for THIS design is unverified locally (substitutes are rolling racks) — 20-30 order test required before inventory commitment"
+        ],
+        "marketingAngle": "Before/after entryway makeover: 'un portant élégant — montage en 5 minutes'; target newlyweds & tenants; darija demo of 45° rods (clothes don't slip) + loaded triangle-base stability test",
+        "suggestedPrice": "4,500-4,900 DZD single; room-set bundle TBC (rack + hooks) later",
+        "adScore": 70,
+        "customerSegments": [
+          "Urban tenants & small apartments",
+          "Newlyweds / new-home gifts",
+          "Students (studios, dorms)",
+          "Offices, salons & boutiques (entryway)"
+        ],
+        "painPoints": [
+          "Clothes piled on chairs",
+          "Rolling penderies look industrial and ugly",
+          "Wall hooks damage rented walls (deposit lost)",
+          "Cheap racks tip over with winter coats"
+        ],
+        "usp": [
+          "Tree design — décor-worthy, not industrial",
+          "45° inclined rods — clothes don't slip off",
+          "Triangular base — engineered stability",
+          "Bold steel pipe — no bending under load"
+        ],
+        "objections": [
+          "Is it stable with heavy coats?",
+          "Is assembly really easy?",
+          "Will it scratch my floor?"
+        ],
+        "creativeFormats": [
+          "Before/after room makeover",
+          "5-minute assembly timelapse",
+          "Loaded stability test (3 coats + handbag)",
+          "Black vs white room styling"
+        ],
+        "adHooks": [
+          "'Chaque chambre a besoin de ce portant — élégant, stable, 5 minutes de montage.'",
+          "'Arrêtez de plier vos vêtements sur les chaises.'"
+        ],
+        "landingPageStructure": [
+          "Hero: styled room shot",
+          "45° rods + triangle-base close-ups",
+          "3-step assembly video",
+          "Load claim (only what sample testing verifies)",
+          "Color selector black/white",
+          "COD form 58 wilayas + floor-protection note"
+        ],
+        "bundles": [
+          "2-pack (two rooms)",
+          "Rack + over-door hook set",
+          "Rack + shoe bench (TBC)"
+        ],
+        "testingPlan": "Sample from 2 factories: assemble 5x, load 15 kg/branch, torque-check joints after 48 h; confirm carton volume & volumetric freight with forwarder; micro-test 20-30 COD orders at 4,700 DA in Algiers/Oran only; KPI: CPA ≤500 DA, delivered ≥75%, wobble complaints <5%",
+        "scaleReviseStop": "Scale if net ≥120 DA/order over 7-10 days; revise (bundle / price 4,900) if CPA 500-690; stop if wobble/damage complaints >10% or delivered <70%"
+      },
+      "structuredNotes": {
+        "supplierNotes": "Yiwu cluster verified: YIWU CITY LITING HANGER CO.,LTD (shopdetail 547264; Dist. 2, door 89, store 36028) and Yiwugo listing 984710540 (PP floor rack — plastic variant, EXW not exposed). Exact WF-01/4664-7 factory and FOB quotes TBC — request: steel tube gauge (0.5-0.8 mm), powder-coat spec, joint-insert quality, per-carton dims & volume, MOQ 50-100 pcs, spare-fittings policy.",
+        "pricingNotes": "FX 134.5 DZD/USD. Landed/unit (SCENARIO — FOB not yet quoted): FOB $5.50=740 + freight $3.20=430 + duty 30% 351 + VAT 19% 289 + pack 50 ≈ 1,860 DA (HS 9403.20 assumed, TBC). At 4,700: contribution 2,340/delivered; risk-adj breakeven CPA 688/placed (56% effective delivery, RTO 1,300 for bulky); scenario ROI ~12% at CPA 400; ROAS 6.6. Volumetric freight is the swing factor — confirm carton cbm with forwarder before ordering. financials.breakEvenPrice=2,410 = non-ad break-even price.",
+        "competitionNotes": "Local verified: Ouedkniss penderies 3,400/4,980 DA; letshop 4,000 DA stainless rolling; abmshopping double-pole (price TBC); FB sellers active. US/EU: category $10-600; iron tree $125.99. Tree-design freestanding rack NOT verified on local channels — design gap; but penderie substitutes are cheap and familiar, so differentiation must be style + stability + gift framing, not price.",
+        "aiNotes": "Needs Verification before spend: (1) real FOB quotes — landed cost drives everything; (2) measure local demand with a 20-30 order Algiers/Oran test; (3) solve oversized logistics (Yalidine/ZR volumetric, stopdesk option). Best windows: summer moving season and winter coat season; avoid deep-winter sea lead-time misses."
+      },
+      "checklist": [
+        {
+          "text": "Product identity & carton codes captured (WF-01 / ITEM 4664-7; white/black; 2 pcs per master carton)",
+          "done": true
+        },
+        {
+          "text": "Local substitutes priced (Ouedkniss 3,400/4,980 DA; letshop 4,000 DA)",
+          "done": true
+        },
+        {
+          "text": "Factory quotes for steel tree rack (FOB, MOQ, steel gauge, carton volume, spare fittings)",
+          "done": false
+        },
+        {
+          "text": "Sample: assembly x5, 15 kg/branch load test, 48 h joint-torque/wobble check",
+          "done": false
+        },
+        {
+          "text": "Volumetric sea-freight quote + HS 9403.20 duty/VAT confirmation",
+          "done": false
+        },
+        {
+          "text": "Oversized delivery plan (Yalidine/ZR volumetric, stopdesk, damage policy)",
+          "done": false
+        },
+        {
+          "text": "Own styled photos/videos (black & white room sets)",
+          "done": false
+        },
+        {
+          "text": "FR/AR landing page + COD form + courier workflow",
+          "done": false
+        },
+        {
+          "text": "20-30 order COD test in Algiers/Oran at 4,700 DA",
+          "done": false
+        },
+        {
+          "text": "Profitability: CPA ≤500 DA, delivered ≥75%, wobble complaints <5%",
+          "done": false
+        },
+        {
+          "text": "Gift/wedding-angle creative test",
+          "done": false
+        },
+        {
+          "text": "Stock timing vs moving/coat seasons aligned with sea lead time",
+          "done": false
+        }
+      ],
+      "timeline": [
+        {
+          "type": "research",
+          "text": "Research started from user image (import cartons CODE WF-01, ITEM NO 4664-7 — tree-design coat rack, white/black)",
+          "date": 1792246500000
+        },
+        {
+          "type": "evidence",
+          "text": "Verified: Ouedkniss penderies 3,400/4,980 DA; letshop 4,000 DA; US category $10-600 & iron tree $125.99; Yiwu hanger cluster (Liting shop, listing 984710540); bulky-carton logistics & FOB gap flagged",
+          "date": 1792246500000
+        },
+        {
+          "type": "decision",
+          "text": "Needs Verification (59/100): obtain FOB quotes + volumetric freight, then 20-30 order Algiers/Oran COD test at 4,700 DA before any scale spend",
+          "date": 1792246500000
+        }
+      ],
+      "links": {
+        "productLink": "https://www.homedepot.com/p/YIYIBYUS-66-14-in-H-Black-Coat-Rack-Free-Standing-Coat-Rack-with-Wheels-and-Storage-Basket-JJ294Z-002200/331818569",
+        "supplierLink": "http://en.yiwugo.com/shopdetail/1/547264_5.html",
+        "facebookAd": null,
+        "tiktok": null,
+        "landingPage": null,
+        "localListing": "https://www.ouedkniss.com/portant-vetements_maison-r?lang=fr"
+      },
+      "researchMetadata": {
+        "targetMarket": "Algeria",
+        "businessModel": "COD",
+        "currency": "DZD",
+        "sourcesChecked": [
+          "WebSearch (web-wide)",
+          "ouedkniss.com (category via search snippets)",
+          "letshop.dz",
+          "abmshopping.com",
+          "amazon.com (Hoctieon)",
+          "homedepot.com (YIYIBYUS + metal category)",
+          "wayfair.com (iron coat trees)",
+          "amazon.fr (portant vêtement category)",
+          "facebook.com (Bricaillerie)",
+          "en.yiwugo.com (listing 984710540 + Liting shop 547264)",
+          "wise.com/xe.com (FX 134.5)"
+        ],
+        "sourcesUnavailable": [
+          "1688.com and Taobao (login-gated; Alibaba/Yiwugo used as proxies)",
+          "Google Trends (not directly queried)",
+          "Facebook Ad Library (not queried; no ad status verified — facebookAd links null)",
+          "TikTok search (snippet-level only; no product-specific Algeria ads verified)",
+          "Amazon buy-box prices for several listings (not exposed in search results)",
+          "Exact review/sold counts for some listings (not retrievable in this session)",
+          "Ouedkniss listing pages (JS-gated; prices captured via search snippets only)",
+          "abmshopping.com product price (page not rendered this session)",
+          "Yiwugo/Alibaba EXW quotes for the exact steel tree rack (login/render limits) — cluster proxies used",
+          "Exact factory behind CODE WF-01 / ITEM NO 4664-7 (not identifiable from box codes alone)"
+        ],
+        "evidenceQuality": 60,
+        "confidence": "LOW-MEDIUM",
+        "assumptions": [
+          "FX 1 USD = 134.5 DZD (mid-market, 2026-10-17)",
+          "FOB $5.50/unit SCENARIO — NOT a quote (steel tree rack ~170-180 cm, ~3-4 kg; supplier quotes TBC)",
+          "Freight allocation $3.20/unit (bulky carton ~0.02-0.03 cbm incl. packaging, sea, TBC)",
+          "Duty 30% + VAT 19% on CIF (HS 9403.20 band assumed, TBC)",
+          "Delivery 500 DA home avg; confirmation 50 DA; funnel 70% x 80%; RTO loss 1,300 DA (bulky item)",
+          "Scenario CPA 400 DA/placed; price scenario 4,700 DA"
+        ],
+        "lastResearched": "2026-10-17T13:35:00Z",
+        "nextActions": [
+          "Get 3 factory quotes (FOB/MOQ/gauge/carton volume)",
+          "Sample assembly + load & wobble tests",
+          "20-30 order COD test in Algiers/Oran at 4,700 DA; validate oversized delivery economics"
+        ]
+      }
+    }
+  ]
+}

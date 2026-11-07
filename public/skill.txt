@@ -1,0 +1,2160 @@
+================================================================================
+COMPLETE AI E-COMMERCE & ADS INTELLIGENCE SKILL LIBRARY (ALL 670 SKILLS)
+================================================================================
+Generated for: AI Product Research, Strategy, Meta Ads Testing & Landing Page Optimization
+Total Skills Count: 670 Skills
+Format: [Number]. [Identifier] Title — Subtitle / Objective (Category & Context)
+================================================================================
+
+================================================================================
+PART 1: ALL-IN-ONE FULL-FUNNEL WORKFLOW & INTELLIGENCE STAGES (SKILLS 1 – 384)
+================================================================================
+
+--- 00. MASTER FULL-FUNNEL ORCHESTRATION (1 Skill) ---
+1. [full_funnel_workflow_master] All In One (Master 15-Stage Funnel)
+   Category: ALL_IN_ONE | Parent: Master Orchestrator
+   Subtitle: Executes a complete 15-stage full-funnel analysis on the selected stages with the visual E-commerce Command Dashboard.
+
+--- 01. STAGE 1: PRODUCT INTELLIGENCE (19 Skills) ---
+2. [stage_1_task_1] Product Discovery
+   Category: ALL_IN_ONE | Stage: Stage 1 - Product Intelligence
+   Subtitle: Systematically scout, discover, and surface high-potential e-commerce product opportunities across markets.
+3. [stage_1_task_2] Winning Product Finder
+   Category: ALL_IN_ONE | Stage: Stage 1 - Product Intelligence
+   Subtitle: Identify verified winning products based on viral momentum, order volume, and ad spend signals.
+4. [stage_1_task_3] Product Deep Dive
+   Category: ALL_IN_ONE | Stage: Stage 1 - Product Intelligence
+   Subtitle: Perform an exhaustive technical, practical, and commercial breakdown of the product before launch.
+5. [stage_1_task_4] Product Demand Analysis
+   Category: ALL_IN_ONE | Stage: Stage 1 - Product Intelligence
+   Subtitle: Measure real market search volume, consumer demand trends, and current buying urgency.
+6. [stage_1_task_5] Product Market Research
+   Category: ALL_IN_ONE | Stage: Stage 1 - Product Intelligence
+   Subtitle: Evaluate target demographic saturation, market maturity, and competitive landscape.
+7. [stage_1_task_6] Product Trend Analysis
+   Category: ALL_IN_ONE | Stage: Stage 1 - Product Intelligence
+   Subtitle: Track historical interest curves, seasonality spikes, and future longevity projections.
+8. [stage_1_task_7] Product Validation
+   Category: ALL_IN_ONE | Stage: Stage 1 - Product Intelligence
+   Subtitle: Execute rigorous viability criteria (margins, shipping weight, return risks, WOW factor).
+9. [stage_1_task_8] Product DNA Analysis
+   Category: ALL_IN_ONE | Stage: Stage 1 - Product Intelligence
+   Subtitle: Break down the psychological hook, core mechanism, emotional payoff, and purchase triggers.
+10. [stage_1_task_9] Product Problem-Solution Fit
+   Category: ALL_IN_ONE | Stage: Stage 1 - Product Intelligence
+   Subtitle: Map the exact severity of the customer pain point directly to the product's functional solution.
+11. [stage_1_task_10] Product Differentiation
+   Category: ALL_IN_ONE | Stage: Stage 1 - Product Intelligence
+   Subtitle: Formulate unique angles, features, or packaging to stand out from existing market competitors.
+12. [stage_1_task_11] Product Profitability
+   Category: ALL_IN_ONE | Stage: Stage 1 - Product Intelligence
+   Subtitle: Calculate unit economics, wholesale costs, fulfillment fees, and target gross margins.
+13. [stage_1_task_12] Product Sourcing
+   Category: ALL_IN_ONE | Stage: Stage 1 - Product Intelligence
+   Subtitle: Locate direct manufacturing sources, wholesale contacts, and local trading suppliers.
+14. [stage_1_task_13] Supplier Research
+   Category: ALL_IN_ONE | Stage: Stage 1 - Product Intelligence
+   Subtitle: Vet supplier credentials, production capacities, transaction histories, and communication speed.
+15. [stage_1_task_14] Supplier Quality Check
+   Category: ALL_IN_ONE | Stage: Stage 1 - Product Intelligence
+   Subtitle: Establish sample inspection guidelines, defect tolerance thresholds, and product durability metrics.
+16. [stage_1_task_15] Product Cost Analysis
+   Category: ALL_IN_ONE | Stage: Stage 1 - Product Intelligence
+   Subtitle: Model landed cost per unit including packaging, shipping, customs duties, and storage.
+17. [stage_1_task_16] Product Risk Analysis
+   Category: ALL_IN_ONE | Stage: Stage 1 - Product Intelligence
+   Subtitle: Audit fragility, shelf-life, policy compliance, seasonal decay, and replacement risks.
+18. [stage_1_task_17] Product Compliance Check
+   Category: ALL_IN_ONE | Stage: Stage 1 - Product Intelligence
+   Subtitle: Verify Meta/TikTok ad policies, local regulatory approvals, electrical safety, and trademark safety.
+19. [stage_1_task_18] Product Test Recommendation
+   Category: ALL_IN_ONE | Stage: Stage 1 - Product Intelligence
+   Subtitle: Formulate test budget size, sample quantity, testing timeline, and go/no-go score benchmarks.
+20. [stage_1_task_19] Product Launch Readiness
+   Category: ALL_IN_ONE | Stage: Stage 1 - Product Intelligence
+   Subtitle: Complete final pre-launch checklist across inventory, creative assets, and logistical clearance.
+
+--- 02. STAGE 2: STRATEGY INTELLIGENCE (26 Skills) ---
+21. [stage_2_task_1] Market Strategy
+   Category: ALL_IN_ONE | Stage: Stage 2 - Strategy Intelligence
+   Subtitle: Architect high-level market positioning, distribution channels, and sales velocity goals.
+22. [stage_2_task_2] Target Market Research
+   Category: ALL_IN_ONE | Stage: Stage 2 - Strategy Intelligence
+   Subtitle: Pinpoint exact geographic clusters, income brackets, age brackets, and cultural habits.
+23. [stage_2_task_3] Buyer Persona Research
+   Category: ALL_IN_ONE | Stage: Stage 2 - Strategy Intelligence
+   Subtitle: Construct 3D buyer profiles detailing daily frustrations, aspirations, and language patterns.
+24. [stage_2_task_4] Customer Segmentation
+   Category: ALL_IN_ONE | Stage: Stage 2 - Strategy Intelligence
+   Subtitle: Group prospects by use cases, urgency levels, price sensitivities, and buying triggers.
+25. [stage_2_task_5] Pain Point Discovery
+   Category: ALL_IN_ONE | Stage: Stage 2 - Strategy Intelligence
+   Subtitle: Uncover the deepest emotional, social, and physical friction points driving consumer action.
+26. [stage_2_task_6] Desire & Motivation Analysis
+   Category: ALL_IN_ONE | Stage: Stage 2 - Strategy Intelligence
+   Subtitle: Identify underlying status, security, convenience, and pleasure desires fulfilled by purchase.
+27. [stage_2_task_7] Customer Awareness Level
+   Category: ALL_IN_ONE | Stage: Stage 2 - Strategy Intelligence
+   Subtitle: Classify audience sophistication across Unaware, Problem-Aware, Solution-Aware, and Product-Aware.
+28. [stage_2_task_8] Buying Intent Analysis
+   Category: ALL_IN_ONE | Stage: Stage 2 - Strategy Intelligence
+   Subtitle: Evaluate whether prospects are browsing for inspiration vs actively seeking immediate purchase.
+29. [stage_2_task_9] Customer Jobs-to-be-Done
+   Category: ALL_IN_ONE | Stage: Stage 2 - Strategy Intelligence
+   Subtitle: Define the functional and emotional job the consumer is hiring this product to accomplish.
+30. [stage_2_task_10] Offer Strategy
+   Category: ALL_IN_ONE | Stage: Stage 2 - Strategy Intelligence
+   Subtitle: Engineer irresistible value propositions combining price, packaging, bonuses, and terms.
+31. [stage_2_task_11] Unique Selling Proposition (USP)
+   Category: ALL_IN_ONE | Stage: Stage 2 - Strategy Intelligence
+   Subtitle: Formulate the single proprietary advantage that cannot be copied by direct competitors.
+32. [stage_2_task_12] Value Proposition
+   Category: ALL_IN_ONE | Stage: Stage 2 - Strategy Intelligence
+   Subtitle: Articulate the quantifiable ROI, transformation, or time-saving delivered to the end buyer.
+33. [stage_2_task_13] Product Positioning
+   Category: ALL_IN_ONE | Stage: Stage 2 - Strategy Intelligence
+   Subtitle: Position product as luxury/premium vs accessible/budget vs specialized problem solver.
+34. [stage_2_task_14] Pricing Strategy
+   Category: ALL_IN_ONE | Stage: Stage 2 - Strategy Intelligence
+   Subtitle: Establish psychological price points, anchor prices, and competitive price ladders.
+35. [stage_2_task_15] Discount Strategy
+   Category: ALL_IN_ONE | Stage: Stage 2 - Strategy Intelligence
+   Subtitle: Structure percentage vs fixed discounts without cheapening perceived brand value.
+36. [stage_2_task_16] Bundle Strategy
+   Category: ALL_IN_ONE | Stage: Stage 2 - Strategy Intelligence
+   Subtitle: Create multi-pack, family-pack, or complementary accessory bundles to elevate AOV.
+37. [stage_2_task_17] Upsell Strategy
+   Category: ALL_IN_ONE | Stage: Stage 2 - Strategy Intelligence
+   Subtitle: Map high-margin pre-purchase and post-purchase add-on offers.
+38. [stage_2_task_18] Cross-Sell Strategy
+   Category: ALL_IN_ONE | Stage: Stage 2 - Strategy Intelligence
+   Subtitle: Recommend secondary products that naturally extend the customer experience.
+39. [stage_2_task_19] Guarantee Strategy
+   Category: ALL_IN_ONE | Stage: Stage 2 - Strategy Intelligence
+   Subtitle: Formulate risk-reversal guarantees (money-back, replacement on delivery, test before paying).
+40. [stage_2_task_20] COD Offer Strategy
+   Category: ALL_IN_ONE | Stage: Stage 2 - Strategy Intelligence
+   Subtitle: Optimize cash-on-delivery pricing, free shipping thresholds, and inspection allowances.
+41. [stage_2_task_21] Competitor Strategy
+   Category: ALL_IN_ONE | Stage: Stage 2 - Strategy Intelligence
+   Subtitle: Benchmark competing stores' offers, pricing, guarantees, and weakness exploitation.
+42. [stage_2_task_22] Funnel Strategy
+   Category: ALL_IN_ONE | Stage: Stage 2 - Strategy Intelligence
+   Subtitle: Design seamless customer pathways from ad click to lander, order form, and post-purchase confirmation.
+43. [stage_2_task_23] Customer Acquisition Strategy
+   Category: ALL_IN_ONE | Stage: Stage 2 - Strategy Intelligence
+   Subtitle: Model blended CPA targets, channel distribution, and customer acquisition costs.
+44. [stage_2_task_24] Profit Margin Strategy
+   Category: ALL_IN_ONE | Stage: Stage 2 - Strategy Intelligence
+   Subtitle: Protect net contribution margin after accounting for ad spend, shipping, and delivery failures.
+45. [stage_2_task_25] Launch Strategy
+   Category: ALL_IN_ONE | Stage: Stage 2 - Strategy Intelligence
+   Subtitle: Outline 7-day launch sequence, testing windows, initial ad budgets, and scaling milestones.
+46. [stage_2_task_26] Scaling Strategy
+   Category: ALL_IN_ONE | Stage: Stage 2 - Strategy Intelligence
+   Subtitle: Create roadmap for vertical budget increases, horizontal audience expansion, and inventory scaling.
+
+--- 03. STAGE 3: CREATIVE INTELLIGENCE (32 Skills) ---
+47. [stage_3_task_1] Creative Strategy
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Define overall visual language, content format mix, and storytelling framework.
+48. [stage_3_task_2] Creative Angle Discovery
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Uncover diverse psychological entry points (convenience, fear, beauty, prestige, thrift).
+49. [stage_3_task_3] Marketing Angle Analyzer
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Score and rank creative angles based on novelty, clarity, and emotional resonance.
+50. [stage_3_task_4] Buyer Persona Creative Matcher
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Pair specific visual styles and scripts directly to targeted audience demographic personas.
+51. [stage_3_task_5] Hook Generator
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Produce 3-second scroll-stopping hooks (visual, auditory, and question-based).
+52. [stage_3_task_6] Hook Analyzer
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Evaluate hook rates, thumb-stop performance, and drop-off velocities.
+53. [stage_3_task_7] Pattern Interrupt Generator
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Design unexpected visual jolts and bizarre opening frames that freeze feed scrolling.
+54. [stage_3_task_8] Pain Point Creative
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Emphasize the agonizing reality of the customer's problem in high definition.
+55. [stage_3_task_9] Desire-Based Creative
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Portray the aspirational dream state and emotional satisfaction achieved after using the product.
+56. [stage_3_task_10] Problem-Solution Creative
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Classic high-converting transition showing acute issue instantly resolved by product.
+57. [stage_3_task_11] Before & After Creative
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Showcase side-by-side or sequential proof of visible transformation.
+58. [stage_3_task_12] Demonstration Creative
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Feature extreme product stress tests, feature walkthroughs, and clear utility proofs.
+59. [stage_3_task_13] Testimonial Creative
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Structure authentic customer reviews highlighting skepticism overcome by results.
+60. [stage_3_task_14] UGC Creative
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Script natural, selfie-style user-generated content that blends into native TikTok/Reels feeds.
+61. [stage_3_task_15] Founder-Style Creative
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Tell the authentic origin story of why the brand was created to solve this specific problem.
+62. [stage_3_task_16] Lifestyle Creative
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Depict the product integrated effortlessly into high-aesthetic everyday environments.
+63. [stage_3_task_17] Product Showcase Creative
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Crisp, high-end 3D or studio macro shots highlighting craftsmanship, materials, and finish.
+64. [stage_3_task_18] Comparison Creative
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Contrast product advantages directly against inferior alternative tools and outdated methods.
+65. [stage_3_task_19] Offer Creative
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: High-urgency promotional graphics and video ads highlighting limited-time deals and bundles.
+66. [stage_3_task_20] Objection-Handling Creative
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Pre-emptively answer doubts around durability, fit, shipping speed, and real-life authenticity.
+67. [stage_3_task_21] Image Ad Analyzer
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Diagnose static graphic composition, contrast balance, text density, and visual hierarchy.
+68. [stage_3_task_22] Video Ad Analyzer
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Audit video pacing, hold rate, average watch time, soundtrack synchronization, and call to action.
+69. [stage_3_task_23] Ad Copy Analyzer
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Evaluate persuasive copy clarity, emotional tone, readability level, and policy adherence.
+70. [stage_3_task_24] Primary Text Generator
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Write multi-length primary ad text variations (short-punchy, story-driven, bullet-benefits).
+71. [stage_3_task_25] Headline Generator
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Craft high-CTR ad headlines focusing on urgency, curiosity, curiosity gaps, and social proof.
+72. [stage_3_task_26] CTA Generator
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Optimize conversion call-to-actions tailored to impulse buying and low-friction commitments.
+73. [stage_3_task_27] Thumbnail Analyzer
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Audit cover frames for curiosity elements, text legibility, and high-contrast focal points.
+74. [stage_3_task_28] Creative Fatigue Detector
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Monitor frequency increases, CTR degradation, and CPA inflation to signal creative burnout.
+75. [stage_3_task_29] Creative Winner Detector
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Systematically flag ad creatives meeting target conversion rates and spend capacity.
+76. [stage_3_task_30] Creative Testing Matrix
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Organize structured testing grids (5 Angles × 3 Formats × 3 Hooks) to isolate winning elements.
+77. [stage_3_task_31] AI Image Generation
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Engineer hyper-detailed prompts for Midjourney/Flux for ultra-realistic product lifestyle visuals.
+78. [stage_3_task_32] AI Video Generation
+   Category: ALL_IN_ONE | Stage: Stage 3 - Creative Intelligence
+   Subtitle: Generate dynamic AI video prompts and motion storyboards for short-form video ads.
+
+--- 04. STAGE 4: CAMPAIGN INTELLIGENCE (30 Skills) ---
+79. [stage_4_task_1] Campaign Strategy
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Architect account hierarchy, budget distribution between testing and scaling, and bidding approach.
+80. [stage_4_task_2] Campaign Structure
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Organize clean naming conventions, ad set separation, and campaign categorization.
+81. [stage_4_task_3] Campaign Objective Selection
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Select optimal Meta optimization goals (Sales / Purchases vs Leads vs Messages vs Traffic).
+82. [stage_4_task_4] Sales Campaign Setup
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Configure purchase conversion campaigns with proper pixel configuration and attribution windows.
+83. [stage_4_task_5] Traffic Campaign Setup
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Deploy cost-effective landing page view campaigns to seed pixel events and warm custom audiences.
+84. [stage_4_task_6] Engagement Campaign Setup
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Build social proof, likes, and comment threads on core post IDs prior to scale.
+85. [stage_4_task_7] Messages Campaign Setup
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Establish direct WhatsApp/Messenger/Instagram Direct conversation funnels for COD closing.
+86. [stage_4_task_8] Awareness Campaign Setup
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Drive maximum reach and local brand recognition at rock-bottom CPMs.
+87. [stage_4_task_9] Conversion Campaign Setup
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Optimize event triggers for AddToCart, InitiateCheckout, and Purchase events.
+88. [stage_4_task_10] CBO Campaign Strategy
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Implement Advantage Campaign Budget (CBO) to let Meta dynamically allocate capital to winners.
+89. [stage_4_task_11] ABO Campaign Strategy
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Deploy Ad Set Budget Optimization (ABO) for strict budget control during isolated variable testing.
+90. [stage_4_task_12] Ad Set Structure
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Configure demographic targeting, placements, exclusion lists, and schedule settings per ad set.
+91. [stage_4_task_13] Audience Setup
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Build and organize custom audiences, lookalike pools, and broad geographic parameters.
+92. [stage_4_task_14] Broad Targeting
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Run zero-interest open demographic targeting (letting creative drive machine-learning targeting).
+93. [stage_4_task_15] Interest Targeting
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Research and group niche, behavioral, competitor, and lateral interest stacks.
+94. [stage_4_task_16] Lookalike Audience
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Generate 1%, 2%, 3%, and 5% lookalikes from customer purchase lists and high-intent visitors.
+95. [stage_4_task_17] Retargeting Campaign
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Build tiered retargeting campaigns (0-3 days, 4-7 days, 8-30 days) with dedicated offers.
+96. [stage_4_task_18] Budget Allocation
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Divide overall daily spend into 70% proven scaling winners, 20% testing, 10% retargeting.
+97. [stage_4_task_19] Budget Scaling
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Apply 15-20% incremental budget increases every 48-72 hours to prevent resetting learning phases.
+98. [stage_4_task_20] Bid Strategy
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Select between Lowest Cost (volume), Cost Cap (target CPA), and Bid Cap (auction ceiling).
+99. [stage_4_task_21] Bid Cap Strategy
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Set hard auction caps to prevent Meta from bidding in expensive inventory pools.
+100. [stage_4_task_22] Cost Cap Strategy
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Protect average CPA at scale by enforcing automated cost ceiling thresholds.
+101. [stage_4_task_23] Lowest Cost Strategy
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Maximize lead/purchase volume within available budget across open auction spaces.
+102. [stage_4_task_24] Campaign Testing
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Execute systematic A/B and split tests to validate new angles without contaminating winners.
+103. [stage_4_task_25] Creative Testing Campaign
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Dedicated sandbox campaign designed solely to run new creatives through qualification gauntlets.
+104. [stage_4_task_26] Campaign Launch Checklist
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Pre-flight audit verifying pixel firing, UTM tracking, landing page mobile speed, and inventory.
+105. [stage_4_task_27] Campaign Monitoring
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Hourly and daily spend pacing, delivery consistency, and anomalous CPA spike checks.
+106. [stage_4_task_28] Campaign Troubleshooting
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Rapid diagnosis of zero-spend ad sets, audience overlap auctions, and ad rejections.
+107. [stage_4_task_29] Campaign Scaling
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Coordinate simultaneous vertical budget scaling and horizontal campaign duplication.
+108. [stage_4_task_30] Campaign Pause / Restart
+   Category: ALL_IN_ONE | Stage: Stage 4 - Campaign Intelligence
+   Subtitle: Determine exact rules for pausing underperforming sets and safely reviving historically profitable ads.
+
+--- 05. STAGE 5: TRAFFIC INTELLIGENCE (28 Skills) ---
+109. [stage_5_task_1] Traffic Acquisition
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Oversee total inflow of qualified prospect traffic across paid and organic touchpoints.
+110. [stage_5_task_2] Traffic Source Analysis
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Attribute sessions, conversion rates, and bounce metrics by channel and referral source.
+111. [stage_5_task_3] Meta Traffic Analysis
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Evaluate session quality, cost per click, and landing page load efficiency from Facebook/Instagram.
+112. [stage_5_task_4] Organic Traffic Analysis
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Monitor non-paid visitor volume from search engines, social shares, and direct navigation.
+113. [stage_5_task_5] Paid Traffic Analysis
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Calculate blended traffic efficiency and cost per inbound session across all advertising channels.
+114. [stage_5_task_6] Website Visitor Analysis
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Analyze user session duration, scroll depth, interaction heatmaps, and page view count.
+115. [stage_5_task_7] Landing Page Traffic
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Measure visitor drop-off from initial ad link click to complete landing page display.
+116. [stage_5_task_8] Product Page Traffic
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Track dwell time on product images, variant selectors, and description tabs.
+117. [stage_5_task_9] Mobile Traffic Analysis
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Inspect mobile-specific page load speeds, responsive formatting, and tap-target usability.
+118. [stage_5_task_10] Desktop Traffic Analysis
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Compare desktop conversion behavior against mobile baseline numbers.
+119. [stage_5_task_11] New Visitor Analysis
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Assess cold prospect first-touch engagement, bounce velocity, and brand discovery.
+120. [stage_5_task_12] Returning Visitor Analysis
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Measure multi-session conversion propensity and repeat visitor retention.
+121. [stage_5_task_13] Traffic Quality Analysis
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Filter out accidental clicks, bot visits, and low-engagement audience traffic pools.
+122. [stage_5_task_14] Click Quality Analysis
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Correlate Link Clicks against Landing Page Views to identify high-drop click fraud or slow load.
+123. [stage_5_task_15] CTR Analysis
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Benchmark Outbound CTR vs All CTR to evaluate ad creative interest and curiosity effectiveness.
+124. [stage_5_task_16] CPC Analysis
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Track cost per link click trends across target audiences and ad placements.
+125. [stage_5_task_17] CPM Analysis
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Monitor cost per 1,000 impressions to diagnose auction competition and audience saturation.
+126. [stage_5_task_18] Landing Page View Rate
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Optimize LP View / Link Click ratio (target >75%) to ensure ad spend translates to site visitors.
+127. [stage_5_task_19] Add to Cart Rate
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Measure percentage of site visitors who express high purchase intent by initiating a cart.
+128. [stage_5_task_20] Checkout Initiation Rate
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Track progression from product page/cart to the order submission form.
+129. [stage_5_task_21] Traffic-to-Order Conversion
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Overall site conversion rate (Orders ÷ Total Unique Visitors) benchmarking store performance.
+130. [stage_5_task_22] Visitor Behavior Analysis
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Study click patterns, FAQ expansion rates, and video replay activity on site.
+131. [stage_5_task_23] Bounce Rate Analysis
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Diagnose reasons for immediate single-page exits (page speed, misleading hook, pricing shock).
+132. [stage_5_task_24] Funnel Drop-Off Analysis
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Map exact conversion leakage at every transition from impression to delivered order.
+133. [stage_5_task_25] Traffic Source Comparison
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Rank ad networks and campaign channels by net delivered profitability.
+134. [stage_5_task_26] UTM Tracking
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Enforce structured UTM campaign, source, medium, and content tagging on all ad destinations.
+135. [stage_5_task_27] Pixel Event Tracking
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Audit proper firing and data transmission for browser and server conversion events.
+136. [stage_5_task_28] Traffic Scaling
+   Category: ALL_IN_ONE | Stage: Stage 5 - Traffic Intelligence
+   Subtitle: Model traffic volume requirements to hit targeted daily order milestones.
+
+--- 06. STAGE 6: ORDER INTELLIGENCE (23 Skills) ---
+137. [stage_6_task_1] Order Analytics
+   Category: ALL_IN_ONE | Stage: Stage 6 - Order Intelligence
+   Subtitle: Comprehensive dashboard monitoring incoming orders, average values, and gross volume.
+138. [stage_6_task_2] Order Volume Analysis
+   Category: ALL_IN_ONE | Stage: Stage 6 - Order Intelligence
+   Subtitle: Track hourly and daily order velocity to optimize ad pacing and warehouse preparation.
+139. [stage_6_task_3] Order Conversion Rate
+   Category: ALL_IN_ONE | Stage: Stage 6 - Order Intelligence
+   Subtitle: Calculate the percentage of checkout starters who successfully submit order details.
+140. [stage_6_task_4] Checkout Analysis
+   Category: ALL_IN_ONE | Stage: Stage 6 - Order Intelligence
+   Subtitle: Audit form field friction, phone number validation, and one-click COD simplicity.
+141. [stage_6_task_5] Checkout Drop-Off
+   Category: ALL_IN_ONE | Stage: Stage 6 - Order Intelligence
+   Subtitle: Identify why customers abandon the form (confusing shipping rates, excessive fields).
+142. [stage_6_task_6] Cart Abandonment
+   Category: ALL_IN_ONE | Stage: Stage 6 - Order Intelligence
+   Subtitle: Recover incomplete checkouts via automated SMS, WhatsApp prompts, and retargeting ads.
+143. [stage_6_task_7] Add to Cart Analysis
+   Category: ALL_IN_ONE | Stage: Stage 6 - Order Intelligence
+   Subtitle: Evaluate variant selection distribution (colors, sizes, bundles) at the moment of cart addition.
+144. [stage_6_task_8] Order Value Analysis
+   Category: ALL_IN_ONE | Stage: Stage 6 - Order Intelligence
+   Subtitle: Break down order size distribution (single items vs quantity discounts vs mega bundles).
+145. [stage_6_task_9] Average Order Value (AOV)
+   Category: ALL_IN_ONE | Stage: Stage 6 - Order Intelligence
+   Subtitle: Actively engineer strategies to lift total revenue generated per submitted transaction.
+146. [stage_6_task_10] Orders by Product
+   Category: ALL_IN_ONE | Stage: Stage 6 - Order Intelligence
+   Subtitle: Track sales contribution and order share across all catalog SKUs.
+147. [stage_6_task_11] Orders by Creative
+   Category: ALL_IN_ONE | Stage: Stage 6 - Order Intelligence
+   Subtitle: Attribute incoming orders directly back to the originating ad visual and copywriting angle.
+148. [stage_6_task_12] Orders by Campaign
+   Category: ALL_IN_ONE | Stage: Stage 6 - Order Intelligence
+   Subtitle: Measure volume output per campaign structure (testing vs scaling vs retargeting).
+149. [stage_6_task_13] Orders by Ad Set
+   Category: ALL_IN_ONE | Stage: Stage 6 - Order Intelligence
+   Subtitle: Identify top-producing audiences, lookalike percentages, and broad targeting segments.
+150. [stage_6_task_14] Orders by Wilaya
+   Category: ALL_IN_ONE | Stage: Stage 6 - Order Intelligence
+   Subtitle: Map regional geographic order density to prioritize localized inventory and couriers.
+151. [stage_6_task_15] Orders by Customer Segment
+   Category: ALL_IN_ONE | Stage: Stage 6 - Order Intelligence
+   Subtitle: Categorize buyers by age brackets, gender, repeat status, and purchase motivation.
+152. [stage_6_task_16] First-Time Order Analysis
+   Category: ALL_IN_ONE | Stage: Stage 6 - Order Intelligence
+   Subtitle: Track the influx rate and acquisition cost of net-new customers entering the store ecosystem.
+153. [stage_6_task_17] Repeat Order Analysis
+   Category: ALL_IN_ONE | Stage: Stage 6 - Order Intelligence
+   Subtitle: Measure recurring purchases and cross-sell uptake from the existing customer database.
+154. [stage_6_task_18] Order Source Attribution
+   Category: ALL_IN_ONE | Stage: Stage 6 - Order Intelligence
+   Subtitle: Maintain multi-touch attribution to credit top-of-funnel discovery and closing ad touchpoints.
+155. [stage_6_task_19] Order Fraud Detection
+   Category: ALL_IN_ONE | Stage: Stage 6 - Order Intelligence
+   Subtitle: Automatically flag bot-generated submissions, competitor sabotage orders, and spam entries.
+156. [stage_6_task_20] Duplicate Order Detection
+   Category: ALL_IN_ONE | Stage: Stage 6 - Order Intelligence
+   Subtitle: Merge accidental multiple clicks by the same customer into single consolidated shipments.
+157. [stage_6_task_21] COD Order Management
+   Category: ALL_IN_ONE | Stage: Stage 6 - Order Intelligence
+   Subtitle: Streamline order status workflows from unverified lead to call center queue and warehouse.
+158. [stage_6_task_22] Order Quality Scoring
+   Category: ALL_IN_ONE | Stage: Stage 6 - Order Intelligence
+   Subtitle: Score probability of successful delivery based on phone validity, address detail, and wilaya history.
+159. [stage_6_task_23] Checkout Optimization
+   Category: ALL_IN_ONE | Stage: Stage 6 - Order Intelligence
+   Subtitle: Continuously test form layouts, trust badges, and quick-fill inputs to maximize completion.
+
+--- 07. STAGE 7: CONFIRMATION INTELLIGENCE (21 Skills) ---
+160. [stage_7_task_1] Order Confirmation
+   Category: ALL_IN_ONE | Stage: Stage 7 - Confirmation Intelligence
+   Subtitle: Establish streamlined verification operations to lock in customer buying commitment.
+161. [stage_7_task_2] Confirmation Rate
+   Category: ALL_IN_ONE | Stage: Stage 7 - Confirmation Intelligence
+   Subtitle: Track the percentage of raw web orders verified as legitimate and ready for dispatch.
+162. [stage_7_task_3] Confirmation Call Analysis
+   Category: ALL_IN_ONE | Stage: Stage 7 - Confirmation Intelligence
+   Subtitle: Audit call length, agent tone, customer questions, and objection handling on verification calls.
+163. [stage_7_task_4] Confirmation Script Generator
+   Category: ALL_IN_ONE | Stage: Stage 7 - Confirmation Intelligence
+   Subtitle: Generate persuasive, friendly call center scripts tailored to Algerian Darja / local dialects.
+164. [stage_7_task_5] Confirmation Team Performance
+   Category: ALL_IN_ONE | Stage: Stage 7 - Confirmation Intelligence
+   Subtitle: Benchmark agent call speed, hourly output, confirmation ratios, and customer satisfaction.
+165. [stage_7_task_6] Customer Contact Rate
+   Category: ALL_IN_ONE | Stage: Stage 7 - Confirmation Intelligence
+   Subtitle: Measure the percentage of leads reached on 1st, 2nd, and 3rd call attempts.
+166. [stage_7_task_7] Customer Response Rate
+   Category: ALL_IN_ONE | Stage: Stage 7 - Confirmation Intelligence
+   Subtitle: Track WhatsApp / SMS confirmation reply rates and automated message interactions.
+167. [stage_7_task_8] Unreachable Customer Analysis
+   Category: ALL_IN_ONE | Stage: Stage 7 - Confirmation Intelligence
+   Subtitle: Identify root causes of unanswered calls (wrong timing, missing prefixes, ghost leads).
+168. [stage_7_task_9] Wrong Phone Number Detection
+   Category: ALL_IN_ONE | Stage: Stage 7 - Confirmation Intelligence
+   Subtitle: Detect invalid carrier prefixes, short digit counts, and typos before wasting agent call time.
+169. [stage_7_task_10] Fake Order Detection
+   Category: ALL_IN_ONE | Stage: Stage 7 - Confirmation Intelligence
+   Subtitle: Spot prank entries, fake names, and competitor test submissions before sending stock.
+170. [stage_7_task_11] Duplicate Order Detection
+   Category: ALL_IN_ONE | Stage: Stage 7 - Confirmation Intelligence
+   Subtitle: Verify whether multiple submissions from one phone represent bundle requests or errors.
+171. [stage_7_task_12] Customer Intent Verification
+   Category: ALL_IN_ONE | Stage: Stage 7 - Confirmation Intelligence
+   Subtitle: Confirm the buyer understands product features, exact price, and delivery payment readiness.
+172. [stage_7_task_13] Order Cancellation Analysis
+   Category: ALL_IN_ONE | Stage: Stage 7 - Confirmation Intelligence
+   Subtitle: Categorize cancellation reasons (found cheaper elsewhere, impulse regret, changed mind).
+173. [stage_7_task_14] Confirmation Time Analysis
+   Category: ALL_IN_ONE | Stage: Stage 7 - Confirmation Intelligence
+   Subtitle: Measure time elapsed between order click and first call (faster calls = higher confirmation).
+174. [stage_7_task_15] Confirmation by Wilaya
+   Category: ALL_IN_ONE | Stage: Stage 7 - Confirmation Intelligence
+   Subtitle: Rank wilayas by confirmation percentage to adjust ad budgets away from low-intent zones.
+175. [stage_7_task_16] Confirmation by Product
+   Category: ALL_IN_ONE | Stage: Stage 7 - Confirmation Intelligence
+   Subtitle: Compare confirmation rates across different catalog products to spot offer clarity issues.
+176. [stage_7_task_17] Confirmation by Campaign
+   Category: ALL_IN_ONE | Stage: Stage 7 - Confirmation Intelligence
+   Subtitle: Track which advertising campaigns deliver genuine high-intent buyers vs curious clickers.
+177. [stage_7_task_18] Confirmation by Creative
+   Category: ALL_IN_ONE | Stage: Stage 7 - Confirmation Intelligence
+   Subtitle: Ensure ad creative messaging matches what call center agents confirm on the phone.
+178. [stage_7_task_19] Confirmed Order Value
+   Category: ALL_IN_ONE | Stage: Stage 7 - Confirmation Intelligence
+   Subtitle: Measure the true monetary value of stock approved and packed for dispatch.
+179. [stage_7_task_20] Confirmed Order Attribution
+   Category: ALL_IN_ONE | Stage: Stage 7 - Confirmation Intelligence
+   Subtitle: Re-attribute verified orders back to Meta Ads to feed true quality signals back to the algorithm.
+180. [stage_7_task_21] Confirmation Optimization
+   Category: ALL_IN_ONE | Stage: Stage 7 - Confirmation Intelligence
+   Subtitle: Implement automated WhatsApp 1-click confirmation bots and fast callback schedules.
+
+--- 08. STAGE 8: DELIVERY INTELLIGENCE (21 Skills) ---
+181. [stage_8_task_1] Delivery Tracking
+   Category: ALL_IN_ONE | Stage: Stage 8 - Delivery Intelligence
+   Subtitle: Real-time parcel status tracking across local courier networks and central transit hubs.
+182. [stage_8_task_2] Delivery Rate
+   Category: ALL_IN_ONE | Stage: Stage 8 - Delivery Intelligence
+   Subtitle: Benchmark the ultimate COD metric: percentage of shipped orders successfully paid and delivered.
+183. [stage_8_task_3] Successful Delivery Rate
+   Category: ALL_IN_ONE | Stage: Stage 8 - Delivery Intelligence
+   Subtitle: Track completed deliveries against total dispatched packages to measure logistics efficiency.
+184. [stage_8_task_4] Delivery Time Analysis
+   Category: ALL_IN_ONE | Stage: Stage 8 - Delivery Intelligence
+   Subtitle: Measure average transit hours from warehouse fulfillment to final customer doorstep delivery.
+185. [stage_8_task_5] Average Delivery Time
+   Category: ALL_IN_ONE | Stage: Stage 8 - Delivery Intelligence
+   Subtitle: Calculate delivery speed by zone (capital cities 24-48h vs remote provinces 3-5 days).
+186. [stage_8_task_6] Delivery by Wilaya
+   Category: ALL_IN_ONE | Stage: Stage 8 - Delivery Intelligence
+   Subtitle: Map regional delivery success rates across all 58 Algerian wilayas to isolate underperforming areas.
+187. [stage_8_task_7] Delivery by Courier
+   Category: ALL_IN_ONE | Stage: Stage 8 - Delivery Intelligence
+   Subtitle: Benchmark third-party shipping company performance (Yalidine, ZR Express, Maystro, Procolis).
+188. [stage_8_task_8] Delivery by Product
+   Category: ALL_IN_ONE | Stage: Stage 8 - Delivery Intelligence
+   Subtitle: Identify if bulky, fragile, or complex products suffer higher delivery failure rates.
+189. [stage_8_task_9] Delivery by Campaign
+   Category: ALL_IN_ONE | Stage: Stage 8 - Delivery Intelligence
+   Subtitle: Evaluate whether specific ad messaging results in customers who actually pay upon arrival.
+190. [stage_8_task_10] Delivery by Customer
+   Category: ALL_IN_ONE | Stage: Stage 8 - Delivery Intelligence
+   Subtitle: Analyze delivery reliability across customer personas, age groups, and payment profiles.
+191. [stage_8_task_11] Delivery Cost Analysis
+   Category: ALL_IN_ONE | Stage: Stage 8 - Delivery Intelligence
+   Subtitle: Calculate freight fees, stop charges, return penalties, and cash-handling commissions per parcel.
+192. [stage_8_task_12] Shipping Cost Analysis
+   Category: ALL_IN_ONE | Stage: Stage 8 - Delivery Intelligence
+   Subtitle: Negotiate bulk courier pricing tiers based on weekly dispatch volume.
+193. [stage_8_task_13] Shipping Profitability
+   Category: ALL_IN_ONE | Stage: Stage 8 - Delivery Intelligence
+   Subtitle: Assess whether free shipping offers are covered by product margins and bundle incentives.
+194. [stage_8_task_14] Failed Delivery Analysis
+   Category: ALL_IN_ONE | Stage: Stage 8 - Delivery Intelligence
+   Subtitle: Investigate delivery failure reasons: client absent, phone turned off, address not found, refusals.
+195. [stage_8_task_15] Delivery Delay Analysis
+   Category: ALL_IN_ONE | Stage: Stage 8 - Delivery Intelligence
+   Subtitle: Identify hub bottlenecks that cause delays and drive customer cancellation before arrival.
+196. [stage_8_task_16] Courier Performance
+   Category: ALL_IN_ONE | Stage: Stage 8 - Delivery Intelligence
+   Subtitle: Grade shipping partners on driver professionalism, update frequency, and delivery success.
+197. [stage_8_task_17] Wilaya Performance
+   Category: ALL_IN_ONE | Stage: Stage 8 - Delivery Intelligence
+   Subtitle: Maintain live profitability scorecards for every state/wilaya to guide ad targeting exclusions.
+198. [stage_8_task_18] First Attempt Delivery Rate
+   Category: ALL_IN_ONE | Stage: Stage 8 - Delivery Intelligence
+   Subtitle: Track the percentage of orders delivered on the courier's first visit to minimize return risk.
+199. [stage_8_task_19] Reattempt Delivery Analysis
+   Category: ALL_IN_ONE | Stage: Stage 8 - Delivery Intelligence
+   Subtitle: Manage customer coordination and SMS alerts to rescue packages on 2nd and 3rd delivery attempts.
+200. [stage_8_task_20] Delivery Experience Analysis
+   Category: ALL_IN_ONE | Stage: Stage 8 - Delivery Intelligence
+   Subtitle: Survey customer satisfaction with packaging quality, delivery speed, and courier courtesy.
+201. [stage_8_task_21] Delivery Optimization
+   Category: ALL_IN_ONE | Stage: Stage 8 - Delivery Intelligence
+   Subtitle: Integrate proactive delivery tracking notifications and doorstep payment reminders.
+
+--- 09. STAGE 9: RTO (RETURN TO ORIGIN) INTELLIGENCE (24 Skills) ---
+202. [stage_9_task_1] RTO Analysis
+   Category: ALL_IN_ONE | Stage: Stage 9 - RTO Intelligence
+   Subtitle: Deep financial and operational audit of all returned packages and their systemic causes.
+203. [stage_9_task_2] RTO Rate
+   Category: ALL_IN_ONE | Stage: Stage 9 - RTO Intelligence
+   Subtitle: Calculate returned packages as a percentage of total dispatched orders (target <15-20%).
+204. [stage_9_task_3] Return to Origin Tracking
+   Category: ALL_IN_ONE | Stage: Stage 9 - RTO Intelligence
+   Subtitle: Monitor physical return parcel movement from transit hubs back to central inventory.
+205. [stage_9_task_4] RTO Reason Analysis
+   Category: ALL_IN_ONE | Stage: Stage 9 - RTO Intelligence
+   Subtitle: Categorize return drivers: customer refused, courier didn't call, customer lacked money, delay.
+206. [stage_9_task_5] RTO by Wilaya
+   Category: ALL_IN_ONE | Stage: Stage 9 - RTO Intelligence
+   Subtitle: Identify regions with excessive return rates to immediately pause ad delivery there.
+207. [stage_9_task_6] RTO by Courier
+   Category: ALL_IN_ONE | Stage: Stage 9 - RTO Intelligence
+   Subtitle: Spot courier companies with abnormally high return rates caused by lazy drivers.
+208. [stage_9_task_7] RTO by Product
+   Category: ALL_IN_ONE | Stage: Stage 9 - RTO Intelligence
+   Subtitle: Identify products that look appealing online but fail customer expectations in person.
+209. [stage_9_task_8] RTO by Campaign
+   Category: ALL_IN_ONE | Stage: Stage 9 - RTO Intelligence
+   Subtitle: Trace back which ad campaigns produce high initial clicks but result in high doorstep returns.
+210. [stage_9_task_9] RTO by Ad Set
+   Category: ALL_IN_ONE | Stage: Stage 9 - RTO Intelligence
+   Subtitle: Evaluate whether broad targeting vs specific interest groups generate higher refusal rates.
+211. [stage_9_task_10] RTO by Creative
+   Category: ALL_IN_ONE | Stage: Stage 9 - RTO Intelligence
+   Subtitle: Flag misleading or exaggerated creatives that set unrealistic customer expectations.
+212. [stage_9_task_11] RTO by Customer Segment
+   Category: ALL_IN_ONE | Stage: Stage 9 - RTO Intelligence
+   Subtitle: Profile customer demographics with high return frequencies (e.g. teen buyers without cash).
+213. [stage_9_task_12] RTO by Order Source
+   Category: ALL_IN_ONE | Stage: Stage 9 - RTO Intelligence
+   Subtitle: Compare return rates between landing page forms, Facebook lead ads, and WhatsApp orders.
+214. [stage_9_task_13] Customer Refusal Analysis
+   Category: ALL_IN_ONE | Stage: Stage 9 - RTO Intelligence
+   Subtitle: Analyze why customers explicitly reject packages at the door (box open, price mismatch).
+215. [stage_9_task_14] Wrong Address Analysis
+   Category: ALL_IN_ONE | Stage: Stage 9 - RTO Intelligence
+   Subtitle: Identify vague address inputs and implement auto-complete or required landmark fields.
+216. [stage_9_task_15] Unreachable Customer RTO
+   Category: ALL_IN_ONE | Stage: Stage 9 - RTO Intelligence
+   Subtitle: Track parcels returned because courier drivers could not establish phone contact.
+217. [stage_9_task_16] Delivery Delay RTO
+   Category: ALL_IN_ONE | Stage: Stage 9 - RTO Intelligence
+   Subtitle: Quantify how extra transit days dramatically increase customer refusal rates.
+218. [stage_9_task_17] RTO Cost Analysis
+   Category: ALL_IN_ONE | Stage: Stage 9 - RTO Intelligence
+   Subtitle: Calculate the total financial loss of a return: outbound freight + return fee + wasted ad spend.
+219. [stage_9_task_18] Reverse Shipping Cost
+   Category: ALL_IN_ONE | Stage: Stage 9 - RTO Intelligence
+   Subtitle: Measure courier fees assessed for shipping refused packages back to base.
+220. [stage_9_task_19] Return Handling Cost
+   Category: ALL_IN_ONE | Stage: Stage 9 - RTO Intelligence
+   Subtitle: Account for warehouse unboxing, inspection, repackaging, and restocking labor.
+221. [stage_9_task_20] RTO Profit Impact
+   Category: ALL_IN_ONE | Stage: Stage 9 - RTO Intelligence
+   Subtitle: Calculate how reducing RTO by 5% translates directly into thousands of dollars in pure profit.
+222. [stage_9_task_21] RTO Prediction
+   Category: ALL_IN_ONE | Stage: Stage 9 - RTO Intelligence
+   Subtitle: Build predictive AI models to flag orders with high return probability before dispatch.
+223. [stage_9_task_22] RTO Risk Scoring
+   Category: ALL_IN_ONE | Stage: Stage 9 - RTO Intelligence
+   Subtitle: Assign risk scores to orders based on phone carrier, customer history, and delivery zip code.
+224. [stage_9_task_23] RTO Reduction Strategy
+   Category: ALL_IN_ONE | Stage: Stage 9 - RTO Intelligence
+   Subtitle: Implement strict confirmation protocols, shipping progress SMS, and delivery incentives.
+225. [stage_9_task_24] RTO Prevention
+   Category: ALL_IN_ONE | Stage: Stage 9 - RTO Intelligence
+   Subtitle: Blacklist repeat non-paying phone numbers and set up upfront partial payment gates.
+
+--- 10. STAGE 10: REVENUE INTELLIGENCE (22 Skills) ---
+226. [stage_10_task_1] Revenue Analytics
+   Category: ALL_IN_ONE | Stage: Stage 10 - Revenue Intelligence
+   Subtitle: Comprehensive financial monitoring tracking cash flow and revenue generation curves.
+227. [stage_10_task_2] Gross Revenue
+   Category: ALL_IN_ONE | Stage: Stage 10 - Revenue Intelligence
+   Subtitle: Total order value submitted by customers across the storefront prior to deductions.
+228. [stage_10_task_3] Net Revenue
+   Category: ALL_IN_ONE | Stage: Stage 10 - Revenue Intelligence
+   Subtitle: Revenue after factoring out cancelled orders, discounts, and customer adjustments.
+229. [stage_10_task_4] Delivered Revenue
+   Category: ALL_IN_ONE | Stage: Stage 10 - Revenue Intelligence
+   Subtitle: The true top-line metric in COD: total value of packages successfully delivered into customer hands.
+230. [stage_10_task_5] Collected Revenue
+   Category: ALL_IN_ONE | Stage: Stage 10 - Revenue Intelligence
+   Subtitle: Physical cash collected by courier partners and transferred into company bank accounts.
+231. [stage_10_task_6] Revenue by Product
+   Category: ALL_IN_ONE | Stage: Stage 10 - Revenue Intelligence
+   Subtitle: Evaluate revenue contribution by individual product SKU to identify key portfolio earners.
+232. [stage_10_task_7] Revenue by Campaign
+   Category: ALL_IN_ONE | Stage: Stage 10 - Revenue Intelligence
+   Subtitle: Measure revenue generated per advertising campaign to guide budget reallocation.
+233. [stage_10_task_8] Revenue by Ad Set
+   Category: ALL_IN_ONE | Stage: Stage 10 - Revenue Intelligence
+   Subtitle: Trace revenue yield across different demographic targets and audience groups.
+234. [stage_10_task_9] Revenue by Creative
+   Category: ALL_IN_ONE | Stage: Stage 10 - Revenue Intelligence
+   Subtitle: Attribute delivered cash revenue directly to the top-performing video and image creatives.
+235. [stage_10_task_10] Revenue by Wilaya
+   Category: ALL_IN_ONE | Stage: Stage 10 - Revenue Intelligence
+   Subtitle: Rank regions by gross delivered revenue to focus inventory and promotional spend.
+236. [stage_10_task_11] Revenue by Customer
+   Category: ALL_IN_ONE | Stage: Stage 10 - Revenue Intelligence
+   Subtitle: Segment revenue contribution between one-time shoppers and high-value repeat clients.
+237. [stage_10_task_12] Revenue by Date
+   Category: ALL_IN_ONE | Stage: Stage 10 - Revenue Intelligence
+   Subtitle: Track daily, weekly, and monthly revenue trends to identify seasonal spikes and lull days.
+238. [stage_10_task_13] Revenue Growth
+   Category: ALL_IN_ONE | Stage: Stage 10 - Revenue Intelligence
+   Subtitle: Calculate month-over-month and week-over-week revenue growth percentages.
+239. [stage_10_task_14] Revenue Forecasting
+   Category: ALL_IN_ONE | Stage: Stage 10 - Revenue Intelligence
+   Subtitle: Forecast future cash collections based on current active ad spend and delivery pipelines.
+240. [stage_10_task_15] Revenue Attribution
+   Category: ALL_IN_ONE | Stage: Stage 10 - Revenue Intelligence
+   Subtitle: Reconcile ad platform reported revenue against real cash collected in hand.
+241. [stage_10_task_16] Revenue per Customer
+   Category: ALL_IN_ONE | Stage: Stage 10 - Revenue Intelligence
+   Subtitle: Measure average lifetime spending power per acquired customer account.
+242. [stage_10_task_17] Average Order Value (Revenue)
+   Category: ALL_IN_ONE | Stage: Stage 10 - Revenue Intelligence
+   Subtitle: Monitor shifts in average cart value as bundle promotions and upsells scale.
+243. [stage_10_task_18] Revenue per Ad Spend (ROAS)
+   Category: ALL_IN_ONE | Stage: Stage 10 - Revenue Intelligence
+   Subtitle: Real blended ROAS calculated using delivered revenue divided by total ad spend.
+244. [stage_10_task_19] Daily Revenue Tracking
+   Category: ALL_IN_ONE | Stage: Stage 10 - Revenue Intelligence
+   Subtitle: Monitor daily cash intake to maintain healthy working capital and inventory reorder liquidity.
+245. [stage_10_task_20] Weekly Revenue Tracking
+   Category: ALL_IN_ONE | Stage: Stage 10 - Revenue Intelligence
+   Subtitle: Weekly revenue synthesis smoothing out daily fluctuations to identify true growth curves.
+246. [stage_10_task_21] Monthly Revenue Tracking
+   Category: ALL_IN_ONE | Stage: Stage 10 - Revenue Intelligence
+   Subtitle: Monthly financial statements summarizing business scale and financial health.
+247. [stage_10_task_22] Revenue Dashboard
+   Category: ALL_IN_ONE | Stage: Stage 10 - Revenue Intelligence
+   Subtitle: Live visual executive dashboard displaying all core revenue metrics at a glance.
+
+--- 11. STAGE 11: PROFIT INTELLIGENCE (26 Skills) ---
+248. [stage_11_task_1] Profit Analytics
+   Category: ALL_IN_ONE | Stage: Stage 11 - Profit Intelligence
+   Subtitle: Comprehensive analysis of net financial yield after all variable and fixed costs.
+249. [stage_11_task_2] Gross Profit
+   Category: ALL_IN_ONE | Stage: Stage 11 - Profit Intelligence
+   Subtitle: Revenue minus Cost of Goods Sold (COGS), measuring base manufacturing markup.
+250. [stage_11_task_3] Net Profit
+   Category: ALL_IN_ONE | Stage: Stage 11 - Profit Intelligence
+   Subtitle: The bottom line: actual cash profit remaining after ads, shipping, returns, calls, and ops.
+251. [stage_11_task_4] Contribution Margin
+   Category: ALL_IN_ONE | Stage: Stage 11 - Profit Intelligence
+   Subtitle: Dollars generated per sale available to cover fixed operational expenses.
+252. [stage_11_task_5] Profit Margin
+   Category: ALL_IN_ONE | Stage: Stage 11 - Profit Intelligence
+   Subtitle: Net profit expressed as a percentage of total delivered revenue (healthy target >20-30%).
+253. [stage_11_task_6] Profit per Order
+   Category: ALL_IN_ONE | Stage: Stage 11 - Profit Intelligence
+   Subtitle: Net pocketed profit earned on average for each individual submitted order.
+254. [stage_11_task_7] Profit per Delivered Order
+   Category: ALL_IN_ONE | Stage: Stage 11 - Profit Intelligence
+   Subtitle: True unit economics: profit earned per successful delivery after factoring all return costs.
+255. [stage_11_task_8] Profit per Product
+   Category: ALL_IN_ONE | Stage: Stage 11 - Profit Intelligence
+   Subtitle: Identify which products truly build wealth vs which ones generate volume without profit.
+256. [stage_11_task_9] Profit per Campaign
+   Category: ALL_IN_ONE | Stage: Stage 11 - Profit Intelligence
+   Subtitle: Evaluate advertising campaigns based on net bank profit rather than deceptive ROAS numbers.
+257. [stage_11_task_10] Profit per Ad Set
+   Category: ALL_IN_ONE | Stage: Stage 11 - Profit Intelligence
+   Subtitle: Identify which targeting audiences deliver customers that generate real financial return.
+258. [stage_11_task_11] Profit per Creative
+   Category: ALL_IN_ONE | Stage: Stage 11 - Profit Intelligence
+   Subtitle: Rank ad creatives by the net delivered profit produced across their active lifespan.
+259. [stage_11_task_12] Profit per Wilaya
+   Category: ALL_IN_ONE | Stage: Stage 11 - Profit Intelligence
+   Subtitle: Calculate net profitability per region after deducting higher remote shipping and return fees.
+260. [stage_11_task_13] Cost of Goods Sold (COGS)
+   Category: ALL_IN_ONE | Stage: Stage 11 - Profit Intelligence
+   Subtitle: Track inventory wholesale purchase price and supplier packaging expenses.
+261. [stage_11_task_14] Shipping Cost (Profit Analysis)
+   Category: ALL_IN_ONE | Stage: Stage 11 - Profit Intelligence
+   Subtitle: Audit outbound shipping fees and their exact impact on unit profit margins.
+262. [stage_11_task_15] Confirmation Cost
+   Category: ALL_IN_ONE | Stage: Stage 11 - Profit Intelligence
+   Subtitle: Account for call center wages, telephony minutes, and confirmation software fees.
+263. [stage_11_task_16] Return Cost
+   Category: ALL_IN_ONE | Stage: Stage 11 - Profit Intelligence
+   Subtitle: Tally return penalty charges, return courier fees, and damaged inventory write-offs.
+264. [stage_11_task_17] RTO Cost (Profit Impact)
+   Category: ALL_IN_ONE | Stage: Stage 11 - Profit Intelligence
+   Subtitle: Measure the direct profit reduction caused by returned packages across the business.
+265. [stage_11_task_18] Ad Spend (Profit Reconciliation)
+   Category: ALL_IN_ONE | Stage: Stage 11 - Profit Intelligence
+   Subtitle: Factor in exact credit card ad charges and foreign transaction exchange fees.
+266. [stage_11_task_19] Operating Expenses
+   Category: ALL_IN_ONE | Stage: Stage 11 - Profit Intelligence
+   Subtitle: Incorporate software subscriptions, warehouse rent, packaging tape, and team salaries.
+267. [stage_11_task_20] Break-Even Analysis
+   Category: ALL_IN_ONE | Stage: Stage 11 - Profit Intelligence
+   Subtitle: Calculate the exact order volume and daily revenue required to hit zero loss.
+268. [stage_11_task_21] Break-Even ROAS
+   Category: ALL_IN_ONE | Stage: Stage 11 - Profit Intelligence
+   Subtitle: Mathematical minimum ROAS below which every ad dollar spent burns capital.
+269. [stage_11_task_22] Break-Even CPA
+   Category: ALL_IN_ONE | Stage: Stage 11 - Profit Intelligence
+   Subtitle: Maximum allowable acquisition cost per submitted lead to break even on delivered orders.
+270. [stage_11_task_23] Maximum CPA
+   Category: ALL_IN_ONE | Stage: Stage 11 - Profit Intelligence
+   Subtitle: Hard CPA ceiling for media buyers to respect when configuring automated scaling rules.
+271. [stage_11_task_24] Maximum CAC
+   Category: ALL_IN_ONE | Stage: Stage 11 - Profit Intelligence
+   Subtitle: Maximum customer acquisition cost acceptable when factoring expected backend lifetime value.
+272. [stage_11_task_25] Target ROAS
+   Category: ALL_IN_ONE | Stage: Stage 11 - Profit Intelligence
+   Subtitle: Set realistic ROAS targets that guarantee minimum 25% net profit margins after all expenses.
+273. [stage_11_task_26] Profit Forecasting & Optimization
+   Category: ALL_IN_ONE | Stage: Stage 11 - Profit Intelligence
+   Subtitle: Model business profit projections at 2x, 5x, and 10x current ad spend levels.
+
+--- 12. STAGE 12: CUSTOMER QUALITY INTELLIGENCE (25 Skills) ---
+274. [stage_12_task_1] Customer Quality Score
+   Category: ALL_IN_ONE | Stage: Stage 12 - Customer Quality Intelligence
+   Subtitle: Compute composite score ranking customers on pickup reliability, communication, and order size.
+275. [stage_12_task_2] Customer Lifetime Value (LTV)
+   Category: ALL_IN_ONE | Stage: Stage 12 - Customer Quality Intelligence
+   Subtitle: Measure total cumulative revenue expected from a customer across their entire relationship.
+276. [stage_12_task_3] Customer Acquisition Cost (CAC)
+   Category: ALL_IN_ONE | Stage: Stage 12 - Customer Quality Intelligence
+   Subtitle: Calculate fully loaded cost to acquire one paying, delivered customer.
+277. [stage_12_task_4] Customer Retention
+   Category: ALL_IN_ONE | Stage: Stage 12 - Customer Quality Intelligence
+   Subtitle: Track percentage of acquired customers who remain active and make subsequent purchases.
+278. [stage_12_task_5] Repeat Purchase Rate
+   Category: ALL_IN_ONE | Stage: Stage 12 - Customer Quality Intelligence
+   Subtitle: Percentage of customer base that orders 2, 3, or more times within 90 days.
+279. [stage_12_task_6] Repeat Order Analysis
+   Category: ALL_IN_ONE | Stage: Stage 12 - Customer Quality Intelligence
+   Subtitle: Identify which products have high replenishment demand and drive organic reorders.
+280. [stage_12_task_7] Customer Segmentation (Quality)
+   Category: ALL_IN_ONE | Stage: Stage 12 - Customer Quality Intelligence
+   Subtitle: Group customer base into VIP whales, steady buyers, one-time shoppers, and risk profiles.
+281. [stage_12_task_8] High-Value Customer Detection
+   Category: ALL_IN_ONE | Stage: Stage 12 - Customer Quality Intelligence
+   Subtitle: Flag customers who purchase bundles, accept upsells, and always pay on first delivery attempt.
+282. [stage_12_task_9] Low-Value Customer Detection
+   Category: ALL_IN_ONE | Stage: Stage 12 - Customer Quality Intelligence
+   Subtitle: Identify price-sensitive shoppers with high support inquiries and low cross-sell uptake.
+283. [stage_12_task_10] RTO-Prone Customer Analysis
+   Category: ALL_IN_ONE | Stage: Stage 12 - Customer Quality Intelligence
+   Subtitle: Profile behavioral indicators of prospects likely to abandon packages at the doorstep.
+284. [stage_12_task_11] Customer Refusal Rate
+   Category: ALL_IN_ONE | Stage: Stage 12 - Customer Quality Intelligence
+   Subtitle: Track customer refusal patterns to feed exclusions back to marketing databases.
+285. [stage_12_task_12] Customer Cancellation Rate
+   Category: ALL_IN_ONE | Stage: Stage 12 - Customer Quality Intelligence
+   Subtitle: Measure how quickly customer buyer remorse sets in between order click and phone verification.
+286. [stage_12_task_13] Customer Confirmation Rate
+   Category: ALL_IN_ONE | Stage: Stage 12 - Customer Quality Intelligence
+   Subtitle: Evaluate customer willingness to confirm delivery details and commit to cash payment.
+287. [stage_12_task_14] Customer Delivery Rate
+   Category: ALL_IN_ONE | Stage: Stage 12 - Customer Quality Intelligence
+   Subtitle: Measure final package collection rate by customer segment.
+288. [stage_12_task_15] Customer Profitability
+   Category: ALL_IN_ONE | Stage: Stage 12 - Customer Quality Intelligence
+   Subtitle: Calculate net profit generated per customer after deducting acquisition and return history.
+289. [stage_12_task_16] Customer Feedback Analysis
+   Category: ALL_IN_ONE | Stage: Stage 12 - Customer Quality Intelligence
+   Subtitle: Synthesize qualitative customer comments, reviews, and satisfaction messages.
+290. [stage_12_task_17] Customer Satisfaction Analysis
+   Category: ALL_IN_ONE | Stage: Stage 12 - Customer Quality Intelligence
+   Subtitle: Measure Net Promoter Score (NPS) and delivery experience ratings.
+291. [stage_12_task_18] Customer Complaints
+   Category: ALL_IN_ONE | Stage: Stage 12 - Customer Quality Intelligence
+   Subtitle: Categorize post-delivery issues (missing parts, broken in transit, sizing confusion).
+292. [stage_12_task_19] Customer Loyalty
+   Category: ALL_IN_ONE | Stage: Stage 12 - Customer Quality Intelligence
+   Subtitle: Design loyalty rewards, referral bonuses, and VIP discounts for top 10% customers.
+293. [stage_12_task_20] Customer Cohort Analysis
+   Category: ALL_IN_ONE | Stage: Stage 12 - Customer Quality Intelligence
+   Subtitle: Track spending retention behavior of customer groups acquired in specific months.
+294. [stage_12_task_21] Customer Quality by Wilaya
+   Category: ALL_IN_ONE | Stage: Stage 12 - Customer Quality Intelligence
+   Subtitle: Compare customer reliability and buying power across regional territories.
+295. [stage_12_task_22] Customer Quality by Product
+   Category: ALL_IN_ONE | Stage: Stage 12 - Customer Quality Intelligence
+   Subtitle: Determine which products attract serious adult buyers vs immature impulse shoppers.
+296. [stage_12_task_23] Customer Quality by Campaign
+   Category: ALL_IN_ONE | Stage: Stage 12 - Customer Quality Intelligence
+   Subtitle: Evaluate whether discount-led ads attract lower quality customers than benefit-led ads.
+297. [stage_12_task_24] Customer Quality by Creative
+   Category: ALL_IN_ONE | Stage: Stage 12 - Customer Quality Intelligence
+   Subtitle: Audit creative styles that attract premium paying customers with near-zero return rates.
+298. [stage_12_task_25] Customer Quality Prediction
+   Category: ALL_IN_ONE | Stage: Stage 12 - Customer Quality Intelligence
+   Subtitle: Leverage AI to forecast customer pickup probability at the exact moment of order submission.
+
+--- 13. STAGE 13: AD PLATFORM SIGNAL INTELLIGENCE (26 Skills) ---
+299. [stage_13_task_1] Pixel Signal Analysis
+   Category: ALL_IN_ONE | Stage: Stage 13 - Ad Platform Signal Intelligence
+   Subtitle: Audit browser event firing, cookie lifespans, and client-side tracking reliability.
+300. [stage_13_task_2] Conversion API (CAPI) Analysis
+   Category: ALL_IN_ONE | Stage: Stage 13 - Ad Platform Signal Intelligence
+   Subtitle: Verify direct server-to-server event data transmission bypassing iOS ad blockers.
+301. [stage_13_task_3] Event Tracking
+   Category: ALL_IN_ONE | Stage: Stage 13 - Ad Platform Signal Intelligence
+   Subtitle: Standardize naming and firing triggers for ViewContent, AddToCart, InitiateCheckout, Purchase.
+302. [stage_13_task_4] Event Match Quality
+   Category: ALL_IN_ONE | Stage: Stage 13 - Ad Platform Signal Intelligence
+   Subtitle: Maximize Meta Event Match Quality (EMQ target >8.0/10) by hashing email, phone, city, IP.
+303. [stage_13_task_5] Purchase Event Quality
+   Category: ALL_IN_ONE | Stage: Stage 13 - Ad Platform Signal Intelligence
+   Subtitle: Transmit exact customer parameters and order currency values to optimize bidding algorithms.
+304. [stage_13_task_6] Lead Event Quality
+   Category: ALL_IN_ONE | Stage: Stage 13 - Ad Platform Signal Intelligence
+   Subtitle: Enhance lead generation data signals with phone verification and location metadata.
+305. [stage_13_task_7] Add to Cart Signal
+   Category: ALL_IN_ONE | Stage: Stage 13 - Ad Platform Signal Intelligence
+   Subtitle: Feed high-frequency intent signals to train the pixel during initial cold testing campaigns.
+306. [stage_13_task_8] Initiate Checkout Signal
+   Category: ALL_IN_ONE | Stage: Stage 13 - Ad Platform Signal Intelligence
+   Subtitle: Track middle-funnel intent transitions to build powerful custom retargeting audiences.
+307. [stage_13_task_9] Confirmed Order Signal
+   Category: ALL_IN_ONE | Stage: Stage 13 - Ad Platform Signal Intelligence
+   Subtitle: Send custom verified purchase events to Meta only after the customer confirms by phone.
+308. [stage_13_task_10] Delivered Order Signal
+   Category: ALL_IN_ONE | Stage: Stage 13 - Ad Platform Signal Intelligence
+   Subtitle: Transmit final delivered cash purchase events so Meta optimizes strictly for paying buyers.
+309. [stage_13_task_11] Purchase Value Signal
+   Category: ALL_IN_ONE | Stage: Stage 13 - Ad Platform Signal Intelligence
+   Subtitle: Pass accurate cart values to allow Meta's Value Optimization (AOV) algorithm to find high spenders.
+310. [stage_13_task_12] Revenue Signal Quality
+   Category: ALL_IN_ONE | Stage: Stage 13 - Ad Platform Signal Intelligence
+   Subtitle: Ensure revenue figures sent to ad algorithms match real net cash after return adjustments.
+311. [stage_13_task_13] Customer Quality Signal
+   Category: ALL_IN_ONE | Stage: Stage 13 - Ad Platform Signal Intelligence
+   Subtitle: Feed positive feedback signals on reputable buyers to help algorithms isolate high-trust users.
+312. [stage_13_task_14] Offline Conversion Tracking
+   Category: ALL_IN_ONE | Stage: Stage 13 - Ad Platform Signal Intelligence
+   Subtitle: Upload CSV or API offline event sets of delivered COD orders into Meta Business Manager.
+313. [stage_13_task_15] Server-Side Tracking
+   Category: ALL_IN_ONE | Stage: Stage 13 - Ad Platform Signal Intelligence
+   Subtitle: Route events through dedicated cloud servers (Stape.io / AWS) for 100% data capture.
+314. [stage_13_task_16] Browser-Side Tracking
+   Category: ALL_IN_ONE | Stage: Stage 13 - Ad Platform Signal Intelligence
+   Subtitle: Maintain lightweight, high-speed JavaScript pixel scripts that load without site latency.
+315. [stage_13_task_17] Deduplication Analysis
+   Category: ALL_IN_ONE | Stage: Stage 13 - Ad Platform Signal Intelligence
+   Subtitle: Ensure identical `event_id` keys prevent double-counting between browser and server CAPI events.
+316. [stage_13_task_18] Event Match Rate
+   Category: ALL_IN_ONE | Stage: Stage 13 - Ad Platform Signal Intelligence
+   Subtitle: Verify that Meta successfully pairs tracked events to real Facebook/Instagram user accounts.
+317. [stage_13_task_19] Signal Loss Detection
+   Category: ALL_IN_ONE | Stage: Stage 13 - Ad Platform Signal Intelligence
+   Subtitle: Detect sudden drops in tracking volume caused by browser updates or broken webhooks.
+318. [stage_13_task_20] Event Delay Analysis
+   Category: ALL_IN_ONE | Stage: Stage 13 - Ad Platform Signal Intelligence
+   Subtitle: Monitor time lag between order submission on site and server event receipt by Meta.
+319. [stage_13_task_21] Conversion Attribution
+   Category: ALL_IN_ONE | Stage: Stage 13 - Ad Platform Signal Intelligence
+   Subtitle: Analyze 7-day click vs 1-day view attribution to understand prospect buying delay.
+320. [stage_13_task_22] Data Quality Monitoring
+   Category: ALL_IN_ONE | Stage: Stage 13 - Ad Platform Signal Intelligence
+   Subtitle: Continuous audit of data integrity, payload accuracy, and parameter formatting.
+321. [stage_13_task_23] Signal-to-Conversion Analysis
+   Category: ALL_IN_ONE | Stage: Stage 13 - Ad Platform Signal Intelligence
+   Subtitle: Measure how higher event match quality scores directly correlate to lower acquisition CPA.
+322. [stage_13_task_24] Signal Optimization
+   Category: ALL_IN_ONE | Stage: Stage 13 - Ad Platform Signal Intelligence
+   Subtitle: Enrich event payloads with user browser language, external ID, and geolocation.
+323. [stage_13_task_25] Meta Learning Phase Analysis
+   Category: ALL_IN_ONE | Stage: Stage 13 - Ad Platform Signal Intelligence
+   Subtitle: Track the 50 optimization events required per ad set to successfully exit Learning Phase.
+324. [stage_13_task_26] Audience Feedback Loop
+   Category: ALL_IN_ONE | Stage: Stage 13 - Ad Platform Signal Intelligence
+   Subtitle: Pipe real delivery outcome data back into lookalike seed audiences for automated self-tuning.
+
+--- 14. STAGE 14: AI OPTIMIZATION ENGINE (34 Skills) ---
+325. [stage_14_task_1] AI Campaign Optimization
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Autonomous machine learning engine dynamically optimizing campaign budget and targeting parameters.
+326. [stage_14_task_2] AI Budget Optimization
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Algorithmic reallocation of capital from sluggish ad sets into rapidly converting winners.
+327. [stage_14_task_3] AI Bid Optimization
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Automated micro-adjustments to bid caps to win profitable auctions during peak buying hours.
+328. [stage_14_task_4] AI Creative Optimization
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Dynamic selection of best-performing thumbnail, headline, and video combinations.
+329. [stage_14_task_5] AI Audience Optimization
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Continually refine demographic and age boundaries based on real delivery conversion rates.
+330. [stage_14_task_6] AI Targeting Optimization
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Balance broad open targeting vs interest stacks based on account seasoning.
+331. [stage_14_task_7] AI Product Optimization
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Prioritize ad spend toward products exhibiting the highest net cash delivery margins.
+332. [stage_14_task_8] AI Offer Optimization
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Identify optimal bundle configurations and discount depths that maximize gross margin.
+333. [stage_14_task_9] AI Funnel Optimization
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Detect and repair conversion bottlenecks across the entire user journey.
+334. [stage_14_task_10] AI Landing Page Optimization
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Algorithmically split-test headlines, benefit bullets, color schemes, and order form buttons.
+335. [stage_14_task_11] AI Conversion Rate Optimization (CRO)
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Continuous micro-improvements to site UX that elevate visitor-to-order conversion ratios.
+336. [stage_14_task_12] AI CPA Optimization
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Enforce cost caps and audience pruning to suppress high-CPA traffic spikes.
+337. [stage_14_task_13] AI ROAS Optimization
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Maximize blended return on ad spend by shifting spend to high-AOV bundles.
+338. [stage_14_task_14] AI Profit Optimization
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Program algorithms to optimize for net pocketed bank profit rather than vanity platform metrics.
+339. [stage_14_task_15] AI Revenue Optimization
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Scale top-line cash intake while strictly maintaining operational delivery thresholds.
+340. [stage_14_task_16] AI RTO Reduction
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Suppress delivery to regions or customer segments flagged with high return probability.
+341. [stage_14_task_17] AI Delivery Rate Optimization
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Automatically align advertising push with courier routes with proven 85%+ delivery rates.
+342. [stage_14_task_18] AI Confirmation Rate Optimization
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Optimize form fields and callback timing to elevate verified order rates above 80%.
+343. [stage_14_task_19] AI Customer Quality Optimization
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Direct ad delivery toward mature, high-income customer profiles with strong repeat potential.
+344. [stage_14_task_20] AI Signal Optimization
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Self-healing tracking mechanisms that maintain maximum Event Match Quality scores.
+345. [stage_14_task_21] Budget Reallocation
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Daily automated shifts of underutilized ad spend to overperforming campaigns.
+346. [stage_14_task_22] Creative Rotation
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Systematically cycle fresh ad variations into active ad sets to combat creative fatigue.
+347. [stage_14_task_23] Creative Fatigue Prevention
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Predictive alerts flagging when winning ad frequency is rising before CPA decays.
+348. [stage_14_task_24] Audience Expansion
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Broaden target parameters automatically once initial target segments hit saturation.
+349. [stage_14_task_25] Audience Exclusion
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Automatically exclude past purchasers, unconfirmed leads, and return-risk profiles.
+350. [stage_14_task_26] Broad vs Interest Targeting
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Test and balance algorithmic broad targeting against laser-focused interest stacks.
+351. [stage_14_task_27] Scaling Recommendations
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Actionable daily recommendations: bump budget +20%, duplicate into CBO, or launch new angles.
+352. [stage_14_task_28] Kill / Keep / Scale Analysis
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Uncompromising decision matrix: kill losing ads, keep stable performers, scale verified winners.
+353. [stage_14_task_29] Daily Performance Monitoring
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Daily performance audit against target KPIs to catch anomalies early.
+354. [stage_14_task_30] Automated Decision Rules
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Set up automated Meta rules: if spent 2x target CPA with 0 purchases, pause ad immediately.
+355. [stage_14_task_31] 7-Day Average Comparison
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Evaluate performance across rolling 7-day windows to prevent knee-jerk overreactions to one bad day.
+356. [stage_14_task_32] Anomaly Detection
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Instant alerts for sudden CPM spikes, pixel firing outages, or broken payment gateway links.
+357. [stage_14_task_33] Performance Alerts
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Automated push notifications sent to Slack/Telegram for critical campaign milestones.
+358. [stage_14_task_34] Testing Prioritization
+   Category: ALL_IN_ONE | Stage: Stage 14 - AI Optimization Engine
+   Subtitle: Rank new creative and offer concepts by expected upside and testing speed.
+
+--- 15. STAGE 15: NEW TRAFFIC ACQUISITION (26 Skills) ---
+359. [stage_15_task_1] New Traffic Generation
+   Category: ALL_IN_ONE | Stage: Stage 15 - New Traffic Acquisition
+   Subtitle: Continually source and open fresh traffic tributaries to feed top-of-funnel demand.
+360. [stage_15_task_2] New Audience Discovery
+   Category: ALL_IN_ONE | Stage: Stage 15 - New Traffic Acquisition
+   Subtitle: Identify untapped consumer groups with identical needs who have never seen the product.
+361. [stage_15_task_3] Audience Expansion
+   Category: ALL_IN_ONE | Stage: Stage 15 - New Traffic Acquisition
+   Subtitle: Unlock larger lookalike tiers (5% to 10%) and expand demographic age boundaries.
+362. [stage_15_task_4] Lookalike Expansion
+   Category: ALL_IN_ONE | Stage: Stage 15 - New Traffic Acquisition
+   Subtitle: Build second-generation lookalike audiences from high-AOV and repeat purchaser seed lists.
+363. [stage_15_task_5] Broad Audience Expansion
+   Category: ALL_IN_ONE | Stage: Stage 15 - New Traffic Acquisition
+   Subtitle: Transition from interest-constrained targeting to completely open nationwide broad audiences.
+364. [stage_15_task_6] New Interest Discovery
+   Category: ALL_IN_ONE | Stage: Stage 15 - New Traffic Acquisition
+   Subtitle: Uncover lateral, non-obvious interests that share common psychographic values with buyers.
+365. [stage_15_task_7] New Buyer Persona Discovery
+   Category: ALL_IN_ONE | Stage: Stage 15 - New Traffic Acquisition
+   Subtitle: Unearth secondary use cases and new customer personas (e.g. product bought as a gift).
+366. [stage_15_task_8] New Market Discovery
+   Category: ALL_IN_ONE | Stage: Stage 15 - New Traffic Acquisition
+   Subtitle: Evaluate expansion into adjacent geographical territories and secondary languages.
+367. [stage_15_task_9] New Wilaya Expansion
+   Category: ALL_IN_ONE | Stage: Stage 15 - New Traffic Acquisition
+   Subtitle: Unlock shipping and targeted ad delivery into emerging interior provinces and southern territories.
+368. [stage_15_task_10] New Creative Launch
+   Category: ALL_IN_ONE | Stage: Stage 15 - New Traffic Acquisition
+   Subtitle: Release fresh batches of UGC, 3D animations, and problem-solution video variations weekly.
+369. [stage_15_task_11] New Offer Testing
+   Category: ALL_IN_ONE | Stage: Stage 15 - New Traffic Acquisition
+   Subtitle: Test flash sales, BOGO (Buy One Get One) deals, and seasonal bundle configurations.
+370. [stage_15_task_12] New Product Testing
+   Category: ALL_IN_ONE | Stage: Stage 15 - New Traffic Acquisition
+   Subtitle: Launch fast-cycle test campaigns for new candidate products alongside current winners.
+371. [stage_15_task_13] New Campaign Launch
+   Category: ALL_IN_ONE | Stage: Stage 15 - New Traffic Acquisition
+   Subtitle: Deploy clean, isolated testing campaigns to validate fresh marketing concepts safely.
+372. [stage_15_task_14] New Traffic Source Discovery
+   Category: ALL_IN_ONE | Stage: Stage 15 - New Traffic Acquisition
+   Subtitle: Expand customer acquisition channels beyond Meta into TikTok Ads, Google Search, and Snapchat.
+373. [stage_15_task_15] Organic Traffic Expansion
+   Category: ALL_IN_ONE | Stage: Stage 15 - New Traffic Acquisition
+   Subtitle: Build viral organic TikTok/Instagram accounts posting product demonstrations daily.
+374. [stage_15_task_16] Paid Traffic Expansion
+   Category: ALL_IN_ONE | Stage: Stage 15 - New Traffic Acquisition
+   Subtitle: Scale total paid media investment across multiple ad accounts to conquer auction share.
+375. [stage_15_task_17] Influencer Traffic
+   Category: ALL_IN_ONE | Stage: Stage 15 - New Traffic Acquisition
+   Subtitle: Partner with local micro-influencers for unboxings, reviews, and sponsored story shoutouts.
+376. [stage_15_task_18] UGC Traffic
+   Category: ALL_IN_ONE | Stage: Stage 15 - New Traffic Acquisition
+   Subtitle: Build an automated machine sourcing dozens of authentic customer video clips monthly.
+377. [stage_15_task_19] Social Media Traffic
+   Category: ALL_IN_ONE | Stage: Stage 15 - New Traffic Acquisition
+   Subtitle: Engage in niche Facebook groups, community forums, and viral comment engagement.
+378. [stage_15_task_20] Search Traffic
+   Category: ALL_IN_ONE | Stage: Stage 15 - New Traffic Acquisition
+   Subtitle: Capture high-intent buyers actively searching for product keywords on Google and YouTube.
+379. [stage_15_task_21] Retargeting Expansion
+   Category: ALL_IN_ONE | Stage: Stage 15 - New Traffic Acquisition
+   Subtitle: Broaden retargeting windows and introduce dynamic catalog retargeting formats.
+380. [stage_15_task_22] Customer Referral Traffic
+   Category: ALL_IN_ONE | Stage: Stage 15 - New Traffic Acquisition
+   Subtitle: Implement post-purchase refer-a-friend discount codes to drive organic word-of-mouth sales.
+381. [stage_15_task_23] New Customer Acquisition
+   Category: ALL_IN_ONE | Stage: Stage 15 - New Traffic Acquisition
+   Subtitle: Optimize dedicated top-of-funnel campaigns purely focused on net-new customer onboarding.
+382. [stage_15_task_24] Traffic Scaling
+   Category: ALL_IN_ONE | Stage: Stage 15 - New Traffic Acquisition
+   Subtitle: Aggressively scale daily visitor impressions while closely monitoring landing page server latency.
+383. [stage_15_task_25] Market Expansion
+   Category: ALL_IN_ONE | Stage: Stage 15 - New Traffic Acquisition
+   Subtitle: Replicate winning product playbooks into adjacent countries (Morocco, Tunisia, GCC, Europe).
+384. [stage_15_task_26] Growth Loop
+   Category: ALL_IN_ONE | Stage: Stage 15 - New Traffic Acquisition
+   Subtitle: Complete the feedback loop: delivered order profits immediately reinvested into new acquisition.
+
+================================================================================
+PART 2: MASTER DZ LANDING PAGE STRATEGY SECTIONS (SKILLS 385 – 401)
+================================================================================
+
+385. [dz_section_1] Product Research
+   Category: MASTER_DZ_STRATEGY | Section: Section 1
+   Subtitle: Deep product intelligence, main problem solved, emotional & functional benefits, features, buying motivations, price positioning, and trending keywords in Algerian Darja.
+386. [dz_section_2] Top 10 Competitors
+   Category: MASTER_DZ_STRATEGY | Section: Section 2
+   Subtitle: In-depth market benchmark of 10 competitors: website, strengths, weaknesses, visual branding, landing page style, offer strategy, CTA, colors, and typography.
+387. [dz_section_3] Best Brand Colors
+   Category: MASTER_DZ_STRATEGY | Section: Section 3
+   Subtitle: Three complete psychological brand color palettes (Primary, Secondary, Accent, Background, Text, Button HEX codes) with deep psychological justifications.
+388. [dz_section_4] Logo Research
+   Category: MASTER_DZ_STRATEGY | Section: Section 4
+   Subtitle: Three distinct logo creative directions (Minimal, Luxury, Modern) detailing style, shape, typography, icon, brand feeling, and complete AI image prompts.
+389. [dz_section_5] Buyer Personas
+   Category: MASTER_DZ_STRATEGY | Section: Section 5
+   Subtitle: Three comprehensive, authentic Algerian buyer personas detailing daily lifestyle, dreams, pain points, objections, buying triggers, DZD income, and tone.
+390. [dz_section_6] High-Converting Keywords
+   Category: MASTER_DZ_STRATEGY | Section: Section 6
+   Subtitle: 700+ high-converting local keywords categorized into Emotional, Benefit, Pain Point, CTA, Urgency, Trust, and Social Proof expressions in Algerian Darja.
+391. [dz_section_7] Offers
+   Category: MASTER_DZ_STRATEGY | Section: Section 7
+   Subtitle: 15 high-converting promotional offer structures (Discounts, Bundles, Free Shipping, Free Gifts, VIP Offers) with detailed local conversion psychology.
+392. [dz_section_8] Landing Page Structure
+   Category: MASTER_DZ_STRATEGY | Section: Section 8
+   Subtitle: Three complete landing page architectural strategies (Pages A, B, C) featuring 7 detailed sections each with visual directions, copywriting goals, and mobile UX tips.
+393. [dz_section_9] Section Image Prompts
+   Category: MASTER_DZ_STRATEGY | Section: Section 9
+   Subtitle: 21 professional AI image generation prompts (25+ lines each) for every section across all landing page designs (luxury DTC aesthetic, 9:16 mobile ratio).
+394. [dz_section_10] Copywriting
+   Category: MASTER_DZ_STRATEGY | Section: Section 10
+   Subtitle: Complete copy toolkit in Algerian Darja: 20 Headlines, 20 Subheadlines, 20 CTA Buttons, 20 Trust Badges, 20 Urgency Messages, 20 Guarantees, 20 Benefits.
+395. [dz_section_11] Social Proof & Reviews
+   Category: MASTER_DZ_STRATEGY | Section: Section 11
+   Subtitle: 15 realistic customer reviews with varying ages, star ratings, and natural Darja dialect phrasing overcoming real buying objections.
+396. [dz_section_12] FAQ
+   Category: MASTER_DZ_STRATEGY | Section: Section 12
+   Subtitle: 20 frequently asked questions addressing product usage, shipping timeline, payment on delivery, warranty, and return policies.
+397. [dz_section_13] Email Popups
+   Category: MASTER_DZ_STRATEGY | Section: Section 13
+   Subtitle: 4 high-converting popup scripts: Welcome offer popup, Exit-intent popup, Discount unlock popup, and Cart recovery popup.
+398. [dz_section_14] Final Design Guide
+   Category: MASTER_DZ_STRATEGY | Section: Section 14
+   Subtitle: Comprehensive DTC design specification: typography hierarchy, spacing grid, border radius, cards, shadows, sticky CTAs, and mobile trust elements.
+399. [dz_section_15] Design References
+   Category: MASTER_DZ_STRATEGY | Section: Section 15
+   Subtitle: Benchmark analysis of 10 successful global DTC brands in the niche, detailing their visual style, palette, photography direction, and conversion mechanisms.
+400. [dz_section_16] Ad Creative Ideas
+   Category: MASTER_DZ_STRATEGY | Section: Section 16
+   Subtitle: 10 complete video ad concepts (UGC, Demo, Unboxing, Before/After, Meme, Founder Story) with 3-second hooks, scripts, captions, and AI storyboard prompts.
+401. [dz_section_17] Ad Image Concepts
+   Category: MASTER_DZ_STRATEGY | Section: Section 17
+   Subtitle: 10 static ad image concepts (lifestyle, flat-lay, macro detail, problem/solution, comparison) with 25+ line AI image generation prompts.
+
+================================================================================
+PART 3: FACEBOOK ADS TESTING METHODS (SKILLS 402 – 416)
+================================================================================
+
+402. [testing_method_1] Method 1: The Classic ABO Testing Method
+   Category: ADS_TESTING_METHODS | Strategy: Foundation Testing
+   Subtitle: ABO ad set testing with 4 distinct ad sets × 5 creatives ($40–$80/day minimum) to isolate winning audiences and creatives with strict kill rules.
+403. [testing_method_2] Method 2: CBO Broad Testing Method
+   Category: ADS_TESTING_METHODS | Strategy: Algorithmic Testing
+   Subtitle: Campaign Budget Optimization giving Meta maximum freedom across broad audiences ($100–$300/day) to let AI identify the ideal customer segment.
+404. [testing_method_3] Method 3: Creative Testing Method (Creative-First Approach)
+   Category: ADS_TESTING_METHODS | Strategy: Creative Isolation
+   Subtitle: The Creative IS the targeting: test 10+ creatives across 5 distinct psychological angles in a single isolated broad ad set to reveal true creative winners.
+405. [testing_method_4] Method 4: Advantage+ Shopping Campaign (ASC) Method
+   Category: ADS_TESTING_METHODS | Strategy: Automated Testing
+   Subtitle: Meta's automated AI on full autopilot: upload 10–15 diverse creatives (UGC, Demo, Static, Carousel) and let machine learning handle prospecting and retargeting.
+406. [testing_method_5] Method 5: Cost Cap / Bid Cap Testing Method
+   Category: ADS_TESTING_METHODS | Strategy: Margin Protection Testing
+   Subtitle: Test new products and creatives under strict CPA ceiling limits so Meta only spends when guaranteed profitable auctions are found.
+407. [testing_method_6] Method 6: Dynamic Creative (DCT) 3:2:2 Method
+   Category: ADS_TESTING_METHODS | Strategy: Dynamic Variable Testing
+   Subtitle: Test 3 creatives, 2 primary texts, and 2 headlines inside a single dynamic creative container to let algorithm determine the optimal combination.
+408. [testing_method_7] Method 7: The Micro-Budget Snowball Method
+   Category: ADS_TESTING_METHODS | Strategy: Low-Budget Validation
+   Subtitle: Low-risk testing framework for beginners: validate product demand on just $5–$10/day per ad set before committing scaling capital.
+409. [testing_method_8] Method 8: The Video Hook Testing Method
+   Category: ADS_TESTING_METHODS | Strategy: Hook Rate Optimization
+   Subtitle: Keep the ad body and offer identical while testing 5 different 3-second opening hooks to maximize thumb-stop ratio and lower initial CPM.
+410. [testing_method_9] Method 9: Interest Stacking vs Single Interest Method
+   Category: ADS_TESTING_METHODS | Strategy: Audience Testing
+   Subtitle: Systematically test isolated single interests against large themed interest stacks to benchmark audience efficiency and scale ceilings.
+411. [testing_method_10] Method 10: The Broad Targeting Method (Pure Broad)
+   Category: ADS_TESTING_METHODS | Strategy: Open Demographic Testing
+   Subtitle: Zero interests, zero behaviors, open age and gender: let the copy and creative qualify prospects and allow Meta to find the lowest-cost buyers.
+412. [testing_method_11] Method 11: The Competitor Audience Method
+   Category: ADS_TESTING_METHODS | Strategy: Competitor Interception
+   Subtitle: Target direct brand fans and competitor follower affinities to intercept active buyers currently purchasing alternative products.
+413. [testing_method_12] Method 12: UGC (User Generated Content) Testing Method
+   Category: ADS_TESTING_METHODS | Strategy: Native Social Proof
+   Subtitle: Test authentic, unpolished creator videos, customer unboxings, and smartphone reviews that bypass ad blindness and achieve 4x higher trust.
+414. [testing_method_13] Method 13: International Market Expansion Method
+   Category: ADS_TESTING_METHODS | Strategy: Geographic Testing
+   Subtitle: Test proven domestic winners across Tier 1, Tier 2, and Tier 3 international countries to lower acquisition CPMs by 20–40%.
+415. [testing_method_14] Method 14: The Offer Testing Method
+   Category: ADS_TESTING_METHODS | Strategy: Conversion Architecture Testing
+   Subtitle: Keep the ad creative identical while split-testing 5 different landing page offers (Standard, Bonus Stack, 40% Off, Guarantee-Led, Bundle Deal).
+416. [testing_method_15] Method 15: The Full-Funnel Omnichannel Method
+   Category: ADS_TESTING_METHODS | Strategy: Master Full-Funnel Testing
+   Subtitle: Comprehensive ecosystem coordinating TikTok organic discovery, Meta prospecting, 3-tier retargeting, and post-purchase email flows.
+
+================================================================================
+PART 4: FACEBOOK ADS SCALING METHODS (SKILLS 417 – 431)
+================================================================================
+
+417. [scaling_method_1] Method 1: Vertical Budget Scaling (The Safe Ladder)
+   Category: ADS_SCALING_METHODS | Strategy: Vertical Growth
+   Subtitle: The golden rule of scaling: safely increase ad set budget by 15–20% every 48–72 hours without disrupting the machine-learning optimization phase.
+418. [scaling_method_2] Method 2: Horizontal Scaling (Duplication Method)
+   Category: ADS_SCALING_METHODS | Strategy: Horizontal Duplication
+   Subtitle: Clone winning ad sets into new auctions at the same budget to capture fresh audience segments and multiply daily spend safely.
+419. [scaling_method_3] Method 3: CBO Consolidation Scaling
+   Category: ADS_SCALING_METHODS | Strategy: Budget Consolidation
+   Subtitle: Merge 4–6 proven ABO winning ad sets into one high-budget CBO campaign ($200–$2,000/day) with minimum and maximum spend guardrails.
+420. [scaling_method_4] Method 4: Advantage+ Shopping Campaign (ASC) Scaling
+   Category: ADS_SCALING_METHODS | Strategy: Automated AI Scaling
+   Subtitle: Scale Meta's automated ASC engine up to $5,000+/day by managing an aggressive creative pipeline (adding 3–4 new winning creatives every week).
+421. [scaling_method_5] Method 5: Cost Cap Scaling Method
+   Category: ADS_SCALING_METHODS | Strategy: Self-Regulating Scale
+   Subtitle: Scale budget aggressively ($500–$3,000+/day) while locking a hard cost cap: Meta automatically pauses spend if average CPA exceeds the target.
+422. [scaling_method_6] Method 6: Creative Scaling Method
+   Category: ADS_SCALING_METHODS | Strategy: Creative Asset Pipeline
+   Subtitle: Break scaling ceilings by scaling creative production volume (4–8 new creatives weekly) to prevent ad fatigue at higher daily spend.
+423. [scaling_method_7] Method 7: Lookalike Audience Scaling Method
+   Category: ADS_SCALING_METHODS | Strategy: Lookalike Ladder
+   Subtitle: Build high-quality seed pools (top 25% LTV buyers) and scale through a matrix of 1%, 2%, 3%, and 5% lookalikes in CBO structures.
+424. [scaling_method_8] Method 8: International Market Scaling
+   Category: ADS_SCALING_METHODS | Strategy: Global Geographic Scale
+   Subtitle: Expand winning domestic campaigns globally into UK, Canada, Australia, and Europe with localized currencies, languages, and shipping ETAs.
+425. [scaling_method_9] Method 9: Retargeting Scale Method
+   Category: ADS_SCALING_METHODS | Strategy: High-ROAS Recovery
+   Subtitle: Scale a 4-layer retargeting architecture (Hot 0-3d, Warm 4-14d, Cool 15-30d, Post-Purchase) maintaining an 80:20 prospecting-to-retargeting ratio.
+426. [scaling_method_10] Method 10: Offer & AOV Scaling Method
+   Category: ADS_SCALING_METHODS | Strategy: Unit Economics Expansion
+   Subtitle: Double revenue without increasing ad spend by implementing pre-purchase bundles, in-cart upsells, and one-click post-purchase offers.
+427. [scaling_method_11] Method 11: Email & SMS Scaling Method
+   Category: ADS_SCALING_METHODS | Strategy: Owned Channel Flywheel
+   Subtitle: Build automated welcome series, abandoned cart recovery, and win-back flows that generate 25–35% of total store revenue at zero incremental ad cost.
+428. [scaling_method_12] Method 12: Dayparting & Budget Scheduling Scale
+   Category: ADS_SCALING_METHODS | Strategy: Efficiency Scheduling
+   Subtitle: Analyze hourly performance heatmaps to schedule 130% budget allocation during peak converting hours and pause during dead night hours.
+429. [scaling_method_13] Method 13: Influencer + Paid Ads Scaling Method
+   Category: ADS_SCALING_METHODS | Strategy: Whitelisting & Creator Ads
+   Subtitle: Combine organic influencer trust with paid reach by whitelisting creator accounts to run authentic ads with 30–50% lower CPMs.
+430. [scaling_method_14] Method 14: Multi-Product Line Scaling
+   Category: ADS_SCALING_METHODS | Strategy: Portfolio Diversification
+   Subtitle: Break single-product saturation ceilings by launching complementary adjacent SKUs and deploying dynamic product catalog campaigns.
+431. [scaling_method_15] Method 15: The Full-Funnel Scaling System
+   Category: ADS_SCALING_METHODS | Strategy: Master $100K/Mo Blueprint
+   Subtitle: The complete scaling blueprint integrating creative engine, paid acquisition, audience expansion, retargeting, and multi-product lines.
+
+================================================================================
+PART 5: STANDALONE SPECIALIZED INTELLIGENCE SKILLS (SKILLS 432 – 670)
+================================================================================
+
+--- 01. BUSINESS & COMPANY SETUP (5 Skills) ---
+432. [llc_company] LLC Company (US)
+   Category: BUSINESS | Parent: Company Formation
+   Subtitle: US LLC setup plan for non-residents: formation state, EIN acquisition, tax deadlines, and non-resident business banking (Mercury, Relay, Wise).
+433. [ltd_company] LTD Company (UK)
+   Category: BUSINESS | Parent: Company Formation
+   Subtitle: UK Ltd company plan: Companies House registration, HMRC corporate tax deadlines, VAT thresholds, and non-resident banks (Wise Business, Revolut).
+434. [hong_kong_company] Hong Kong Company
+   Category: BUSINESS | Parent: Company Formation
+   Subtitle: Hong Kong company setup: Companies Registry, profits tax exemptions, annual returns, and corporate accounts (Airwallex, Statrys, Currenxie).
+435. [uae_company] UAE Company
+   Category: BUSINESS | Parent: Company Formation
+   Subtitle: UAE mainland or free zone setup (IFZA, Meydan), corporate tax guidelines, residence visas, and business banking (Wio, Mashreq Neo).
+436. [estonia_company] Estonia Company
+   Category: BUSINESS | Parent: Company Formation
+   Subtitle: Estonian OÜ setup via e-Residency: 0% tax on reinvested corporate profits, annual reporting, and e-Resident banking solutions.
+
+--- 02. ADVANCED PRODUCT INTELLIGENCE (17 Skills) ---
+437. [product_master_list] Product Master List
+   Category: ADVANCED_PRODUCT | Parent: Catalog Architecture
+   Subtitle: Build master reference list of core product identity, pricing, wholesale suppliers, and marketplace competition.
+438. [product_deep_dive] Product Deep Dive
+   Category: ADVANCED_PRODUCT | Parent: Product Vetting
+   Subtitle: Comprehensive technical, commercial, and operational investigation to reach a decisive launch go/no-go verdict.
+439. [product_dna] Product DNA
+   Category: ADVANCED_PRODUCT | Parent: Product Psychology
+   Subtitle: Decode the psychological mechanism behind why a product succeeds: hook, pain point, mechanism, and visual wow factor.
+440. [why_people_buy] Why People Buy
+   Category: ADVANCED_PRODUCT | Parent: Consumer Psychology
+   Subtitle: Identify emotional and subconscious purchase drivers vs stated logical justifications with concrete evidence.
+441. [why_people_dont_buy] Why People Don't Buy
+   Category: ADVANCED_PRODUCT | Parent: Friction Analysis
+   Subtitle: Pinpoint conversion blockers, unspoken skepticism, price friction, and provide direct structural fixes.
+442. [viral_potential_score] Viral Potential Score
+   Category: ADVANCED_PRODUCT | Parent: Virality Assessment
+   Subtitle: Score virality potential 0-100 based on novelty, demonstration clarity, emotional punch, and platform fit.
+443. [product_complexity_score] Product Complexity Score
+   Category: ADVANCED_PRODUCT | Parent: Operational Risk
+   Subtitle: Audit operational friction across sourcing, fragile shipping, customer support complexity, and return likelihood.
+444. [product_risk_score] Product Risk Score
+   Category: ADVANCED_PRODUCT | Parent: Risk Management
+   Subtitle: Identify commercial and policy risks: ad-network bans, trademark infringement, seasonal decay, and supplier dependency.
+445. [untapped_product_finder] Untapped Product Finder
+   Category: ADVANCED_PRODUCT | Parent: Opportunity Mining
+   Subtitle: Uncover high-potential, underserved product niches exhibiting rising consumer demand and minimal ad saturation.
+446. [product_trend_reversal] Product Trend Reversal
+   Category: ADVANCED_PRODUCT | Parent: Trend Analysis
+   Subtitle: Detect products regaining momentum after a lull or identify dying trends before investing working capital.
+447. [product_ecosystem] Product Ecosystem
+   Category: ADVANCED_PRODUCT | Parent: Ecosystem Design
+   Subtitle: Map complementary accessory products, bundle upsells, and cross-sell pathways to build a brand portfolio.
+448. [price_elasticity_analysis] Price Elasticity Analysis
+   Category: ADVANCED_PRODUCT | Parent: Pricing Optimization
+   Subtitle: Calculate market price responsiveness: floor price, ceiling price, price anchors, and margin tolerance.
+449. [commodity_vs_brandable] Commodity vs Brandable
+   Category: ADVANCED_PRODUCT | Parent: Brand Feasibility
+   Subtitle: Evaluate whether a product is doomed to price-war commoditization or can be elevated into a defensible brand.
+450. [scale_potential] Scale Potential
+   Category: ADVANCED_PRODUCT | Parent: Scale Modeling
+   Subtitle: Model revenue scale ceiling in tiers, identifying upcoming operational bottlenecks and requirements to reach $50K+/mo.
+451. [test_priority_score] Test Priority Score
+   Category: ADVANCED_PRODUCT | Parent: Prioritization Matrix
+   Subtitle: Rank candidate products by testing priority based on test speed, upfront cost, signal clarity, and upside.
+452. [portfolio_product_ranking] Portfolio Product Ranking
+   Category: ADVANCED_PRODUCT | Parent: Portfolio Management
+   Subtitle: Benchmark multiple connected candidate products against each other to allocate marketing resources intelligently.
+453. [product_sourcing_compliance] Product Sourcing Compliance
+   Category: ADVANCED_PRODUCT | Parent: Compliance Sourcing
+   Subtitle: Map international sourcing pathways, customs gates, quality certifications, and brand safety flags.
+
+--- 03. WINNING PRODUCT 2.0 (1 Skill) ---
+454. [winning_digital_product] Winning Digital Product
+   Category: PRODUCT_2 | Parent: Digital Products
+   Subtitle: Analyze digital product listings (PDFs, templates, software, courses) to spot high-margin digital opportunities.
+
+--- 04. TREND & VIRAL RESEARCH (4 Skills) ---
+455. [trend_pulse_detector] Trend Pulse Detector
+   Category: TREND_VIRAL | Parent: Real-Time Trends
+   Subtitle: Scan live social media conversations and search velocity to catch emerging product trends early.
+456. [viral_video_anatomy] Viral Video Anatomy
+   Category: TREND_VIRAL | Parent: Video Deconstruction
+   Subtitle: Deconstruct viral TikTok/Reels product videos: hook framing, visual pacing, audio choices, and CTA placement.
+457. [hashtag_trend_miner] Hashtag Trend Miner
+   Category: TREND_VIRAL | Parent: Hashtag Analytics
+   Subtitle: Mine niche e-commerce hashtags (#TikTokMadeMeBuyIt, #AmazonFinds) for breakout product spikes.
+458. [platform_trend_arbitrage] Platform Trend Arbitrage
+   Category: TREND_VIRAL | Parent: Platform Arbitrage
+   Subtitle: Spot products trending on Douyin or Pinterest and launch them onto Meta/TikTok before competitors notice.
+
+--- 05. COMPETITOR INTELLIGENCE (6 Skills) ---
+459. [spy_facebook_library] Spy Facebook Library
+   Category: COMPETITOR | Parent: Ad Library Spy
+   Subtitle: Reverse-engineer competitor Meta ad creatives, running durations, copy angles, and active ad variations.
+460. [competitor_teardown] Competitor Teardown
+   Category: COMPETITOR | Parent: Store Audit
+   Subtitle: Full competitive teardown: pricing structure, shipping speeds, landing page layout, offers, and weak points.
+461. [competitor_ad_history] Competitor Ad History
+   Category: COMPETITOR | Parent: Longevity Analysis
+   Subtitle: Track which ads competitors keep running longest (longest running ads = proven profitable winners).
+462. [competitor_funnel_hack] Competitor Funnel Hack
+   Category: COMPETITOR | Parent: Funnel Reverse-Engineering
+   Subtitle: Reverse-engineer competitors' entire purchase journey: landing page, order bump, thank-you page, email sequence.
+463. [competitor_weakness_finder] Competitor Weakness Finder
+   Category: COMPETITOR | Parent: Vulnerability Exploitation
+   Subtitle: Mine negative competitor reviews to exploit packaging flaws, poor delivery, and unfulfilled promises.
+464. [market_share_estimator] Market Share Estimator
+   Category: COMPETITOR | Parent: Competitive Benchmarking
+   Subtitle: Estimate competitors' monthly order volume, traffic sources, and revenue scale across the target territory.
+
+--- 06. CUSTOMER & REVIEW INTELLIGENCE (5 Skills) ---
+465. [review_sentiment_miner] Review Sentiment Miner
+   Category: CUSTOMER_REVIEW | Parent: Review Mining
+   Subtitle: Mine hundreds of customer reviews across Amazon, Trustpilot, and stores to extract raw emotional themes.
+466. [customer_language_dictionary] Customer Language Dictionary
+   Category: CUSTOMER_REVIEW | Parent: Voice of Customer
+   Subtitle: Extract exact phrasing, idioms, and slang customers use to describe their pain points for high-converting copy.
+467. [objection_counter_matrix] Objection Counter Matrix
+   Category: CUSTOMER_REVIEW | Parent: Objection Handling
+   Subtitle: Build direct counter-arguments, proof points, and guarantees for every common consumer hesitation.
+468. [buyer_psychology_profile] Buyer Psychology Profile
+   Category: CUSTOMER_REVIEW | Parent: Psychographic Profiling
+   Subtitle: Analyze emotional triggers, cognitive biases, and social status motivations driving purchase decisions.
+469. [customer_avatar_generator] Customer Avatar Generator
+   Category: CUSTOMER_REVIEW | Parent: Persona Architecture
+   Subtitle: Generate rich, highly realistic 360-degree customer personas with authentic demographic details.
+
+--- 07. ADVANCED OFFER SKILLS (6 Skills) ---
+470. [grand_slam_offer_builder] Grand Slam Offer Builder
+   Category: ADVANCED_OFFER | Parent: Irresistible Offers
+   Subtitle: Apply Hormozi-style offer architecture: dream outcome, high perceived likelihood of achievement, zero effort.
+471. [bundle_builder_pro] Bundle Builder Pro
+   Category: ADVANCED_OFFER | Parent: Bundle Optimization
+   Subtitle: Formulate 1-unit, 2-unit, and 3-unit bundle tiers with escalating perceived value and higher AOV.
+472. [guarantee_architect] Guarantee Architect
+   Category: ADVANCED_OFFER | Parent: Risk Reversal
+   Subtitle: Craft unconditional, conditional, and performance-based guarantees that eliminate purchase risk.
+473. [urgency_scarcity_engine] Urgency & Scarcity Engine
+   Category: ADVANCED_OFFER | Parent: Conversion Triggers
+   Subtitle: Integrate ethical countdowns, limited stock warnings, and seasonal deadlines to drive immediate action.
+474. [tiered_pricing_calculator] Tiered Pricing Calculator
+   Category: ADVANCED_OFFER | Parent: Pricing Ladders
+   Subtitle: Model tiered pricing tiers to ensure maximum gross profit across all customer order variations.
+475. [free_gift_incentive_planner] Free Gift Incentive Planner
+   Category: ADVANCED_OFFER | Parent: Value Stacking
+   Subtitle: Select low-cost, high-perceived-value bonus gifts that tip hesitant prospects into buyers.
+
+--- 08. ADVANCED CREATIVE INTELLIGENCE (8 Skills) ---
+476. [ad_creative_style_angle_generator] Ad Creative Style & Angle Generator
+   Category: ADVANCED_CREATIVE | Parent: Creative Generation
+   Subtitle: Generate full-funnel video creative scripts, visual hook scenes, audio cues, and strategic conversion angles.
+477. [pattern_interrupt_vault] Pattern Interrupt Vault
+   Category: ADVANCED_CREATIVE | Parent: Scroll Stopping
+   Subtitle: Library of proven pattern interrupt concepts designed to freeze feed scrolling in the first 2 seconds.
+478. [ugc_script_generator] UGC Script Generator
+   Category: ADVANCED_CREATIVE | Parent: Creator Briefs
+   Subtitle: Generate authentic, natural creator briefs and selfie-video scripts optimized for TikTok and Reels.
+479. [ad_creative_scorecard] Ad Creative Scorecard
+   Category: ADVANCED_CREATIVE | Parent: Creative Auditing
+   Subtitle: Score ad creatives on hook effectiveness, visual clarity, emotional pacing, and strength of call to action.
+480. [static_image_ad_designer] Static Image Ad Designer
+   Category: ADVANCED_CREATIVE | Parent: Static Graphics
+   Subtitle: Design high-converting static banner concepts, comparison grids, and product callout feature graphics.
+481. [video_storyboard_architect] Video Storyboard Architect
+   Category: ADVANCED_CREATIVE | Parent: Video Production
+   Subtitle: Map shot-by-shot video storyboards detailing visual angles, text overlays, and voiceover timing.
+482. [carousel_ad_sequencer] Carousel Ad Sequencer
+   Category: ADVANCED_CREATIVE | Parent: Carousel Strategy
+   Subtitle: Structure multi-card carousel narratives: Problem card → Mechanism card → Proof card → Offer card.
+483. [thumbnail_optimization_lab] Thumbnail Optimization Lab
+   Category: ADVANCED_CREATIVE | Parent: Thumbnail Testing
+   Subtitle: Engineer high-contrast, curiosity-inducing video cover thumbnails to maximize initial ad view rates.
+
+--- 09. ADVANCED ADS ANALYTICS & OPS (13 Skills) ---
+484. [meta_ads_org_chart] Meta Ads Org Chart Strategy
+   Category: ADS_ANALYTICS | Parent: Full Funnel Architecture
+   Subtitle: Complete visual hierarchical org-chart strategy mapping TOF, MOF, BOF campaigns, ad sets, and ads.
+485. [lookalike_audience_strategy] Lookalike Audience Strategy
+   Category: ADS_ANALYTICS | Parent: LLA Strategy
+   Subtitle: Build and scale lookalike audiences (1%, 2%, 3%, 5%, 10%) from pixel purchases and customer lists.
+486. [bid_cost_cap_strategy] Bid Cap / Cost Cap Strategy
+   Category: ADS_ANALYTICS | Parent: Bid Controls
+   Subtitle: Implement Meta bid controls: Lowest Cost, Bid Cap, Cost Cap rules, and day-by-day adjustments.
+487. [carousel_ads_strategy] Carousel Ads Strategy
+   Category: ADS_ANALYTICS | Parent: Carousel Optimization
+   Subtitle: Build winning carousel ads: product vs feature cards, card sequencing, and catalog integration.
+488. [flexible_ads_strategy] Flexible Ads Strategy
+   Category: ADS_ANALYTICS | Parent: Dynamic Creatives
+   Subtitle: Leverage Meta Flexible Ads (dynamic creative asset combinations) and evaluate combination reporting.
+489. [pixel_events_strategy] Pixel Events & Tracking Strategy
+   Category: ADS_ANALYTICS | Parent: Tracking Setup
+   Subtitle: Setup Meta Pixel and Conversions API: event priorities, deduplication, and algorithm feedback loops.
+490. [ad_testing_plan] Ad Testing Plan
+   Category: ADS_ANALYTICS | Parent: Testing Protocols
+   Subtitle: Realistic testing framework for small budgets ($10-50/day): variable control, kill rules, and winner promotion.
+491. [campaign_scaling_plan] Campaign Scaling Plan
+   Category: ADS_ANALYTICS | Parent: Scaling Frameworks
+   Subtitle: Scale winning campaigns without destabilizing algorithm: incremental budget increases, duplicate vs raise rules.
+492. [offline_conversions_strategy] Offline Conversions Strategy
+   Category: ADS_ANALYTICS | Parent: Offline Attribution
+   Subtitle: Upload offline purchase and delivery data sets so Meta learns which ad clicks result in real cash collection.
+493. [marketplace_expansion] Marketplace Expansion Strategy
+   Category: ADS_ANALYTICS | Parent: Channel Expansion
+   Subtitle: Expand selling footprint beyond standalone stores onto Amazon, Noon, Jumia, and local marketplaces.
+494. [tof_strategy] Top of Funnel (TOF) Strategy
+   Category: ADS_ANALYTICS | Parent: Top of Funnel
+   Subtitle: Prospecting campaigns, broad vs interest targeting, awareness objectives, and key engagement benchmarks.
+495. [mof_strategy] Middle of Funnel (MOF) Strategy
+   Category: ADS_ANALYTICS | Parent: Middle of Funnel
+   Subtitle: Educate, build authority, handle objections, and warm engaged prospects before conversion closing.
+496. [bof_strategy] Bottom of Funnel (BOF) Strategy
+   Category: ADS_ANALYTICS | Parent: Bottom of Funnel
+   Subtitle: High-urgency retargeting campaigns targeting cart abandoners and recent visitors to close sales.
+
+--- 10. AWARENESS FUNNEL STRATEGY (5 Skills) ---
+497. [unaware_stage_strategy] Unaware Stage Strategy
+   Category: AWARENESS | Parent: Awareness Ladders
+   Subtitle: Craft pattern-interrupt content for cold audiences unaware they have a solvable problem.
+498. [problem_aware_strategy] Problem Aware Strategy
+   Category: AWARENESS | Parent: Problem Awakening
+   Subtitle: Agitate the pain points of prospects who feel the symptoms but don't know a solution exists.
+499. [solution_aware_strategy] Solution Aware Strategy
+   Category: AWARENESS | Parent: Solution Education
+   Subtitle: Educate prospects on different solution categories and prove why your mechanism is superior.
+500. [product_aware_strategy] Product Aware Strategy
+   Category: AWARENESS | Parent: Product Comparison
+   Subtitle: Compare your specific product directly against competitor alternatives and highlight proprietary advantages.
+501. [most_aware_strategy] Most Aware Strategy
+   Category: AWARENESS | Parent: Direct Conversion
+   Subtitle: Close hyper-qualified, warm prospects with irresistible pricing, guarantees, and immediate urgency.
+
+--- 11. COPYWRITING FRAMEWORKS (10 Skills) ---
+502. [aida_framework] AIDA Framework
+   Category: COPYWRITING | Parent: Copy Formulas
+   Subtitle: Classic copywriting structure: Grab Attention, build Interest, provoke Desire, demand Action.
+503. [pas_framework] PAS Framework
+   Category: COPYWRITING | Parent: Copy Formulas
+   Subtitle: High-converting direct response copy formula: Problem → Agitate the pain → Introduce Solution.
+504. [bab_framework] BAB Framework (Before-After-Bridge)
+   Category: COPYWRITING | Parent: Copy Formulas
+   Subtitle: Contrast the frustrating Before state with the dream After state and position product as the Bridge.
+505. [fab_framework] FAB Framework (Features-Advantages-Benefits)
+   Category: COPYWRITING | Parent: Copy Formulas
+   Subtitle: Translate boring technical features into distinct competitive advantages and emotional benefits.
+506. [hook_story_offer] Hook → Story → Offer
+   Category: COPYWRITING | Parent: Storytelling Copy
+   Subtitle: Structure engaging video scripts and long-form landing page copy around the Hook-Story-Offer formula.
+507. [star_story_solution] Star-Story-Solution
+   Category: COPYWRITING | Parent: Narrative Copy
+   Subtitle: Introduce a relatable hero (Star), walk through their struggle (Story), and unveil product (Solution).
+508. [headline_copy_psychology] Headline Copy Psychology
+   Category: COPYWRITING | Parent: Headline Crafting
+   Subtitle: Generate psychologically compelling headlines utilizing curiosity gaps, loss aversion, and specificity.
+509. [micro_copy_optimizer] Micro-Copy Optimizer
+   Category: COPYWRITING | Parent: Conversion Micro-Copy
+   Subtitle: Polish high-impact button text, shipping guarantee notices, form labels, and security disclaimers.
+510. [email_subject_line_forge] Email Subject Line Forge
+   Category: COPYWRITING | Parent: Email Open Rates
+   Subtitle: Craft high-open subject lines utilizing pattern interrupts, curiosity, and personalized touches.
+511. [facebook_ads_psychology_strategy] Facebook Ads Psychology Strategy
+   Category: COPYWRITING | Parent: Psychological Ads
+   Subtitle: Complete Meta ad creative and copywriting strategy grounded deeply in consumer psychology principles.
+
+--- 12. SHOPIFY STORE & APPS (6 Skills) ---
+512. [shopify_store_architecture] Shopify Store Architecture
+   Category: SHOPIFY | Parent: Store Build
+   Subtitle: Configure clean collection structures, mobile-first navigation, and fast-loading theme foundations.
+513. [shopify_app_stack_optimizer] Shopify App Stack Optimizer
+   Category: SHOPIFY | Parent: App Infrastructure
+   Subtitle: Select essential high-converting apps (upsells, reviews, COD forms) while minimizing script bloat.
+514. [shopify_speed_booster] Shopify Speed Booster
+   Category: SHOPIFY | Parent: Performance Optimization
+   Subtitle: Optimize mobile page load times: compress images, defer unused JavaScript, and eliminate slow app tags.
+515. [shopify_cod_form_master] Shopify COD Form Master
+   Category: SHOPIFY | Parent: COD Form CRO
+   Subtitle: Configure frictionless one-page Cash-On-Delivery order forms with automated wilaya/state selectors.
+516. [shopify_trust_badge_system] Shopify Trust Badge System
+   Category: SHOPIFY | Parent: On-Site Trust
+   Subtitle: Design and place strategic security, warranty, delivery guarantee, and payment badges across pages.
+517. [shopify_checkout_customizer] Shopify Checkout Customizer
+   Category: SHOPIFY | Parent: Checkout Flow
+   Subtitle: Streamline checkout fields, integrate trust banners, and reduce checkout drop-off friction.
+
+--- 13. ADVANCED ALGERIA SKILLS (6 Skills) ---
+518. [algeria_cod_logistics_engine] Algeria COD Logistics Engine
+   Category: ALGERIA | Parent: Algerian Operations
+   Subtitle: Complete operational blueprint for Algerian COD: courier integration, regional transit times, and cash collection.
+519. [algerian_darja_copy_studio] Algerian Darja Copy Studio
+   Category: ALGERIA | Parent: Localized Copywriting
+   Subtitle: Write natural, authentic Algerian dialect copy for ads, landing pages, and call scripts that builds local trust.
+520. [algeria_wilaya_profit_map] Algeria Wilaya Profit Map
+   Category: ALGERIA | Parent: Regional Profitability
+   Subtitle: Map delivery success rates and customer buying intent across all 58 Algerian wilayas.
+521. [algeria_courier_benchmark] Algeria Courier Benchmark
+   Category: ALGERIA | Parent: Courier Auditing
+   Subtitle: Compare rates, tracking systems, and delivery performance of Yalidine, ZR Express, Maystro, and Procolis.
+522. [algeria_call_center_blueprint] Algeria Call Center Blueprint
+   Category: ALGERIA | Parent: Call Center Operations
+   Subtitle: Operational structure, agent training, call scripts, and daily KPIs for high-confirmation Algerian COD teams.
+523. [algeria_product_seasonality_calendar] Algeria Product Seasonality Calendar
+   Category: ALGERIA | Parent: Local Seasonality
+   Subtitle: Plan campaigns around Ramadan, Eid al-Fitr, Eid al-Adha, summer weddings, and back-to-school buying cycles.
+
+--- 14. ADVANCED INTERNATIONAL SKILLS (5 Skills) ---
+524. [global_market_selection_matrix] Global Market Selection Matrix
+   Category: INTERNATIONAL | Parent: International Strategy
+   Subtitle: Evaluate potential new geographic markets based on disposable income, courier infrastructure, and ad CPMs.
+525. [gcc_cod_expansion_playbook] GCC COD Expansion Playbook
+   Category: INTERNATIONAL | Parent: Gulf COD
+   Subtitle: Blueprint for scaling COD in UAE, Saudi Arabia, Kuwait, and Qatar: fulfillment hubs, customs, and payment habits.
+526. [currency_pricing_localizer] Currency & Pricing Localizer
+   Category: INTERNATIONAL | Parent: Price Localization
+   Subtitle: Adapt pricing thresholds, currency formatting, and psychological price endings across international markets.
+527. [international_customs_freight_guide] International Customs & Freight Guide
+   Category: INTERNATIONAL | Parent: Cross-Border Logistics
+   Subtitle: Navigate air cargo, customs clearance, import tariffs, and compliance documentation for imported stock.
+528. [multi_language_store_architect] Multi-Language Store Architect
+   Category: INTERNATIONAL | Parent: Store Localization
+   Subtitle: Implement seamless multi-language and RTL (Right-to-Left) store architecture with automated geolocation routing.
+
+--- 15. VERY ADVANCED AI SKILLS (6 Skills) ---
+529. [ai_copywriter_master] AI Copywriter Master
+   Category: ADVANCED_AI | Parent: Generative Copy
+   Subtitle: Deploy custom AI system prompts to generate entire brand campaigns in any tone, dialect, or format.
+530. [ai_creative_prompt_engineer] AI Creative Prompt Engineer
+   Category: ADVANCED_AI | Parent: Visual Prompting
+   Subtitle: Formulate photorealistic AI image and video generation prompts for Midjourney, Flux, Kling, and Runway.
+531. [ai_voiceover_script_generator] AI Voiceover Script Generator
+   Category: ADVANCED_AI | Parent: Audio Ads
+   Subtitle: Generate natural conversational voiceover scripts timed precisely for ElevenLabs and AI voice synthesizers.
+532. [ai_customer_support_automator] AI Customer Support Automator
+   Category: ADVANCED_AI | Parent: Support Automation
+   Subtitle: Deploy intelligent AI chat agents to answer pre-purchase questions, resolve doubts, and capture order details.
+533. [ai_ad_performance_predictor] AI Ad Performance Predictor
+   Category: ADVANCED_AI | Parent: Predictive Modeling
+   Subtitle: Score candidate ad concepts before launch to forecast click-through rates and thumb-stop probabilities.
+534. [ai_competitor_monitoring_agent] AI Competitor Monitoring Agent
+   Category: ADVANCED_AI | Parent: Autonomous Monitoring
+   Subtitle: Automated bot tracking competitor store additions, price changes, and new ad launches in real time.
+
+--- 16. STRATEGIC INTELLIGENCE (6 Skills) ---
+535. [swot_competitive_matrix] SWOT Competitive Matrix
+   Category: STRATEGIC | Parent: Strategic Analysis
+   Subtitle: Comprehensive Strengths, Weaknesses, Opportunities, and Threats audit for the business and products.
+536. [blue_ocean_strategy_finder] Blue Ocean Strategy Finder
+   Category: STRATEGIC | Parent: Market Creation
+   Subtitle: Redefine product positioning to escape bloody competitive price wars and unlock uncontested market space.
+537. [unit_economics_stress_tester] Unit Economics Stress Tester
+   Category: STRATEGIC | Parent: Financial Stress Testing
+   Subtitle: Stress-test profitability under worst-case scenarios: rising CPMs, supplier cost hikes, and high return rates.
+538. [brand_moat_builder] Brand Moat Builder
+   Category: STRATEGIC | Parent: Defensibility
+   Subtitle: Construct defensible business moats around proprietary offers, community loyalty, custom packaging, and IP.
+539. [cash_flow_forecasting_engine] Cash Flow Forecasting Engine
+   Category: STRATEGIC | Parent: Working Capital
+   Subtitle: Model working capital timing, courier payout delays, inventory reorder cycles, and cash flow stability.
+540. [business_bottleneck_diagnostician] Business Bottleneck Diagnostician
+   Category: STRATEGIC | Parent: Constraint Theory
+   Subtitle: Apply the Theory of Constraints to identify the single biggest bottleneck limiting company growth today.
+
+--- 17. GEO-ARBITRAGE INTELLIGENCE (4 Skills) ---
+541. [sourcing_geo_arbitrage] Sourcing Geo-Arbitrage
+   Category: GEO_ARBITRAGE | Parent: Sourcing Arbitrage
+   Subtitle: Exploit wholesale price disparities between Asian manufacturing hubs, domestic markets, and regional distributors.
+542. [ad_cpm_geo_arbitrage] Ad CPM Geo-Arbitrage
+   Category: GEO_ARBITRAGE | Parent: Media Arbitrage
+   Subtitle: Target underserved secondary regions with lower ad auction competition to acquire customers at half the cost.
+543. [labor_arbitrage_system] Labor Arbitrage System
+   Category: GEO_ARBITRAGE | Parent: Team Operations
+   Subtitle: Build high-efficiency remote confirmation, design, and customer support teams across affordable talent markets.
+544. [shipping_route_arbitrage] Shipping Route Arbitrage
+   Category: GEO_ARBITRAGE | Parent: Logistics Optimization
+   Subtitle: Optimize freight routes, consolidation hubs, and local fulfillment warehouses to slash per-parcel shipping fees.
+
+--- 18. SUPPLIER & SOURCING INTELLIGENCE (6 Skills) ---
+545. [1688_factory_direct_miner] 1688 Factory Direct Miner
+   Category: SUPPLIER | Parent: Chinese Sourcing
+   Subtitle: Mine 1688.com wholesale catalogs to locate true manufacturing factories and negotiate real factory-floor prices.
+546. [supplier_negotiation_mastery] Supplier Negotiation Mastery
+   Category: SUPPLIER | Parent: Negotiation Playbook
+   Subtitle: Negotiation scripts and tactics to secure lower MOQs, volume discounts, custom packaging, and flexible terms.
+547. [sample_evaluation_protocol] Sample Evaluation Protocol
+   Category: SUPPLIER | Parent: Quality Control
+   Subtitle: Standardized 10-point inspection protocol to evaluate build quality, material durability, and packaging safety.
+548. [private_label_transition_plan] Private Label Transition Plan
+   Category: SUPPLIER | Parent: Custom Branding
+   Subtitle: Step-by-step roadmap for upgrading generic white-label products to proprietary custom-branded packaging.
+549. [supplier_contract_risk_shield] Supplier Contract & Risk Shield
+   Category: SUPPLIER | Parent: Sourcing Legal
+   Subtitle: Establish clear production milestones, defect penalty clauses, and delivery deadline agreements with factories.
+550. [backup_supplier_network] Backup Supplier Network
+   Category: SUPPLIER | Parent: Supply Chain Security
+   Subtitle: Qualify and maintain secondary backup suppliers to ensure inventory continuity when primary factories sell out.
+
+--- 19. LOGISTICS & SUPPLY CHAIN (5 Skills) ---
+551. [inventory_replenishment_calculator] Inventory Replenishment Calculator
+   Category: LOGISTICS | Parent: Inventory Planning
+   Subtitle: Calculate exact reorder points based on daily sales velocity, production lead times, and shipping transit buffers.
+552. [warehouse_fulfillment_workflow] Warehouse Fulfillment Workflow
+   Category: LOGISTICS | Parent: Warehouse Operations
+   Subtitle: Standardize pick-and-pack fulfillment procedures to dispatch orders within 4 hours of customer confirmation.
+553. [damage_defect_control_system] Damage & Defect Control System
+   Category: LOGISTICS | Parent: Quality Assurance
+   Subtitle: Implement protective packaging standards to eliminate transit breakage and reduce customer door refusals.
+554. [last_mile_delivery_tracker] Last-Mile Delivery Tracker
+   Category: LOGISTICS | Parent: Last-Mile Delivery
+   Subtitle: Track and optimize last-mile courier delivery performance, customer address clarity, and pickup points.
+555. [stockout_prevention_radar] Stockout Prevention Radar
+   Category: LOGISTICS | Parent: Supply Alerts
+   Subtitle: Early warning alerts monitoring inventory burn rates to prevent ad campaigns from stalling due to out-of-stock items.
+
+--- 20. ADVANCED FINANCIAL INTELLIGENCE (6 Skills) ---
+556. [real_net_profit_calculator] Real Net Profit Calculator
+   Category: FINANCE | Parent: Profit Reconciliation
+   Subtitle: Comprehensive financial accounting deducting all ad spend, shipping fees, RTO losses, COGS, and payment fees.
+557. [cod_reconciliation_engine] COD Reconciliation Engine
+   Category: FINANCE | Parent: Cash Flow Tracking
+   Subtitle: Reconcile daily courier remittances, collected customer cash, missing parcels, and courier deductions.
+558. [merchant_fee_optimizer] Merchant Fee Optimizer
+   Category: FINANCE | Parent: Fee Reduction
+   Subtitle: Minimize foreign transaction fees, exchange rate markups, and payment gateway processing commissions.
+559. [tax_compliance_playbook] Tax Compliance Playbook
+   Category: FINANCE | Parent: Tax Strategy
+   Subtitle: Best practices for international e-commerce taxation, corporate filings, customs tariffs, and local compliance.
+560. [working_capital_accelerator] Working Capital Accelerator
+   Category: FINANCE | Parent: Capital Optimization
+   Subtitle: Tactics to shorten cash conversion cycles and unlock faster supplier reorder capabilities.
+561. [pnl_master_dashboard] P&L Master Dashboard
+   Category: FINANCE | Parent: Financial Statements
+   Subtitle: Generate clean, executive monthly Profit and Loss statements tracking company financial health over time.
+
+--- 21. STORE & CRO INTELLIGENCE (6 Skills) ---
+562. [high_converting_homepage_blueprint] High-Converting Homepage Blueprint
+   Category: STORE_CRO | Parent: Store Layout
+   Subtitle: Design a high-trust e-commerce homepage layout optimized for brand credibility and fast product discovery.
+563. [product_page_cro_checklist] Product Page CRO Checklist
+   Category: STORE_CRO | Parent: Product Page CRO
+   Subtitle: 40-point conversion rate optimization audit covering media galleries, variant selectors, trust badges, and CTA.
+564. [mobile_ux_friction_remover] Mobile UX Friction Remover
+   Category: STORE_CRO | Parent: Mobile Optimization
+   Subtitle: Eliminate mobile browsing obstacles, tiny font issues, awkward popups, and clunky checkout forms.
+565. [cart_drawer_revenue_maximizer] Cart Drawer Revenue Maximizer
+   Category: STORE_CRO | Parent: Slide Cart CRO
+   Subtitle: Turn the slide-out cart into a high-revenue zone with free shipping meters, one-click upsells, and trust reminders.
+566. [exit_intent_rescue_system] Exit-Intent Rescue System
+   Category: STORE_CRO | Parent: Abandonment Capture
+   Subtitle: Capture departing store visitors with compelling last-chance discounts and order reservation prompts.
+567. [social_proof_notification_engine] Social Proof Notification Engine
+   Category: STORE_CRO | Parent: Urgency Boosters
+   Subtitle: Implement subtle, authentic recent order notifications and live visitor counters to create ethical buying momentum.
+
+--- 22. CONVERSION RATE OPTIMIZATION (5 Skills) ---
+568. [ab_split_test_designer] A/B Split Test Designer
+   Category: CRO | Parent: Experimentation
+   Subtitle: Formulate scientifically rigorous split testing hypotheses to isolate variables and elevate conversion rates.
+569. [heatmap_scroll_analyzer] Heatmap & Scroll Analyzer
+   Category: CRO | Parent: User Behavior
+   Subtitle: Interpret user heatmap clicks and scroll depth drop-offs to reposition high-converting elements above the fold.
+570. [form_field_friction_eliminator] Form Field Friction Eliminator
+   Category: CRO | Parent: Form Optimization
+   Subtitle: Reduce order submission fields to the absolute minimum needed to contact the customer and ship goods.
+571. [visual_hierarchy_optimizer] Visual Hierarchy Optimizer
+   Category: CRO | Parent: Visual Flow
+   Subtitle: Guide customer eyes naturally from the core headline to hero image, key benefit badges, and primary action button.
+572. [micro_conversion_funnel_tuner] Micro-Conversion Funnel Tuner
+   Category: CRO | Parent: Micro-Conversions
+   Subtitle: Measure and optimize every micro-step: image swipe rate, FAQ click rate, review tab view, and cart button click.
+
+--- 23. EXPERIMENTATION INTELLIGENCE (4 Skills) ---
+573. [growth_experiment_backlog] Growth Experiment Backlog
+   Category: EXPERIMENT | Parent: Growth Ideas
+   Subtitle: Build and prioritize a structured backlog of growth experiments scored on ICE (Impact, Confidence, Ease).
+574. [statistical_significance_calculator] Statistical Significance Calculator
+   Category: EXPERIMENT | Parent: Data Validity
+   Subtitle: Determine exact sample size and transaction thresholds required before declaring a test variant the winner.
+575. [post_mortem_experiment_review] Post-Mortem Experiment Review
+   Category: EXPERIMENT | Parent: Learning Loops
+   Subtitle: Document key learnings from failed and successful experiments to prevent repeating strategic mistakes.
+576. [rapid_prototype_landing_page] Rapid Prototype Landing Page
+   Category: EXPERIMENT | Parent: Fast Prototyping
+   Subtitle: Build and deploy bare-bones, high-speed test landing pages in under 60 minutes to validate new ideas.
+
+--- 24. CUSTOMER INTELLIGENCE 2.0 (5 Skills) ---
+577. [customer_feedback_loop_system] Customer Feedback Loop System
+   Category: CUSTOMER_2 | Parent: Qualitative Feedback
+   Subtitle: Systematically collect, categorize, and act upon direct customer feedback from WhatsApp, calls, and emails.
+578. [churn_prevention_radar] Churn Prevention Radar
+   Category: CUSTOMER_2 | Parent: Retention
+   Subtitle: Identify early signals of customer disengagement and trigger automated win-back outreach before loss.
+579. [nps_satisfaction_audit] NPS & Satisfaction Audit
+   Category: CUSTOMER_2 | Parent: Net Promoter Score
+   Subtitle: Survey delivered customers to benchmark satisfaction and isolate areas needing operational refinement.
+580. [customer_rfm_segmenter] Customer RFM Segmenter
+   Category: CUSTOMER_2 | Parent: RFM Segmentation
+   Subtitle: Segment buyer database by Recency, Frequency, and Monetary value to tailor targeted promotions.
+581. [vip_loyalty_experience_architect] VIP Loyalty Experience Architect
+   Category: CUSTOMER_2 | Parent: VIP Care
+   Subtitle: Build exclusive perks, early product access, and dedicated support for the top 5% revenue-generating customers.
+
+--- 25. RETENTION & CRM (5 Skills) ---
+582. [klaviyo_automated_flows_master] Klaviyo Automated Flows Master
+   Category: RETENTION | Parent: Email Marketing
+   Subtitle: Set up the 6 foundational e-commerce email flows: Welcome, Abandoned Cart, Post-Purchase, Review, Win-back, VIP.
+583. [whatsapp_broadcast_revenue_engine] WhatsApp Broadcast Revenue Engine
+   Category: RETENTION | Parent: WhatsApp Marketing
+   Subtitle: Broadcast segmented WhatsApp campaigns announcing new stock, seasonal promotions, and VIP flash discounts.
+584. [sms_cart_recovery_playbook] SMS Cart Recovery Playbook
+   Category: RETENTION | Parent: SMS Recovery
+   Subtitle: Automated 2-step SMS sequences with personalized cart links that recover 15-20% of abandoned checkouts.
+585. [post_purchase_cross_sell_sequence] Post-Purchase Cross-Sell Sequence
+   Category: RETENTION | Parent: LTV Expansion
+   Subtitle: Timed multi-touch messages offering complementary product discounts 7 to 14 days after initial delivery.
+586. [re-engagement_winback_campaign] Re-Engagement Win-Back Campaign
+   Category: RETENTION | Parent: Inactive Buyers
+   Subtitle: Reactivate dormant customer lists who haven't ordered in 60-120 days with irresistible limited-time incentives.
+
+--- 26. ORGANIC GROWTH INTELLIGENCE (5 Skills) ---
+587. [tiktok_organic_growth_playbook] TikTok Organic Growth Playbook
+   Category: ORGANIC | Parent: TikTok Organic
+   Subtitle: Blueprint for posting 3 daily viral product videos on TikTok to drive free organic traffic and seed pixel data.
+588. [instagram_reels_aesthetic_system] Instagram Reels Aesthetic System
+   Category: ORGANIC | Parent: Reels Strategy
+   Subtitle: Create aesthetic, high-engagement lifestyle Instagram Reels that build aspirational brand equity.
+589. [youtube_shorts_product_funnel] YouTube Shorts Product Funnel
+   Category: ORGANIC | Parent: Shorts Marketing
+   Subtitle: Repurpose viral short-form video content onto YouTube Shorts to capture search-driven buyers.
+590. [ugc_community_flywheel] UGC Community Flywheel
+   Category: ORGANIC | Parent: Community UGC
+   Subtitle: Incentivize customers to post their own unboxing videos on social media in exchange for store credit.
+591. [viral_giveaway_growth_engine] Viral Giveaway Growth Engine
+   Category: ORGANIC | Parent: Viral Contests
+   Subtitle: Structure viral social contests requiring tags, shares, and email signups to build massive audience reach cheaply.
+
+--- 27. INFLUENCER INTELLIGENCE (5 Skills) ---
+592. [micro_influencer_seeding_kit] Micro-Influencer Seeding Kit
+   Category: INFLUENCER | Parent: Influencer Gifting
+   Subtitle: Outreach templates and gifted product workflows to get 20+ micro-influencers posting about your product.
+593. [influencer_contract_brief_builder] Influencer Contract & Brief Builder
+   Category: INFLUENCER | Parent: Creator Briefs
+   Subtitle: Draft clear creator briefs specifying video duration, hook requirements, product features, and legal usage rights.
+594. [influencer_roi_performance_tracker] Influencer ROI Performance Tracker
+   Category: INFLUENCER | Parent: Influencer Tracking
+   Subtitle: Track custom promo codes, UTM referral links, and sales volume produced per influencer partnership.
+595. [affiliate_brand_ambassador_system] Affiliate Brand Ambassador System
+   Category: INFLUENCER | Parent: Brand Ambassadors
+   Subtitle: Build an automated affiliate portal paying creators 10-20% commission on orders generated by their audience.
+596. [whitelisted_creator_ad_manager] Whitelisted Creator Ad Manager
+   Category: INFLUENCER | Parent: Partnership Ads
+   Subtitle: Secure Meta Partnership Ad access to run ads directly from influencers' handles into cold prospective audiences.
+
+--- 28. SEO INTELLIGENCE (5 Skills) ---
+597. [ecom_keyword_intent_researcher] E-Com Keyword Intent Researcher
+   Category: SEO | Parent: Keyword Research
+   Subtitle: Identify commercial high-intent search keywords with high buyer demand and moderate ranking difficulty.
+598. [product_title_description_seo_tuner] Product Title & Description SEO Tuner
+   Category: SEO | Parent: On-Page SEO
+   Subtitle: Optimize product titles, meta descriptions, and header tags to rank in Google Shopping and organic search.
+599. [collection_page_seo_architect] Collection Page SEO Architect
+   Category: SEO | Parent: Collection SEO
+   Subtitle: Structure high-ranking category collection pages with rich descriptive text, internal links, and FAQs.
+600. [image_alt_speed_seo_optimizer] Image Alt & Speed SEO Optimizer
+   Category: SEO | Parent: Image SEO
+   Subtitle: Compress product photography into WebP format and enrich alt tags with targeted search keywords.
+601. [backlink_pr_growth_tactics] Backlink & PR Growth Tactics
+   Category: SEO | Parent: Off-Page SEO
+   Subtitle: Secure features in gift guides, niche blogs, and review websites to build high-authority domain backlink power.
+
+--- 29. MARKETPLACE INTELLIGENCE (5 Skills) ---
+602. [amazon_listing_optimizer_pro] Amazon Listing Optimizer Pro
+   Category: MARKETPLACE | Parent: Amazon FBA
+   Subtitle: Optimize Amazon product titles, 5 key benefit bullets, backend search terms, and A+ Content layouts.
+603. [jumia_marketplace_seller_blueprint] Jumia Marketplace Seller Blueprint
+   Category: MARKETPLACE | Parent: African Marketplaces
+   Subtitle: Operational guide for selling successfully on Jumia: commission structures, fulfillment hubs, and promotional days.
+604. [noon_middle_east_scaling_guide] Noon Middle East Scaling Guide
+   Category: MARKETPLACE | Parent: Middle East E-Com
+   Subtitle: Launch and scale e-commerce products on Noon across UAE and Saudi Arabia using FBN (Fulfilled by Noon).
+605. [aliexpress_dropship_arbitrageur] AliExpress Dropship Arbitrageur
+   Category: MARKETPLACE | Parent: Arbitrage Strategy
+   Subtitle: Spot high-margin opportunities by sourcing direct from Chinese sellers and fulfilling local domestic demand.
+606. [multi_channel_inventory_sync] Multi-Channel Inventory Sync
+   Category: MARKETPLACE | Parent: Multi-Channel Ops
+   Subtitle: Sync stock levels automatically across Shopify, Amazon, Noon, and local marketplaces to prevent overselling.
+
+--- 30. PRODUCT TESTING INTELLIGENCE (4 Skills) ---
+607. [product_test_planner] Product Test Planner
+   Category: PRODUCT_TESTING | Parent: Testing Architecture
+   Subtitle: Complete testing plan: daily budget size, test duration, audience setup, creative mix, and kill/scale criteria.
+608. [rapid_validation_smoke_tester] Rapid Validation Smoke Tester
+   Category: PRODUCT_TESTING | Parent: Smoke Testing
+   Subtitle: Test product demand with low-budget landing page presales before purchasing bulk physical inventory.
+609. [micro_budget_test_matrix] Micro-Budget Test Matrix
+   Category: PRODUCT_TESTING | Parent: Budget Testing
+   Subtitle: Run structured, low-risk testing campaigns testing 3 creatives × 2 audiences on $20/day total spend.
+610. [test_phase_kill_scale_rules] Test Phase Kill/Scale Rules
+   Category: PRODUCT_TESTING | Parent: Decision Frameworks
+   Subtitle: Strict rules for product validation: minimum impressions, click thresholds, and CPA benchmarks for stopping or scaling.
+
+--- 31. SCALING INTELLIGENCE (4 Skills) ---
+611. [vertical_scale_budget_ladder] Vertical Scale Budget Ladder
+   Category: SCALING | Parent: Budget Bumping
+   Subtitle: Progressive 20% budget increases applied every 48 hours to maintain algorithm stability and profitable ROAS.
+612. [horizontal_scale_audience_cloner] Horizontal Scale Audience Cloner
+   Category: SCALING | Parent: Audience Duplication
+   Subtitle: Duplicate winning ad sets into new auctions and expand interest stacks to scale spend without audience fatigue.
+613. [cbo_consolidation_power_engine] CBO Consolidation Power Engine
+   Category: SCALING | Parent: CBO Scaling
+   Subtitle: Consolidate verified ABO winners into high-budget CBO campaigns allowing Meta's algorithm to allocate budget freely.
+614. [multi_account_scaling_architecture] Multi-Account Scaling Architecture
+   Category: SCALING | Parent: Enterprise Scaling
+   Subtitle: Run identical high-spending winning campaigns across 2-3 separate ad accounts to bypass platform reach limits.
+
+--- 32. PRODUCT ECOSYSTEM 2.0 (4 Skills) ---
+615. [product_ecosystem_expansion_engine] Product Ecosystem Expansion Engine
+   Category: ECOSYSTEM_2 | Parent: Brand Portfolios
+   Subtitle: Systematically expand one validated winning hero product into a multi-SKU complementary brand catalog.
+616. [hero_product_spin_off_planner] Hero Product Spin-Off Planner
+   Category: ECOSYSTEM_2 | Parent: Product Line Extensions
+   Subtitle: Create variations, updated models, and accessory attachments derived from your core best-selling SKU.
+617. [consumable_replenishment_modeler] Consumable Replenishment Modeler
+   Category: ECOSYSTEM_2 | Parent: Recurring Revenue
+   Subtitle: Transform one-time physical product sales into recurring consumable repeat orders and monthly subscriptions.
+618. [cross_sell_matrix_architect] Cross-Sell Matrix Architect
+   Category: ECOSYSTEM_2 | Parent: Catalog Merchandising
+   Subtitle: Map intuitive product pairs across your catalog so every checkout page offers a natural companion item.
+
+--- 33. BRANDING INTELLIGENCE (4 Skills) ---
+619. [dtc_brand_identity_foundry] DTC Brand Identity Foundry
+   Category: BRANDING | Parent: Brand Identity
+   Subtitle: Define core brand values, personality, mission statements, and tone of voice that resonate with target buyers.
+620. [packaging_unboxing_experience_designer] Packaging & Unboxing Experience Designer
+   Category: BRANDING | Parent: Packaging Design
+   Subtitle: Design memorable custom unboxing experiences with custom mailer boxes, thank-you cards, and stickers.
+621. [brand_guidelines_style_bible] Brand Guidelines Style Bible
+   Category: BRANDING | Parent: Style Guides
+   Subtitle: Document formal typography rules, color usage, photographic styles, and logo clear-space rules.
+622. [premium_perceived_value_booster] Premium Perceived Value Booster
+   Category: BRANDING | Parent: Value Perception
+   Subtitle: Visual and copywriting adjustments that make a $10 wholesale product feel like a $50 luxury brand item.
+
+--- 34. LOCALIZATION INTELLIGENCE (4 Skills) ---
+623. [cultural_nuance_copy_adapter] Cultural Nuance Copy Adapter
+   Category: LOCALIZATION | Parent: Cultural Adaptation
+   Subtitle: Adapt marketing hooks to align with local traditions, cultural etiquette, and colloquial expressions.
+624. [local_payment_gateway_integrator] Local Payment Gateway Integrator
+   Category: LOCALIZATION | Parent: Payment Gateways
+   Subtitle: Integrate preferred local payment methods: Cash On Delivery, Chargily, BaridiMob, KNET, Mada, or Fawry.
+625. [regional_dialect_video_scriptor] Regional Dialect Video Scriptor
+   Category: LOCALIZATION | Parent: Dialect Scripting
+   Subtitle: Write scripts tailored to specific regional accents and speech rhythms to maximize viewer relatability.
+626. [holiday_cultural_calendar_planner] Holiday & Cultural Calendar Planner
+   Category: LOCALIZATION | Parent: Seasonal Calendars
+   Subtitle: Schedule marketing campaigns around local national holidays, religious seasons, and regional festivals.
+
+--- 35. FRAUD & RISK INTELLIGENCE (4 Skills) ---
+627. [fake_order_detection_shield] Fake Order Detection Shield
+   Category: FRAUD_RISK | Parent: Fraud Prevention
+   Subtitle: Automatically filter out prank orders, bot submissions, and competitor sabotage checkouts before dispatch.
+628. [ip_geolocation_risk_scorer] IP & Geolocation Risk Scorer
+   Category: FRAUD_RISK | Parent: Risk Scoring
+   Subtitle: Cross-reference customer IP location with delivery shipping addresses to spot anomalous orders.
+629. [blacklist_management_system] Blacklist Management System
+   Category: FRAUD_RISK | Parent: Blacklist Database
+   Subtitle: Maintain a centralized database of phone numbers and addresses that repeatedly refuse delivered COD parcels.
+630. [ad_account_ban_prevention_shield] Ad Account Ban Prevention Shield
+   Category: FRAUD_RISK | Parent: Account Health
+   Subtitle: Audit ad creatives, landing pages, and business assets against Meta policy guidelines to prevent account bans.
+
+--- 36. DATA INTELLIGENCE (4 Skills) ---
+631. [unified_ecommerce_data_warehouse] Unified E-Commerce Data Warehouse
+   Category: DATA | Parent: Data Engineering
+   Subtitle: Consolidate ad spend, store transactions, and courier delivery data into a unified reporting source.
+632. [multi_touch_attribution_modeler] Multi-Touch Attribution Modeler
+   Category: DATA | Parent: Attribution Modeling
+   Subtitle: Compare First-Click, Last-Click, and Linear attribution to understand the true customer acquisition journey.
+633. [cohort_retention_analytics_engine] Cohort Retention Analytics Engine
+   Category: DATA | Parent: Cohort Analytics
+   Subtitle: Analyze customer cohort repurchase rates over 30, 60, 90, and 180 days to measure true brand equity.
+634. [predictive_ltv_modeling_lab] Predictive LTV Modeling Lab
+   Category: DATA | Parent: Predictive Analytics
+   Subtitle: Forecast future customer lifetime spending power using early engagement and initial order parameters.
+
+--- 37. AUTONOMOUS AGENTS (7 Skills) ---
+635. [product_agent] Product Agent
+   Category: AGENTS | Parent: Autonomous AI
+   Subtitle: Fully autonomous agent: find winning products → research demand → score viability → calculate margins.
+636. [competitor_agent] Competitor Agent
+   Category: AGENTS | Parent: Autonomous AI
+   Subtitle: Autonomous agent: continuously monitor competitors' ads, landing pages, pricing moves, and weaknesses.
+637. [market_agent] Market Agent
+   Category: AGENTS | Parent: Autonomous AI
+   Subtitle: Autonomous agent: analyze overall market demand, competitive density, and emerging niche opportunities.
+638. [launch_agent] Launch Agent
+   Category: AGENTS | Parent: Autonomous AI
+   Subtitle: Autonomous agent: assemble the offer, write landing page copy, design ad angles, and launch test plan.
+639. [scaling_agent] Scaling Agent
+   Category: AGENTS | Parent: Autonomous AI
+   Subtitle: Autonomous agent: analyze daily performance data → isolate winners → reallocate budgets → trigger scaling.
+640. [profit_agent] Profit Agent
+   Category: AGENTS | Parent: Autonomous AI
+   Subtitle: Autonomous agent: track all incoming costs, shipments, returns, and ad spend to reveal true pocketed profit.
+641. [growth_agent] Growth Agent
+   Category: AGENTS | Parent: Autonomous AI
+   Subtitle: Autonomous agent: audit the entire e-commerce business, identify the core constraint, and prescribe fixes.
+
+--- 38. E-COMMERCE COMMAND CENTER (1 Skill) ---
+642. [ecommerce_command_center] E-commerce Command Center
+   Category: COMMAND | Parent: Executive Center
+   Subtitle: One master command dashboard that aggregates analytics across the entire business and dictates next actions.
+
+--- 39. DECISION INTELLIGENCE (4 Skills) ---
+643. [daily_ecom_decision_matrix] Daily E-Com Decision Matrix
+   Category: DECISION | Parent: Daily Workflows
+   Subtitle: Standardized operational morning checklist: which ads to kill, which to scale, and what stock to reorder.
+644. [kill_keep_scale_decision_engine] Kill / Keep / Scale Decision Engine
+   Category: DECISION | Parent: Media Buyer Logic
+   Subtitle: Objective data-driven decision trees eliminating emotional second-guessing when managing ad spend.
+645. [inventory_order_timing_decider] Inventory Order Timing Decider
+   Category: DECISION | Parent: Inventory Decisions
+   Subtitle: Determine exact dates and quantities for factory purchase orders to balance liquidity against stockouts.
+646. [new_product_go_nogo_gatekeeper] New Product Go / No-Go Gatekeeper
+   Category: DECISION | Parent: Validation Gates
+   Subtitle: Strict qualification hurdle requiring candidate products to clear 12 viability tests before spending budget.
+
+--- 40. OPPORTUNITY RADAR (1 Skill) ---
+647. [opportunity_radar] Opportunity Radar
+   Category: RADAR | Parent: Opportunity Scanning
+   Subtitle: Autonomous scanner continuously surveying product trends, price drops, and underserved market voids.
+
+--- 41. E-COMMERCE (ECOM) DECISION FLOWS (1 Skill) ---
+648. [meta_daily_decision_flow] Meta Ads Daily Decision Flow
+   Category: ECOM | Parent: Decision Systems
+   Subtitle: Interactive visual flowchart of the Meta Ads daily optimization loop (7-day averages, budget rules, fatigue checks).
+
+--- 42. ADVANCED STRATEGY INTELLIGENCE (22 Skills) ---
+649. [ecommerce_growth_loop_intelligence_engine] E-Commerce Growth Loop Intelligence Engine
+   Category: ADVANCED_STRATEGY | Parent: Connected Growth Loop
+   Subtitle: Analyzes the complete business as ONE connected COD/e-commerce feedback loop across all 15 stages.
+650. [nose_hair_trimmer_launch_agent] Nose Hair Trimmer Launch Agent
+   Category: ADVANCED_STRATEGY | Parent: Market Blueprint
+   Subtitle: Executes the 6-phase pre-launch plan for the Mini Portable Nose Hair Trimmer (Algerian COD market).
+651. [ecommerce_growth_loop_v2] E-Commerce Growth Loop Intelligence Engine (V2)
+   Category: ADVANCED_STRATEGY | Parent: Growth Loop V2
+   Subtitle: Advanced iteration of the connected COD/e-commerce growth loop analysis with expanded metrics.
+652. [advanced_product_differentiation_system] Advanced Product Differentiation System
+   Category: ADVANCED_STRATEGY | Parent: Competitive Positioning
+   Subtitle: Formulate proprietary mechanisms and uncopyable physical/packaging modifications for candidate products.
+653. [viral_hook_psychology_matrix] Viral Hook Psychology Matrix
+   Category: ADVANCED_STRATEGY | Parent: Hook Architecture
+   Subtitle: Deep psychological classification of video hooks into 12 primal human curiosity triggers.
+654. [algorithmic_creative_fatigue_defense] Algorithmic Creative Fatigue Defense
+   Category: ADVANCED_STRATEGY | Parent: Creative Longevity
+   Subtitle: Advanced protocol for breathing fresh life into fatigued ad creatives by altering opening frames and audio.
+655. [high_ticket_cod_conversion_system] High-Ticket COD Conversion System
+   Category: ADVANCED_STRATEGY | Parent: High-Ticket COD
+   Subtitle: Specialized landing page and call center strategies for selling premium products ($70–$200+) via COD.
+656. [wilaya_delivery_speed_optimizer] Wilaya Delivery Speed Optimizer
+   Category: ADVANCED_STRATEGY | Parent: Delivery Route Speed
+   Subtitle: Route shipments through regional hub sorting systems to slash delivery times by 24 to 48 hours.
+657. [customer_refusal_prevention_playbook] Customer Refusal Prevention Playbook
+   Category: ADVANCED_STRATEGY | Parent: Doorstep Friction
+   Subtitle: Step-by-step procedures for couriers and agents that reduce customer doorstep refusals by up to 40%.
+658. [blended_roas_mer_optimizer] Blended ROAS & MER Optimizer
+   Category: ADVANCED_STRATEGY | Parent: Financial Efficiency
+   Subtitle: Calculate true blended Marketing Efficiency Ratio (Total Revenue ÷ Total Media Spend) across all platforms.
+659. [cash_conversion_cycle_accelerator] Cash Conversion Cycle Accelerator
+   Category: ADVANCED_STRATEGY | Parent: Cash Flow Acceleration
+   Subtitle: Speed up remittance collections from couriers to reinvest cash back into ad spend every 48 hours.
+660. [ugc_creator_outreach_engine] UGC Creator Outreach Engine
+   Category: ADVANCED_STRATEGY | Parent: Creator Recruiting
+   Subtitle: Automated outreach and follow-up templates for recruiting high-converting local content creators.
+661. [retargeting_waterfall_architecture] Retargeting Waterfall Architecture
+   Category: ADVANCED_STRATEGY | Parent: Retargeting Cascades
+   Subtitle: Structured sequential retargeting feeding prospects through increasingly aggressive offers over 30 days.
+662. [ad_auction_overlap_eliminator] Ad Auction Overlap Eliminator
+   Category: ADVANCED_STRATEGY | Parent: Audience Hygiene
+   Subtitle: Diagnose and eliminate internal auction overlap between ad sets that artificially inflates account CPMs.
+663. [capi_gateway_failover_system] CAPI Gateway Failover System
+   Category: ADVANCED_STRATEGY | Parent: Tracking Reliability
+   Subtitle: Redundant tracking architecture ensuring zero conversion signal loss during ad platform server outages.
+664. [seasonal_inventory_ramping_planner] Seasonal Inventory Ramping Planner
+   Category: ADVANCED_STRATEGY | Parent: Seasonal Inventory
+   Subtitle: Calculate aggressive inventory ramp schedules 60 days ahead of major seasonal consumer shopping holidays.
+665. [cod_confirmation_gamification_system] COD Confirmation Gamification System
+   Category: ADVANCED_STRATEGY | Parent: Call Center Incentive
+   Subtitle: Incentive and bonus structures for call center teams that lift overall confirmation rates past 85%.
+666. [post_purchase_survey_intelligence] Post-Purchase Survey Intelligence
+   Category: ADVANCED_STRATEGY | Parent: Attribution Insights
+   Subtitle: Deploy on-confirmation zero-party data surveys asking "How did you first hear about us?" to audit attribution.
+667. [creative_testing_velocity_engine] Creative Testing Velocity Engine
+   Category: ADVANCED_STRATEGY | Parent: Testing Pacing
+   Subtitle: Operational system ensuring steady weekly deployment of 10+ new creative iterations into testing pipelines.
+668. [multi_courier_balancing_router] Multi-Courier Balancing Router
+   Category: ADVANCED_STRATEGY | Parent: Courier Load Balancing
+   Subtitle: Dynamically route shipments to whichever courier currently maintains the highest delivery rate per wilaya.
+669. [customer_lifetime_value_maximizer] Customer Lifetime Value Maximizer
+   Category: ADVANCED_STRATEGY | Parent: Lifetime Value
+   Subtitle: Strategic roadmap converting one-time COD buyers into profitable, multi-purchase brand advocates.
+670. [full_funnel_growth_orchestrator] Full-Funnel Growth Orchestrator
+   Category: ADVANCED_STRATEGY | Parent: Master Growth Blueprint
+   Subtitle: Master growth strategy synchronizing product intelligence, ad scaling, CRO, and delivery excellence into one continuous engine.
+
+================================================================================
+END OF COMPLETE SKILL LIBRARY (TOTAL 670 SKILLS)
+================================================================================

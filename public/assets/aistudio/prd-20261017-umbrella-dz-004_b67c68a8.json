@@ -1,0 +1,301 @@
+{
+  "id": "prd-20261017-umbrella-dz-004",
+  "name": "Compact Folding Umbrella with Carabiner D-Ring Handle (macaron colors)",
+  "status": "Researching",
+  "category": "Fashion Accessories > Rain Gear > Folding Umbrellas",
+  "source": "User-submitted product image; verified via web research (Alibaba, Amazon categories, Ouedkniss, kiabi.dz, Facebook DZ stores)",
+  "country": "DZ",
+  "mainImage": "https://z-cdn-media.chatglm.cn/files/71cd62f4-3921-4c63-9ba6-b6c387ba4a7e.png?auth_key=1892229987-b6c5bd61b89941fab402acbe08ecae7c-0-13df9f3f681149e80175972fd80c64c7",
+  "gallery": [],
+  "favorite": false,
+  "pinned": false,
+  "hot": false,
+  "highMargin": false,
+  "supplier": {
+    "name": "Umbrella factories: Shenzhen Tianfeng Umbrella Co., Ltd.; Zhejiang Haizhou Umbrella Co., Ltd. (Alibaba)",
+    "rating": null,
+    "reliabilityScore": null,
+    "storeAge": "TBC",
+    "orders": null,
+    "shippingTime": "Processing TBC; sea freight ~25-45 days to Algeria (TBC)",
+    "processingTime": "TBC",
+    "moq": 3,
+    "location": "Guangdong / Zhejiang, China (umbrella manufacturing clusters)"
+  },
+  "financials": {
+    "sellingPrice": 1400,
+    "costPrice": 760,
+    "shippingCost": 202,
+    "roi": -26,
+    "breakEvenPrice": 1310
+  },
+  "opportunity": {
+    "overallScore": 52,
+    "demand": 55,
+    "competition": 75,
+    "margin": 30,
+    "supplier": 70,
+    "trend": 60,
+    "algeriaCodSuitability": 45,
+    "advertisingPotential": 40,
+    "evidenceQuality": 60
+  },
+  "competitors": [
+    {
+      "name": "Facebook DZ store (lesmagasinstafsut) — Parapluie enfants/adultes, livraison 58 wilayas",
+      "productUrl": "https://www.facebook.com/lesmagasinstafsut/posts/1238013565021683",
+      "price": 550,
+      "currency": "DZD",
+      "shipping": null,
+      "rating": null,
+      "reviews": null,
+      "positioning": "Local COD basic tier 500-650 DZD depending on model",
+      "differentiation": "Direct COD competitor at half the import viable price",
+      "type": "exact"
+    },
+    {
+      "name": "kiabi.dz — Parapluie transparent 'Panda'",
+      "productUrl": "https://kiabi.dz/products/parapluie-transparent-panda-noir",
+      "price": 1500,
+      "currency": "DZD",
+      "shipping": null,
+      "rating": null,
+      "reviews": null,
+      "positioning": "Local fashion retail mid tier (1,500 DZD)",
+      "differentiation": "Proves 1,500 DZD retail acceptance for design umbrellas",
+      "type": "substitute"
+    },
+    {
+      "name": "Shenzhen Tianfeng Umbrella Co., Ltd. (Alibaba)",
+      "productUrl": "https://umbrella-bag.en.alibaba.com",
+      "price": 2.3,
+      "currency": "USD",
+      "shipping": null,
+      "rating": null,
+      "reviews": null,
+      "positioning": "Windproof/promotional umbrellas $2.30-3.00, MOQ 3",
+      "differentiation": "Low-MOQ sampling route; custom logo possible",
+      "type": "exact"
+    },
+    {
+      "name": "Alibaba bulk folding umbrellas",
+      "productUrl": "https://apparel.alibaba.com/supplier/umbrella-wholesale-cheap-wholesaler",
+      "price": 1.4,
+      "currency": "USD",
+      "shipping": null,
+      "rating": null,
+      "reviews": null,
+      "positioning": "$1.40-2.30 MOQ 500; $1.90-3.60 MOQ 10",
+      "differentiation": "Volume tier for landed-cost model",
+      "type": "exact"
+    }
+  ],
+  "intelligence": {
+    "demandLevel": "MEDIUM",
+    "competitionLevel": "HIGH",
+    "trendDirection": "SEASONAL",
+    "seasonality": "SEASONAL",
+    "impulseBuy": "MEDIUM",
+    "targetCustomer": "Women 18-40 (macaron aesthetics), students, commuters; Algeria: urban north where Nov-Jan rains are heaviest",
+    "evidenceNotes": "Algeria rain season peaks Nov-Jan (climate sources) — timing is imminent. Local COD sellers already move basic umbrellas at 500-650 DZD; kiabi retails design umbrellas at 1,500 DZD. The D-ring carabiner is a differentiator but low AOV undermines COD math. No Google Trends verification available this session."
+  },
+  "details": {
+    "material": "190T pongee/silk-touch canopy, black coating UV option, aluminium/fiberglass ribs, ABS D-ring carabiner handle",
+    "supportType": "Manual or auto-open folding umbrella (5-8 ribs), D-ring handle doubles as hang hook",
+    "contents": "1x umbrella + strap tie + sleeve",
+    "colorVariants": [
+      "Cream/ivory",
+      "Pink",
+      "Light blue",
+      "Purple (as pictured)"
+    ],
+    "sizes": "Folded ~20-25 cm; canopy ~90-100 cm; weight ~250-350 g",
+    "certifications": [],
+    "packaging": "Polybag/sleeve; 50-100 pcs/ctn",
+    "identifiers": "HS 6601.91 (folding umbrellas) assumed — TBC",
+    "warranty": "TBC (wind-flip ribs are the QC point)"
+  },
+  "aiAnalysis": {
+    "whySell": [
+      "Rain season starts within weeks (Nov-Jan peak) — a well-timed offer can ride real weather demand",
+      "Design differentiation (macaron colors + carabiner D-ring) vs generic souk umbrellas; kiabi sells design umbrellas at 1,500 DZD so the tier exists",
+      "Very light (~300 g) and non-fragile — cheapest possible last-mile; easy color-based retargeting for women 18-40",
+      "Low supplier risk: mature manufacturing clusters, tiny MOQs (3-10 pcs) for sampling"
+    ],
+    "risks": [
+      "FATAL ECONOMICS AT LOW AOV: landed ~760 DZD vs local basic 500-650 DZD — contribution after 500 DZD delivery is negative at 1,200-1,400 DZD retail; only works above ~1,700-2,000 DZD or as 2-pack at 2,400+",
+      "Season is short (rain window ~3 months) and unpredictable; leftover inventory risk",
+      "Commodity competition: street markets and existing COD stores undercut",
+      "Wind-flip quality complaints are common on cheap umbrellas — QC critical"
+    ],
+    "marketingAngle": "Weather-triggered + aesthetic angle: 'l'accessoire pluie qui matche ton fit' color-matching creatives; carabiner clip-on demo to bags; push during first November rains",
+    "suggestedPrice": "1,700-2,000 DZD single (stopdesk delivery only); 2,400-2,600 DZD 2-pack (recommended)",
+    "adScore": 40,
+    "customerSegments": [
+      "Women 18-40 fashion-conscious",
+      "Students/commuters",
+      "Gift buyers (cute accessory)",
+      "Parents (kids versions)"
+    ],
+    "painPoints": [
+      "Cheap umbrellas flip inside out and break in wind",
+      "Forget/lose umbrellas — carabiner fixes attachment",
+      "Ugly black umbrellas vs outfit"
+    ],
+    "usp": [
+      "Carabiner D-ring clips to bag",
+      "Macaron color range",
+      "Windproof rib frame (verify)",
+      "Compact 5-fold"
+    ],
+    "objections": [
+      "Will it survive strong wind?",
+      "Why 2x souk price?",
+      "Does the paint rub off?"
+    ],
+    "creativeFormats": [
+      "Rain-day street UGC",
+      "Color-fit montage",
+      "Wind test video"
+    ],
+    "adHooks": [
+      "'La première pluie de novembre arrive — sois prête avec l'parapluie qui se clipse partout.'",
+      "'4 couleurs maccaron, un seul réflexe pluie.'"
+    ],
+    "landingPageStructure": [
+      "Hero color carousel",
+      "Carabiner clip demo GIF",
+      "Wind test",
+      "2-pack selector",
+      "COD form + stopdesk option"
+    ],
+    "bundles": [
+      "2-pack (couple/family)",
+      "Umbrella + rain pouch",
+      "4-color family pack"
+    ],
+    "testingPlan": "Only test if willing to price >=1,700 with stopdesk delivery (400 DZD) and 2-pack lead at 2,400; 20-30 order micro-test at first rains; otherwise deprioritize",
+    "scaleReviseStop": "Scale only during Nov-Jan window with CPA <=300; revise to 2-pack if standalone fails; stop when rains end (Feb) and clear stock"
+  },
+  "structuredNotes": {
+    "supplierNotes": "Verified Alibaba clusters: Shenzhen Tianfeng ($2.30-3.00, MOQ 3, custom logo), Zhejiang Haizhou (folding umbrellas MOQ 300, $6-11 big-canopy tiers), bulk aggregators $1.40-2.30 MOQ 500 / $1.90-3.60 MOQ 10. Macaron D-ring style expect FOB $1.6-2.4 at 500 pcs. Ratings/store age TBC; request rib count, 190T canopy spec, wind test video.",
+    "pricingNotes": "DZD @134.5. Landed (FOB $2.00): 269 + freight 202 + duty 141 + VAT 116 + pack 30 = ~760. At 1,400: contribution 140/delivered → strongly negative risk-adjusted (E[profit] ≈ -412 before ads; roi ≈ -26% at CPA 400) — DO NOT test at this price. Breakeven requires retail >=1,700 (stopdesk 400) or 2-pack 2,400. financials.breakEvenPrice=1,310 = non-ad break-even price (home delivery). financials.roi negative = scenario math, not verified performance.",
+    "competitionNotes": "Local: basic COD umbrellas 500-650 DZD (Facebook store, 58 wilayas), kiabi design tier 1,500 DZD; souk/unorganized dominance. Global: Alibaba $1.4-6.0; Amazon folding best-sellers exist (prices not exposed this session). The 500-650 local tier is the core threat to any import model at low AOV.",
+    "aiNotes": "This is a 'timing + bundle' product: economics only clear at >=1,700 DZD or 2-pack during Nov-Jan. If the user wants a rain-season offer, consider umbrella as an ADD-ON/upsell in another funnel (e.g., +700 DZD with any order) rather than a standalone product launch."
+  },
+  "checklist": [
+    {
+      "text": "Product identity & local price anchors verified (500-650 basic; 1,500 design tier)",
+      "done": true
+    },
+    {
+      "text": "Supplier verification: Shenzhen Tianfeng / Zhejiang Haizhou licences & wind test video",
+      "done": false
+    },
+    {
+      "text": "Sample order (4 colors); wind-flip and coating test",
+      "done": false
+    },
+    {
+      "text": "Price/MOQ confirmation at 500 pcs (target FOB <=$2.0)",
+      "done": false
+    },
+    {
+      "text": "HS 6601 duty/VAT confirmation",
+      "done": false
+    },
+    {
+      "text": "Decision gate: proceed only with >=1,700 DZD price / 2-pack model",
+      "done": false
+    },
+    {
+      "text": "Own color-carousel photos/videos",
+      "done": false
+    },
+    {
+      "text": "Competitor check: DZ Facebook COD stores & kiabi stock",
+      "done": false
+    },
+    {
+      "text": "Demand validation at first November rains (20-30 orders)",
+      "done": false
+    },
+    {
+      "text": "Profitability validation: CPA <=300, 2-pack AOV >=2,400",
+      "done": false
+    },
+    {
+      "text": "Ad policy review (no exaggerated windproof claims without test)",
+      "done": false
+    },
+    {
+      "text": "Landing page + stopdesk-first COD workflow",
+      "done": false
+    }
+  ],
+  "timeline": [
+    {
+      "type": "research",
+      "text": "Research started from user image (4 macaron folding umbrellas with D-ring handles)",
+      "date": 1792240200000
+    },
+    {
+      "type": "evidence",
+      "text": "Verified: local COD 500-650 DZD; kiabi 1,500 DZD; Alibaba $1.40-3.00 MOQ 3-500; DZ rain peak Nov-Jan; landed model shows negative standalone economics at 1,400",
+      "date": 1792240200000
+    },
+    {
+      "type": "decision",
+      "text": "Researching (52/100): hold for pricing decision gate (>=1,700 or 2-pack/upsell route) before any test",
+      "date": 1792240200000
+    }
+  ],
+  "links": {
+    "productLink": "https://apparel.alibaba.com/supplier/umbrella-wholesale-cheap-wholesaler",
+    "supplierLink": "https://umbrella-bag.en.alibaba.com",
+    "facebookAd": null,
+    "tiktok": null,
+    "landingPage": null,
+    "localListing": "https://kiabi.dz/products/parapluie-transparent-panda-noir"
+  },
+  "researchMetadata": {
+    "targetMarket": "Algeria",
+    "businessModel": "COD",
+    "currency": "DZD",
+    "sourcesChecked": [
+      "WebSearch (web-wide)",
+      "alibaba.com (3 supplier pages)",
+      "apparel.alibaba.com (bulk guide)",
+      "amazon.com (category pages)",
+      "ouedkniss.com",
+      "kiabi.dz",
+      "facebook.com (DZ COD store)",
+      "climatestotravel.com / seasonsyear.com (rain season)",
+      "wise.com/xe.com (FX)"
+    ],
+    "sourcesUnavailable": [
+      "1688.com and Taobao (login-gated; Alibaba/Yiwugo used as proxies)",
+      "Google Trends (not directly queried)",
+      "Facebook Ad Library (not queried; no ad status verified — facebookAd links null)",
+      "TikTok search (snippet-level only; no product-specific Algeria ads verified)",
+      "Amazon buy-box prices for several listings (not exposed in search results)",
+      "Exact review/sold counts for some listings (not retrievable in this session)"
+    ],
+    "evidenceQuality": 60,
+    "confidence": "MEDIUM",
+    "assumptions": [
+      "FX 1 USD = 134.5 DZD",
+      "FOB $2.00/unit estimate for D-ring macaron style (quote TBC)",
+      "Freight allocation $1.50/unit (~0.3 kg)",
+      "Duty 30% + VAT 19% (HS 6601 assumed, TBC)",
+      "Delivery 500 DZD home / 400 stopdesk; funnel 70%x80%; RTO 1,000 DZD",
+      "Scenario CPA 400; price scenario 1,400 — shown to demonstrate negative economics; viable only >=1,700 or 2-pack"
+    ],
+    "lastResearched": "2026-10-17T12:30:00Z",
+    "nextActions": [
+      "Decide pricing gate: >=1,700 single / 2-pack 2,400 / upsell role",
+      "Order 4-color samples from Tianfeng (MOQ 3); wind test",
+      "If gate passes: 20-30 order test at first November rains"
+    ]
+  }
+}
