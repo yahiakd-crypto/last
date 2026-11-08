@@ -639,8 +639,8 @@ export default function App() {
   const activeEdge = project.edges.find((e) => e.id === selectedEdgeId) || null;
 
   return (
-    <div className="w-screen h-screen flex flex-col bg-slate-50 font-sans text-slate-900 overflow-hidden select-none">
-      {/* CLONED APP FULL-SCREEN VIEWER (Main Sidebar is CLOSED/HIDDEN; shows the cloned app with its own sidebar & all titles) */}
+    <div className="w-screen h-screen flex flex-col bg-slate-50 font-sans text-slate-900 overflow-hidden select-auto">
+      {/* CLONED APP FULL-SCREEN VIEWER */}
       {activeView === 'cloned-app' ? (
         <ClonedAppViewer
           initialUrl={clonedAppUrl}

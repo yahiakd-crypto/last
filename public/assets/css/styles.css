@@ -34,15 +34,19 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
     radial-gradient(1100px 520px at 75% -8%, #3C3C40 0%, transparent 60%),
     radial-gradient(800px 500px at -10% 110%, #37373B 0%, transparent 55%),
     var(--page);
-  padding: 26px 18px 70px;
+  padding: 8px 10px 36px;
+  width: 100%;
+  box-sizing: border-box;
 }
 .canvas {
-  max-width: 1600px;
+  max-width: calc(100% - 6px);
+  width: 100%;
   margin: 0 auto;
   background: var(--canvas);
-  border-radius: 28px;
-  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45), 0 4px 18px rgba(0, 0, 0, 0.25);
-  padding: 20px 26px 34px;
+  border-radius: 22px;
+  box-shadow: 0 16px 50px rgba(0, 0, 0, 0.35), 0 4px 18px rgba(0, 0, 0, 0.2);
+  padding: 18px 24px 34px;
+  box-sizing: border-box;
 }
 
 /* ---------- Top navigation ---------- */

@@ -53,6 +53,9 @@
       </nav>`;
 
     const right = `<div class="nav-right">
+        <button class="icon-btn edit-mode-btn" id="btn-inspect-edit" title="Select & Edit Any Element (for Google AI Studio)" style="color:#0FA05A;background:#EDFBF2;border:1px solid #BCEFD0;width:auto;padding:0 10px;border-radius:12px;display:flex;align-items:center;gap:5px;font-weight:700;font-size:12px;cursor:pointer">
+          ${icon("crosshair", 15)} <span class="hidden md:inline">Edit</span>
+        </button>
         <button class="icon-btn" id="btn-refresh" title="Refresh data">${icon("refresh-cw", 17)}</button>
         <button class="icon-btn" id="btn-notify" title="Notifications">${icon("bell", 17)}
           <span class="dot-status on" style="position:absolute;transform:translate(10px,-12px)"></span>
@@ -64,6 +67,8 @@
 
     host.innerHTML = brand + center + right;
 
+    const editBtn = document.getElementById("btn-inspect-edit");
+    if (editBtn) editBtn.addEventListener("click", () => toggleElementInspector());
     document.getElementById("btn-chat").addEventListener("click", openChat);
 
     document.getElementById("btn-refresh").addEventListener("click", function () {
@@ -622,12 +627,269 @@
     else cb();
   }
 
+  /* ============================================================
+     VISUAL ELEMENT INSPECTOR & GOOGLE AI STUDIO SELECTOR
+     Allows clicking and selecting ANY element on the screen,
+     copying its exact CSS selector, generating prompt instructions,
+     and live-styling properties directly in the page.
+     ============================================================ */
+  let isInspectorActive = false;
+  let inspectorHighlight = null;
+  let inspectorBadge = null;
+  let inspectorPanel = null;
+  let selectedElement = null;
+
+  function getCssSelector(el) {
+    if (!el || el === document.body || el === document.documentElement) return "body";
+    if (el.id) return `#${el.id}`;
+
+    const validClasses = Array.from(el.classList || []).filter(
+      (c) => !c.startsWith("pl-inspector") && !c.includes("hover") && !c.includes("active")
+    );
+    let tag = el.tagName.toLowerCase();
+    if (validClasses.length > 0) {
+      const classSelector = `${tag}.${validClasses.slice(0, 2).join(".")}`;
+      try {
+        if (document.querySelectorAll(classSelector).length === 1) return classSelector;
+      } catch (e) {}
+    }
+
+    const path = [];
+    let curr = el;
+    while (curr && curr !== document.body && curr !== document.documentElement && path.length < 5) {
+      if (curr.id) {
+        path.unshift(`#${curr.id}`);
+        break;
+      }
+      let part = curr.tagName.toLowerCase();
+      const parent = curr.parentElement;
+      if (parent) {
+        const siblings = Array.from(parent.children).filter((c) => c.tagName === curr.tagName);
+        if (siblings.length > 1) {
+          const index = siblings.indexOf(curr) + 1;
+          part += `:nth-of-type(${index})`;
+        }
+      }
+      path.unshift(part);
+      curr = curr.parentElement;
+    }
+    return path.join(" > ") || el.tagName.toLowerCase();
+  }
+
+  function toggleElementInspector(forceState) {
+    isInspectorActive = typeof forceState === "boolean" ? forceState : !isInspectorActive;
+    const btn = document.getElementById("btn-inspect-edit");
+    const banner = document.getElementById("pl-inspector-banner");
+
+    if (isInspectorActive) {
+      if (btn) {
+        btn.style.background = "#0FA05A";
+        btn.style.color = "#ffffff";
+        btn.style.borderColor = "#0FA05A";
+        btn.style.boxShadow = "0 0 14px rgba(15, 160, 90, 0.4)";
+        btn.innerHTML = `${icon("check", 15)} <span class="hidden md:inline">Selecting...</span>`;
+      }
+      if (!banner) {
+        const b = document.createElement("div");
+        b.id = "pl-inspector-banner";
+        b.style.cssText =
+          "position:fixed;top:12px;left:50%;transform:translateX(-50%);z-index:999999;background:#1C1C1E;color:#fff;padding:8px 18px;border-radius:99px;box-shadow:0 10px 30px rgba(0,0,0,0.35);display:flex;align-items:center;gap:12px;font-size:12.5px;font-weight:700;border:1.5px solid #0FA05A;";
+        b.innerHTML = `
+          <span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#0FA05A"></span>
+          <span>🎯 Click ANY element to select & edit</span>
+          <button id="pl-close-banner" style="background:#333;color:#fff;border:none;border-radius:99px;padding:3px 10px;font-size:11px;font-weight:700;cursor:pointer">Exit</button>
+        `;
+        document.body.appendChild(b);
+        document.getElementById("pl-close-banner").addEventListener("click", () => toggleElementInspector(false));
+      }
+      toast("🎯 Select Mode Active — Click any element to inspect & edit!", "crosshair");
+    } else {
+      if (btn) {
+        btn.style.background = "#EDFBF2";
+        btn.style.color = "#0FA05A";
+        btn.style.borderColor = "#BCEFD0";
+        btn.style.boxShadow = "none";
+        btn.innerHTML = `${icon("crosshair", 15)} <span class="hidden md:inline">Edit</span>`;
+      }
+      if (banner) banner.remove();
+      if (inspectorHighlight) inspectorHighlight.style.display = "none";
+      if (inspectorBadge) inspectorBadge.style.display = "none";
+    }
+
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({ type: "INSPECTOR_STATE_CHANGED", active: isInspectorActive }, "*");
+    }
+  }
+
+  function setupElementInspector() {
+    inspectorHighlight = document.createElement("div");
+    inspectorHighlight.id = "pl-inspector-highlight";
+    inspectorHighlight.style.cssText =
+      "position:fixed;display:none;pointer-events:none;z-index:999990;border:2px dashed #0FA05A;background:rgba(15,160,90,0.08);border-radius:6px;transition:all 0.05s ease;";
+    document.body.appendChild(inspectorHighlight);
+
+    inspectorBadge = document.createElement("div");
+    inspectorBadge.id = "pl-inspector-badge";
+    inspectorBadge.style.cssText =
+      "position:fixed;display:none;pointer-events:none;z-index:999995;background:#0FA05A;color:#fff;font-family:ui-monospace,Menlo,monospace;font-size:11px;font-weight:700;padding:2px 8px;border-radius:6px;box-shadow:0 4px 12px rgba(0,0,0,0.25);";
+    document.body.appendChild(inspectorBadge);
+
+    document.addEventListener("mouseover", (e) => {
+      if (!isInspectorActive) return;
+      const target = e.target;
+      if (!target || target === inspectorHighlight || target === inspectorBadge || target.closest("#pl-inspector-panel") || target.closest("#pl-inspector-banner")) return;
+      const rect = target.getBoundingClientRect();
+      inspectorHighlight.style.display = "block";
+      inspectorHighlight.style.top = rect.top + "px";
+      inspectorHighlight.style.left = rect.left + "px";
+      inspectorHighlight.style.width = rect.width + "px";
+      inspectorHighlight.style.height = rect.height + "px";
+
+      inspectorBadge.style.display = "block";
+      inspectorBadge.textContent = getCssSelector(target);
+      inspectorBadge.style.top = Math.max(4, rect.top - 24) + "px";
+      inspectorBadge.style.left = Math.max(4, rect.left) + "px";
+    }, true);
+
+    document.addEventListener("click", (e) => {
+      if (!isInspectorActive) return;
+      const target = e.target;
+      if (!target || target.closest("#pl-inspector-panel") || target.closest("#pl-inspector-banner")) return;
+
+      e.preventDefault();
+      e.stopPropagation();
+
+      selectedElement = target;
+      const selector = getCssSelector(target);
+      const textPreview = (target.innerText || target.textContent || "").trim().slice(0, 80);
+      const computed = window.getComputedStyle(target);
+
+      showInspectorPanel(target, selector, textPreview, computed);
+
+      if (window.parent && window.parent !== window) {
+        window.parent.postMessage({
+          type: "AI_STUDIO_ELEMENT_SELECTED",
+          selector: selector,
+          tagName: target.tagName.toLowerCase(),
+          id: target.id || "",
+          className: target.className || "",
+          text: textPreview,
+          computed: {
+            color: computed.color,
+            backgroundColor: computed.backgroundColor,
+            fontSize: computed.fontSize,
+          }
+        }, "*");
+      }
+    }, true);
+
+    window.addEventListener("message", (e) => {
+      if (e.data && e.data.type === "TOGGLE_INSPECTOR_MODE") {
+        toggleElementInspector(e.data.enabled);
+      }
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && isInspectorActive) {
+        toggleElementInspector(false);
+      }
+    });
+  }
+
+  function showInspectorPanel(el, selector, textPreview, computed) {
+    if (inspectorPanel) inspectorPanel.remove();
+
+    inspectorPanel = document.createElement("div");
+    inspectorPanel.id = "pl-inspector-panel";
+    inspectorPanel.style.cssText =
+      "position:fixed;bottom:20px;right:20px;z-index:999999;width:380px;max-width:calc(100vw - 40px);background:#ffffff;border:1.5px solid #0FA05A;border-radius:18px;box-shadow:0 20px 60px rgba(0,0,0,0.3);font-family:Inter,sans-serif;color:#1C1C1E;overflow:hidden;";
+
+    inspectorPanel.innerHTML = `
+      <div style="background:#F4FAF6;padding:12px 16px;border-bottom:1px solid #D1EADE;display:flex;align-items:center;justify-content:space-between">
+        <div style="display:flex;align-items:center;gap:8px">
+          <span style="width:24px;height:24px;border-radius:8px;background:#0FA05A;color:#fff;display:grid;place-items:center;font-size:12px;font-weight:800">🎯</span>
+          <div>
+            <div style="font-size:13px;font-weight:800;color:#0B6B38">Element Selected</div>
+            <div style="font-size:11px;color:#6B6B72">&lt;${el.tagName.toLowerCase()}&gt;</div>
+          </div>
+        </div>
+        <button id="pl-panel-close" style="background:none;border:none;font-size:18px;color:#8A8A92;cursor:pointer;padding:2px 6px">✕</button>
+      </div>
+
+      <div style="padding:16px;max-height:480px;overflow-y:auto;display:flex;flex-direction:column;gap:12px">
+        <div>
+          <div style="font-size:10.5px;font-weight:800;text-transform:uppercase;color:#8A8A92;letter-spacing:0.04em;margin-bottom:4px">CSS Selector</div>
+          <div style="display:flex;align-items:center;gap:6px">
+            <input type="text" id="pl-selector-input" readonly value="${selector}" style="flex:1;background:#F7F8F7;border:1px solid #ECECEE;border-radius:8px;padding:6px 10px;font-family:ui-monospace,Menlo,monospace;font-size:11.5px;color:#0B6B38;font-weight:600" />
+            <button id="pl-copy-selector" style="background:#EDFBF2;border:1px solid #BCEFD0;color:#0FA05A;padding:6px 10px;border-radius:8px;font-size:11px;font-weight:700;cursor:pointer">Copy</button>
+          </div>
+        </div>
+
+        <div style="background:#FAFBF9;border:1px solid #E4E8E5;border-radius:12px;padding:12px">
+          <div style="font-size:11.5px;font-weight:800;color:#1C1C1E;margin-bottom:4px">Tell AI Studio what to change:</div>
+          <input type="text" id="pl-custom-instruction" placeholder="e.g. make width bigger, change color, update text..." style="width:100%;box-sizing:border-box;background:#fff;border:1px solid #D5DAD6;border-radius:8px;padding:8px 10px;font-size:12px;margin-bottom:8px" />
+          <button id="pl-copy-prompt" style="width:100%;background:#0FA05A;color:#fff;border:none;border-radius:10px;padding:9px;font-size:12px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:6px">
+            <span>📋 Copy Prompt for AI Studio</span>
+          </button>
+        </div>
+
+        <div style="border-top:1px solid #ECECEE;padding-top:10px">
+          <div style="font-size:11px;font-weight:800;color:#8A8A92;text-transform:uppercase;margin-bottom:8px">Quick Live Tweak</div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+            <div>
+              <label style="font-size:10px;font-weight:700;color:#6B6B72;display:block;margin-bottom:3px">Background</label>
+              <input type="color" id="pl-live-bg" value="#ffffff" style="width:100%;height:30px;border-radius:6px;border:1px solid #ECECEE;cursor:pointer" />
+            </div>
+            <div>
+              <label style="font-size:10px;font-weight:700;color:#6B6B72;display:block;margin-bottom:3px">Text Color</label>
+              <input type="color" id="pl-live-color" value="#1C1C1E" style="width:100%;height:30px;border-radius:6px;border:1px solid #ECECEE;cursor:pointer" />
+            </div>
+          </div>
+          <div style="margin-top:8px">
+            <label style="font-size:10px;font-weight:700;color:#6B6B72;display:block;margin-bottom:3px">Edit Text Live</label>
+            <input type="text" id="pl-live-text" value="${textPreview.replace(/"/g, '&quot;')}" style="width:100%;box-sizing:border-box;background:#fff;border:1px solid #ECECEE;border-radius:6px;padding:6px 8px;font-size:12px" />
+          </div>
+        </div>
+      </div>
+    `;
+
+    document.body.appendChild(inspectorPanel);
+
+    document.getElementById("pl-panel-close").addEventListener("click", () => {
+      inspectorPanel.remove();
+      inspectorPanel = null;
+    });
+
+    document.getElementById("pl-copy-selector").addEventListener("click", () => {
+      navigator.clipboard.writeText(selector);
+      toast("Copied CSS selector: " + selector, "check");
+    });
+
+    document.getElementById("pl-copy-prompt").addEventListener("click", () => {
+      const instruction = document.getElementById("pl-custom-instruction").value.trim() || "Please update this element.";
+      const prompt = `[AIS_METADATA_SECTION_START]\nCSS selector 1: ${selector}\nCSS 1: {}\n[AIS_METADATA_SECTION_END]\n${instruction}`;
+      navigator.clipboard.writeText(prompt);
+      toast("Copied instruction for Google AI Studio! Paste it directly into the chat.", "check-circle");
+    });
+
+    document.getElementById("pl-live-bg").addEventListener("input", (e) => {
+      el.style.backgroundColor = e.target.value;
+    });
+    document.getElementById("pl-live-color").addEventListener("input", (e) => {
+      el.style.color = e.target.value;
+    });
+    document.getElementById("pl-live-text").addEventListener("input", (e) => {
+      el.innerText = e.target.value;
+    });
+  }
+
   function boot() {
     injectNav();
     buildLogoMenu();
     buildAccountMenu();
     wireTabs();
     wireReveal();
+    setupElementInspector();
     if (window.lucide) lucide.createIcons();
     if (window.PL_API && window.PL_API.detect) PL_API.detect();
     document.addEventListener("keydown", (e) => {
@@ -641,6 +903,7 @@
     saveProduct, loadProduct, parseJSON,
     toast, modal, closeModal, notify, wireTabs, reveal, simulate, on,
     loadProfile, saveProfile, syncAvatar,
+    toggleInspector: toggleElementInspector,
     chat: { open: openChat, close: closeChat },
   };
 
