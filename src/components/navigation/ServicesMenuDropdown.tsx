@@ -407,18 +407,36 @@ export const ServicesMenuDropdown: React.FC<ServicesMenuDropdownProps> = ({
                   {/* Title & Subtitle */}
                   <div className="flex-1 min-w-0 pr-1">
                     <div className="flex items-center justify-between gap-1">
-                      <span className="font-bold text-xs sm:text-[13px] tracking-wider text-slate-900 uppercase">
+                      <span className="font-bold text-xs sm:text-[13px] tracking-wider text-slate-900 uppercase truncate">
                         {service.title}
                       </span>
-                      {isActive ? (
-                        <span className="w-2 h-2 rounded-full bg-emerald-500 shrink-0" />
-                      ) : (
-                        service.category && (
-                          <span className="text-[9px] font-semibold text-slate-400 uppercase tracking-wider px-1.5 py-0.5 rounded-md bg-slate-100/80">
-                            {service.category}
+                      <div className="flex items-center gap-1 shrink-0">
+                        {service.url !== 'board' && (
+                          <span
+                            role="button"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              setIsOpen(false);
+                              const path = service.url.startsWith('/') ? service.url : `/${service.url}`;
+                              window.location.href = path;
+                            }}
+                            className="opacity-0 group-hover:opacity-100 p-1 hover:bg-emerald-100 rounded text-emerald-700 transition-all text-[10px] font-bold flex items-center gap-0.5"
+                            title="Open directly as top-level document (Studio Edit Mode)"
+                          >
+                            <ExternalLink className="w-3 h-3" />
+                            <span>Direct</span>
                           </span>
-                        )
-                      )}
+                        )}
+                        {isActive ? (
+                          <span className="w-2 h-2 rounded-full bg-emerald-500 shrink-0" />
+                        ) : (
+                          service.category && (
+                            <span className="text-[9px] font-semibold text-slate-400 uppercase tracking-wider px-1.5 py-0.5 rounded-md bg-slate-100/80">
+                              {service.category}
+                            </span>
+                          )
+                        )}
+                      </div>
                     </div>
                     <p className="text-[11px] text-slate-500 font-normal truncate mt-0.5 leading-snug">
                       {service.subtitle}
@@ -433,6 +451,24 @@ export const ServicesMenuDropdown: React.FC<ServicesMenuDropdownProps> = ({
                 No app found matching &quot;{filterQuery}&quot;
               </div>
             )}
+          </div>
+
+          {/* Bottom Quick Action: Direct Page (Studio Edit Mode) */}
+          <div className="p-2.5 bg-slate-50/90 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-600 shrink-0">
+            <span className="font-medium text-slate-500">Need Google Studio Edit?</span>
+            <button
+              type="button"
+              onClick={() => {
+                setIsOpen(false);
+                const targetUrl = currentUrl || 'fb-ads.html';
+                const path = targetUrl === 'board' ? '/fb-ads.html' : (targetUrl.startsWith('/') ? targetUrl : `/${targetUrl}`);
+                window.location.href = path;
+              }}
+              className="font-bold text-emerald-700 hover:text-emerald-900 inline-flex items-center gap-1 cursor-pointer"
+            >
+              <span>Direct Page (Studio Edit Mode)</span>
+              <ExternalLink className="w-3 h-3" />
+            </button>
           </div>
         </div>
       )}

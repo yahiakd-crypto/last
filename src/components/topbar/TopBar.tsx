@@ -17,6 +17,7 @@ import {
   Zap,
   FolderKanban,
   Plus,
+  ExternalLink,
 } from 'lucide-react';
 import { WorkflowProject } from '../../types/workflow';
 import { ServicesMenuDropdown } from '../navigation/ServicesMenuDropdown';
@@ -351,6 +352,20 @@ export const TopBar: React.FC<TopBarProps> = ({
         >
           <Play className="w-3.5 h-3.5 fill-current" />
           <span>Preview</span>
+        </button>
+
+        {/* Direct Page (Studio Edit Mode) Launcher */}
+        <button
+          type="button"
+          id="btn-topbar-direct-page-studio-edit"
+          onClick={() => {
+            window.location.href = '/fb-ads.html';
+          }}
+          className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white transition-all shadow-xs cursor-pointer active:scale-95"
+          title="Direct Page (Studio Edit Mode) — Open standalone page without iframes so Google Studio Edit tool selects individual elements"
+        >
+          <ExternalLink className="w-3.5 h-3.5" />
+          <span className="hidden lg:inline">Direct Page (Studio Edit)</span>
         </button>
 
         {/* Run Workflow Button (Green, matching screenshot 2) */}

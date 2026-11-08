@@ -53,6 +53,13 @@
       </nav>`;
 
     const right = `<div class="nav-right">
+        <div class="direct-mode-pill" style="display:inline-flex;align-items:center;gap:6px;padding:5px 11px;border-radius:10px;background:#EAFBF1;border:1px solid #BCEFD0;color:#0E7A43;font-size:11.5px;font-weight:700" title="This page is loaded directly as a top-level document with zero iframes. Google AI Studio's native Edit button targets individual elements directly.">
+          <span style="width:7px;height:7px;border-radius:50%;background:#22C55E;box-shadow:0 0 6px #22C55E"></span>
+          <span>Direct Page (Studio Edit Mode)</span>
+        </div>
+        <a href="/?view=cloned-app&url=${encodeURIComponent(here)}" class="nav-preview-switch" style="font-size:11.5px;font-weight:600;color:#64748B;text-decoration:none;padding:5px 10px;border-radius:9px;border:1px solid #E2E8F0;background:#fff;display:inline-flex;align-items:center;gap:4px;transition:all .15s" title="Switch back to Normal Preview in React shell">
+          Normal Preview
+        </a>
         <button class="icon-btn edit-mode-btn" id="btn-inspect-edit" title="Select & Edit Any Element (for Google AI Studio)" style="color:#0FA05A;background:#EDFBF2;border:1px solid #BCEFD0;width:auto;padding:0 10px;border-radius:12px;display:flex;align-items:center;gap:5px;font-weight:700;font-size:12px;cursor:pointer">
           ${icon("crosshair", 15)} <span class="hidden md:inline">Edit</span>
         </button>

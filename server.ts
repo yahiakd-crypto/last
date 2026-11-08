@@ -23,8 +23,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const app = express();
-// AI Studio dev server runs on port 3000 (Cloud Run / NGINX reverse-proxies 8080 -> 3000)
-const port = process.env.PORT && process.env.PORT !== '8080' ? parseInt(process.env.PORT, 10) : 3000;
+const port = 3000;
 
 app.use(express.json({ limit: '50mb' }));
 
@@ -5551,6 +5550,9 @@ async function startServer() {
   server.on('error', (err: any) => {
     console.error('Server listen error:', err);
   });
+
+  // Explicitly serve all direct application pages & assets from public directory
+  app.use(express.static(path.join(__dirname, 'public')));
 
   if (isDev) {
     const { createServer: createViteServer } = await import('vite');

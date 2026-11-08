@@ -40,7 +40,127 @@ export const ClonedAppViewer: React.FC<ClonedAppViewerProps> = ({
   const [promptInstruction, setPromptInstruction] = useState<string>('');
   const [copiedSelector, setCopiedSelector] = useState<boolean>(false);
   const [copiedPrompt, setCopiedPrompt] = useState<boolean>(false);
+  const [renderMode, setRenderMode] = useState<'direct' | 'iframe'>('direct');
+  const [isLoadingDirect, setIsLoadingDirect] = useState<boolean>(false);
+  const directMountRef = useRef<HTMLDivElement>(null);
   const iframeRef = useRef<HTMLIFrameElement>(null);
+
+  // Direct DOM Rendering: Loads HTML content and scripts directly into document DOM (ZERO IFRAMES)
+  useEffect(() => {
+    if (renderMode !== 'direct') return;
+    let isCancelled = false;
+    setIsLoadingDirect(true);
+
+    const targetUrl = currentUrl.startsWith('/') ? currentUrl : `/${currentUrl}`;
+
+    fetch(targetUrl)
+      .then((res) => res.text())
+      .then((html) => {
+        if (isCancelled) return;
+        setIsLoadingDirect(false);
+
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, 'text/html');
+
+        // 1. Inject external and internal styles
+        const styles = Array.from(doc.querySelectorAll('style, link[rel="stylesheet"]'));
+        styles.forEach((styleNode) => {
+          if (styleNode.tagName === 'LINK') {
+            const href = styleNode.getAttribute('href');
+            if (href) {
+              const fullHref = href.startsWith('http') || href.startsWith('/') ? href : `/${href}`;
+              if (!document.querySelector(`link[href="${fullHref}"]`)) {
+                const link = document.createElement('link');
+                link.rel = 'stylesheet';
+                link.href = fullHref;
+                document.head.appendChild(link);
+              }
+            }
+          } else if (styleNode.tagName === 'STYLE') {
+            const s = document.createElement('style');
+            s.textContent = styleNode.textContent;
+            document.head.appendChild(s);
+          }
+        });
+
+        // 2. Mount body content directly into top-level DOM
+        if (directMountRef.current) {
+          directMountRef.current.innerHTML = doc.body.innerHTML;
+
+          // 3. Sequentially execute and evaluate page scripts
+          const scriptTags = Array.from(doc.querySelectorAll('script'));
+          const scriptsToLoad = scriptTags.map((s) => ({
+            src: s.getAttribute('src'),
+            inline: s.textContent,
+          }));
+
+          const loadScript = (idx: number) => {
+            if (idx >= scriptsToLoad.length || isCancelled) {
+              if ((window as any).lucide) {
+                try {
+                  (window as any).lucide.createIcons();
+                } catch {}
+              }
+              return;
+            }
+            const item = scriptsToLoad[idx];
+            const script = document.createElement('script');
+            if (item.src) {
+              const src = item.src.startsWith('http') || item.src.startsWith('/') ? item.src : `/${item.src}`;
+              script.src = src;
+              script.onload = () => loadScript(idx + 1);
+              script.onerror = () => loadScript(idx + 1);
+              document.body.appendChild(script);
+            } else if (item.inline) {
+              try {
+                script.textContent = item.inline;
+                document.body.appendChild(script);
+              } catch {}
+              loadScript(idx + 1);
+            } else {
+              loadScript(idx + 1);
+            }
+          };
+
+          loadScript(0);
+        }
+      })
+      .catch((err) => {
+        if (!isCancelled) {
+          setIsLoadingDirect(false);
+          console.error('Failed to load direct page content:', err);
+        }
+      });
+
+    return () => {
+      isCancelled = true;
+    };
+  }, [currentUrl, renderMode, iframeKey]);
+
+  // Intercept navigation links inside direct DOM mount to preserve SPA feel
+  useEffect(() => {
+    const container = directMountRef.current;
+    if (!container || renderMode !== 'direct') return;
+
+    const handleAnchorClick = (e: MouseEvent) => {
+      const a = (e.target as HTMLElement).closest('a');
+      if (a) {
+        const href = a.getAttribute('href');
+        if (href) {
+          if (href.endsWith('.html')) {
+            e.preventDefault();
+            setCurrentUrl(href);
+          } else if (href === '/' || href.startsWith('/?')) {
+            e.preventDefault();
+            onBackToBoard();
+          }
+        }
+      }
+    };
+
+    container.addEventListener('click', handleAnchorClick);
+    return () => container.removeEventListener('click', handleAnchorClick);
+  }, [renderMode]);
 
   useEffect(() => {
     const handleMsg = (e: MessageEvent) => {
@@ -133,26 +253,55 @@ export const ClonedAppViewer: React.FC<ClonedAppViewerProps> = ({
 
         {/* Right: Actions */}
         <div className="flex items-center gap-2">
-          {/* Select & Edit Element Mode Button */}
+          {/* Mode Switcher: Direct DOM vs Iframe */}
+          <div className="flex items-center bg-slate-100 p-0.5 rounded-xl border border-slate-200/80">
+            <button
+              type="button"
+              onClick={() => setRenderMode('direct')}
+              className={`px-2.5 py-1 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
+                renderMode === 'direct'
+                  ? 'bg-emerald-600 text-white shadow-2xs'
+                  : 'text-slate-600 hover:text-slate-900'
+              }`}
+              title="Render as top-level DOM nodes (Zero iframes) so Google AI Studio's Edit tool can select individual elements"
+            >
+              <Sparkles className="w-3.5 h-3.5" />
+              <span>Direct DOM (Studio Edit)</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => setRenderMode('iframe')}
+              className={`px-2 py-1 rounded-lg text-xs font-semibold transition-all cursor-pointer ${
+                renderMode === 'iframe'
+                  ? 'bg-white text-slate-900 shadow-2xs'
+                  : 'text-slate-500 hover:text-slate-900'
+              }`}
+              title="Standard embedded iframe preview"
+            >
+              <span>Iframe</span>
+            </button>
+          </div>
+
+          {/* Direct Page (Studio Edit Mode) Top-Level URL Button */}
           <button
             type="button"
-            onClick={handleToggleInspector}
-            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition-all shadow-2xs cursor-pointer border ${
-              isInspectorActive
-                ? 'bg-emerald-600 text-white border-emerald-600 shadow-emerald-500/20'
-                : 'bg-emerald-50 hover:bg-emerald-100 text-emerald-800 border-emerald-200/80'
-            }`}
-            title="Click any element on the page to inspect & edit for Google Studio"
+            id="btn-direct-page-studio-edit"
+            onClick={() => {
+              const target = currentUrl.startsWith('/') ? currentUrl : `/${currentUrl}`;
+              window.location.href = target;
+            }}
+            className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white text-xs font-extrabold transition-all shadow-sm hover:shadow cursor-pointer shrink-0"
+            title="Open selected page directly as a top-level document (Zero iframes) for Google AI Studio native Edit mode"
           >
-            <Crosshair className={`w-3.5 h-3.5 ${isInspectorActive ? 'animate-spin' : ''}`} />
-            <span>{isInspectorActive ? 'Click Any Element...' : '🎯 Select Element to Edit'}</span>
+            <ExternalLink className="w-3.5 h-3.5" />
+            <span>Direct Page (Studio Edit Mode)</span>
           </button>
 
           {/* Back to Board Button */}
           <button
             type="button"
             onClick={onBackToBoard}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold transition-all shadow-2xs cursor-pointer"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold transition-all shadow-2xs cursor-pointer shrink-0"
             title="Return to React Workflow Board"
           >
             <Workflow className="w-3.5 h-3.5" />
@@ -168,29 +317,58 @@ export const ClonedAppViewer: React.FC<ClonedAppViewerProps> = ({
           >
             <RotateCw className="w-4 h-4" />
           </button>
-
-          {/* Open in full tab */}
-          <a
-            href={iframeSrc}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="p-1.5 rounded-xl hover:bg-slate-100 text-slate-600 transition-colors cursor-pointer"
-            title="Open Direct Page in Full Browser Tab (No Iframe)"
-          >
-            <ExternalLink className="w-4 h-4" />
-          </a>
         </div>
       </header>
 
-      {/* Main Full-Height Iframe Viewport */}
-      <main className="flex-1 w-full h-full relative overflow-hidden bg-white select-auto">
-        <iframe
-          ref={iframeRef}
-          key={iframeKey}
-          src={iframeSrc}
-          className="w-full h-full border-none select-auto pointer-events-auto"
-          title={activeService.title}
-        />
+      {/* Mode Status Banner */}
+      <div className="bg-emerald-50/90 border-b border-emerald-100/90 px-4 py-2 flex items-center justify-between text-xs text-emerald-950 shrink-0 flex-wrap gap-2">
+        <div className="flex items-center gap-2 truncate">
+          <span className="font-extrabold bg-emerald-600 text-white px-2 py-0.5 rounded text-[10px] uppercase tracking-wider shrink-0">
+            {renderMode === 'direct' ? 'Studio Edit Mode Active' : 'Iframe Mode'}
+          </span>
+          <span className="truncate">
+            {renderMode === 'direct' ? (
+              <span>All elements rendered as <strong>top-level DOM nodes (Zero iframes)</strong>. Click Google Studio's <strong>Edit</strong> button to select any heading, button, card, or text!</span>
+            ) : (
+              <span>Currently in <strong>Iframe Mode</strong>. Click <strong>Direct DOM (Studio Edit)</strong> to remove the iframe.</span>
+            )}
+          </span>
+        </div>
+        <div className="flex items-center gap-2 ml-auto shrink-0">
+          <span className="text-emerald-700 text-[11px] font-bold hidden lg:inline">
+            Target: /{currentUrl}
+          </span>
+          <button
+            type="button"
+            onClick={() => {
+              const target = currentUrl.startsWith('/') ? currentUrl : `/${currentUrl}`;
+              window.location.href = target;
+            }}
+            className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white font-extrabold text-xs shadow-2xs cursor-pointer"
+            title="Open as top-level document with zero iframes"
+          >
+            <span>Launch Top-Level URL</span>
+            <ExternalLink className="w-3 h-3" />
+          </button>
+        </div>
+      </div>
+
+      {/* Main Viewport: ZERO IFRAMES in Direct DOM mode! */}
+      <main className="flex-1 w-full h-full relative overflow-y-auto bg-[#2B2B2E] select-auto">
+        {renderMode === 'direct' ? (
+          <div
+            ref={directMountRef}
+            className="direct-page-mount-point w-full min-h-full"
+          />
+        ) : (
+          <iframe
+            ref={iframeRef}
+            key={iframeKey}
+            src={iframeSrc}
+            className="w-full h-full border-none select-auto pointer-events-auto"
+            title={activeService.title}
+          />
+        )}
       </main>
 
       {/* Floating Selected Element Inspector Drawer */}

@@ -7398,6 +7398,20 @@ The commercial viability of **${pTitle}** in the e-commerce market is driven by 
             </span>
           </button>
 
+          {/* Direct Page (Studio Edit Mode) Launcher */}
+          <button
+            type="button"
+            id="btn-board-direct-page-studio-edit"
+            onClick={() => {
+              window.location.href = '/fb-ads.html';
+            }}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white text-xs font-bold transition-all shadow-xs cursor-pointer active:scale-95"
+            title="Direct Page (Studio Edit Mode) — Opens standalone top-level document with Zero Iframes so Google Studio Edit selects individual DOM elements"
+          >
+            <ExternalLink className="w-3.5 h-3.5 text-white" />
+            <span className="hidden sm:inline">Direct Page (Studio Edit Mode)</span>
+          </button>
+
           {/* Explicit Save Project Button */}
           <button
             type="button"

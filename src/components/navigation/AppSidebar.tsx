@@ -27,6 +27,7 @@ import {
   Smartphone,
   Plus,
   Calculator,
+  ExternalLink,
 } from 'lucide-react';
 import { ServicesMenuDropdown } from './ServicesMenuDropdown';
 
@@ -116,6 +117,25 @@ export const AppSidebar: React.FC<AppSidebarProps> = ({
           >
             <Workflow className={`w-4 h-4 ${activeView === 'board' && !activeSubItem ? 'text-blue-600' : 'text-slate-400'}`} />
             <span>Board</span>
+          </button>
+
+          {/* Direct Page (Studio Edit Mode) */}
+          <button
+            type="button"
+            id="btn-sidebar-direct-page-studio-edit"
+            onClick={() => {
+              window.location.href = '/fb-ads.html';
+            }}
+            className="w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer bg-emerald-50 text-emerald-800 hover:bg-emerald-100 border border-emerald-200/90 shadow-2xs"
+            title="Open selected page directly as a top-level document (Zero iframes) so Google AI Studio's native Edit mode can select any element"
+          >
+            <div className="flex items-center gap-2.5">
+              <ExternalLink className="w-4 h-4 text-emerald-600" />
+              <span>Studio Edit Mode</span>
+            </div>
+            <span className="px-1.5 py-0.5 rounded-md bg-emerald-600 text-white font-mono text-[9px] font-extrabold">
+              DIRECT
+            </span>
           </button>
 
           {/* 3. Projects */}

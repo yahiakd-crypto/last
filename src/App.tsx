@@ -65,10 +65,49 @@ export type AppView =
   | 'cloned-app';
 
 export default function App() {
-  // View mode: 'board' immediately displays the new Board matching image_ca6855fc.png!
-  const [activeView, setActiveView] = useState<AppView>('board');
-  const [activeSubItem, setActiveSubItem] = useState<string>('videos');
-  const [clonedAppUrl, setClonedAppUrl] = useState<string>('erp.html');
+  // Route & View state with URL query parameter preservation
+  const [activeView, setActiveView] = useState<AppView>(() => {
+    try {
+      const search = new URLSearchParams(window.location.search);
+      const viewParam = search.get('view');
+      const pageParam = search.get('page') || search.get('url');
+      if (pageParam && pageParam.endsWith('.html')) return 'cloned-app';
+      if (viewParam) return viewParam as AppView;
+    } catch {}
+    return 'board';
+  });
+  const [activeSubItem, setActiveSubItem] = useState<string>(() => {
+    try {
+      const search = new URLSearchParams(window.location.search);
+      return search.get('sub') || search.get('tab') || 'videos';
+    } catch {}
+    return 'videos';
+  });
+  const [clonedAppUrl, setClonedAppUrl] = useState<string>(() => {
+    try {
+      const search = new URLSearchParams(window.location.search);
+      const pageParam = search.get('page') || search.get('url');
+      if (pageParam) return pageParam;
+    } catch {}
+    return 'erp.html';
+  });
+
+  // Keep browser URL synchronized so refresh preserves current route/view
+  useEffect(() => {
+    try {
+      const url = new URL(window.location.href);
+      if (activeView === 'cloned-app') {
+        url.searchParams.set('view', 'cloned-app');
+        url.searchParams.set('url', clonedAppUrl);
+        url.searchParams.delete('sub');
+      } else {
+        url.searchParams.set('view', activeView);
+        if (activeSubItem) url.searchParams.set('sub', activeSubItem);
+        url.searchParams.delete('url');
+      }
+      window.history.replaceState({}, '', url.toString());
+    } catch {}
+  }, [activeView, clonedAppUrl, activeSubItem]);
 
   // Multi-canvas library management
   const [canvases, setCanvases] = useState<WorkflowProject[]>(() => loadCanvasesFromStorage());
